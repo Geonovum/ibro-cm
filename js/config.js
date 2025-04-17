@@ -19,6 +19,7 @@ let respecConfig = {
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
   //specType: "BP",                 // Best Practice
+  nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   pubDomain: "ibro",
