@@ -36,5 +36,11 @@ Met de IBRO komt er één waarheid van objectinformatie, daar waar er nu drie wa
 basisregistraties zijn. 
 Dit informatiemodel betreft een prototype van de IBRO.
 
+<figure>
+    <img src="media/basisproces_IBRO.jpg">
+    <figcaption>Basisproces IBRO</figcaption>
+</figure>
+
+
 ## Scope
 In een apart [scopedocument](https://geonovum.github.io/ibro-scope/)is de begrenzing beschreven van dit informatiemodel
