@@ -22,7 +22,7 @@ Het informatiemodel voor de IBRO wordt ontwikkeld als onderdeel van een proeftui
 **Conceptueel Informatiemodel**
 
 Dit document bevat een beschrijving van het conceptueel informatiemodel. 
-Het informamtiemodel is gebaseerd op de richtlijnen die door [MIM] (https://docs.geostandaarden.nl/mim/mim/) worden gesteld.
+Het informamtiemodel is gebaseerd op de richtlijnen die door [MIM](https://docs.geostandaarden.nl/mim/mim/) worden gesteld.
 De begrippen die in het conceptueel informatiemodel worden genoemd, zijn beschreven in het begrippenmodel
 **VERWIJZING OPNEMEN DIE PUBLIEK TOEGANKELIJK IS !!**
 
