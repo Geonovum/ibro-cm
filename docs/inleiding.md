@@ -19,5 +19,16 @@ gebruikt kan worden.
 
 Het informatiemodel voor de IBRO wordt ontwikkeld als onderdeel van een proeftuin in het kader van programma Mercator van de gemeente Rotterdam. Het is geen landelijke standaard. Dit informatiemodel staat voorlopig naast de informatiemodellen voor de bestaande basisregistraties (BAG, BGT, WOZ). Uitgangspunt is dat het informatiemodel ook gebruikt kan worden door andere gemeenten, waarbij het belangrijk is om op te merken dat dit gebruik door andere gemeenten vrijwillig en optioneel is. 
 
+**Conceptueel Informatiemodel**
 
+Dit document bevat een beschrijving van het conceptueel informatiemodel. 
+Het informamtiemodel is gebaseerd op de richtlijnen die door [MIM] (https://docs.geostandaarden.nl/mim/mim/) worden gesteld.
+De begrippen die in het conceptueel informatiemodel worden genoemd, zijn beschreven in het begrippenmodel
+**VERWIJZING OPNEMEN DIE PUBLIEK TOEGANKELIJK IS !!**
 
+<figure>
+    <img src="media/conceptueel_informatiemodel.jpg">
+    <figcaption>Conceptueel informatiemodel</figcaption>
+</figure>
+
+Op basis van dit conceptueel informatiemodel zullen vervolgens conform MIM een logisch informatiemodel worden uitgewerkt en bijbehorende technische standaarden.
