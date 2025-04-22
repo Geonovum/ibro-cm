@@ -43,4 +43,4 @@ Dit informatiemodel betreft een prototype van de IBRO.
 
 
 ## Scope
-In een apart [scopedocument](https://geonovum.github.io/ibro-scope/)is de begrenzing beschreven van dit informatiemodel
+In een apart [scopedocument](https://geonovum.github.io/ibro-scope/) is de begrenzing beschreven van dit informatiemodel.
