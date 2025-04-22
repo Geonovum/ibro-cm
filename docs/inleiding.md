@@ -7,6 +7,7 @@ inefficiëntie en hoge kosten doordat objectinformatie in meerdere systemen moet
 bijgehouden, met soms tegenstrijdige gegevens als gevolg.
 
 **Bronregistratie objecten**
+
 Rotterdam wil met de IBRO een prototype ontwikkelen dat aansluit op landelijke initiatieven zoals 
 Common Ground, het Federatief Datastelsel (FDS) en passend binnen de doelstellingen van Zicht op 
 Nederland (ZoN). Het programma start met een “greenfield”-aanpak, waarbij de nieuwe registratie 
@@ -15,6 +16,7 @@ registratie die objecten in de fysieke ruimte centraal stelt. Deze nieuwe “Bro
 gebruikt kan worden.
 
 **Proeftuin**
+
 Het informatiemodel voor de IBRO wordt ontwikkeld als onderdeel van een proeftuin in het kader van programma Mercator van de gemeente Rotterdam. Het is geen landelijke standaard. Dit informatiemodel staat voorlopig naast de informatiemodellen voor de bestaande basisregistraties (BAG, BGT, WOZ). Uitgangspunt is dat het informatiemodel ook gebruikt kan worden door andere gemeenten, waarbij het belangrijk is om op te merken dat dit gebruik door andere gemeenten vrijwillig en optioneel is. 
 
 
