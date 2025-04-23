@@ -91,6 +91,28 @@ let respecConfig = {
       status: "Definitief",
       publisher: "Geonovum",
       date: "2024-06-13"
+    },
+    "INSPIRE-D2.10.1": {
+      id: "INSPIRE-D2.10.1",
+      title: "INSPIRE Data Specifications - Base Models - Generic Network Model",
+      href: "https://knowledge-base.inspire.ec.europa.eu/publications/inspire-data-specifications-base-models-generic-network-model_en",
+      status: "Definitief",
+      publisher: "European Commission",
+      date: "2013-04-05"
+    },
+    EMSO: {
+      title: "DiS Geo : Eisen aan model samenhangende objectenregistratie",
+      href: "https://docs.geostandaarden.nl/disgeo/emso/",
+      status: "Versie ter vaststelling",
+      date: "2021-06-16",
+      publisher: "Geonovum",
+    },
+    "NEN3610-2022": {
+      title: "NEN-3610 Basismodel geo-informatie",
+      href: "https://www.nen.nl/nen-3610-2022-nl-296137",
+      status: "Definitief",
+      date: "Juni 2022",
+      publisher: "NEN",
     }
   }
 };
