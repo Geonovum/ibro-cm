@@ -1,4 +1,4 @@
-# Informatiemodel Conceptueel model IMIBRO
+# Informatiemodel Conceptueel model IBRO
 ## Domein Algemeen
 
 <div class="imageinfo">
@@ -10,7 +10,7 @@
 
 ### Objecttypen
 
-#### ReeelObject {#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object}
+#### ReeelObject {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -67,7 +67,7 @@
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object">Object</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object">Object</a>
 </td>
 </tr>
 <tbody>
@@ -91,12 +91,12 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object_attribuutsoort_status">status</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object_attribuutsoort_status">status</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_reeel_object">StatusReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_reeel_object">StatusReeelObject</a>
 </td>
 <td>
 1</td>
@@ -107,7 +107,7 @@
 
 
 
-#### FunctioneleRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte}
+#### FunctioneleRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -164,7 +164,7 @@
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object">Object</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object">Object</a>
 </td>
 </tr>
 <tbody>
@@ -188,12 +188,12 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte_attribuutsoort_status">status</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_functionele_ruimte">StatusFunctioneleRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_functionele_ruimte">StatusFunctioneleRuimte</a>
 </td>
 <td>
 1</td>
@@ -203,8 +203,37 @@
 </section>
 
 
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte_relatiesoort_hyperverbinding">hyperverbinding</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
+</td>
+<td>
+0..*</td>
+</tr>
+</tbody>
+</table>
+</section>
 
-#### GeografischeRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte}
+#### GeografischeRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -261,7 +290,7 @@
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object">Object</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object">Object</a>
 </td>
 </tr>
 <tbody>
@@ -285,12 +314,12 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte_attribuutsoort_status">status</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_geografische_ruimte">StatusGeografischeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_geografische_ruimte">StatusGeografischeRuimte</a>
 </td>
 <td>
 1</td>
@@ -301,7 +330,7 @@
 
 
 
-#### Object {#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object}
+#### Object {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -364,12 +393,12 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object_relatiesoort_heeft">heeft</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object_relatiesoort_heeft">heeft</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
 </td>
 <td>
 0..*</td>
@@ -378,7 +407,7 @@
 </table>
 </section>
 
-#### RegistratieveRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte}
+#### RegistratieveRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -431,7 +460,7 @@
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_object">Object</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object">Object</a>
 </td>
 </tr>
 <tbody>
@@ -455,12 +484,12 @@
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte_attribuutsoort_status">status</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_registratieve_ruimte">StatusRegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_registratieve_ruimte">StatusRegistratieveRuimte</a>
 </td>
 <td>
 1</td>
@@ -475,7 +504,7 @@
 
 ### Keuzen tussen datatypen
 
-#### LijnOfVlak {#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__lijn_of_vlak}
+#### LijnOfVlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__lijn_of_vlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -517,7 +546,7 @@
 </table>
 </section>
 
-#### VlakOfMultivlak {#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak}
+#### VlakOfMultivlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -559,7 +588,7 @@
 </table>
 </section>
 
-#### PuntLijnOfVlak {#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__punt_lijn_of_vlak}
+#### PuntLijnOfVlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__punt_lijn_of_vlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -605,7 +634,7 @@
 </table>
 </section>
 
-#### PuntMultipuntLijnVlakOfMultivlak {#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__punt_multipunt_lijn_vlak_of_multivlak}
+#### PuntMultipuntLijnVlakOfMultivlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__punt_multipunt_lijn_vlak_of_multivlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -659,7 +688,7 @@
 </table>
 </section>
 
-#### MultiPuntOfMultiVlak {#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__multi_punt_of_multi_vlak}
+#### MultiPuntOfMultiVlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__multi_punt_of_multi_vlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -702,7 +731,7 @@
 
 ### Enumeraties
 
-#### StatusReeelObject {#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_reeel_object}
+#### StatusReeelObject {#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_reeel_object}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -792,7 +821,7 @@ Object waarvan de feitelijke sloop of verwijdering is afgerond.</td>
 
 </section>
 
-#### StatusFunctioneleRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_functionele_ruimte}
+#### StatusFunctioneleRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_functionele_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -868,7 +897,7 @@ Object dat ten onrechte is opgevoerd in de registratie of waarvan is vastgesteld
 
 </section>
 
-#### StatusRegistratieveRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_registratieve_ruimte}
+#### StatusRegistratieveRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_registratieve_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -934,7 +963,7 @@ Object dat ten onrechte is opgevoerd in de registratie of waarvan de voorbereidi
 
 </section>
 
-#### StatusGeografischeRuimte {#informatiemodel_conceptueel_model_ibro_domein_algemeen_enumeratie_status_geografische_ruimte}
+#### StatusGeografischeRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_enumeratie_status_geografische_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1008,7 +1037,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 ### Objecttypen
 
-#### Begroeiing {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing}
+#### Begroeiing {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1045,7 +1074,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -1068,7 +1097,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
-#### Bos {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos}
+#### Bos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1117,7 +1146,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1141,7 +1170,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1157,7 +1186,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Boom {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_boom}
+#### Boom {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_boom}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1206,7 +1235,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1230,7 +1259,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_boom_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_boom_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1246,7 +1275,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Houtsingel {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_houtsingel}
+#### Houtsingel {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtsingel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1291,7 +1320,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1315,7 +1344,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_houtsingel_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtsingel_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1331,7 +1360,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### FruitOfKweekbomen {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruit_of_kweekbomen}
+#### FruitOfKweekbomen {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1376,7 +1405,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1400,7 +1429,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruit_of_kweekbomen_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1416,7 +1445,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Struiken {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_struiken}
+#### Struiken {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1465,7 +1494,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1489,7 +1518,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_struiken_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1505,7 +1534,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### GrasEnKruidachtigen {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_gras_en_kruidachtigen}
+#### GrasEnKruidachtigen {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_gras_en_kruidachtigen}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1554,7 +1583,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1578,7 +1607,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_gras_en_kruidachtigen_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_gras_en_kruidachtigen_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1594,7 +1623,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Akkerland {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_akkerland}
+#### Akkerland {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_akkerland}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1643,7 +1672,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1667,7 +1696,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_akkerland_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_akkerland_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1683,7 +1712,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Moeras {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_moeras}
+#### Moeras {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_moeras}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1732,7 +1761,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1756,7 +1785,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_moeras_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_moeras_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1772,7 +1801,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Rietland {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_rietland}
+#### Rietland {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1821,7 +1850,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1845,7 +1874,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_rietland_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -1861,7 +1890,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Heide {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_heide}
+#### Heide {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1910,7 +1939,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -1934,7 +1963,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_heide_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van het object.</td>
@@ -1950,7 +1979,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### OnbegroeideGrond {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_onbegroeide_grond}
+#### OnbegroeideGrond {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_onbegroeide_grond}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -1999,7 +2028,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -2023,7 +2052,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_onbegroeide_grond_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_onbegroeide_grond_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van het object.</td>
@@ -2039,7 +2068,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### Haag {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_haag}
+#### Haag {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2072,7 +2101,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_begroeiing">Begroeiing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
 </td>
 </tr>
 <tbody>
@@ -2096,7 +2125,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_haag_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van het object.</td>
@@ -2112,7 +2141,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### GemengdBos {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_gemengd_bos}
+#### GemengdBos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_gemengd_bos}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2157,7 +2186,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos">Bos</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
 </td>
 </tr>
 <tbody>
@@ -2168,7 +2197,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### GriendEnHakhout {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_griend_en_hakhout}
+#### GriendEnHakhout {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_griend_en_hakhout}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2213,7 +2242,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos">Bos</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
 </td>
 </tr>
 <tbody>
@@ -2224,7 +2253,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### Loofbos {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_loofbos}
+#### Loofbos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_loofbos}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2265,7 +2294,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos">Bos</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
 </td>
 </tr>
 <tbody>
@@ -2276,7 +2305,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### Naaldbos {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_naaldbos}
+#### Naaldbos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_naaldbos}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2317,7 +2346,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_bos">Bos</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
 </td>
 </tr>
 <tbody>
@@ -2328,7 +2357,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### Boomkwekerij {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_boomkwekerij}
+#### Boomkwekerij {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_boomkwekerij}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2369,7 +2398,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
 </td>
 </tr>
 <tbody>
@@ -2380,7 +2409,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### FruitkwekerijMetLageOpstand {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruitkwekerij_met_lage_opstand}
+#### FruitkwekerijMetLageOpstand {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruitkwekerij_met_lage_opstand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2425,7 +2454,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
 </td>
 </tr>
 <tbody>
@@ -2436,7 +2465,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### HoogstamBoomgaarden {#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_hoogstam_boomgaarden}
+#### HoogstamBoomgaarden {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_hoogstam_boomgaarden}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2481,7 +2510,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
 </td>
 </tr>
 <tbody>
@@ -2510,7 +2539,7 @@ Geometrische representatie van het object.</td>
 
 ### Objecttypen
 
-#### Oppervlaktewater {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_oppervlaktewater}
+#### Oppervlaktewater {#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2551,7 +2580,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -2574,7 +2603,7 @@ Geometrische representatie van het object.</td>
 
 
 
-#### Watervlakte {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte}
+#### Watervlakte {#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2619,7 +2648,7 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -2643,7 +2672,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -2655,7 +2684,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte_attribuutsoort_indicatie_primair">indicatiePrimair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte_attribuutsoort_indicatie_primair">indicatiePrimair</a>
 </td>
 <td>
 Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
@@ -2671,7 +2700,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Meer {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_meer}
+#### Meer {#informatiemodel_imibro_conceptueel_domein_water_objecttype_meer}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2712,7 +2741,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte">Watervlakte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
 </td>
 </tr>
 <tbody>
@@ -2723,7 +2752,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Plas {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_plas}
+#### Plas {#informatiemodel_imibro_conceptueel_domein_water_objecttype_plas}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2764,7 +2793,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte">Watervlakte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
 </td>
 </tr>
 <tbody>
@@ -2775,7 +2804,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Ven {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_ven}
+#### Ven {#informatiemodel_imibro_conceptueel_domein_water_objecttype_ven}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2816,7 +2845,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte">Watervlakte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
 </td>
 </tr>
 <tbody>
@@ -2827,7 +2856,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Vijver {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_vijver}
+#### Vijver {#informatiemodel_imibro_conceptueel_domein_water_objecttype_vijver}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2868,7 +2897,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte">Watervlakte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
 </td>
 </tr>
 <tbody>
@@ -2879,7 +2908,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Zee {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_zee}
+#### Zee {#informatiemodel_imibro_conceptueel_domein_water_objecttype_zee}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2920,7 +2949,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watervlakte">Watervlakte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
 </td>
 </tr>
 <tbody>
@@ -2931,7 +2960,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
-#### Watergang {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang}
+#### Watergang {#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -2980,7 +3009,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -3004,7 +3033,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een watergang.</td>
@@ -3016,22 +3045,10 @@ Geometrische representatie van een watergang.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang_attribuutsoort_indicatie_primair">indicatiePrimair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang_attribuutsoort_indicatie_primair">indicatiePrimair</a>
 </td>
 <td>
 Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang_attribuutsoort_watervoerend">watervoerend</a>
-</td>
-<td>
-Aanduiding of de watergang wel of geen water bevat.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
@@ -3044,7 +3061,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Beek {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_beek}
+#### Beek {#informatiemodel_imibro_conceptueel_domein_water_objecttype_beek}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3085,7 +3102,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang">Watergang</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
 </td>
 </tr>
 <tbody>
@@ -3096,7 +3113,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Gracht {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_gracht}
+#### Gracht {#informatiemodel_imibro_conceptueel_domein_water_objecttype_gracht}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3137,7 +3154,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang">Watergang</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
 </td>
 </tr>
 <tbody>
@@ -3148,7 +3165,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Kanaal {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_kanaal}
+#### Kanaal {#informatiemodel_imibro_conceptueel_domein_water_objecttype_kanaal}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3189,7 +3206,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang">Watergang</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
 </td>
 </tr>
 <tbody>
@@ -3200,7 +3217,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Rivier {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_rivier}
+#### Rivier {#informatiemodel_imibro_conceptueel_domein_water_objecttype_rivier}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3241,7 +3258,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang">Watergang</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
 </td>
 </tr>
 <tbody>
@@ -3252,7 +3269,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Sloot {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_sloot}
+#### Sloot {#informatiemodel_imibro_conceptueel_domein_water_objecttype_sloot}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3293,7 +3310,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_watergang">Watergang</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
 </td>
 </tr>
 <tbody>
@@ -3304,7 +3321,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 
 
 
-#### Getijdengebied {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_getijdengebied}
+#### Getijdengebied {#informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3349,7 +3366,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -3373,7 +3390,7 @@ Aanduiding of de watergang wel of geen water bevat.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_getijdengebied_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -3389,7 +3406,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Schor {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_schor}
+#### Schor {#informatiemodel_imibro_conceptueel_domein_water_objecttype_schor}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3430,7 +3447,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_getijdengebied">Getijdengebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied">Getijdengebied</a>
 </td>
 </tr>
 <tbody>
@@ -3441,7 +3458,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Slik {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_slik}
+#### Slik {#informatiemodel_imibro_conceptueel_domein_water_objecttype_slik}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3482,7 +3499,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_getijdengebied">Getijdengebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied">Getijdengebied</a>
 </td>
 </tr>
 <tbody>
@@ -3493,7 +3510,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Greppel {#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_greppel}
+#### Greppel {#informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3534,7 +3551,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -3558,7 +3575,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_water_objecttype_greppel_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -3592,7 +3609,7 @@ Geometrische representatie van een object.</td>
 
 ### Objecttypen
 
-#### Pand {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand}
+#### Pand {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3606,8 +3623,14 @@ Geometrische representatie van een object.</td>
 <td>Pand</td>
 </tr>
 <tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
 <th>Definitie</th>
-<td>Overdekte en geheel of grotendeels met wanden omsloten constructief zelfstandige eenheid bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor de productie van goederen.</td>
+<td>Een bouwwerk, dat overdekt is en een geheel of grotendeels met wanden omsloten constructief zelfstandige
+eenheid vormt, bedoeld voor het in een afgeschermde omgeving onderbrengen van mensen, dieren of voorwerpen of voor
+de productie van goederen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -3615,11 +3638,20 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
-<td>Er is gekozen voor de naam Pand in plaats van de naam Gebouw zoals in de SOR. De BAG afbakeningscriteria blijven behouden. Dit om de BAG bijhouding niet te verstoren.</td>
+<td>Er is gekozen voor de naam Pand in plaats van de naam Gebouw zoals in de SOR. De BAG afbakeningscriteria blijven behouden. Dit om de BAG bijhouding niet te verstoren.
+Een Pand bestaat uit minimaal 1 Panddeel (Type: basisconstructie).</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie panden zoals deze is opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie. De bestaande definitie van het begrip pand is uitgebreid met een aantal elementen die zijn opgenomen in de INSPIRE richtlijn.</td>
+<td>Het betreft hier de bestaande populatie panden en grotendeels de bestaande populatie open loodsen en overkappingen zoals deze zijn opgenomen in de basisregistratie adressen en gebouwen en de basisregistratie grootschalige topografie. De bestaande definitie van het begrip pand is uitgebreid met een aantal elementen die zijn opgenomen in de INSPIRE richtlijn.
+
+Tot de verzameling Panden horen ook afzonderlijk staande overdekkingen rustend op een constructie met kolommen met
+één of meerdere open gevels, zoals loodsen, overkappingen, parkeergarages en uitkijktorens.
+
+Tot de verzameling Panden behoren ook (in theorie) verplaatsbare objecten.
+
+Tot de verzameling Panden behoren geen bouwwerken &lt;5 m2 Bruto vloeroppervlakte. Deze worden afgebakend als
+Erfconstructies.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -3637,7 +3669,19 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">Gebouw</a>
 </td>
 </tr>
 <tbody>
@@ -3661,7 +3705,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een gebouw.</td>
@@ -3673,31 +3717,19 @@ Geometrische representatie van een gebouw.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand_attribuutsoort_type">type</a>
-</td>
-<td>
-Categorisering van een gebouw op basis van het constructief beoogde gebruik.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_pand">TypePand</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand_attribuutsoort_aard">aard</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_aard">aard</a>
 </td>
 <td>
 Fysieke verschijningsvorm van een gebouw.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_pand">AardPand</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_aard_pand">AardPand</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand_attribuutsoort_oorspronkelijk_bouwjaar">oorspronkelijkBouwjaar</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_oorspronkelijk_bouwjaar">oorspronkelijkBouwjaar</a>
 </td>
 <td>
 Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
@@ -3709,7 +3741,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_naam">naam</a>
 </td>
 <td>
 </td>
@@ -3724,8 +3756,2063 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </section>
 
 
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_relatiesoort_bestaat_uit">bestaatUit</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel">Panddeel</a>
+</td>
+<td>
+1..*</td>
+</tr>
+</tbody>
+</table>
+</section>
 
-#### Bouwlaag {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_bouwlaag}
+#### Bijgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bijgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bijgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bijgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw dat constructief is opgezet om aan een woongebouw ondersteunende opslagfaciliteiten te bieden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Garage {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_garage}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Garage</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Garage</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bijgebouw met een constructie gericht op het kunnen stallen van motorvoertuigen op meer dan twee wielen ter ondersteuning van een woonfunctie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bijgebouw">Bijgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Schuur {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_schuur}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Schuur</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Schuur</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bijgebouw met een constructie gericht op het kunnen opslaan van goederen ter ondersteuning van een woonfunctie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bijgebouw">Bijgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Bedrijfsgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bedrijfsgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bedrijfsgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bedrijfsgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw waarvan de constructie zodanig is vormgegeven dat het geschikt is voor het daarbinnen uitoefenen van specifieke bedrijfsmatige activiteiten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Doelgroepengebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_doelgroepengebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Doelgroepengebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Doelgroepengebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructieve opzet gericht op het tijdelijk of permanent onderbrengen van grotere groepen personen voor zorg, onderwijs, detentie of militaire doeleinden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Gebedsgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebedsgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gebedsgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw dat zodanig is ontworpen dat het primair geschikt is voor het houden van religieuze bijeenkomsten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Kapel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kapel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kapel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kapel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Klein gebedsgebouw dat is vormgegeven om te kunnen fungeren voor individuele bezinning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Kerkgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kerkgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kerkgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kerkgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op het houden van christelijke erediensten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Klooster {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_klooster}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Klooster</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Klooster</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw bedoeld voor huisvesting en eventueel het voorzien in levensonderhoud van een geloofsgemeenschap.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Moskee {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_moskee}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Moskee</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Moskee</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op islamitische geloofsuitoefening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Synagoge {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_synagoge}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Synagoge</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Synagoge</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op joodse geloofsuitoefening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Tempel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_tempel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Tempel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Tempel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op niet-abrahamitische geloofsuitoefening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Installatiegebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_installatiegebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Installatiegebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Installatiegebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructieve opbouw gericht op het binnen het gebouw onderbrengen van specifieke technische installaties of voorzieningen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Kantoorgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kantoorgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kantoorgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kantoorgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructieve opzet gericht op het daarbinnen kunnen uitoefenen van administratieve werkzaamheden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Multigebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_multigebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Multigebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Multigebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructie gericht op het daarbinnen kunnen vormen van meerdere op wonen en/of bedrijfsmatige activiteiten gerichte gebruikseenheden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Recreatiegebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_recreatiegebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Recreatiegebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Recreatiegebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructie die het mogelijk maakt dat daarbinnen activiteiten kunnen plaatsvinden gericht op of ondersteunend aan sport, cultuur of ontspanning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Toren {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toren}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Toren</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Toren</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructie waarbij de verhouding van de hoogte ten opzichte van lengte en breedte karakteristiek is voor de verschijningsvorm.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Vestingsgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_vestingsgebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vestingsgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vestingsgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructie die het mogelijk maakt om aanvallen van buiten het gebouw te kunnen weerstaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Bunker {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bunker}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bunker</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bunker</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Van oorsprong versterkt militair gebouw gericht op het schuilen tegen beschietingen en bombardementen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_vestingsgebouw">Vestingsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Fort {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_fort}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fort</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fort</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Naar alle zijden tegen vijandelijke aanvallen verdedigbaar militair gebouw dat van oorsprong is ingericht om een eenheid militairen te herbergen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_vestingsgebouw">Vestingsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Kasteel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kasteel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kasteel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kasteel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Versterkt en te verdedigen gebouw dat van oorsprong is bedoeld voor bewoning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_vestingsgebouw">Vestingsgebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Woongebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_woongebouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Woongebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Woongebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebouw met een constructie die primair geschikt voor bewoning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Panddeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Panddeel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Panddeel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een Panddeel is een niet vrijstaand deel van (de constructie) van een Pand dat wordt onderscheiden omdat het op een
+ander moment onderdeel is geworden van dat Pand dan andere panddelen of omdat de aard van de bouwkundige
+constructie voldoet aan bepaalde criteria</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Een Panddeel kan intern (inpandig) of extern (aan de buitenzijde van een Pand) zijn.
+Interne Panddelen zijn later aangebouwde delen (afwijkend bouwjaar) of fysiek onderscheidend.
+Een Pand kent altijd een verplicht Panddeel type Basisconstructie (zie bij Pand).</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier grotendeels de bestaande populatie van gebouwinstallatie zoals deze is opgenomen in de basisregistratie grootschalige topografie, plus delen van panden die apart worden afgebakend omdat ze een later bouwjaar hebben. </td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">Gebouw</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_attribuutsoort_bouwjaar">bouwjaar</a>
+</td>
+<td>
+</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Year</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+</td>
+<td>
+Het pand waar het panddeel onderdeel van uit maakt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### InternPanddeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#InternPanddeel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>InternPanddeel</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Intern panddeel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een inpandig panddeel.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel">Panddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Basisconstructie {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Basisconstructie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Basisconstructie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Pandeel wat de oorspronkelijke constructie betreft van het pand waarin het panddeel is gelegen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel">InternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### LatereAanbouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_latere_aanbouw}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#LatereAanbouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>LatereAanbouw</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Latere aanbouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Panddeel wat een latere aanbouw (niet zijnde een serre) of opbouw ten opzichte van de oorspronkelijke constructie van het gebouw betreft waarin het panddeel is gelegen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel">InternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Serre {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_serre}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Serre</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Serre</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Panddeel wat een serre betreft die al dan geen onderdeel uitmaakt van de oorspronkelijke constructie van het pand waarin het panddeel is gelegen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel">InternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### OndergrondsBouwdeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_ondergronds_bouwdeel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OndergrondsBouwdeel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OndergrondsBouwdeel</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Ondergronds bouwdeel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel">InternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### ExternPanddeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ExternPanddeel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ExternPanddeel</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Extern panddeel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Panddeel aan de buitenzijde van een pand.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel">Panddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Afdak {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_afdak}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Afdak</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Afdak</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Constructie aangebracht en vast verbonden aan de gevel van een pand, gericht op beschutting tegen weersinvloeden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Balkon {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_balkon}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Balkon</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Balkon</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Open uitbouw die niet gelijkvloers aan de gevel is aangebracht en waarvan het bovenvlak vanuit het gebouw toegankelijk is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Bordes {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bordes}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bordes</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bordes</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verhard oppervlak, eventueel verhoogd en/of uitgevoerd met treden, grenzen aan een pand en primair bedoeld voor gebruik door voetgangers</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Dakkapel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_dakkapel}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Dakkapel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Dakkapel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Uitbouw van het schuine dakvlak.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Kolom {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kolom}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kolom</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kolom</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Laadperron {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_laadperron}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Laadperron</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Laadperron</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Tegen het gebouw aangebrachte constructie die is bedoeld voor het kunnen laden en lossen van voertuigen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Loopbrug {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_loopbrug}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Loopbrug</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Loopbrug</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Constructie bedoeld voor het op hoogte verbinden van twee bij elkaar liggende gebouwen zodat een oversteek van het ene naar het andere gebouw kan plaatsvinden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Toegangstrap {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toegangstrap}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Toegangstrap</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Toegangstrap</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Buiten de gevel geplaatste trapconstructie die toegang biedt tot een gebouw en vast verbonden is met dat gebouw.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_extern_panddeel">ExternPanddeel</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Bouwlaag {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -3770,7 +5857,19 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">Gebouw</a>
 </td>
 </tr>
 <tbody>
@@ -3794,7 +5893,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een bouwlaag.</td>
@@ -3806,7 +5905,7 @@ Geometrische representatie van een bouwlaag.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_bouwlaagnummer">bouwlaagnummer</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_bouwlaagnummer">bouwlaagnummer</a>
 </td>
 <td>
 Niveau waarop een bouwlaag zich bevindt</td>
@@ -3837,131 +5936,12 @@ Niveau waarop een bouwlaag zich bevindt</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_bouwlaag_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand">Pand</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Ruimte {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_ruimte}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ruimte</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ruimte</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voor mensen toegankelijk deel van een gebouw, dat ten minste aan de onderzijde en/of de bovenzijde wordt begrensd door een scheidingsconstructie en dat een netto-hoogte heeft van tenminste 1,5 m.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Ontleend aan NEN 2580 en aansluitend op het begrip Ruimte (IfcSpace) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan ruimte moet worden gegeven. Ook zal dan gedetailleerder worden vastgelegd welke ruimten in de registratie zouden kunnen worden opgenomen. Hierbij gaat de gedachte primair uit naar ruimten in multifunctionele complexe gebouwen met meerdere ruimten met verschillende functies. Het is niet de bedoeling om landelijk alle ruimten in woningen in de registratie op te gaan nemen.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_ruimte_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een ruimte.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_ruimte_attribuutsoort_bouwlaagnummer">bouwlaagnummer</a>
-</td>
-<td>
-Bouwlaag waarop een ruimte zich bevindt</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_ruimte_attribuutsoort_oppervlakte">oppervlakte</a>
-</td>
-<td>
-Gebruiksoppervlakte van een ruimte.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
-</td>
-<td>
-0..1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_ruimte_attribuutsoort_type">type</a>
-</td>
-<td>
-Categorisering van een ruimte op basis van het constructief beoogde gebruik.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_ruimte">TypeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
 </td>
 <td>
 1</td>
@@ -3970,540 +5950,7 @@ Categorisering van een ruimte op basis van het constructief beoogde gebruik.</td
 </table>
 </section>
 
-
-
-#### Panddeel {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_panddeel}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Panddeel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Panddeel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>IMGeo 2.2</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium zullen inwinregels worden opgesteld die de minimale omvang van de vast te leggen objecten aangeeft. Ook zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan gebouwcomponenten moet worden gegeven.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie van gebouwinstallatie zoals deze is opgenomen in de basisregistratie grootschalige topografie, plus delen van panden die apart worden afgebakend omdat ze een later bouwjaar hebben. </td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_panddeel_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een gebouwcomponent.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__punt_lijn_of_vlak">PuntLijnOfVlak</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_panddeel_attribuutsoort_aard">aard</a>
-</td>
-<td>
-Soort gebouwcomponent.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_gebouwcomponent">AardGebouwcomponent</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_panddeel_relatiesoort_hoort_bij">hoortBij</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_keuze_relatiedoel__verblijfsobject_of_gebouw">VerblijfsobjectOfGebouw</a>
-</td>
-<td>
-1..2</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Toegangsdeur {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_toegangsdeur}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Toegangsdeur</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Toegangsdeur</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Deur of andere voorziening die vanaf de openbare weg, een erf of een gedeelde verkeersruimte toegang geeft tot een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Begrip sluit aan bij het begrip Deur (IfcDoor) uit de concepten rondom Bouwwerkinformatiemodellen (BIM)</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan toegangsdeur moet worden gegeven.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_toegangsdeur_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een toegangsdeur.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_toegangsdeur_attribuutsoort_toegangssoort">toegangssoort</a>
-</td>
-<td>
-Plaats waarvan een toegangsdeur toegang geeft.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_toegangssoort">Toegangssoort</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_toegangsdeur_attribuutsoort_gebruiksaard">gebruiksaard</a>
-</td>
-<td>
-Aard van gebruik van een toegangsdeur.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_gebruiksaard_toegangsdeur">GebruiksaardToegangsdeur</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_toegangsdeur_relatiesoort_hoort_bij">hoortBij</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_keuze_relatiedoel__verblijfsobject_of_gebouw">VerblijfsobjectOfGebouw</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Erfconstructie {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_erfconstructie}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Erfconstructie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Erfconstructie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Afzonderlijk staande overdekking rustend op een constructie met kolommen met één of meerdere open gevels bedoeld voor het beschutten of stallen van mensen, dieren, objecten en/of voer- en vaartuigen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Gebaseerd op definities “open loods” en “overkapping” uit de gegevenscatalogus BGT</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium zullen de inwinregels worden opgesteld die de minimale omvang van de vast te leggen objecten en de eventuele kolommen aangeeft. Ook zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan open bouwwerken moet worden gegeven.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie kleine schuren, open loodsen en overkappingen zoals opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_erfconstructie_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een open bouwwerk.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_erfconstructie_attribuutsoort_type">type</a>
-</td>
-<td>
-Soort open bouwwerk.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_erfconstructie">TypeErfconstructie</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_erfconstructie_attribuutsoort_naam">naam</a>
-</td>
-<td>
-Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
-</td>
-<td>
-0..1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-#### Verblijfsobject {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Verblijfsobject</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kleinste binnen één of meer gebouwen gelegen eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, en die onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen.</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Verblijfsobject is een optelling van de Functiezones binnen het pand. In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan verblijfsobject moet worden gegeven.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_adresseerbaar_object">AdresseerbaarObject</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een verblijfsobject.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksdoel">gebruiksdoel</a>
-</td>
-<td>
-Categorisering van de gebruiksdoelen van een verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_gebruiksdoel">Gebruiksdoel</a>
-</td>
-<td>
-1..*</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksoppervlakte">gebruiksoppervlakte</a>
-</td>
-<td>
-Gebruiksoppervlakte van een verblijfsobject.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject_relatiesoort_hoort_bij">hoortBij</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand">Pand</a>
-</td>
-<td>
-1..*</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Functiezone {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone}
+#### Functiezone {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -4552,7 +5999,7 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -4576,82 +6023,34 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-Geometrische representatie van een gebouwzone.</td>
+Geometrische representatie van een object.</td>
 <td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_geometrie_oppervlakte">geometrieOppervlakte</a>
-</td>
-<td>
-Geometrische representatie van de oppervlakte van een gebouwzone die betrokken wordt in de berekening van de gebruiksoppervlakte.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<td>
-0..1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_bouwlaagnummer">bouwlaagnummer</a>
-</td>
-<td>
-Bouwlaag waarop een gebouwzone is gelegen.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_bouwjaar">bouwjaar</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_functie">functie</a>
 </td>
 <td>
-Aanduiding van het jaar waarin een gebouwzone is ontstaan.</td>
+Aanduiding van de vergunde functie.</td>
 <td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Year</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_type">type</a>
-</td>
-<td>
-Categorisering van het feitelijke gebruik dat van een gebouwzone wordt gemaakt.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_functiezone">TypeFunctiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_functie">Functie</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_aard_fysieke_constructie">aardFysiekeConstructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_bruto_vloeroppervlakte">brutoVloeroppervlakte</a>
 </td>
 <td>
-Aanduiding van de fysieke constructie waarin een gebouwzone zich bevindt.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_fysieke_constructie">AardFysiekeConstructie</a>
 </td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_attribuutsoort_gebruiksoppervlakte">gebruiksoppervlakte</a>
-</td>
-<td>
-Gebruiksoppervlakte van een gebouwzone.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
@@ -4679,24 +6078,12 @@ Gebruiksoppervlakte van een gebouwzone.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_relatiesoort_hoort_bij">hoortBij</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_verblijfsobject">Verblijfsobject</a>
-</td>
-<td>
-0..*</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_functiezone_relatiesoort_ligt_op">ligtOp</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_bouwlaag">Bouwlaag</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag">Bouwlaag</a>
 </td>
 <td>
 1</td>
@@ -4705,18 +6092,18 @@ Gebruiksoppervlakte van een gebouwzone.</td>
 </table>
 </section>
 
-#### Gebruiksobject {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_gebruiksobject}
+#### Gebruikzone {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gebruiksobject</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Gebruiksobject</td>
+<td>Gebruikzone</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -4724,7 +6111,18 @@ Gebruiksoppervlakte van een gebouwzone.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Een aggregatie van alle bouwwerken die bij een verblijfsobject horen</td>
+<td>Een Gebruikzone is het samenstel van de grootst mogelijke clustering van (aaneengesloten) ruimten binnen een Pand
+(inclusief Panddelen), waarvoor geldt dat deze deel uit maakt van een zelfstandige eenheid van gebruik.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Een Gebruikzone kan zich uitstrekken over meerdere bouwlagen, maar kan ook betrekking hebben op alleen een deel van een bouwlaag.
+
+</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -4742,7 +6140,7 @@ Gebruiksoppervlakte van een gebouwzone.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -4766,24 +6164,36 @@ Gebruiksoppervlakte van een gebouwzone.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_gebruiksobject_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-De geometrie van het gebruiksoppervlakte.</td>
+</td>
 <td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSolid"> GM_MultiSolid</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_gebruiksobject_attribuutsoort_type">type</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruiksoppervlakte">gebruiksoppervlakte</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_gebruiksobject">TypeGebruiksobject</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruik">gebruik</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_geconstateerd_gebruik">GeconstateerdGebruik</a>
 </td>
 <td>
 1</td>
@@ -4809,27 +6219,177 @@ De geometrie van het gebruiksoppervlakte.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_gebruiksobject_relatiesoort_bevat">bevat</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_erfconstructie">Erfconstructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
 </td>
 <td>
-0..*</td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### Verblijfsobject {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verblijfsobject</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kleinste binnen één of meer gebouwen gelegen eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, en die onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gebaseerd op definitie “verblijfsobject” in artikel 1 Wet basisregistratie adressen en gebouwen.</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Verblijfsobject is een optelling van de Functiezones binnen het pand. In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven aan de interpretatie die aan verblijfsobject moet worden gegeven.</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen.</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object">AdresseerbaarObject</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_gebruiksobject_relatiesoort_bevat">bevat</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
+Geometrische representatie van een verblijfsobject.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand">Pand</a>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksdoel">gebruiksdoel</a>
+</td>
+<td>
+Categorisering van de gebruiksdoelen van een verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_functie">Functie</a>
 </td>
 <td>
 1..*</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksoppervlakte">gebruiksoppervlakte</a>
+</td>
+<td>
+Gebruiksoppervlakte van een verblijfsobject.</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_relatiesoort_wordt_afgeleid_van">wordtAfgeleidVan</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone">Functiezone</a>
+</td>
+<td>
+1..*</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_relatiesoort_omvat">omvat</a>
+</td>
+<td>
+</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone">Gebruikzone</a>
+</td>
+<td>
+1</td>
 </tr>
 </tbody>
 </table>
@@ -4840,29 +6400,9 @@ De geometrie van het gebruiksoppervlakte.</td>
 
 
 
+### Enumeraties
 
-
-### Codelijsten
-
-#### TypePand {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_pand}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypePand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>TypePand</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### AardPand {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_pand}
+#### AardPand {#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_aard_pand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -4880,188 +6420,140 @@ De geometrie van het gebruiksoppervlakte.</td>
 </table>
 
 
-#### TypeRuimte {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_ruimte}
+<section class="notoc">
+<h5>Overzicht waarden</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 75%"></colgroup>
+<tbody>
+<tr>
+  <th>Waarde</th>
+  <th>Definitie</th>
+</tr>
+<tr>
+<td>
+Heterogeen</td>
+<td>
+Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die onafhankelijk van elkaar zijn gerealiseerd.</td>
+<tr>
+<td>
+Repeterend</td>
+<td>
+Gebouw dat onderdeel uitmaakt van een reeks aan elkaar verbonden gebouwen die als zodanig in één project zijn gerealiseerd.</td>
+<tr>
+<td>
+Vrijstaand</td>
+<td>
+Gebouw dat niet is verbonden met een ander gebouw.</td>
+</tbody>
+</table>
+
+
+</section>
+
+#### Functie {#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_functie}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypeRuimte</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Functie</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>TypeRuimte</td>
+<td>Functie</td>
 </tr>
 <tbody>
 </tbody>
 </table>
 
 
-#### AardGebouwcomponent {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_gebouwcomponent}
+<section class="notoc">
+<h5>Overzicht waarden</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 75%"></colgroup>
+<tbody>
+<tr>
+  <th>Waarde</th>
+  <th>Definitie</th>
+</tr>
+<tr>
+<td>
+Woonfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Bijeenkomstfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Celfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Gezondheidszorgfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Industriefunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Kantoorfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Logiesfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Onderwijsfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Sportfunctie</td>
+<td>
+</td>
+<tr>
+<td>
+Winkelfunctie</td>
+<td>
+</td>
+</tbody>
+</table>
+
+
+</section>
+
+#### GeconstateerdGebruik {#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_geconstateerd_gebruik}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#AardGebouwcomponent</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#GeconstateerdGebruik</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>AardGebouwcomponent</td>
+<td>GeconstateerdGebruik</td>
 </tr>
 <tbody>
 </tbody>
 </table>
 
 
-#### Toegangssoort {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_toegangssoort}
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Toegangssoort</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Toegangssoort</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### GebruiksaardToegangsdeur {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_gebruiksaard_toegangsdeur}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GebruiksaardToegangsdeur</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GebruiksaardToegangsdeur</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### TypeErfconstructie {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_erfconstructie}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypeErfconstructie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>TypeErfconstructie</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### Gebruiksdoel {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_gebruiksdoel}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gebruiksdoel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Gebruiksdoel</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### FeitelijkGebruik {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_feitelijk_gebruik}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#FeitelijkGebruik</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>FeitelijkGebruik</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### TypeFunctiezone {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_functiezone}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypeFunctiezone</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>TypeFunctiezone</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### AardFysiekeConstructie {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_aard_fysieke_constructie}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#AardFysiekeConstructie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>AardFysiekeConstructie</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-#### TypeGebruiksobject {#informatiemodel_conceptueel_model_ibro_domein_gebouwen_codelijst_type_gebruiksobject}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypeGebruiksobject</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>TypeGebruiksobject</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Het gaat om het geconstateerd / feitelijk gebruik, zoals in de WOZ.</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 
 
 ## Domein Verharding
@@ -5075,7 +6567,7 @@ De geometrie van het gebruiksoppervlakte.</td>
 
 ### Objecttypen
 
-#### Verharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding}
+#### Verharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5124,7 +6616,7 @@ De geometrie van het gebruiksoppervlakte.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -5160,7 +6652,7 @@ De geometrie van het gebruiksoppervlakte.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -5176,7 +6668,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### OnbepaaldTerrein {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_onbepaald_terrein}
+#### OnbepaaldTerrein {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onbepaald_terrein}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5225,7 +6717,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -5249,7 +6741,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_onbepaald_terrein_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onbepaald_terrein_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -5265,7 +6757,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Asfaltverharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_asfaltverharding}
+#### Asfaltverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_asfaltverharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5302,7 +6794,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5313,7 +6805,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Betonverharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_betonverharding}
+#### Betonverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_betonverharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5354,7 +6846,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5365,7 +6857,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Elementenverharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_elementenverharding}
+#### Elementenverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_elementenverharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5406,7 +6898,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5417,7 +6909,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Halfverharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_halfverharding}
+#### Halfverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_halfverharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5458,7 +6950,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5469,7 +6961,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Kunststofverharding {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_kunststofverharding}
+#### Kunststofverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_kunststofverharding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5510,7 +7002,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5521,7 +7013,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Onverhard {#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_onverhard}
+#### Onverhard {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onverhard}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5562,7 +7054,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_verharding_objecttype_verharding">Verharding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding">Verharding</a>
 </td>
 </tr>
 <tbody>
@@ -5591,7 +7083,7 @@ Geometrische representatie van een object.</td>
 
 ### Objecttypen
 
-#### Kunstwerk {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerk}
+#### Kunstwerk {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5620,7 +7112,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -5643,7 +7135,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Overbrugging {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging}
+#### Overbrugging {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5684,7 +7176,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -5708,7 +7200,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -5720,7 +7212,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -5732,7 +7224,7 @@ Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_indicatie_beweegbaar">indicatieBeweegbaar</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_indicatie_beweegbaar">indicatieBeweegbaar</a>
 </td>
 <td>
 Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
@@ -5748,7 +7240,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Aquaduct {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_aquaduct}
+#### Aquaduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_aquaduct}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5789,7 +7281,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 </tr>
 <tbody>
@@ -5800,7 +7292,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Brug {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_brug}
+#### Brug {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_brug}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5841,7 +7333,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 </tr>
 <tbody>
@@ -5852,7 +7344,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Ecoduct {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ecoduct}
+#### Ecoduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ecoduct}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5893,7 +7385,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 </tr>
 <tbody>
@@ -5904,7 +7396,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Flyover {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_flyover}
+#### Flyover {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_flyover}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5945,7 +7437,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct">Viaduct</a>
 </td>
 </tr>
 <tbody>
@@ -5956,7 +7448,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Overkluizing {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overkluizing}
+#### Overkluizing {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overkluizing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -5997,7 +7489,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 </tr>
 <tbody>
@@ -6008,7 +7500,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Viaduct {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_viaduct}
+#### Viaduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6049,7 +7541,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 </tr>
 <tbody>
@@ -6060,7 +7552,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
-#### Ondertunneling {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling}
+#### Ondertunneling {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6105,7 +7597,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6129,7 +7621,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -6141,7 +7633,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -6157,7 +7649,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
-#### Duiker {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_duiker}
+#### Duiker {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_duiker}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6198,7 +7690,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
 </td>
 </tr>
 <tbody>
@@ -6209,7 +7701,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
-#### Hevel {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_hevel}
+#### Hevel {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_hevel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6250,7 +7742,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
 </td>
 </tr>
 <tbody>
@@ -6261,7 +7753,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
-#### Sifon {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sifon}
+#### Sifon {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sifon}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6302,7 +7794,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
 </td>
 </tr>
 <tbody>
@@ -6313,7 +7805,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
-#### Tunnel {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_tunnel}
+#### Tunnel {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_tunnel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6354,7 +7846,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
 </td>
 </tr>
 <tbody>
@@ -6365,7 +7857,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
-#### WaterstaatkundigKunstwerk {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk}
+#### WaterstaatkundigKunstwerk {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6410,7 +7902,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6434,7 +7926,7 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -6465,12 +7957,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_relatiesoort_heeft_functie">heeftFunctie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_relatiesoort_heeft_functie">heeftFunctie</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_kering">Kering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">Kering</a>
 </td>
 <td>
 0..1</td>
@@ -6479,7 +7971,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Bodemval {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_bodemval}
+#### Bodemval {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_bodemval}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6520,7 +8012,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6531,7 +8023,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Coupure {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_coupure}
+#### Coupure {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_coupure}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6572,7 +8064,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6583,7 +8075,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Damwand {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_damwand}
+#### Damwand {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_damwand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6624,7 +8116,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6635,7 +8127,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Dijklichaam {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_dijklichaam}
+#### Dijklichaam {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dijklichaam}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6676,7 +8168,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6687,7 +8179,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Gemaal {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_gemaal}
+#### Gemaal {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_gemaal}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6728,7 +8220,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6739,7 +8231,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Kademuur {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kademuur}
+#### Kademuur {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kademuur}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6780,7 +8272,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6791,7 +8283,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Keermuur {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_keermuur}
+#### Keermuur {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_keermuur}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6832,7 +8324,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6843,7 +8335,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Krib {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_krib}
+#### Krib {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_krib}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6885,7 +8377,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6896,7 +8388,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Ponton {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_ponton}
+#### Ponton {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ponton}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6937,7 +8429,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -6948,7 +8440,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Schot {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_schot}
+#### Schot {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schot}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -6989,7 +8481,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7000,7 +8492,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Sluis {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sluis}
+#### Sluis {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7041,7 +8533,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7052,7 +8544,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Steiger {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_steiger}
+#### Steiger {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_steiger}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7093,7 +8585,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7104,7 +8596,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Stormvloedkering {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_stormvloedkering}
+#### Stormvloedkering {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stormvloedkering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7145,7 +8637,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7156,7 +8648,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Strekdam {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_strekdam}
+#### Strekdam {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_strekdam}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7197,7 +8689,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7208,7 +8700,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Stuw {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_stuw}
+#### Stuw {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stuw}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7249,7 +8741,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7260,7 +8752,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### VasteDam {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_vaste_dam}
+#### VasteDam {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vaste_dam}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7305,7 +8797,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7316,7 +8808,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Vispassage {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_vispassage}
+#### Vispassage {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vispassage}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7357,7 +8849,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7368,7 +8860,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Voorde {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_voorde}
+#### Voorde {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_voorde}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7409,7 +8901,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7420,7 +8912,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Vuilvang {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_vuilvang}
+#### Vuilvang {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vuilvang}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7461,7 +8953,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7472,7 +8964,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Walbescherming {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_walbescherming}
+#### Walbescherming {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_walbescherming}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7513,7 +9005,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7524,7 +9016,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Kunstwerkdeel {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel}
+#### Kunstwerkdeel {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7565,7 +9057,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
 </td>
 </tr>
 <tbody>
@@ -7589,7 +9081,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -7605,7 +9097,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Dek {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_dek}
+#### Dek {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7646,7 +9138,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -7672,12 +9164,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 <td>
 1</td>
@@ -7686,7 +9178,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Landhoofd {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_landhoofd}
+#### Landhoofd {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7727,7 +9219,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -7753,12 +9245,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 <td>
 1</td>
@@ -7767,7 +9259,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Pijler {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_pijler}
+#### Pijler {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7808,7 +9300,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -7834,12 +9326,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 <td>
 1</td>
@@ -7848,7 +9340,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Pyloon {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_pyloon}
+#### Pyloon {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7889,7 +9381,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -7915,12 +9407,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_pyloon_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 <td>
 1</td>
@@ -7929,7 +9421,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Schutkolk {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_schutkolk}
+#### Schutkolk {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -7970,7 +9462,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -7996,12 +9488,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sluis">Sluis</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">Sluis</a>
 </td>
 <td>
 1</td>
@@ -8010,7 +9502,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Sloof {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sloof}
+#### Sloof {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sloof}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8051,7 +9543,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -8077,12 +9569,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sloof_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sloof_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
 </td>
 <td>
 1</td>
@@ -8091,7 +9583,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Sluisdeur {#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sluisdeur}
+#### Sluisdeur {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluisdeur}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8132,7 +9624,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
 </td>
 </tr>
 <tbody>
@@ -8158,12 +9650,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sluisdeur_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluisdeur_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_kunstwerken_objecttype_sluis">Sluis</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">Sluis</a>
 </td>
 <td>
 1</td>
@@ -8190,7 +9682,7 @@ Geometrische representatie van een object.</td>
 
 ### Objecttypen
 
-#### Zwembad {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_zwembad}
+#### Zwembad {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zwembad}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8235,7 +9727,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -8259,7 +9751,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_zwembad_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zwembad_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een zwembad.</td>
@@ -8275,7 +9767,7 @@ Geometrische representatie van een zwembad.</td>
 
 
 
-#### Constructie {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie}
+#### Constructie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8316,7 +9808,7 @@ Geometrische representatie van een zwembad.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 </tr>
 <tbody>
@@ -8339,7 +9831,7 @@ Geometrische representatie van een zwembad.</td>
 
 
 
-#### Afvalcontainer {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_afvalcontainer}
+#### Afvalcontainer {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalcontainer}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8380,7 +9872,7 @@ Geometrische representatie van een zwembad.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -8404,7 +9896,7 @@ Geometrische representatie van een zwembad.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_afvalcontainer_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalcontainer_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -8420,7 +9912,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Dok {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_dok}
+#### Dok {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_dok}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8461,7 +9953,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -8485,7 +9977,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_dok_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_dok_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een dok.</td>
@@ -8501,7 +9993,7 @@ Geometrische representatie van een dok.</td>
 
 
 
-#### Geleideconstructie {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_geleideconstructie}
+#### Geleideconstructie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8542,7 +10034,7 @@ Geometrische representatie van een dok.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -8566,7 +10058,7 @@ Geometrische representatie van een dok.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_puntgeometrie">puntgeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_puntgeometrie">puntgeometrie</a>
 </td>
 <td>
 Geometrische representatie van de ligging van de geleideconstructie.</td>
@@ -8578,7 +10070,7 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_lijngeometrie">lijngeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_lijngeometrie">lijngeometrie</a>
 </td>
 <td>
 Geometrische representatie van de ligging van de geleideconstructie.</td>
@@ -8590,7 +10082,7 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
 </td>
 <td>
 Geometrische representatie van de ligging van de geleideconstructie.</td>
@@ -8606,7 +10098,7 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 
 
 
-#### Installatie {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie}
+#### Installatie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8647,7 +10139,7 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -8671,12 +10163,12 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__punt_lijn_of_vlak">PuntLijnOfVlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__punt_lijn_of_vlak">PuntLijnOfVlak</a>
 </td>
 <td>
 1</td>
@@ -8702,12 +10194,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie_relatiesoort_hoort_bij">hoortBij</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie_relatiesoort_hoort_bij">hoortBij</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_gebouwen_objecttype_pand">Pand</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">Pand</a>
 </td>
 <td>
 1</td>
@@ -8716,7 +10208,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Kast {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_kast}
+#### Kast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kast}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8753,7 +10245,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -8777,7 +10269,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_kast_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kast_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -8793,7 +10285,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Sirene {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_sirene}
+#### Sirene {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8830,7 +10322,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -8854,7 +10346,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_sirene_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -8870,7 +10362,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Verlichtingsarmatuur {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_verlichtingsarmatuur}
+#### Verlichtingsarmatuur {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_verlichtingsarmatuur}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8907,7 +10399,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -8931,7 +10423,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_verlichtingsarmatuur_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_verlichtingsarmatuur_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -8947,7 +10439,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Windturbine {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_windturbine}
+#### Windturbine {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_windturbine}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -8984,7 +10476,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -9008,7 +10500,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_windturbine_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_windturbine_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9024,7 +10516,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Lift {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_lift}
+#### Lift {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9061,7 +10553,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -9085,7 +10577,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_lift_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9101,7 +10593,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Oplaadpunt {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_oplaadpunt}
+#### Oplaadpunt {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9138,7 +10630,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -9162,7 +10654,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_oplaadpunt_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9178,7 +10670,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Pomp {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_pomp}
+#### Pomp {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9215,7 +10707,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -9239,7 +10731,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_pomp_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9255,7 +10747,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Zonnepanelen {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_zonnepanelen}
+#### Zonnepanelen {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9292,7 +10784,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatie">Installatie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
 </td>
 </tr>
 <tbody>
@@ -9316,7 +10808,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_zonnepanelen_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9332,7 +10824,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Mast {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_mast}
+#### Mast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9373,7 +10865,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -9397,7 +10889,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_mast_attribuutsoort_indicatie_open">indicatieOpen</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast_attribuutsoort_indicatie_open">indicatieOpen</a>
 </td>
 <td>
 Geeft aan of een mast al dan niet open is.</td>
@@ -9413,7 +10905,7 @@ Geeft aan of een mast al dan niet open is.</td>
 
 
 
-#### Hoogspanningsmast {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_hoogspanningsmast}
+#### Hoogspanningsmast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9450,7 +10942,7 @@ Geeft aan of een mast al dan niet open is.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_mast">Mast</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast">Mast</a>
 </td>
 </tr>
 <tbody>
@@ -9474,12 +10966,12 @@ Geeft aan of een mast al dan niet open is.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_hoogspanningsmast_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__multi_punt_of_multi_vlak">MultiPuntOfMultiVlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__multi_punt_of_multi_vlak">MultiPuntOfMultiVlak</a>
 </td>
 <td>
 1</td>
@@ -9490,7 +10982,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Installatiemast {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatiemast}
+#### Installatiemast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9527,7 +11019,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_mast">Mast</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast">Mast</a>
 </td>
 </tr>
 <tbody>
@@ -9551,7 +11043,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_installatiemast_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -9567,7 +11059,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Muur {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_muur}
+#### Muur {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9608,7 +11100,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -9632,7 +11124,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_muur_attribuutsoort_lijngeometrie">lijngeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_lijngeometrie">lijngeometrie</a>
 </td>
 <td>
 Lineaire geometrische representatie van een object.</td>
@@ -9644,7 +11136,7 @@ Lineaire geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_muur_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
 </td>
 <td>
 Vlakgeometrische representatie van een object.</td>
@@ -9656,7 +11148,7 @@ Vlakgeometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_muur_attribuutsoort_indicatie_valbescherming">indicatieValbescherming</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_indicatie_valbescherming">indicatieValbescherming</a>
 </td>
 <td>
 Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
@@ -9687,12 +11179,12 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_muur_relatiesoort_heeft_functie">heeftFunctie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_relatiesoort_heeft_functie">heeftFunctie</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_keuze_relatiedoel__kering_of_afscheiding">KeringOfAfscheiding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_keuze_relatiedoel__kering_of_afscheiding">KeringOfAfscheiding</a>
 </td>
 <td>
 0..1</td>
@@ -9701,7 +11193,7 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 </table>
 </section>
 
-#### Omheining {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_omheining}
+#### Omheining {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9742,7 +11234,7 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -9766,7 +11258,7 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_omheining_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een omheining.</td>
@@ -9778,7 +11270,7 @@ Geometrische representatie van een omheining.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_omheining_attribuutsoort_indicatie_valbescherming">indicatieValbescherming</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_attribuutsoort_indicatie_valbescherming">indicatieValbescherming</a>
 </td>
 <td>
 Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
@@ -9809,12 +11301,12 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_omheining_relatiesoort_heeft_functie">heeftFunctie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_relatiesoort_heeft_functie">heeftFunctie</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_afscheiding">Afscheiding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_afscheiding">Afscheiding</a>
 </td>
 <td>
 0..1</td>
@@ -9823,7 +11315,7 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 </table>
 </section>
 
-#### Opslagtank {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_opslagtank}
+#### Opslagtank {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_opslagtank}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9864,7 +11356,7 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -9888,7 +11380,7 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_opslagtank_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_opslagtank_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een opslagtank</td>
@@ -9904,7 +11396,7 @@ Geometrische representatie van een opslagtank</td>
 
 
 
-#### Paal {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_paal}
+#### Paal {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_paal}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -9945,7 +11437,7 @@ Geometrische representatie van een opslagtank</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -9969,7 +11461,7 @@ Geometrische representatie van een opslagtank</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_paal_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_paal_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van de paal</td>
@@ -9985,7 +11477,7 @@ Geometrische representatie van de paal</td>
 
 
 
-#### Putdeksel {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_putdeksel}
+#### Putdeksel {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_putdeksel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10022,7 +11514,7 @@ Geometrische representatie van de paal</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -10046,7 +11538,7 @@ Geometrische representatie van de paal</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_putdeksel_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_putdeksel_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een putdeksel.</td>
@@ -10062,7 +11554,7 @@ Geometrische representatie van een putdeksel.</td>
 
 
 
-#### Reservoir {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_reservoir}
+#### Reservoir {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10103,7 +11595,7 @@ Geometrische representatie van een putdeksel.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -10127,7 +11619,7 @@ Geometrische representatie van een putdeksel.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_reservoir_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een reservoir.</td>
@@ -10143,7 +11635,7 @@ Geometrische representatie van een reservoir.</td>
 
 
 
-#### Scherm {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_scherm}
+#### Scherm {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10184,7 +11676,7 @@ Geometrische representatie van een reservoir.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -10208,7 +11700,7 @@ Geometrische representatie van een reservoir.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_scherm_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een scherm.</td>
@@ -10239,12 +11731,12 @@ Geometrische representatie van een scherm.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_scherm_relatiesoort_heeft_functie">heeftFunctie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm_relatiesoort_heeft_functie">heeftFunctie</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_reducering">Reducering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">Reducering</a>
 </td>
 <td>
 0..1</td>
@@ -10253,7 +11745,7 @@ Geometrische representatie van een scherm.</td>
 </table>
 </section>
 
-#### Straatmeubilair {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair}
+#### Straatmeubilair {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10294,7 +11786,7 @@ Geometrische representatie van een scherm.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_constructie">Constructie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
 </td>
 </tr>
 <tbody>
@@ -10318,7 +11810,7 @@ Geometrische representatie van een scherm.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van het straatmeubilair.</td>
@@ -10334,7 +11826,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Abri {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_abri}
+#### Abri {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_abri}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10375,7 +11867,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10386,7 +11878,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Afvalbak {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_afvalbak}
+#### Afvalbak {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalbak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10427,7 +11919,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10438,7 +11930,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Bank {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_bank}
+#### Bank {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_bank}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10479,7 +11971,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10490,7 +11982,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Fietsenparkeerplaats {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_fietsenparkeerplaats}
+#### Fietsenparkeerplaats {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fietsenparkeerplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10531,7 +12023,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10542,7 +12034,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Fontein {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_fontein}
+#### Fontein {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fontein}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10583,7 +12075,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10594,7 +12086,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Herdenkingsmonument {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_herdenkingsmonument}
+#### Herdenkingsmonument {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_herdenkingsmonument}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10635,7 +12127,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10646,7 +12138,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Kunstobject {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_kunstobject}
+#### Kunstobject {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kunstobject}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10683,7 +12175,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10694,7 +12186,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### OpenbaarToilet {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_openbaar_toilet}
+#### OpenbaarToilet {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_openbaar_toilet}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10739,7 +12231,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10750,7 +12242,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Picknicktafel {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_picknicktafel}
+#### Picknicktafel {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_picknicktafel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10791,7 +12283,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10802,7 +12294,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
-#### Speelvoorziening {#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_speelvoorziening}
+#### Speelvoorziening {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_speelvoorziening}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10843,7 +12335,7 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
 </td>
 </tr>
 <tbody>
@@ -10851,6 +12343,91 @@ Geometrische representatie van het straatmeubilair.</td>
 </table>
 </section>
 
+
+
+
+#### Erfconstructie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Erfconstructie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Erfconstructie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie">Constructie</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een open bouwwerk.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie_attribuutsoort_naam">naam</a>
+</td>
+<td>
+Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
+</td>
+<td>
+0..1</td>
+</tr>
+</tbody>
+</table>
+</section>
 
 
 
@@ -10872,7 +12449,7 @@ Geometrische representatie van het straatmeubilair.</td>
 
 ### Objecttypen
 
-#### Netwerkelement {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkelement}
+#### Netwerkelement {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10924,12 +12501,12 @@ Geometrische representatie van het straatmeubilair.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkelement_relatiesoort_in_netwerk">inNetwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement_relatiesoort_in_netwerk">inNetwerk</a>
 </td>
 <td>
 De netwerken waarvan een netwerkelement lid is.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerk">Netwerk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerk">Netwerk</a>
 </td>
 <td>
 0..*</td>
@@ -10938,7 +12515,7 @@ De netwerken waarvan een netwerkelement lid is.</td>
 </table>
 </section>
 
-#### Netwerk {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerk}
+#### Netwerk {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -10975,7 +12552,7 @@ De netwerken waarvan een netwerkelement lid is.</td>
 
 
 
-#### Knoop {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop}
+#### Knoop {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11016,7 +12593,7 @@ De netwerken waarvan een netwerkelement lid is.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
 </td>
 </tr>
 <tbody>
@@ -11052,7 +12629,7 @@ De netwerken waarvan een netwerkelement lid is.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -11083,24 +12660,24 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop_relatiesoort_inkomende_verbinding">inkomendeVerbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_relatiesoort_inkomende_verbinding">inkomendeVerbinding</a>
 </td>
 <td>
 De verbindingen die de knoop binnenkomen.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding">Verbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
 </td>
 <td>
 0..*</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop_relatiesoort_uitgaande_verbinding">uitgaandeVerbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_relatiesoort_uitgaande_verbinding">uitgaandeVerbinding</a>
 </td>
 <td>
 De verbindingen die de knoop verlaten.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding">Verbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
 </td>
 <td>
 0..*</td>
@@ -11109,7 +12686,7 @@ De verbindingen die de knoop verlaten.</td>
 </table>
 </section>
 
-#### Verbinding {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding}
+#### Verbinding {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11150,7 +12727,7 @@ De verbindingen die de knoop verlaten.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
 </td>
 </tr>
 <tbody>
@@ -11186,7 +12763,7 @@ De verbindingen die de knoop verlaten.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -11217,24 +12794,24 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">startknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">startknoop</a>
 </td>
 <td>
 De startknoop van de verbinding.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop">Knoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
 </td>
 <td>
 0..1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">eindknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">eindknoop</a>
 </td>
 <td>
 De eindknoop van de verbinding.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop">Knoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
 </td>
 <td>
 0..1</td>
@@ -11243,7 +12820,7 @@ De eindknoop van de verbinding.</td>
 </table>
 </section>
 
-#### Netwerkverwijzing {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkverwijzing}
+#### Netwerkverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11295,12 +12872,12 @@ De eindknoop van de verbinding.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkverwijzing_relatiesoort_netwerkelement">netwerkelement</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing_relatiesoort_netwerkelement">netwerkelement</a>
 </td>
 <td>
 Het netwerkelement waarnaar verwezen wordt.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
 </td>
 <td>
 1..1</td>
@@ -11309,7 +12886,7 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 </table>
 </section>
 
-#### Netwerkeigenschap {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkeigenschap}
+#### Netwerkeigenschap {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11361,12 +12938,12 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkeigenschap_relatiesoort_netwerkverwijzing">netwerkverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap_relatiesoort_netwerkverwijzing">netwerkverwijzing</a>
 </td>
 <td>
 Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
 </td>
 <td>
 1..*</td>
@@ -11375,7 +12952,7 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 </table>
 </section>
 
-#### SimpelePuntverwijzing {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_puntverwijzing}
+#### SimpelePuntverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11420,7 +12997,7 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
 </td>
 </tr>
 <tbody>
@@ -11444,24 +13021,24 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">opPositie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">opPositie</a>
 </td>
 <td>
 Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">offset</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">offset</a>
 </td>
 <td>
 Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
 </td>
 <td>
 0..1</td>
@@ -11472,7 +13049,7 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 
 
 
-#### SimpeleLineaireVerwijzing {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_lineaire_verwijzing}
+#### SimpeleLineaireVerwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11517,7 +13094,7 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
 </td>
 </tr>
 <tbody>
@@ -11541,36 +13118,36 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_vanaf_positie">vanafPositie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_vanaf_positie">vanafPositie</a>
 </td>
 <td>
 De startpositie van de verbinding, uitgedrukt als de afstand vanaf het begin van verbinding langs diens curvegeometrie.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_tot_positie">totPositie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_tot_positie">totPositie</a>
 </td>
 <td>
 De eindpositie van de verbinding, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_offset">offset</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_offset">offset</a>
 </td>
 <td>
 Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
 </td>
 <td>
 0..1</td>
@@ -11581,7 +13158,7 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 
 
 
-#### Verbindingsverwijzing {#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbindingsverwijzing}
+#### Verbindingsverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11622,7 +13199,7 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing">Netwerkverwijzing</a>
 </td>
 </tr>
 <tbody>
@@ -11646,12 +13223,12 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbindingsverwijzing_attribuutsoort_betreft_richting">betreftRichting</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing_attribuutsoort_betreft_richting">betreftRichting</a>
 </td>
 <td>
 De richtingen van de gegeneraliseerde link waarop de verwijzing van toepassing is.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_enumeratie_verbindingsrichting">Verbindingsrichting</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_enumeratie_verbindingsrichting">Verbindingsrichting</a>
 </td>
 <td>
 1</td>
@@ -11677,12 +13254,12 @@ De richtingen van de gegeneraliseerde link waarop de verwijzing van toepassing i
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbindingsverwijzing_relatiesoort_verbinding">verbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing_relatiesoort_verbinding">verbinding</a>
 </td>
 <td>
 De verbinding waarnaar verwezen wordt.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding">Verbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
 </td>
 <td>
 1..1</td>
@@ -11697,7 +13274,7 @@ De verbinding waarnaar verwezen wordt.</td>
 
 ### Primitieve datatypen
 
-#### Lengte {#informatiemodel_conceptueel_model_ibro_domein_netwerk_primitief_datatype_lengte}
+#### Lengte {#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11741,7 +13318,7 @@ De verbinding waarnaar verwezen wordt.</td>
 
 ### Enumeraties
 
-#### Verbindingsrichting {#informatiemodel_conceptueel_model_ibro_domein_netwerk_enumeratie_verbindingsrichting}
+#### Verbindingsrichting {#informatiemodel_imibro_conceptueel_domein_netwerk_enumeratie_verbindingsrichting}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11811,7 +13388,7 @@ InTegenovergesteldeRichting</td>
 
 ### Objecttypen
 
-#### Transportverbinding {#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportverbinding}
+#### Transportverbinding {#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11852,7 +13429,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_verbinding">Verbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
 </td>
 </tr>
 <tbody>
@@ -11864,7 +13441,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
 </td>
 </tr>
 <tbody>
@@ -11875,7 +13452,7 @@ InTegenovergesteldeRichting</td>
 
 
 
-#### Transportknoop {#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportknoop}
+#### Transportknoop {#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11916,7 +13493,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
 </td>
 </tr>
 <tbody>
@@ -11928,7 +13505,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_knoop">Knoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
 </td>
 </tr>
 <tbody>
@@ -11939,7 +13516,7 @@ InTegenovergesteldeRichting</td>
 
 
 
-#### Transportruimte {#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte}
+#### Transportruimte {#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -11992,7 +13569,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -12018,24 +13595,24 @@ InTegenovergesteldeRichting</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_ligt_op">ligtOp</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_ligt_op">ligtOp</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object">ReeelObject</a>
 </td>
 <td>
 1..*</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_hyperverbinding">hyperverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_hyperverbinding">hyperverbinding</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 <td>
 0..*</td>
@@ -12062,7 +13639,88 @@ InTegenovergesteldeRichting</td>
 
 ### Objecttypen
 
-#### Wegverbinding {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding}
+#### Wegverkeerruimteverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Wegverkeerruimteverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Wegverkeerruimteverbinding</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_wegverkeerruimte">Wegverkeerruimte</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding">Transportverbinding</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_rijrichting">rijrichting</a>
+</td>
+<td>
+De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_enumeratie_rijrichting">Rijrichting</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+#### Wegverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12103,7 +13761,7 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -12127,7 +13785,7 @@ InTegenovergesteldeRichting</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_routenummer">routenummer</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_routenummer">routenummer</a>
 </td>
 <td>
 Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk.</td>
@@ -12139,7 +13797,7 @@ Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op ee
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_indicatie_openbare_weg">indicatieOpenbareWeg</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_indicatie_openbare_weg">indicatieOpenbareWeg</a>
 </td>
 <td>
 Deze wegverbinding is al dan niet een openbare weg.</td>
@@ -12170,12 +13828,12 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding_relatiesoort_heeft">heeft</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_relatiesoort_heeft">heeft</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 <td>
 0..*</td>
@@ -12184,7 +13842,7 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 </table>
 </section>
 
-#### Baanverbinding {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding}
+#### Baanverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12225,7 +13883,7 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -12249,7 +13907,7 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding_attribuutsoort_afritnummer">afritnummer</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding_attribuutsoort_afritnummer">afritnummer</a>
 </td>
 <td>
 Nummer toegekend aan een verbindingsbaan</td>
@@ -12280,12 +13938,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 <td>
 1</td>
@@ -12294,7 +13952,7 @@ Nummer toegekend aan een verbindingsbaan</td>
 </table>
 </section>
 
-#### Wegknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop}
+#### Wegknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12347,7 +14005,7 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12373,12 +14031,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop_relatiesoort_heeft">heeft</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_relatiesoort_heeft">heeft</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 <td>
 0..1</td>
@@ -12387,7 +14045,7 @@ Nummer toegekend aan een verbindingsbaan</td>
 </table>
 </section>
 
-#### Baanknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanknoop}
+#### Baanknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12428,7 +14086,19 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_wegverkeerruimte">Wegverkeerruimte</a>
 </td>
 </tr>
 <tbody>
@@ -12439,7 +14109,7 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
-#### Strookknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookknoop}
+#### Strookknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12480,40 +14150,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
 </td>
 </tr>
 <tbody>
 </tbody>
 </table>
-</section>
-
-
-
-
-#### Wegverkeerruimteverbinding {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Wegverkeerruimteverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Wegverkeerruimteverbinding</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
@@ -12526,53 +14168,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tbody>
 </tbody>
 </table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportverbinding">Transportverbinding</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_rijrichting">rijrichting</a>
-</td>
-<td>
-De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_enumeratie_rijrichting">Rijrichting</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
 </section>
 
 
 
-#### Hectometerpunt {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_hectometerpunt}
+
+#### Hectometerpunt {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hectometerpunt}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12609,7 +14210,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_netwerk_objecttype_netwerkeigenschap">Netwerkeigenschap</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap">Netwerkeigenschap</a>
 </td>
 </tr>
 <tbody>
@@ -12620,7 +14221,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Strookverbinding {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding}
+#### Strookverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12661,7 +14262,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">Wegverkeerruimteverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -12687,12 +14288,12 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 <td>
 1</td>
@@ -12701,7 +14302,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 </table>
 </section>
 
-#### Eindknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_eindknoop}
+#### Eindknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_eindknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12742,7 +14343,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12753,7 +14354,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Grensknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_grensknoop}
+#### Grensknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_grensknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12794,7 +14395,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12805,7 +14406,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Koppelknoop {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_koppelknoop}
+#### Koppelknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_koppelknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12846,7 +14447,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12857,7 +14458,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Kruising {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_kruising}
+#### Kruising {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_kruising}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12898,7 +14499,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12909,7 +14510,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Rotonde {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_rotonde}
+#### Rotonde {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotonde}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -12950,7 +14551,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -12961,7 +14562,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Verkeersplein {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_verkeersplein}
+#### Verkeersplein {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeersplein}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13002,7 +14603,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tbody>
@@ -13013,7 +14614,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Autosnelweg {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_autosnelweg}
+#### Autosnelweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autosnelweg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13058,7 +14659,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13069,7 +14670,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Autoweg {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_autoweg}
+#### Autoweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autoweg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13114,7 +14715,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13125,7 +14726,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Erftoegangsweg {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_erftoegangsweg}
+#### Erftoegangsweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_erftoegangsweg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13166,7 +14767,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13177,7 +14778,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### FietsOfBromfietspad {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fiets_of_bromfietspad}
+#### FietsOfBromfietspad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fiets_of_bromfietspad}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13226,7 +14827,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13237,7 +14838,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietspad {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietspad}
+#### Fietspad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietspad}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13282,7 +14883,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13293,7 +14894,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietsstraat {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietsstraat}
+#### Fietsstraat {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstraat}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13334,7 +14935,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13345,7 +14946,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### GebiedsontsluitingswegGesloten {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_gesloten}
+#### GebiedsontsluitingswegGesloten {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_gesloten}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13390,7 +14991,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13401,7 +15002,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### GebiedsontsluitingswegOpen {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_open}
+#### GebiedsontsluitingswegOpen {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_open}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13446,7 +15047,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13457,7 +15058,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Ruiterpad {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_ruiterpad}
+#### Ruiterpad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpad}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13498,7 +15099,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13509,7 +15110,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Voetgangerszone {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_voetgangerszone}
+#### Voetgangerszone {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangerszone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13550,7 +15151,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13561,7 +15162,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Veerverbinding {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_veerverbinding}
+#### Veerverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13606,7 +15207,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13617,7 +15218,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Voetpad {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_voetpad}
+#### Voetpad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13662,7 +15263,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13673,7 +15274,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Busbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_busbaan}
+#### Busbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13714,7 +15315,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13725,7 +15326,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietspadbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietspadbaan}
+#### Fietspadbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietspadbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13770,7 +15371,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13781,7 +15382,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietsveer {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietsveer}
+#### Fietsveer {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsveer}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13822,7 +15423,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13833,7 +15434,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Hoofdrijbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_hoofdrijbaan}
+#### Hoofdrijbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hoofdrijbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13874,7 +15475,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13885,7 +15486,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Parallelbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_parallelbaan}
+#### Parallelbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_parallelbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13926,7 +15527,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13937,7 +15538,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Rotondebaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_rotondebaan}
+#### Rotondebaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotondebaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -13978,7 +15579,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -13989,7 +15590,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Ruiterpadbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_ruiterpadbaan}
+#### Ruiterpadbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpadbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14030,7 +15631,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14041,18 +15642,18 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Veerverbindingsbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_veerverbindingsbaan}
+#### Veerverbindingbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbindingbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbindingsbaan</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbindingbaan</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Veerverbindingsbaan</td>
+<td>Veerverbindingbaan</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -14082,7 +15683,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14093,7 +15694,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Ventweg {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_ventweg}
+#### Ventweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ventweg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14134,7 +15735,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14145,7 +15746,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Verbindingsbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_verbindingsbaan}
+#### Verbindingsbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verbindingsbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14186,7 +15787,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14197,7 +15798,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Verkeerspleinbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_verkeerspleinbaan}
+#### Verkeerspleinbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeerspleinbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14238,7 +15839,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14249,7 +15850,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Verzorgingsbaan {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_verzorgingsbaan}
+#### Verzorgingsbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verzorgingsbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14290,7 +15891,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14301,18 +15902,18 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Voetpad {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_voetpad}
+#### Voetpadbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpadbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voetpad</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voetpadbaan</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Voetpad</td>
+<td>Voetpadbaan</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -14342,7 +15943,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14353,7 +15954,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Bufferstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_bufferstrook}
+#### Bufferstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_bufferstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14394,7 +15995,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14405,7 +16006,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Busstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_busstrook}
+#### Busstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14446,7 +16047,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14457,7 +16058,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietsstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietsstrook}
+#### Fietsstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14498,7 +16099,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14509,7 +16110,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Fietssuggestiestrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_fietssuggestiestrook}
+#### Fietssuggestiestrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietssuggestiestrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14550,7 +16151,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14561,7 +16162,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Invoegstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_invoegstrook}
+#### Invoegstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_invoegstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14602,7 +16203,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14613,7 +16214,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Klimstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_klimstrook}
+#### Klimstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_klimstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14654,7 +16255,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14665,7 +16266,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Redresseerstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_redresseerstrook}
+#### Redresseerstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_redresseerstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14706,7 +16307,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14717,7 +16318,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Opstelstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook}
+#### Opstelstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14758,7 +16359,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14769,7 +16370,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookLinksaf {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_linksaf}
+#### OpstelstrookLinksaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_linksaf}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14814,7 +16415,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14825,7 +16426,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookOpgeblazenFietsopstelstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_opgeblazen_fietsopstelstrook}
+#### OpstelstrookOpgeblazenFietsopstelstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_opgeblazen_fietsopstelstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14870,7 +16471,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14881,7 +16482,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookRechtdoor {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor}
+#### OpstelstrookRechtdoor {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14926,7 +16527,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14937,7 +16538,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookRechtdoorOfLinksaf {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_linksaf}
+#### OpstelstrookRechtdoorOfLinksaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_linksaf}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -14982,7 +16583,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -14993,7 +16594,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookRechtdoorOfRechtsaf {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_rechtsaf}
+#### OpstelstrookRechtdoorOfRechtsaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_rechtsaf}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15038,7 +16639,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15049,7 +16650,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### OpstelstrookRechtsaf {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_opstelstrook_rechtsaf}
+#### OpstelstrookRechtsaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtsaf}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15094,7 +16695,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15105,7 +16706,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Passeerstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_passeerstrook}
+#### Passeerstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_passeerstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15146,7 +16747,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15157,7 +16758,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Plusstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_plusstrook}
+#### Plusstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_plusstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15198,7 +16799,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15209,7 +16810,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Rijstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_rijstrook}
+#### Rijstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rijstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15250,7 +16851,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15261,7 +16862,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Spitsstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_spitsstrook}
+#### Spitsstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_spitsstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15306,7 +16907,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15317,7 +16918,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Uitvoegstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_uitvoegstrook}
+#### Uitvoegstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_uitvoegstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15358,7 +16959,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15369,7 +16970,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Vluchtstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_vluchtstrook}
+#### Vluchtstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vluchtstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15410,7 +17011,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15421,7 +17022,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Voetgangersstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_voetgangersstrook}
+#### Voetgangersstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangersstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15462,7 +17063,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15473,7 +17074,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Vrachtwagenstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_vrachtwagenstrook}
+#### Vrachtwagenstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vrachtwagenstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15514,7 +17115,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15525,7 +17126,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Weefstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_weefstrook}
+#### Weefstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_weefstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15566,7 +17167,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15577,7 +17178,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 
 
-#### Wisselstrook {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_wisselstrook}
+#### Wisselstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wisselstrook}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15618,7 +17219,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15636,7 +17237,7 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 
 ### Enumeraties
 
-#### Rijrichting {#informatiemodel_conceptueel_model_ibro_domein_wegennetwerk_enumeratie_rijrichting}
+#### Rijrichting {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_enumeratie_rijrichting}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15693,7 +17294,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 ### Objecttypen
 
-#### Spoorwegknoop {#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_spoorwegknoop}
+#### Spoorwegknoop {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorwegknoop}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15746,7 +17347,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop">Transportknoop</a>
 </td>
 </tr>
 <tbody>
@@ -15757,7 +17358,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
-#### Spoorverbinding {#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_spoorverbinding}
+#### Spoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15820,7 +17421,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportverbinding">Transportverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding">Transportverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15831,7 +17432,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
-#### NationaleSpoorverbinding {#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_nationale_spoorverbinding}
+#### NationaleSpoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_nationale_spoorverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15876,7 +17477,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15887,7 +17488,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
-#### LokaleSpoorverbinding {#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding}
+#### LokaleSpoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -15932,7 +17533,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
 </td>
 </tr>
 <tbody>
@@ -15950,91 +17551,18 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
-## Domein Functionele zoneringen
+## Domein Functionele ruimten
 
 <div class="imageinfo">
 
-![Functionele zoneringen](model-docs/media/functionele_zoneringen.png "Domein Functionele zoneringen")
+![Functionele ruimten](model-docs/media/functionele_ruimten.png "Domein Functionele ruimten")
 
 </div>
 
 
 ### Objecttypen
 
-#### FunctioneleZone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#FunctioneleZone</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>FunctioneleZone</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Functionele zone</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone_relatiesoort_hyperverbinding">hyperverbinding</a>
-</td>
-<td>
-</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
-</td>
-<td>
-0..*</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### VerkeerskundigFunctioneleZone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone}
+#### VerkeerskundigFunctioneleZone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16083,7 +17611,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -16107,7 +17635,7 @@ Eén rijrichting is op verbinding toegestaan.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -16119,7 +17647,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -16135,7 +17663,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Halteplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_halteplaats}
+#### Halteplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_halteplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16176,7 +17704,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16187,7 +17715,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Inrit {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_inrit}
+#### Inrit {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_inrit}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16228,7 +17756,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16239,7 +17767,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Knooppunt {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_knooppunt}
+#### Knooppunt {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_knooppunt}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16280,7 +17808,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16291,7 +17819,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Overstapplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_overstapplaats}
+#### Overstapplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overstapplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16332,7 +17860,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16343,7 +17871,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Parkeerplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_parkeerplaats}
+#### Parkeerplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeerplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16384,7 +17912,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16395,7 +17923,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Parkeervlak {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_parkeervlak}
+#### Parkeervlak {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeervlak}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16436,7 +17964,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16447,7 +17975,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Snellaadstation {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_snellaadstation}
+#### Snellaadstation {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_snellaadstation}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16488,7 +18016,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16499,7 +18027,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Tankstation {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_tankstation}
+#### Tankstation {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_tankstation}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16540,7 +18068,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16551,7 +18079,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Tolplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_tolplaats}
+#### Tolplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_tolplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16592,7 +18120,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16603,7 +18131,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Verzorgingsplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verzorgingsplaats}
+#### Verzorgingsplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verzorgingsplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16644,7 +18172,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16655,7 +18183,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Woonerf {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_woonerf}
+#### Woonerf {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_woonerf}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16696,7 +18224,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
 </td>
 </tr>
 <tbody>
@@ -16707,7 +18235,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Wegzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone}
+#### Wegzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16748,7 +18276,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -16772,7 +18300,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -16788,7 +18316,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Berm {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_berm}
+#### Berm {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_berm}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16829,7 +18357,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone">Wegzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
 </td>
 </tr>
 <tbody>
@@ -16840,7 +18368,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Verkeersdrempel {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeersdrempel}
+#### Verkeersdrempel {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeersdrempel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16881,7 +18409,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone">Wegzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
 </td>
 </tr>
 <tbody>
@@ -16892,7 +18420,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Verkeerseiland {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_verkeerseiland}
+#### Verkeerseiland {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerseiland}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16933,7 +18461,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone">Wegzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
 </td>
 </tr>
 <tbody>
@@ -16944,7 +18472,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Wildrooster {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wildrooster}
+#### Wildrooster {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wildrooster}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -16985,7 +18513,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_wegzone">Wegzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
 </td>
 </tr>
 <tbody>
@@ -16996,7 +18524,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Spoorzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone}
+#### Spoorzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17037,7 +18565,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -17061,7 +18589,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -17077,7 +18605,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Emplacement {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_emplacement}
+#### Emplacement {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_emplacement}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17118,7 +18646,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone">Spoorzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
 </td>
 </tr>
 <tbody>
@@ -17129,7 +18657,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Overweg {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_overweg}
+#### Overweg {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overweg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17170,7 +18698,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone">Spoorzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
 </td>
 </tr>
 <tbody>
@@ -17181,7 +18709,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Perron {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_perron}
+#### Perron {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_perron}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17222,7 +18750,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone">Spoorzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
 </td>
 </tr>
 <tbody>
@@ -17233,7 +18761,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Spoorbaan {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorbaan}
+#### Spoorbaan {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorbaan}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17274,7 +18802,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_spoorzone">Spoorzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
 </td>
 </tr>
 <tbody>
@@ -17285,7 +18813,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Luchtvaartzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchtvaartzone}
+#### Luchtvaartzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17314,7 +18842,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -17338,7 +18866,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchtvaartzone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -17350,7 +18878,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchtvaartzone_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -17366,7 +18894,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### BaanVoorVliegverkeer {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_baan_voor_vliegverkeer}
+#### BaanVoorVliegverkeer {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_baan_voor_vliegverkeer}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17411,7 +18939,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchtvaartzone">Luchtvaartzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone">Luchtvaartzone</a>
 </td>
 </tr>
 <tbody>
@@ -17422,7 +18950,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Luchthaven {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchthaven}
+#### Luchthaven {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchthaven}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17463,7 +18991,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_luchtvaartzone">Luchtvaartzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone">Luchtvaartzone</a>
 </td>
 </tr>
 <tbody>
@@ -17474,7 +19002,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Recreatiezone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone}
+#### Recreatiezone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17515,7 +19043,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -17539,7 +19067,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van het object.</td>
@@ -17551,7 +19079,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -17567,7 +19095,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Bungalowpark {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_bungalowpark}
+#### Bungalowpark {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_bungalowpark}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17604,7 +19132,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17615,7 +19143,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Camping {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_camping}
+#### Camping {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_camping}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17652,7 +19180,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17663,7 +19191,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Park {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_park}
+#### Park {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_park}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17700,7 +19228,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17711,7 +19239,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Speeltuin {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_speeltuin}
+#### Speeltuin {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_speeltuin}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17748,7 +19276,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17759,7 +19287,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Sportterrein {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_sportterrein}
+#### Sportterrein {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sportterrein}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17796,7 +19324,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17807,7 +19335,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Volkstuin {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_volkstuin}
+#### Volkstuin {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_volkstuin}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17844,7 +19372,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_recreatiezone">Recreatiezone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
 </td>
 </tr>
 <tbody>
@@ -17855,7 +19383,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
-#### Complex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex}
+#### Complex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17892,7 +19420,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -17916,7 +19444,7 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -17928,7 +19456,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
@@ -17944,7 +19472,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Begraafplaats {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_begraafplaats}
+#### Begraafplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_begraafplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -17985,7 +19513,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -17996,7 +19524,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Schoolterrein {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_schoolterrein}
+#### Schoolterrein {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_schoolterrein}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18025,7 +19553,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18036,7 +19564,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Coupurecomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_coupurecomplex}
+#### Coupurecomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_coupurecomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18077,7 +19605,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18088,7 +19616,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Gemaalcomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gemaalcomplex}
+#### Gemaalcomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gemaalcomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18129,7 +19657,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18140,7 +19668,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Havencomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_havencomplex}
+#### Havencomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_havencomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18181,7 +19709,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18192,7 +19720,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Sluiscomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_sluiscomplex}
+#### Sluiscomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sluiscomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18233,7 +19761,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18244,7 +19772,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Stuwcomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_stuwcomplex}
+#### Stuwcomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_stuwcomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18285,7 +19813,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18296,7 +19824,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Zuiveringscomplex {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_zuiveringscomplex}
+#### Zuiveringscomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zuiveringscomplex}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18337,7 +19865,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_complex">Complex</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
 </td>
 </tr>
 <tbody>
@@ -18348,7 +19876,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
-#### Oeverzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_oeverzone}
+#### Oeverzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18397,7 +19925,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -18421,7 +19949,7 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_oeverzone_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -18433,7 +19961,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_oeverzone_attribuutsoort_indicatie_natuurvriendelijke_oever">indicatieNatuurvriendelijkeOever</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone_attribuutsoort_indicatie_natuurvriendelijke_oever">indicatieNatuurvriendelijkeOever</a>
 </td>
 <td>
 Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlaktewater waarbij de ontwikkeling van natuur, landschap en ecologie expliciet wordt gestimuleerd.</td>
@@ -18449,7 +19977,7 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 
 
 
-#### Waterbergingsgebied {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_waterbergingsgebied}
+#### Waterbergingsgebied {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterbergingsgebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18490,7 +20018,7 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -18514,7 +20042,7 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_waterbergingsgebied_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterbergingsgebied_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -18530,7 +20058,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### GebruikszoneOppervlaktewater {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gebruikszone_oppervlaktewater}
+#### GebruikszoneOppervlaktewater {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18575,7 +20103,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -18599,7 +20127,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gebruikszone_oppervlaktewater_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -18615,7 +20143,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Vaarwegzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_vaarwegzone}
+#### Vaarwegzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_vaarwegzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18656,7 +20184,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -18667,7 +20195,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Visserijzone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_visserijzone}
+#### Visserijzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_visserijzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18712,7 +20240,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -18723,7 +20251,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### WatersportZone {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_watersport_zone}
+#### WatersportZone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_watersport_zone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18768,7 +20296,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater">GebruikszoneOppervlaktewater</a>
 </td>
 </tr>
 <tbody>
@@ -18779,92 +20307,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Oppervlaktewaterlichaam {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_oppervlaktewaterlichaam}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Oppervlaktewaterlichaam</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Oppervlaktewaterlichaam</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Samenhangende ruimte gevormd door bodem en oevers, waar oppervlaktewater, met de daarin aanwezige stoffen, doorheen kan stromen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium wordt aan de hand van gebruikersbehoeften bepaald of voor oppervlaktwaterlichaam kan worden volstaan met een informatieproduct waarin oppervlaktewater en oeverzone worden gecombineerd.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_oppervlaktewaterlichaam_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-#### Kering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_kering}
+#### Kering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18909,7 +20352,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -18933,7 +20376,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_kering_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -18949,7 +20392,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Grondkering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_grondkering}
+#### Grondkering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -18990,7 +20433,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_kering">Kering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">Kering</a>
 </td>
 </tr>
 <tbody>
@@ -19014,7 +20457,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_grondkering_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -19030,7 +20473,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Waterkering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_waterkering}
+#### Waterkering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterkering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19071,7 +20514,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_kering">Kering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">Kering</a>
 </td>
 </tr>
 <tbody>
@@ -19095,7 +20538,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_waterkering_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterkering_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -19111,7 +20554,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Reducering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_reducering}
+#### Reducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19152,7 +20595,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -19176,7 +20619,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_reducering_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -19192,7 +20635,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Fijnstofreducering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_fijnstofreducering}
+#### Fijnstofreducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_fijnstofreducering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19233,7 +20676,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_reducering">Reducering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">Reducering</a>
 </td>
 </tr>
 <tbody>
@@ -19244,7 +20687,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Geluidreducering {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_geluidreducering}
+#### Geluidreducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_geluidreducering}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19285,7 +20728,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_reducering">Reducering</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">Reducering</a>
 </td>
 </tr>
 <tbody>
@@ -19296,7 +20739,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Afscheiding {#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_afscheiding}
+#### Afscheiding {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_afscheiding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19337,7 +20780,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_functionele_zone">FunctioneleZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte">FunctioneleRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -19361,7 +20804,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_functionele_zoneringen_objecttype_afscheiding_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_afscheiding_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -19395,22 +20838,22 @@ Geometrische representatie van een object.</td>
 
 ### Objecttypen
 
-#### BestuurlijkGebiedOpZee {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee}
+#### BestuurlijkGebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#BestuurlijkGebiedOpZee</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#BestuurlijkGebied</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>BestuurlijkGebiedOpZee</td>
+<td>BestuurlijkGebied</td>
 </tr>
 <tr>
 <th>Alias</th>
-<td>Bestuurlijk gebied op zee</td>
+<td>Bestuurlijk gebied</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -19418,7 +20861,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Bestuurlijk gebied op zee.</td>
+<td>Een bestuurlijk gebied is een registratieve ruimte die op basis van wet- of regelgeving als eenheid geldt van bestuurlijke verantwoordelijkheid.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -19440,7 +20883,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -19448,10 +20891,80 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
 
 
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_wordt_bestuurd_door">wordtBestuurdDoor</a>
+</td>
+<td>
+Relatie die aangeeft dat het gebied bestuurt wordt door de bestuurder.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">ligtInBestuurlijkGebied</a>
+</td>
+<td>
+De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van het bevatte gebied, zich moet bevinden, en/of mee moet samenvallen.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
+</td>
+<td>
+0..*</td>
+</tr>
+</tbody>
+</table>
+</section>
 
-#### BestuurlijkGebiedOpLand {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land}
+#### BestuurlijkGebiedOpLand {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19492,7 +21005,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -19503,251 +21016,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Waterschap {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_waterschap}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>https://identifier.overheid.nl/tooi/def/ont/Waterschap</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Waterschap</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een waterschap is een territoriaal openbaar lichaam dat uitsluitend bevoegd is met betrekking tot de waterhuishouding.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_waterschap_relatiesoort_bestuurt_waterschapsgebied">bestuurtWaterschapsgebied</a>
-</td>
-<td>
-Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke regie voert.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_waterschapsgebied">Waterschapsgebied</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Overheidsorganisatie {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Overheidsorganisatie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een organisatie die namens de overheid taken uitvoert en onder het gezag en toezicht van de overheid valt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_officiele_naam_incl_soort">officieleNaamInclSoort</a>
-</td>
-<td>
-De officiële naam van de organisatie met soortaanduiding, bijvoorbeeld &#39;gemeente &#39;s-Gravenhage&#39;.</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_organisatiecode">organisatiecode</a>
-</td>
-<td>
-De organisatiecode</td>
-<td>
-<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-#### OpenbaarLichaam {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>https://identifier.overheid.nl/tooi/def/ont/OpenbaarLichaam</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OpenbaarLichaam</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Openbaar lichaam</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een openbaar lichaam is, in de bestuurlijke indeling van het Koninkrijk der Nederlanden, een overheidsorganisatie met publiekrechtelijke rechtspersoonlijkheid, die bepaalde taken uitvoert binnen een bepaald ruimtelijk gebied of op een bepaald inhoudelijk gebied.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie">Overheidsorganisatie</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam_relatiesoort_bestuurt_gebied">bestuurtGebied</a>
-</td>
-<td>
-Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
-</td>
-<td>
-0..*</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Waterschapsgebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_waterschapsgebied}
+#### Waterschapsgebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschapsgebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19796,7 +21065,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
 </td>
 </tr>
 <tbody>
@@ -19807,7 +21076,361 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 
-#### TerritorialeZee {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_territoriale_zee}
+#### Veiligheidsregiogebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Veiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Veiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 9 van de Wet Veiligheidsregio’s.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Wet Veiligheidsregio’s</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Veiligheidsregio’s waren tot nu toe nog geen onderdeel van een basisregistratie.</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### Gemeentegebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gemeentegebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gemeentegebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 3 van de Wet algemene regels herindeling.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Grondwet en Gemeentewet</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een gemeentegebied valt altijd volledig binnen een provinciegebied. De geometrie van alle gemeentegebieden in een provinciegebied moeten het provinciegebied volledig bedekken. Provinciegebieden mogen niet overlappen. Bij de verdere uitwerking zal er nader aandacht worden geschonken aan eventueel bestaande verschillen tussen de gemeentegrenzen en de gemeentegrenzen op basis van kadastrale percelen</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_veiligheidsregiogebied">ligtInVeiligheidsregiogebied</a>
+</td>
+<td>
+De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied">Veiligheidsregiogebied</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_provinciegebied">ligtInProvinciegebied</a>
+</td>
+<td>
+De geometrische afbakening van het provinciegebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied">Provinciegebied</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### Provinciegebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Provinciegebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Provinciegebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 13 van de Wet algemene regels herindeling.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Grondwet en Provinciewet</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een provincie valt altijd volledig binnen het Europese deel van het Koninkrijk der Nederlanden. De geometrie van alle provinciegebieden moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Provinciegebieden mogen niet overlappen.</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied_relatiesoort_ligt_in_rijksgebied">ligtInRijksgebied</a>
+</td>
+<td>
+De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het provinciegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijksgebied">Rijksgebied</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### Rijksgebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijksgebied}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rijksgebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rijksgebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Het grondgebied van het Koninkrijk der Nederlanden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>BRK</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Dit betreft het Europese deel van het Koninkrijk der Nederlanden.</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### BestuurlijkGebiedOpZee {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#BestuurlijkGebiedOpZee</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>BestuurlijkGebiedOpZee</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Bestuurlijk gebied op zee</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bestuurlijk gebied op zee.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+#### TerritorialeZee {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_territoriale_zee}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19856,7 +21479,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
 </td>
 </tr>
 <tbody>
@@ -19867,7 +21490,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 
-#### AansluitendeZone {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_aansluitende_zone}
+#### AansluitendeZone {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_aansluitende_zone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19916,7 +21539,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
 </td>
 </tr>
 <tbody>
@@ -19927,7 +21550,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 
-#### ExclusieveEconomischeZone {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_exclusieve_economische_zone}
+#### ExclusieveEconomischeZone {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_exclusieve_economische_zone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -19976,7 +21599,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
 </td>
 </tr>
 <tbody>
@@ -19987,7 +21610,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 
-#### ContinentaalPlat {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_continentaal_plat}
+#### ContinentaalPlat {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_continentaal_plat}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20040,7 +21663,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee">BestuurlijkGebiedOpZee</a>
 </td>
 </tr>
 <tbody>
@@ -20051,7 +21674,251 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 
-#### Veiligheidsregio {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio}
+#### Overheidsorganisatie {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>https://identifier.overheid.nl/tooi/def/ont/Overheidsorganisatie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Overheidsorganisatie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een organisatie die namens de overheid taken uitvoert en onder het gezag en toezicht van de overheid valt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_officiele_naam_incl_soort">officieleNaamInclSoort</a>
+</td>
+<td>
+De officiële naam van de organisatie met soortaanduiding, bijvoorbeeld &#39;gemeente &#39;s-Gravenhage&#39;.</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_organisatiecode">organisatiecode</a>
+</td>
+<td>
+De organisatiecode</td>
+<td>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+#### OpenbaarLichaam {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>https://identifier.overheid.nl/tooi/def/ont/OpenbaarLichaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OpenbaarLichaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Openbaar lichaam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een openbaar lichaam is, in de bestuurlijke indeling van het Koninkrijk der Nederlanden, een overheidsorganisatie met publiekrechtelijke rechtspersoonlijkheid, die bepaalde taken uitvoert binnen een bepaald ruimtelijk gebied of op een bepaald inhoudelijk gebied.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie">Overheidsorganisatie</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam_relatiesoort_bestuurt_gebied">bestuurtGebied</a>
+</td>
+<td>
+Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
+</td>
+<td>
+0..*</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### Waterschap {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschap}
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>https://identifier.overheid.nl/tooi/def/ont/Waterschap</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Waterschap</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een waterschap is een territoriaal openbaar lichaam dat uitsluitend bevoegd is met betrekking tot de waterhuishouding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Indicatie abstract object</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 15%"></colgroup>
+<colgroup style="width: 10%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschap_relatiesoort_bestuurt_waterschapsgebied">bestuurtWaterschapsgebied</a>
+</td>
+<td>
+Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke regie voert.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschapsgebied">Waterschapsgebied</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+#### Veiligheidsregio {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20092,7 +21959,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
 </td>
 </tr>
 <tbody>
@@ -20118,12 +21985,12 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio_relatiesoort_bestuurt_veiligheidsregiogebied">bestuurtVeiligheidsregiogebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio_relatiesoort_bestuurt_veiligheidsregiogebied">bestuurtVeiligheidsregiogebied</a>
 </td>
 <td>
 Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politieke regie voert van brandweerzorg, rampenbeheersing, crisisbeheersing, geneeskundige hulpverlening en handhaving van de openbare orde en veiligheid.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied">Veiligheidsregiogebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied">Veiligheidsregiogebied</a>
 </td>
 <td>
 1</td>
@@ -20132,59 +21999,7 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 </table>
 </section>
 
-#### Veiligheidsregiogebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Veiligheidsregiogebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Veiligheidsregiogebied</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 9 van de Wet Veiligheidsregio’s.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Wet Veiligheidsregio’s</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Veiligheidsregio’s waren tot nu toe nog geen onderdeel van een basisregistratie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-#### Gemeente {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeente}
+#### Gemeente {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeente}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20225,7 +22040,7 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
 </td>
 </tr>
 <tbody>
@@ -20251,12 +22066,12 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeente_relatiesoort_bestuurt_gemeentegebied">bestuurtGemeentegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeente_relatiesoort_bestuurt_gemeentegebied">bestuurtGemeentegebied</a>
 </td>
 <td>
 Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie voert.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
 </td>
 <td>
 1</td>
@@ -20265,108 +22080,7 @@ Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie 
 </table>
 </section>
 
-#### Gemeentegebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gemeentegebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Gemeentegebied</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 3 van de Wet algemene regels herindeling.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Grondwet en Gemeentewet</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een gemeentegebied valt altijd volledig binnen een provinciegebied. De geometrie van alle gemeentegebieden in een provinciegebied moeten het provinciegebied volledig bedekken. Provinciegebieden mogen niet overlappen. Bij de verdere uitwerking zal er nader aandacht worden geschonken aan eventueel bestaande verschillen tussen de gemeentegrenzen en de gemeentegrenzen op basis van kadastrale percelen</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_veiligheidsregiogebied">ligtInVeiligheidsregiogebied</a>
-</td>
-<td>
-De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied">Veiligheidsregiogebied</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_provinciegebied">ligtInProvinciegebied</a>
-</td>
-<td>
-De geometrische afbakening van het provinciegebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provinciegebied">Provinciegebied</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Provincie {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provincie}
+#### Provincie {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provincie}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20407,7 +22121,7 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
 </td>
 </tr>
 <tbody>
@@ -20433,12 +22147,12 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provincie_relatiesoort_bestuurt_provinciegebied">bestuurtProvinciegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provincie_relatiesoort_bestuurt_provinciegebied">bestuurtProvinciegebied</a>
 </td>
 <td>
 Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie voert.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provinciegebied">Provinciegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied">Provinciegebied</a>
 </td>
 <td>
 1</td>
@@ -20447,96 +22161,7 @@ Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie
 </table>
 </section>
 
-#### Provinciegebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provinciegebied}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Provinciegebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Provinciegebied</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Afgebakend gedeelte van het grondgebied van Nederland, onder zeggenschap van een openbaar lichaam met diverse bestuurlijke taken, ingesteld op basis van artikel 123 en 124 van de Grondwet, artikel 2:1 Burgerlijk Wetboek en artikel 13 van de Wet algemene regels herindeling.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Grondwet en Provinciewet</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Het gaat bij dit begrip nadrukkelijk om het grondgebied en niet om de juridische entiteit (bevoegd gezag). Een provincie valt altijd volledig binnen het Europese deel van het Koninkrijk der Nederlanden. De geometrie van alle provinciegebieden moeten het Europese deel van het grondgebied van Nederland op land volledig bedekken. Provinciegebieden mogen niet overlappen.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_provinciegebied_relatiesoort_ligt_in_rijksgebied">ligtInRijksgebied</a>
-</td>
-<td>
-De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het provinciegebied zich moet bevinden, en/of mee moet samenvallen.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijksgebied">Rijksgebied</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Rijk {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk}
+#### Rijk {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20577,7 +22202,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
 </td>
 </tr>
 <tbody>
@@ -20603,245 +22228,63 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_rijksgebied">bestuurtRijksgebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_rijksgebied">bestuurtRijksgebied</a>
 </td>
 <td>
 Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op land.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijksgebied">Rijksgebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijksgebied">Rijksgebied</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_territoriale_zee">bestuurtTerritorialeZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_territoriale_zee">bestuurtTerritorialeZee</a>
 </td>
 <td>
 Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 12 zeemijlen uit de kust.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_territoriale_zee">TerritorialeZee</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_territoriale_zee">TerritorialeZee</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_aansluitende_zone">bestuurtAansluitendeZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_aansluitende_zone">bestuurtAansluitendeZone</a>
 </td>
 <td>
 Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 24 zeemijlen vanaf de laagwaterlijn.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_aansluitende_zone">AansluitendeZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_aansluitende_zone">AansluitendeZone</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_exclusieve_economische_zone">bestuurtExclusieveEconomischeZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_exclusieve_economische_zone">bestuurtExclusieveEconomischeZone</a>
 </td>
 <td>
 Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 200 zeemijlen vanaf de laagwaterlijn.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_exclusieve_economische_zone">ExclusieveEconomischeZone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_exclusieve_economische_zone">ExclusieveEconomischeZone</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_continentaal_plat">bestuurtContinentaalPlat</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_continentaal_plat">bestuurtContinentaalPlat</a>
 </td>
 <td>
 Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de territoriale zee, waarover het Rijk op basis van wet- of regelgeving de politieke regie voert.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_continentaal_plat">ContinentaalPlat</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_continentaal_plat">ContinentaalPlat</a>
 </td>
 <td>
 1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-#### Rijksgebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_rijksgebied}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rijksgebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rijksgebied</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Het grondgebied van het Koninkrijk der Nederlanden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>BRK</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Dit betreft het Europese deel van het Koninkrijk der Nederlanden.</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land">BestuurlijkGebiedOpLand</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-#### BestuurlijkGebied {#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#BestuurlijkGebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>BestuurlijkGebied</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Bestuurlijk gebied</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een bestuurlijk gebied is een registratieve ruimte die op basis van wet- of regelgeving als eenheid geldt van bestuurlijke verantwoordelijkheid.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
-</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>    
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_wordt_bestuurd_door">wordtBestuurdDoor</a>
-</td>
-<td>
-Relatie die aangeeft dat het gebied bestuurt wordt door de bestuurder.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam">OpenbaarLichaam</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">ligtInBestuurlijkGebied</a>
-</td>
-<td>
-De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van het bevatte gebied, zich moet bevinden, en/of mee moet samenvallen.</td>
-<td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied">BestuurlijkGebied</a>
-</td>
-<td>
-0..*</td>
 </tr>
 </tbody>
 </table>
@@ -20865,7 +22308,7 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 
 ### Objecttypen
 
-#### Woonplaats {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats}
+#### Woonplaats {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -20914,7 +22357,7 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -20938,7 +22381,7 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_formele_naam">formeleNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_formele_naam">formeleNaam</a>
 </td>
 <td>
 Benaming van een door het gemeentebestuur aangewezen woonplaats.</td>
@@ -20950,7 +22393,7 @@ Benaming van een door het gemeentebestuur aangewezen woonplaats.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries).</td>
@@ -20962,12 +22405,12 @@ Alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (b
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
 </td>
 <td>
 1</td>
@@ -20993,12 +22436,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
 </td>
 <td>
 1</td>
@@ -21007,7 +22450,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Wijk {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk}
+#### Wijk {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21056,7 +22499,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21080,7 +22523,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijkcode">wijkcode</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijkcode">wijkcode</a>
 </td>
 <td>
 Codering van een wijk zoals deze door het CBS wordt gebruikt.</td>
@@ -21092,7 +22535,7 @@ Codering van een wijk zoals deze door het CBS wordt gebruikt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijknaam">wijknaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijknaam">wijknaam</a>
 </td>
 <td>
 Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
@@ -21104,12 +22547,12 @@ Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
 </td>
 <td>
 1</td>
@@ -21135,12 +22578,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
 </td>
 <td>
 1</td>
@@ -21149,7 +22592,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Buurt {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_buurt}
+#### Buurt {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21198,7 +22641,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21222,7 +22665,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtcode">buurtcode</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtcode">buurtcode</a>
 </td>
 <td>
 Codering van een buurt zoals deze door het CBS wordt gebruikt.</td>
@@ -21234,7 +22677,7 @@ Codering van een buurt zoals deze door het CBS wordt gebruikt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtnaam">buurtnaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtnaam">buurtnaam</a>
 </td>
 <td>
 Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
@@ -21246,12 +22689,12 @@ Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelij
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
 </td>
 <td>
 1</td>
@@ -21277,12 +22720,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_buurt_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wijk">Wijk</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk">Wijk</a>
 </td>
 <td>
 1</td>
@@ -21291,7 +22734,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### OpenbareRuimte {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte}
+#### OpenbareRuimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21340,7 +22783,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21364,7 +22807,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_formele_naam">formeleNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_formele_naam">formeleNaam</a>
 </td>
 <td>
 Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
@@ -21376,7 +22819,7 @@ Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel g
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries).</td>
@@ -21388,7 +22831,7 @@ Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd i
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -21419,12 +22862,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats">Woonplaats</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats">Woonplaats</a>
 </td>
 <td>
 1</td>
@@ -21433,7 +22876,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Waterverbindingruimte {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_waterverbindingruimte}
+#### Waterverbindingruimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_waterverbindingruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21474,7 +22917,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21485,7 +22928,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Wegknoopruimte {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wegknoopruimte}
+#### Wegknoopruimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wegknoopruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21526,7 +22969,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21537,7 +22980,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Wegverbindingruimte {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_wegverbindingruimte}
+#### Wegverbindingruimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wegverbindingruimte}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21578,7 +23021,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21589,7 +23032,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Nummeraanduiding {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding}
+#### Nummeraanduiding {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21638,7 +23081,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21662,7 +23105,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummer">huisnummer</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummer">huisnummer</a>
 </td>
 <td>
 Een huisnummer is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nummering.</td>
@@ -21674,7 +23117,7 @@ Een huisnummer is een door of namens het gemeentebestuur ten aanzien van een adr
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisletter">huisletter</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisletter">huisletter</a>
 </td>
 <td>
 Een huisletter is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken.</td>
@@ -21686,7 +23129,7 @@ Een huisletter is een door of namens het gemeentebestuur ten aanzien van een adr
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummertoevoeging">huisnummertoevoeging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummertoevoeging">huisnummertoevoeging</a>
 </td>
 <td>
 Een huisnummertoevoeging is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter.</td>
@@ -21698,7 +23141,7 @@ Een huisnummertoevoeging is een door of namens het gemeentebestuur ten aanzien v
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_postcode">postcode</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_postcode">postcode</a>
 </td>
 <td>
 De postcode is een door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer.</td>
@@ -21729,24 +23172,24 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_woonplaats">Woonplaats</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats">Woonplaats</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_aan">ligtAan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_aan">ligtAan</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">OpenbareRuimte</a>
 </td>
 <td>
 1</td>
@@ -21755,7 +23198,7 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 </table>
 </section>
 
-#### AdresseerbaarObject {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_adresseerbaar_object}
+#### AdresseerbaarObject {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21800,7 +23243,7 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte">RegistratieveRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -21826,24 +23269,24 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_hoofdadres">heeftAlsHoofdadres</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_hoofdadres">heeftAlsHoofdadres</a>
 </td>
 <td>
 Een hoofdadres is het primaire adres van een adresseerbaar object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding">Nummeraanduiding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding">Nummeraanduiding</a>
 </td>
 <td>
 1</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_nevenadres">heeftAlsNevenadres</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_nevenadres">heeftAlsNevenadres</a>
 </td>
 <td>
 Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevenadres mag alleen worden toegekend wanneer er meerdere relevante toegangen zijn en een toegang een wezenlijke betekenis heeft bij het aanduiden van het object, zoals een leveranciersingang. Met het nevenadres wordt expliciet niet een bepaald gedeelte van een adresseerbaar object aangeduid.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_nummeraanduiding">Nummeraanduiding</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding">Nummeraanduiding</a>
 </td>
 <td>
 0..*</td>
@@ -21852,7 +23295,7 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 </table>
 </section>
 
-#### BenoemdePlaats {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_benoemde_plaats}
+#### BenoemdePlaats {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21901,7 +23344,7 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_adresseerbaar_object">AdresseerbaarObject</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object">AdresseerbaarObject</a>
 </td>
 </tr>
 <tbody>
@@ -21925,7 +23368,7 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -21937,12 +23380,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_type">type</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_type_te_plaatsen_object">typeTePlaatsenObject</a>
 </td>
 <td>
-Aard van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
+Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_codelijst_type_benoemde_plaats">TypeBenoemdePlaats</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_enumeratie_type_te_plaatsen_object">TypeTePlaatsenObject</a>
 </td>
 <td>
 1</td>
@@ -21958,26 +23401,73 @@ Aard van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 
 
 
+### Enumeraties
 
-
-### Codelijsten
-
-#### TypeBenoemdePlaats {#informatiemodel_conceptueel_model_ibro_domein_registratieve_ruimten_codelijst_type_benoemde_plaats}
+#### TypeTePlaatsenObject {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_enumeratie_type_te_plaatsen_object}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TypeBenoemdePlaats</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#TypeTePlaatsenObject</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>TypeBenoemdePlaats</td>
+<td>TypeTePlaatsenObject</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Type te plaatsen object</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Objecttypes waarvan plaatsing op een benoemde plaats bestemd kan worden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMIBRO</td>
 </tr>
 <tbody>
 </tbody>
 </table>
+
+
+<section class="notoc">
+<h5>Overzicht waarden</h5>    
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 75%"></colgroup>
+<tbody>
+<tr>
+  <th>Waarde</th>
+  <th>Definitie</th>
+</tr>
+<tr>
+<td>
+Drijvend object</td>
+<td>
+Constructief zelfstandig object dat met het water kan meebewegen.</td>
+<tr>
+<td>
+Mobiel object</td>
+<td>
+Constructief zelfstandig object dat in zijn geheel kan worden verplaatst.</td>
+<tr>
+<td>
+Onbemensd tankstation</td>
+<td>
+Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor voertuigen, waarbij zich geen bij deze installaties betrokken gebouw bevindt.</td>
+</tbody>
+</table>
+
+
+</section>
+
 
 
 ## Domein Geografische ruimten
@@ -21991,7 +23481,7 @@ Aard van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 
 ### Objecttypen
 
-#### Bebouwingskern {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern}
+#### Bebouwingskern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22040,7 +23530,7 @@ Aard van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -22064,7 +23554,7 @@ Aard van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Plaatselijke naam van een bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.</td>
@@ -22076,7 +23566,7 @@ Plaatselijke naam van een bebouwingskern zoals deze als woonplaats bekend is of 
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
@@ -22088,12 +23578,12 @@ Alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak">VlakOfMultivlak</a>
 </td>
 <td>
 1</td>
@@ -22119,12 +23609,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern_relatiesoort_ligt_in">ligtIn</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_relatiesoort_ligt_in">ligtIn</a>
 </td>
 <td>
 </td>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied">Gemeentegebied</a>
 </td>
 <td>
 1</td>
@@ -22133,7 +23623,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
-#### Industriekern {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_industriekern}
+#### Industriekern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_industriekern}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22174,7 +23664,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22185,7 +23675,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Recreatiekern {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_recreatiekern}
+#### Recreatiekern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_recreatiekern}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22226,7 +23716,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22237,7 +23727,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Woonkern {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_woonkern}
+#### Woonkern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_woonkern}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22278,7 +23768,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22289,7 +23779,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Gehucht {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_gehucht}
+#### Gehucht {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_gehucht}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22330,7 +23820,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22341,7 +23831,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Buurtschap {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_buurtschap}
+#### Buurtschap {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_buurtschap}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22382,7 +23872,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22393,7 +23883,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Deelkern {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_deelkern}
+#### Deelkern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_deelkern}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22434,7 +23924,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22445,7 +23935,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Stadsdeel {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_stadsdeel}
+#### Stadsdeel {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_stadsdeel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22486,7 +23976,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
 </td>
 </tr>
 <tbody>
@@ -22497,7 +23987,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Streek {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_streek}
+#### Streek {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22546,7 +24036,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -22570,7 +24060,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_streek_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Plaatselijke naam van een streek zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.</td>
@@ -22582,7 +24072,7 @@ Plaatselijke naam van een streek zoals deze formeel is vastgesteld of bij het on
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_streek_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
@@ -22594,7 +24084,7 @@ Alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volk
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_streek_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -22610,7 +24100,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### LandschappelijkGebied {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied}
+#### LandschappelijkGebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22659,7 +24149,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -22683,7 +24173,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Plaatselijke naam van een landschappelijk gebied zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat.</td>
@@ -22695,7 +24185,7 @@ Plaatselijke naam van een landschappelijk gebied zoals deze is vastgesteld of in
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een landschappelijk gebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
@@ -22707,7 +24197,7 @@ Alternatieve benaming van een landschappelijk gebied zoals deze breed is geaccep
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -22723,7 +24213,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Bosgebied {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_bosgebied}
+#### Bosgebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bosgebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22764,7 +24254,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -22775,7 +24265,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Cultuurlandschap {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_cultuurlandschap}
+#### Cultuurlandschap {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_cultuurlandschap}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22816,7 +24306,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -22827,7 +24317,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Duingebied {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_duingebied}
+#### Duingebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_duingebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22868,7 +24358,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -22879,7 +24369,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Eiland {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_eiland}
+#### Eiland {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_eiland}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22920,7 +24410,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -22931,7 +24421,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Heidegebied {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_heidegebied}
+#### Heidegebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_heidegebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -22972,7 +24462,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -22983,7 +24473,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Landgoed {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landgoed}
+#### Landgoed {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landgoed}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23024,7 +24514,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -23035,7 +24525,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Polder {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_polder}
+#### Polder {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_polder}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23076,7 +24566,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -23087,7 +24577,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Strand {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_strand}
+#### Strand {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_strand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23128,7 +24618,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -23139,7 +24629,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Watergebied {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_watergebied}
+#### Watergebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_watergebied}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23180,7 +24670,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -23191,7 +24681,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Zandverstuiving {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_zandverstuiving}
+#### Zandverstuiving {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_zandverstuiving}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23232,7 +24722,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
 </td>
 </tr>
 <tbody>
@@ -23243,7 +24733,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Reliefzone {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone}
+#### Reliefzone {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23292,7 +24782,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte">GeografischeRuimte</a>
 </td>
 </tr>
 <tbody>
@@ -23316,7 +24806,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_naam">naam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_naam">naam</a>
 </td>
 <td>
 Plaatselijke naam van een reliëfzone zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat.</td>
@@ -23328,7 +24818,7 @@ Plaatselijke naam van een reliëfzone zoals deze is vastgesteld of in het plaats
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_alternatieve_naam">alternatieveNaam</a>
 </td>
 <td>
 Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)</td>
@@ -23344,7 +24834,7 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 
 
 
-#### Berg {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_berg}
+#### Berg {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23385,7 +24875,7 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23409,7 +24899,7 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23425,7 +24915,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Dal {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_dal}
+#### Dal {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23466,7 +24956,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23490,7 +24980,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23506,7 +24996,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Grafheuvel {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_grafheuvel}
+#### Grafheuvel {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23547,7 +25037,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23571,7 +25061,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23587,7 +25077,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### HolleWeg {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_holle_weg}
+#### HolleWeg {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_holle_weg}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23632,7 +25122,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23656,7 +25146,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_holle_weg_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_holle_weg_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23672,7 +25162,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Groeve {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_groeve}
+#### Groeve {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23713,7 +25203,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23737,7 +25227,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23753,7 +25243,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Steilrand {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_steilrand}
+#### Steilrand {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23794,7 +25284,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23818,7 +25308,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
@@ -23834,7 +25324,7 @@ Geometrische representatie van een object.</td>
 
 
 
-#### Terp {#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_terp}
+#### Terp {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_terp}
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -23875,7 +25365,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
 </td>
 </tr>
 <tbody>
@@ -23899,7 +25389,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_conceptueel_model_ibro_domein_geografische_ruimten_objecttype_terp_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_terp_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>

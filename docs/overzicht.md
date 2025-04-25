@@ -60,7 +60,7 @@ Door gebruik van deze verwijzingen kan het netwerkmodel rijk en gedetailleerd wo
 
 Transportnetwerken zijn een subtype van netwerken, specifiek gericht op het modelleren van infrastructuur voor transport en mobiliteit. In IMIBRO worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel [[NEN3610-2022]].
 
-Iedere transportruimte kan een hyperverbinding hebben met functionele zones die een logische samenhang kennen met de tranportruimte, zoals parkeerplaatsen of bushaltes. Deze hyperverbindingen zijn geen fysieke verbindingen, maar abstracte verwijzingen tussen de objecten en de transportruimte.
+Iedere transportruimte kan een hyperverbinding hebben met functionele ruimten die een logische samenhang kennen met de tranportruimte, zoals parkeerplaatsen of bushaltes. Deze hyperverbindingen zijn geen fysieke verbindingen, maar abstracte verwijzingen tussen de objecten en de transportruimte.
 
 Daarnaast kan een transportruimte ook op reëele objecten liggen, zoals verharde wegen.
 
