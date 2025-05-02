@@ -39,10 +39,6 @@
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -127,35 +123,11 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -193,10 +165,6 @@
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -311,35 +279,11 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -368,36 +312,12 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -433,10 +353,6 @@
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -522,35 +438,11 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -580,10 +472,6 @@
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -658,36 +546,12 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -719,10 +583,6 @@
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -808,35 +668,11 @@
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -1308,10 +1144,6 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <th>Definitie</th>
 <td>Planten die op natuurlijke wijze zijn ontstaan of door mensen zijn aangeplant.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -1381,10 +1213,6 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen loofbos, naaldbos en gemengd bos en groenvoorziening van type bosplantsoen van begroeid terreindeel zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -1474,22 +1302,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -1498,15 +1310,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -1548,10 +1352,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -1641,22 +1441,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -1665,15 +1449,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -1711,10 +1487,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie houtwal zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -1804,22 +1576,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -1828,15 +1584,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -1874,10 +1622,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie fysiek voorkomen fruitteelt en boomteelt zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de Boomkwekerij, Fruitkwekerij en Boomgaard zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -1955,35 +1699,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2025,10 +1745,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie fysiek voorkomen struiken en groenvoorziening zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2118,22 +1834,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2142,15 +1842,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2192,10 +1884,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen gras- en kruidachtigen,grasland agrarisch en grasland overig zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2285,22 +1973,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2309,15 +1981,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2359,10 +2023,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object Braakliggend wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2452,22 +2112,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2476,15 +2120,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2526,10 +2162,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie moeras zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2619,22 +2251,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2643,15 +2259,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2693,10 +2301,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie rietland zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2786,22 +2390,6 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2810,15 +2398,7 @@ Geometrische representatie van een object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -2860,10 +2440,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie heide zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -2953,22 +2529,6 @@ Geometrische representatie van het object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -2977,15 +2537,7 @@ Geometrische representatie van het object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -3027,10 +2579,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3120,22 +2668,6 @@ Geometrische representatie van het object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Ja</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Ja</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
@@ -3144,15 +2676,7 @@ Geometrische representatie van het object.</td>
 <td>Authentiek</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -3190,10 +2714,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie fysiek voorkomen haag zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de heg, haag zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3275,35 +2795,11 @@ Geometrische representatie van het object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -3341,10 +2837,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3400,10 +2892,6 @@ Geometrische representatie van het object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -3453,10 +2941,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3508,10 +2992,6 @@ Geometrische representatie van het object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -3561,10 +3041,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3620,10 +3096,6 @@ Geometrische representatie van het object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -3677,10 +3149,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3750,10 +3218,6 @@ Geometrische representatie van het object.</td>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -3819,10 +3283,6 @@ Geometrische representatie van het object.</td>
 <tr>
 <th>Toelichting</th>
 <td>Het betreft hier enkel het aanwezige water bij het voorgeschreven waterpeil. Het bij dit waterpeil droog liggende gedeelte van de oever valt niet binnen de afbakening van dit object.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -3912,35 +3372,11 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -3977,35 +3413,11 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -4039,10 +3451,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4094,10 +3502,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -4147,10 +3551,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4202,10 +3602,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -4255,10 +3651,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4317,10 +3709,6 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie waterloop zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4414,35 +3802,11 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -4479,35 +3843,11 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -4541,10 +3881,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4596,10 +3932,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -4649,10 +3981,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4704,10 +4032,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -4757,10 +4081,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4815,10 +4135,6 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie ondersteunend waterdeel; Type slik en begroeide terreindelen; Type kwelder zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -4904,35 +4220,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -4966,10 +4258,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5020,10 +4308,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5078,10 +4362,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie greppel/droge sloot zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5167,35 +4447,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -5266,10 +4522,6 @@ Tot de verzameling Panden behoren ook (in theorie) verplaatsbare objecten.
 
 Tot de verzameling Panden behoren geen bouwwerken &lt;5 m2 Bruto vloeroppervlakte. Deze worden afgebakend als
 Erfconstructies.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5428,35 +4680,11 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -5489,35 +4717,11 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -5550,35 +4754,11 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -5615,35 +4795,11 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -5672,36 +4828,12 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5733,10 +4865,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5788,10 +4916,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -5841,10 +4965,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -5896,10 +5016,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -5949,10 +5065,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6004,10 +5116,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6057,10 +5165,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6112,10 +5216,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6165,10 +5265,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6220,10 +5316,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6273,10 +5365,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6328,10 +5416,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6381,10 +5465,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6436,10 +5516,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6489,10 +5565,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6544,10 +5616,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6597,10 +5665,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6652,10 +5716,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6705,10 +5765,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6760,10 +5816,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6814,10 +5866,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -6867,10 +5915,6 @@ Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toege
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -6933,10 +5977,6 @@ Een Pand kent altijd een verplicht Panddeel type Basisconstructie (zie bij Pand)
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie van gebouwinstallatie zoals deze is opgenomen in de basisregistratie grootschalige topografie, plus delen van panden die apart worden afgebakend omdat ze een later bouwjaar hebben. </td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7071,35 +6111,11 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -7136,35 +6152,11 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -7209,36 +6201,12 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7274,10 +6242,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7328,10 +6292,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7387,10 +6347,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7441,10 +6397,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7494,10 +6446,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7553,10 +6501,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7606,10 +6550,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7661,10 +6601,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7714,10 +6650,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7769,10 +6701,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7818,10 +6746,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -7873,10 +6797,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7927,10 +6847,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -7980,10 +6896,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8038,10 +6950,6 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8180,35 +7088,11 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8255,35 +7139,11 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8312,36 +7172,12 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8381,10 +7217,6 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier ten opzichte van de bestaande basisregistraties grotendeels een nieuw objecttype.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8523,35 +7355,11 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8588,35 +7396,11 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8657,35 +7441,11 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8714,36 +7474,12 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8782,10 +7518,6 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>Een Gebruikzone kan zich uitstrekken over meerdere bouwlagen, maar kan ook betrekking hebben op alleen een deel van een bouwlaag.
 
 </td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -8924,35 +7656,11 @@ Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -8989,35 +7697,11 @@ Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9054,35 +7738,11 @@ Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9111,36 +7771,12 @@ Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -9176,10 +7812,6 @@ Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier in principe de bestaande populatie verblijfsobjecten zoals deze is opgenomen in de basisregistratie adressen en gebouwen.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -9342,35 +7974,11 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9407,35 +8015,11 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9472,35 +8056,11 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9533,36 +8093,12 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -9586,36 +8122,12 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -9828,10 +8340,6 @@ Winkelfunctie</td>
 <th>Populatie</th>
 <td>Het betreft hier een selectie van de bestaande populatie fysieke voorkomen van wegdelen, ondersteunende wegdelen en onbegroeide terreindelen zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -9928,35 +8436,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -9998,10 +8482,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie Erf zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10087,35 +8567,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -10145,10 +8601,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10200,10 +8652,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -10253,10 +8701,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10308,10 +8752,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -10362,10 +8802,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>ESMO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -10415,10 +8851,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10475,10 +8907,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Naam</th>
 <td>Kunstwerk</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10541,10 +8969,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie overbruggingsdelen; hoort bij Type overbrugging zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10654,35 +9078,11 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -10719,35 +9119,11 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -10788,35 +9164,11 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -10850,10 +9202,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -10905,10 +9253,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -10958,10 +9302,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11013,10 +9353,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -11067,10 +9403,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -11120,10 +9452,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11178,10 +9506,6 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie tunneldelen zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van kunstwerkdelen van Type duiker indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11279,35 +9603,11 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -11344,35 +9644,11 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -11406,10 +9682,6 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11461,10 +9733,6 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -11515,10 +9783,6 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -11568,10 +9832,6 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11626,10 +9886,6 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie kunstwerkdeel zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11744,35 +10000,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -11801,36 +10033,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11862,10 +10070,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -11917,10 +10121,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -11970,10 +10170,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12025,10 +10221,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12078,10 +10270,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12133,10 +10321,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12186,10 +10370,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12242,10 +10422,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12295,10 +10471,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12350,10 +10522,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12403,10 +10571,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12458,10 +10622,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12511,10 +10671,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12566,10 +10722,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12619,10 +10771,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12678,10 +10826,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12731,10 +10875,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12786,10 +10926,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12839,10 +10975,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -12894,10 +11026,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -12947,10 +11075,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie overbruggingsdelen, Type overbruggingsdeel zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13036,35 +11160,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -13098,10 +11198,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13188,36 +11284,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13249,10 +11321,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13339,36 +11407,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13400,10 +11444,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13490,36 +11530,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13551,10 +11567,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13641,36 +11653,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tr>
 <th>Bron</th>
@@ -13708,10 +11696,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13798,36 +11782,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13859,10 +11819,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -13949,36 +11905,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14010,10 +11942,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14100,36 +12028,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14183,10 +12087,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14268,35 +12168,11 @@ Geometrische representatie van een zwembad.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14330,10 +12206,6 @@ Geometrische representatie van een zwembad.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14396,10 +12268,6 @@ Geometrische representatie van een zwembad.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier een subset van de bestaande populatie bak zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14481,35 +12349,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14543,10 +12387,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier deels de bestaande populatie overig bouwwerk type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14628,35 +12468,11 @@ Geometrische representatie van een dok.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14690,10 +12506,6 @@ Geometrische representatie van een dok.</td>
 <tr>
 <th>Toelichting</th>
 <td>Het SOR-begrip geleideconstructie omvat meer dan het gelijknamige BGT/IMGeo objecttype weginrichtingselement; geleideconstructie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -14799,35 +12611,11 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14860,35 +12648,11 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14921,35 +12685,11 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -14983,10 +12723,6 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie installatie en onderdelen van de bestaande populaties paal, kast en overig bouwwerk zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15097,35 +12833,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15154,36 +12866,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15211,10 +12899,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15296,35 +12980,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15354,10 +13014,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15443,35 +13099,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15501,10 +13133,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15590,35 +13218,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15648,10 +13252,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15737,35 +13337,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15795,10 +13371,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -15884,35 +13456,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -15942,10 +13490,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16031,35 +13575,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16089,10 +13609,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16178,35 +13694,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16236,10 +13728,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16325,35 +13813,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16387,10 +13851,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier een samenvoeging van een subset van de bestaande populaties overig bouwwerk, kunstwerkdeel en mast zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16472,35 +13932,11 @@ Geeft aan of een mast al dan niet open is.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16530,10 +13966,6 @@ Geeft aan of een mast al dan niet open is.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16615,35 +14047,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16673,10 +14081,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16758,35 +14162,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -16820,10 +14200,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie scheidingen, type muur en type kademuur, en kunstwerkdeel, type keermuur zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -16958,35 +14334,11 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17019,35 +14371,11 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17080,35 +14408,11 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17137,32 +14441,8 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17194,10 +14474,6 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie scheidingen, Type hek en Type draadraster, faunaraster zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17320,35 +14596,11 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17381,35 +14633,11 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17438,36 +14666,12 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17499,10 +14703,6 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie overig bouwwerk, type opslagtank zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17584,35 +14784,11 @@ Geometrische representatie van een opslagtank</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17646,10 +14822,6 @@ Geometrische representatie van een opslagtank</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier een samenvoeging van een subset van de bestaande populaties palen en borden zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17731,35 +14903,11 @@ Geometrische representatie van de paal</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17789,10 +14937,6 @@ Geometrische representatie van de paal</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>Afgeleid van de definitie van een put in IMGeo 2.2</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -17874,35 +15018,11 @@ Geometrische representatie van een putdeksel.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -17936,10 +15056,6 @@ Geometrische representatie van een putdeksel.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie overig bouwwerk, type bezinkbak en type bassin zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18021,35 +15137,11 @@ Geometrische representatie van een reservoir.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -18083,10 +15175,6 @@ Geometrische representatie van een reservoir.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie scheidingen, Type geluidscherm zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18197,35 +15285,11 @@ Geometrische representatie van een scherm.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -18254,36 +15318,12 @@ Geometrische representatie van een scherm.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18315,10 +15355,6 @@ Geometrische representatie van een scherm.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier een subset van de bestaande populaties bak en straatmeubilair zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18400,35 +15436,11 @@ Geometrische representatie van het straatmeubilair.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -18462,10 +15474,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18517,10 +15525,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -18570,10 +15574,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18625,10 +15625,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -18678,10 +15674,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18733,10 +15725,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -18782,10 +15770,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Definitie</th>
 <td>Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18841,10 +15825,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -18894,10 +15874,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -18949,10 +15925,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -19002,10 +15974,6 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Populatie</th>
 <td>Dit betreft deels een nieuw begrip en is bedoeld voor vereenvoudigen van het bijhoudingsproces. Is onderdeel van NEN3610 Constructies en een uitbreiding op EMSO Overige constructies.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19099,35 +16067,11 @@ Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar i
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -19160,35 +16104,11 @@ Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar i
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -19240,10 +16160,6 @@ Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar i
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19315,36 +16231,12 @@ De netwerken waarvan een netwerkelement lid is.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19376,10 +16268,6 @@ De netwerken waarvan een netwerkelement lid is.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19415,10 +16303,6 @@ De netwerken waarvan een netwerkelement lid is.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19557,35 +16441,11 @@ De verbindingen die de knoop verlaten.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -19630,36 +16490,12 @@ De verbindingen die de knoop verlaten.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19699,36 +16535,12 @@ De verbindingen die de knoop verlaten.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19760,10 +16572,6 @@ De verbindingen die de knoop verlaten.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -19902,35 +16710,11 @@ De eindknoop van de verbinding.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -19971,36 +16755,12 @@ De eindknoop van de verbinding.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20032,36 +16792,12 @@ De eindknoop van de verbinding.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20093,10 +16829,6 @@ De eindknoop van de verbinding.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20164,36 +16896,12 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20225,10 +16933,6 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20300,36 +17004,12 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20365,10 +17045,6 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20466,35 +17142,11 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -20531,35 +17183,11 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -20597,10 +17225,6 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -20710,35 +17334,11 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -20779,35 +17379,11 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -20840,35 +17416,11 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -20902,10 +17454,6 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <tr>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21020,35 +17568,11 @@ De verbinding waarnaar verwezen wordt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -21085,36 +17609,12 @@ De verbinding waarnaar verwezen wordt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21267,10 +17767,6 @@ InTegenovergesteldeRichting</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -21333,10 +17829,6 @@ InTegenovergesteldeRichting</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -21398,10 +17890,6 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21500,36 +17988,12 @@ InTegenovergesteldeRichting</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21553,36 +18017,12 @@ InTegenovergesteldeRichting</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21620,10 +18060,6 @@ InTegenovergesteldeRichting</td>
 <tr>
 <th>Naam</th>
 <td>Wegverkeerruimteverbinding</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21721,35 +18157,11 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -21783,10 +18195,6 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -21905,35 +18313,11 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1..*</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -21974,35 +18358,11 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -22031,36 +18391,12 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22092,10 +18428,6 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22210,35 +18542,11 @@ Nummer toegekend aan een verbindingsbaan</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -22267,36 +18575,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22328,10 +18612,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22418,36 +18698,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22479,10 +18735,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22546,10 +18798,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -22608,10 +18856,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -22661,10 +18905,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22739,36 +18979,12 @@ Nummer toegekend aan een verbindingsbaan</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22800,10 +19016,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22855,10 +19067,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -22908,10 +19116,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -22963,10 +19167,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23017,10 +19217,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23070,10 +19266,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23129,10 +19321,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G1</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23187,10 +19375,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G3</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23240,10 +19424,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23303,10 +19483,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G12a</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23361,10 +19537,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G12 of G13</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23414,10 +19586,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23473,10 +19641,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23531,10 +19695,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23585,10 +19745,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23638,10 +19794,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23697,10 +19849,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G9</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23755,10 +19903,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G7</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23808,10 +19952,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23867,10 +20007,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: G12a</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -23920,10 +20056,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -23975,10 +20107,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24028,10 +20156,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24083,10 +20207,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24136,10 +20256,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24191,10 +20307,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24244,10 +20356,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24299,10 +20407,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24352,10 +20456,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24407,10 +20507,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24460,10 +20556,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24515,10 +20607,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24568,10 +20656,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24623,10 +20707,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24676,10 +20756,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24731,10 +20807,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24784,10 +20856,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24839,10 +20907,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -24892,10 +20956,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -24951,10 +21011,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25008,10 +21064,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25067,10 +21119,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25124,10 +21172,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25183,10 +21227,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25241,10 +21281,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25294,10 +21330,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25349,10 +21381,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25402,10 +21430,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25461,10 +21485,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Toelichting</th>
 <td>RVV-Bordaanduiding: C23-01</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25514,10 +21534,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25569,10 +21585,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25622,10 +21634,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25677,10 +21685,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25731,10 +21735,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25784,10 +21784,6 @@ Nummer toegekend aan een verbindingsbaan</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -25903,10 +21899,6 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -25972,10 +21964,6 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie spoor zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26049,10 +22037,6 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26106,10 +22090,6 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26186,10 +22166,6 @@ Eén rijrichting is op verbinding toegestaan.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier deels de bestaande populaties van de verschillende typeringen zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26287,35 +22263,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -26352,35 +22304,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -26414,10 +22342,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26469,10 +22393,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26522,10 +22442,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26577,10 +22493,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26630,10 +22542,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26685,10 +22593,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26738,10 +22642,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26793,10 +22693,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26846,10 +22742,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -26901,10 +22793,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -26955,10 +22843,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -27008,10 +22892,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populaties van de verschillende type wegzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27097,35 +22977,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -27159,10 +23015,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27214,10 +23066,6 @@ Geometrische representatie van een object.</td>
 <th>Toelichting</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -27267,10 +23115,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27322,10 +23166,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -27375,10 +23215,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populaties van de verschillende type spoorzones zoals deze zijn opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27464,35 +23300,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -27526,10 +23338,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27581,10 +23389,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -27634,10 +23438,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27689,10 +23489,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -27730,10 +23526,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Naam</th>
 <td>Luchtvaartzone</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -27831,35 +23623,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -27896,35 +23664,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -27962,10 +23706,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28017,10 +23757,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -28070,10 +23806,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier deels de bestaande populatie typen recreatie zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28171,35 +23903,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -28236,35 +23944,11 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -28294,10 +23978,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28345,10 +24025,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -28394,10 +24070,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28445,10 +24117,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -28494,10 +24162,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28545,10 +24209,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -28594,10 +24254,6 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28695,35 +24351,11 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -28760,35 +24392,11 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -28822,10 +24430,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Toelichting</th>
 <td>Het betreft hier deels de bestaande populatie begraafplaats zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28877,10 +24481,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <th>Herkomst definitie</th>
 <td>IMBOR 2025</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -28930,10 +24530,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -28985,10 +24581,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -29038,10 +24630,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29093,10 +24681,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -29147,10 +24731,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -29200,10 +24780,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29262,10 +24838,6 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie ondersteunend waterdeel, type oever, slootkant zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29363,35 +24935,11 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -29424,35 +24972,11 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -29486,10 +25010,6 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <tr>
 <th>Herkomst definitie</th>
 <td>Waterwet</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29575,35 +25095,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -29641,10 +25137,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29730,35 +25222,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -29792,10 +25260,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -29851,10 +25315,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -29909,10 +25369,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -29966,10 +25422,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie functioneel gebied type kering zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30055,35 +25507,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -30117,10 +25545,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30206,35 +25630,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -30268,10 +25668,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30357,35 +25753,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -30419,10 +25791,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de functionele vertaling van de bestaande populatie scheiding type geluidscherm zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30508,35 +25876,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -30570,10 +25914,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30625,10 +25965,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -30678,10 +26014,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de functionele vertaling van de bestaande populatie scheiding type muur, hek en raster zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30767,35 +26099,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -30851,10 +26159,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -30981,35 +26285,11 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -31050,36 +26330,12 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31120,36 +26376,12 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31181,10 +26413,6 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31244,10 +26472,6 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <th>Populatie</th>
 <td>Waterschappen waren tot nu toe nog geen verplicht onderdeel van een basisregistratie. Wel bood BGT IMGeo de mogelijkheid tot vrijwillige vastlegging. Door de opname van waterschappen in de objectenregistratie ontstaat een formele vastlegging van waterschappen.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -31297,10 +26521,6 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <tr>
 <th>Populatie</th>
 <td>Veiligheidsregio’s waren tot nu toe nog geen onderdeel van een basisregistratie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31359,10 +26579,6 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de gemeentegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31457,36 +26673,12 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31518,36 +26710,12 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31587,10 +26755,6 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de provinciegrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31673,36 +26837,12 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31738,10 +26878,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de rijksgrenzen zoals opgenomen in de basisregistratie kadaster.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31796,10 +26932,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -31859,10 +26991,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <th>Populatie</th>
 <td>Het betreft hier de territoriale zee zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -31921,10 +27049,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <th>Populatie</th>
 <td>Het betreft hier de aansluitende zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -31982,10 +27106,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de Nederlandse exclusieve economische zone zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32049,10 +27169,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <th>Populatie</th>
 <td>Het betreft hier het Nederlandse continentaal plat zoals nu reeds wordt vastgelegd door de Dienst der Hydrografie. Dit was tot nu toe nog geen onderdeel van een basisregistratie.</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -32102,10 +27218,6 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32192,35 +27304,11 @@ De organisatiecode</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -32257,35 +27345,11 @@ De organisatiecode</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -32323,10 +27387,6 @@ De organisatiecode</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32413,36 +27473,12 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32474,10 +27510,6 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32568,36 +27600,12 @@ Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke reg
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32629,10 +27637,6 @@ Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke reg
 <tr>
 <th>Herkomst definitie</th>
 <td>Informatiemodel Samenhangende Objecten</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32715,36 +27719,12 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32776,10 +27756,6 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32862,36 +27838,12 @@ Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie 
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -32923,10 +27875,6 @@ Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie 
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33009,36 +27957,12 @@ Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33070,10 +27994,6 @@ Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie
 <tr>
 <th>Herkomst definitie</th>
 <td>TOOI</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33204,36 +28124,12 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33265,36 +28161,12 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33326,36 +28198,12 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33387,36 +28235,12 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33448,36 +28272,12 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33535,10 +28335,6 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33681,35 +28477,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -33750,35 +28522,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -33815,35 +28563,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -33876,36 +28600,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -33945,10 +28645,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Wijken zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) wijken vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van wijken in de objectenregistratie ontstaat een formele vastlegging van wijken.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -34087,35 +28783,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34152,35 +28824,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34217,35 +28865,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34278,36 +28902,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -34347,10 +28947,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Buurten zijn op dit moment nog geen onderdeel van een basisregistratie. Wel hebben alle gemeenten (in overleg met het CBS) buurten vastgesteld. Deze zijn landelijk opgenomen in de WBI (wijk- en buurtindeling) die momenteel wordt beheerd door het CBS. Door de opname van buurten in de objectenregistratie ontstaat een formele vastlegging van buurten.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -34489,35 +29085,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34554,35 +29126,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34619,35 +29167,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34676,36 +29200,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -34745,10 +29245,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>De populatie van openbare ruimten, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wijzigt als gevolg van de inperking van het aantal typen objecten waaraan een formele benaming van een openbare ruimte kan worden gekoppeld.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -34891,35 +29387,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -34960,35 +29432,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35025,35 +29473,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35086,36 +29510,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35147,10 +29547,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35202,10 +29598,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -35255,10 +29647,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35317,10 +29705,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie zoals opgenomen in de basisregistratie adressen en gebouwen.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35487,35 +29871,11 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35556,35 +29916,11 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35625,35 +29961,11 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35694,35 +30006,11 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -35751,36 +30039,12 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35808,36 +30072,12 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35873,10 +30113,6 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <tr>
 <th>Herkomst definitie</th>
 <td>Gebaseerd op artikel 1 Wet basisregistratie adressen en gebouwen</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -35979,36 +30215,12 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36052,36 +30264,12 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..*</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36121,10 +30309,6 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <tr>
 <th>Populatie</th>
 <td>De populatie van standplaatsen en ligplaatsen, zoals deze momenteel is opgenomen in de basisregistratie adressen en gebouwen, wordt met de juiste typering opgenomen als benoemde plaats.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36222,35 +30406,11 @@ Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -36291,35 +30451,11 @@ Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -36446,10 +30582,6 @@ Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor
 <tr>
 <th>Populatie</th>
 <td>In de BRT zijn al plaatsen opgenomen. Deze zijn landelijk door het Kadaster bepaald. Plaatsen worden in de vorm van bebouwingskernen ook opgenomen in de objectenregistratie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36588,35 +30720,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -36657,35 +30765,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -36722,35 +30806,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -36779,36 +30839,12 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
 <th>Kardinaliteit relatie bron</th>
 <td>0..*</td>
-</tr>
-<tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36840,10 +30876,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -36895,10 +30927,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -36948,10 +30976,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37003,10 +31027,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -37056,10 +31076,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37111,10 +31127,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -37164,10 +31176,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37226,10 +31234,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie Streek zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37339,35 +31343,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37404,35 +31384,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37469,35 +31425,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37539,10 +31471,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier grotendeels de bestaande populatie geografische gebieden zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37652,35 +31580,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37721,35 +31625,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37786,35 +31666,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -37848,10 +31704,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -37903,10 +31755,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -37956,10 +31804,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38011,10 +31855,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -38064,10 +31904,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38119,10 +31955,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -38172,10 +32004,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38227,10 +32055,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -38281,10 +32105,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -38334,10 +32154,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38396,10 +32212,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Populatie</th>
 <td>Het betreft hier de bestaande populatie reliëf zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38497,35 +32309,11 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -38566,35 +32354,11 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>0..1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -38628,10 +32392,6 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38717,35 +32477,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -38779,10 +32515,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -38868,35 +32600,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -38930,10 +32638,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -39019,35 +32723,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -39085,10 +32765,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -39174,35 +32850,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -39236,10 +32888,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -39325,35 +32973,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -39387,10 +33011,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -39476,35 +33096,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -39538,10 +33134,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
@@ -39627,35 +33219,11 @@ Geometrische representatie van een object.</td>
 <td>Nee</td>
 </tr>
 <tr>
-<th>heeft tijdlijn geldigheid</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie materiële historie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>heeft tijdlijn registratie</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Indicatie formele historie</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Kardinaliteit</th>
 <td>1</td>
 </tr>
 <tr>
-<th>Indicatie afleidbaar</th>
-<td>Nee</td>
-</tr>
-<tr>
 <th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Mogelijk geen waarde</th>
 <td>Nee</td>
 </tr>
 <tbody>
@@ -39715,10 +33283,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -39788,10 +33352,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -39859,10 +33419,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -39932,10 +33488,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40004,10 +33556,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40046,10 +33594,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40115,10 +33659,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40182,10 +33722,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40255,10 +33791,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40326,10 +33858,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40399,10 +33927,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40470,10 +33994,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40543,10 +34063,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40614,10 +34130,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40687,10 +34199,6 @@ Geometrische representatie van een object.</td>
 <th>Datum opname</th>
 <td>20220601</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40754,10 +34262,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Datum opname</th>
 <td>20220601</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Ja</td>
 </tr>
 <tbody>
 </tbody>
@@ -40837,10 +34341,6 @@ Geometrische representatie van een object.</td>
 <th>Herkomst definitie</th>
 <td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
 </tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
-</tr>
 <tbody>
 </tbody>
 </table>
@@ -40879,10 +34379,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Toelichting</th>
 <td>NOTE if a topological representation of the network is used the road node is either a topological connection between two or more links or the termination of a ink. If a geometric representation of the network is used road nodes are represented by points or alternatively another geometric shape. [EuroRoadS]</td>
-</tr>
-<tr>
-<th>Indicatie abstract object</th>
-<td>Nee</td>
 </tr>
 <tbody>
 </tbody>
