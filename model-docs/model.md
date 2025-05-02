@@ -107,6 +107,64 @@
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_reeel_object_attribuutsoort_status">
+<h6>status</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>status</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### FunctioneleRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte}
 
 <table style="width: 100%">
@@ -233,6 +291,120 @@
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte_attribuutsoort_status">
+<h6>status</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>status</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_functionele_ruimte_relatiesoort_hyperverbinding">
+<h6>hyperverbinding</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#hyperverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>hyperverbinding</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### GeografischeRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte}
 
 <table style="width: 100%">
@@ -330,6 +502,64 @@
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_geografische_ruimte_attribuutsoort_status">
+<h6>status</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>status</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Object {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object}
 
 <table style="width: 100%">
@@ -405,6 +635,64 @@
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_object_relatiesoort_heeft">
+<h6>heeft</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#heeft</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeft</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### RegistratieveRuimte {#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte}
@@ -500,51 +788,67 @@
 
 
 
-
-
-### Keuzen tussen datatypen
-
-#### LijnOfVlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__lijn_of_vlak}
-
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_registratieve_ruimte_attribuutsoort_status">
+<h6>status</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#LijnOfVlak</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>LijnOfVlak</td>
+<td>status</td>
 </tr>
 <tr>
-<th>Alias</th>
-<td>Lijn of vlak</td>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
 </tr>
 <tbody>
-</tbody>
-</table>
-
-
-<section class="notoc">
-<h5>Overzicht datatypekeuzen</h5>
-<table style="width: 100%">
-<colgroup style="width: 50%"></colgroup>
-<tbody>
-<tr>
-  <th>Datatype</th>
-</tr>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Curve"> GM_Curve</a>
-</td>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
 </tbody>
 </table>
 </section>
+</section>
+
+
+
+
+### Keuzen tussen datatypen
 
 #### VlakOfMultivlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__vlak_of_multivlak}
 
@@ -629,60 +933,6 @@
 <tr>
 <td>
 <a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-</tbody>
-</table>
-</section>
-
-#### PuntMultipuntLijnVlakOfMultivlak {#informatiemodel_imibro_conceptueel_domein_algemeen_keuze_datatype__punt_multipunt_lijn_vlak_of_multivlak}
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#PuntMultipuntLijnVlakOfMultivlak</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>PuntMultipuntLijnVlakOfMultivlak</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Punt, multipunt, lijn, vlak of multivlak</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-
-<section class="notoc">
-<h5>Overzicht datatypekeuzen</h5>
-<table style="width: 100%">
-<colgroup style="width: 50%"></colgroup>
-<tbody>
-<tr>
-  <th>Datatype</th>
-</tr>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Point"> GM_Point</a>
-</td>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiPoint"> GM_MultiPoint</a>
-</td>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
-</td>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
-</td>
-<tr>
-<td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSurface"> GM_MultiSurface</a>
 </td>
 </tbody>
 </table>
@@ -1097,6 +1347,8 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
+
+
 #### Bos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos}
 
 <table style="width: 100%">
@@ -1184,6 +1436,84 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Boom {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_boom}
@@ -1275,6 +1605,84 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_boom_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D punt</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Houtsingel {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtsingel}
 
 <table style="width: 100%">
@@ -1360,6 +1768,84 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtsingel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D geometrie (lijn of vlak)</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### FruitOfKweekbomen {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen}
 
 <table style="width: 100%">
@@ -1443,6 +1929,68 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Struiken {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken}
@@ -1534,6 +2082,84 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### GrasEnKruidachtigen {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_gras_en_kruidachtigen}
 
 <table style="width: 100%">
@@ -1621,6 +2247,84 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_gras_en_kruidachtigen_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Akkerland {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_akkerland}
@@ -1712,6 +2416,84 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_akkerland_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Moeras {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_moeras}
 
 <table style="width: 100%">
@@ -1799,6 +2581,84 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_moeras_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Rietland {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland}
@@ -1890,6 +2750,84 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Heide {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide}
 
 <table style="width: 100%">
@@ -1977,6 +2915,84 @@ Geometrische representatie van het object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van het object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### OnbegroeideGrond {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_onbegroeide_grond}
@@ -2068,6 +3084,84 @@ Geometrische representatie van het object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_onbegroeide_grond_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van het object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>2,5D vlak</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Ja</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Authentiek</th>
+<td>Authentiek</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Haag {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag}
 
 <table style="width: 100%">
@@ -2141,6 +3235,72 @@ Geometrische representatie van het object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van het object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### GemengdBos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_gemengd_bos}
 
 <table style="width: 100%">
@@ -2193,6 +3353,8 @@ Geometrische representatie van het object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2253,6 +3415,8 @@ Geometrische representatie van het object.</td>
 
 
 
+
+
 #### Loofbos {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_loofbos}
 
 <table style="width: 100%">
@@ -2301,6 +3465,8 @@ Geometrische representatie van het object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2357,6 +3523,8 @@ Geometrische representatie van het object.</td>
 
 
 
+
+
 #### Boomkwekerij {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_boomkwekerij}
 
 <table style="width: 100%">
@@ -2405,6 +3573,8 @@ Geometrische representatie van het object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2465,6 +3635,8 @@ Geometrische representatie van het object.</td>
 
 
 
+
+
 #### HoogstamBoomgaarden {#informatiemodel_imibro_conceptueel_domein_groen_objecttype_hoogstam_boomgaarden}
 
 <table style="width: 100%">
@@ -2517,6 +3689,8 @@ Geometrische representatie van het object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2599,6 +3773,8 @@ Geometrische representatie van het object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2700,6 +3876,133 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte_attribuutsoort_indicatie_primair">
+<h6>indicatiePrimair</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#indicatiePrimair</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatiePrimair</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Meer {#informatiemodel_imibro_conceptueel_domein_water_objecttype_meer}
 
 <table style="width: 100%">
@@ -2748,6 +4051,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2804,6 +4109,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+
+
 #### Ven {#informatiemodel_imibro_conceptueel_domein_water_objecttype_ven}
 
 <table style="width: 100%">
@@ -2852,6 +4159,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -2908,6 +4217,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+
+
 #### Zee {#informatiemodel_imibro_conceptueel_domein_water_objecttype_zee}
 
 <table style="width: 100%">
@@ -2956,6 +4267,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3061,6 +4374,137 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Watergang.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een watergang.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang_attribuutsoort_indicatie_primair">
+<h6>indicatiePrimair</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#indicatiePrimair</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatiePrimair</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Beek {#informatiemodel_imibro_conceptueel_domein_water_objecttype_beek}
 
 <table style="width: 100%">
@@ -3109,6 +4553,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3165,6 +4611,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+
+
 #### Kanaal {#informatiemodel_imibro_conceptueel_domein_water_objecttype_kanaal}
 
 <table style="width: 100%">
@@ -3213,6 +4661,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3269,6 +4719,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 
+
+
 #### Sloot {#informatiemodel_imibro_conceptueel_domein_water_objecttype_sloot}
 
 <table style="width: 100%">
@@ -3317,6 +4769,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3406,6 +4860,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Schor {#informatiemodel_imibro_conceptueel_domein_water_objecttype_schor}
 
 <table style="width: 100%">
@@ -3458,6 +4982,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Slik {#informatiemodel_imibro_conceptueel_domein_water_objecttype_slik}
 
 <table style="width: 100%">
@@ -3506,6 +5032,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3589,6 +5117,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 
@@ -3786,6 +5384,303 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pand.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een gebouw.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_aard">
+<h6>aard</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pand.aard</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>aard</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fysieke verschijningsvorm van een gebouw.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_oorspronkelijk_bouwjaar">
+<h6>oorspronkelijkBouwjaar</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pand.oorspronkelijkBouwjaar</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>oorspronkelijkBouwjaar</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pand.naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_relatiesoort_bestaat_uit">
+<h6>bestaatUit</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestaatUit</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestaatUit</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Bijgebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bijgebouw}
 
 <table style="width: 100%">
@@ -3834,6 +5729,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3890,6 +5787,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Schuur {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_schuur}
 
 <table style="width: 100%">
@@ -3938,6 +5837,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -3994,6 +5895,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Doelgroepengebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_doelgroepengebouw}
 
 <table style="width: 100%">
@@ -4042,6 +5945,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4098,6 +6003,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Kapel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kapel}
 
 <table style="width: 100%">
@@ -4146,6 +6053,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4202,6 +6111,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Klooster {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_klooster}
 
 <table style="width: 100%">
@@ -4250,6 +6161,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4306,6 +6219,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Synagoge {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_synagoge}
 
 <table style="width: 100%">
@@ -4354,6 +6269,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4410,6 +6327,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Installatiegebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_installatiegebouw}
 
 <table style="width: 100%">
@@ -4458,6 +6377,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4514,6 +6435,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Multigebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_multigebouw}
 
 <table style="width: 100%">
@@ -4562,6 +6485,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4618,6 +6543,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Toren {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toren}
 
 <table style="width: 100%">
@@ -4666,6 +6593,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4722,6 +6651,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Bunker {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bunker}
 
 <table style="width: 100%">
@@ -4770,6 +6701,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -4826,6 +6759,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Kasteel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kasteel}
 
 <table style="width: 100%">
@@ -4878,6 +6813,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 
 
 
+
+
 #### Woongebouw {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_woongebouw}
 
 <table style="width: 100%">
@@ -4926,6 +6863,8 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5076,6 +7015,197 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_attribuutsoort_bouwjaar">
+<h6>bouwjaar</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Panddeel.bouwjaar</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bouwjaar</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Het pand waar het panddeel onderdeel van uit maakt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### InternPanddeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_intern_panddeel}
 
 <table style="width: 100%">
@@ -5132,6 +7262,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Basisconstructie {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie}
 
 <table style="width: 100%">
@@ -5180,6 +7312,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5240,6 +7374,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Serre {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_serre}
 
 <table style="width: 100%">
@@ -5292,6 +7428,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### OndergrondsBouwdeel {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_ondergronds_bouwdeel}
 
 <table style="width: 100%">
@@ -5340,6 +7478,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5400,6 +7540,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Afdak {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_afdak}
 
 <table style="width: 100%">
@@ -5448,6 +7590,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5504,6 +7648,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Bordes {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bordes}
 
 <table style="width: 100%">
@@ -5552,6 +7698,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5608,6 +7756,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Kolom {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_kolom}
 
 <table style="width: 100%">
@@ -5652,6 +7802,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5708,6 +7860,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Loopbrug {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_loopbrug}
 
 <table style="width: 100%">
@@ -5760,6 +7914,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 
 
 
+
+
 #### Toegangstrap {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toegangstrap}
 
 <table style="width: 100%">
@@ -5808,6 +7964,8 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -5950,6 +8108,199 @@ Niveau waarop een bouwlaag zich bevindt</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bouwlaag.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een bouwlaag.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_bouwlaagnummer">
+<h6>bouwlaagnummer</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bouwlaag.bouwlaagnummer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bouwlaagnummer</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Niveau waarop een bouwlaag zich bevindt</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Voor de nummering van de bouwlaag geldt:
+
+* Tweede kelder laag = bouwlaagnummer -2
+* Kelder = bouwlaagnummer -1
+* Begane grond = bouwlaagnummer 0
+* Eerste verdieping = bouwlaagnummer 1
+* Tweede verdieping = bouwlaagnummer 2</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bouwlaag.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Functiezone {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone}
 
 <table style="width: 100%">
@@ -6028,7 +8379,7 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -6090,6 +8441,262 @@ Aanduiding van de vergunde functie.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_functie">
+<h6>functie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#functie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>functie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aanduiding van de vergunde functie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_bruto_vloeroppervlakte">
+<h6>brutoVloeroppervlakte</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Functiezone.brutoVloeroppervlakte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>brutoVloeroppervlakte</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bruto vloeroppervlakte (BVO)</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Functiezone.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Gebruikzone {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone}
@@ -6169,7 +8776,7 @@ Aanduiding van de vergunde functie.</td>
 <td>
 </td>
 <td>
-<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSolid"> GM_MultiSolid</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSurface"> GM_MultiSurface</a>
 </td>
 <td>
 1</td>
@@ -6231,6 +8838,226 @@ Aanduiding van de vergunde functie.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruiksoppervlakte">
+<h6>gebruiksoppervlakte</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruik">
+<h6>gebruik</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.gebruik</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>gebruik</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Verblijfsobject {#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject}
@@ -6393,6 +9220,307 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een verblijfsobject.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksdoel">
+<h6>gebruiksdoel</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.gebruiksdoel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>gebruiksdoel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Categorisering van de gebruiksdoelen van een verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_gebruiksoppervlakte">
+<h6>gebruiksoppervlakte</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebruiksoppervlakte van een verblijfsobject.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_relatiesoort_wordt_afgeleid_van">
+<h6>wordtAfgeleidVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#wordtOpgebouwdUit</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>wordtAfgeleidVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>wordt afgeleid van</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_relatiesoort_omvat">
+<h6>omvat</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.omvat</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>omvat</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 
@@ -6668,6 +9796,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_verharding_objecttype_verharding_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### OnbepaaldTerrein {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onbepaald_terrein}
 
 <table style="width: 100%">
@@ -6757,6 +9955,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onbepaald_terrein_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Asfaltverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_asfaltverharding}
 
 <table style="width: 100%">
@@ -6801,6 +10069,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -6857,6 +10127,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Elementenverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_elementenverharding}
 
 <table style="width: 100%">
@@ -6905,6 +10177,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -6961,6 +10235,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Kunststofverharding {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_kunststofverharding}
 
 <table style="width: 100%">
@@ -7013,6 +10289,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Onverhard {#informatiemodel_imibro_conceptueel_domein_verharding_objecttype_onverhard}
 
 <table style="width: 100%">
@@ -7061,6 +10339,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7131,6 +10411,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7240,6 +10522,210 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een overbrugging zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging_attribuutsoort_indicatie_beweegbaar">
+<h6>indicatieBeweegbaar</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#indicatieBeweegbaar</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieBeweegbaar</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>indicatie beweegbaar</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Aquaduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_aquaduct}
 
 <table style="width: 100%">
@@ -7288,6 +10774,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7344,6 +10832,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
+
+
 #### Ecoduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ecoduct}
 
 <table style="width: 100%">
@@ -7392,6 +10882,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7448,6 +10940,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
+
+
 #### Overkluizing {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overkluizing}
 
 <table style="width: 100%">
@@ -7500,6 +10994,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 
+
+
 #### Viaduct {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct}
 
 <table style="width: 100%">
@@ -7548,6 +11044,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7649,6 +11147,141 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Duiker {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_duiker}
 
 <table style="width: 100%">
@@ -7697,6 +11330,8 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7753,6 +11388,8 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
+
+
 #### Sifon {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sifon}
 
 <table style="width: 100%">
@@ -7805,6 +11442,8 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 
 
 
+
+
 #### Tunnel {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_tunnel}
 
 <table style="width: 100%">
@@ -7853,6 +11492,8 @@ Breed geaccepteerde benaming van een ondertunneling zoals deze door de eigenaar 
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -7971,6 +11612,132 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk_relatiesoort_heeft_functie">
+<h6>heeftFunctie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#WaterstaatkundigKunstwerk.heeftFunctie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftFunctie</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Bodemval {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_bodemval}
 
 <table style="width: 100%">
@@ -8019,6 +11786,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8075,6 +11844,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Damwand {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_damwand}
 
 <table style="width: 100%">
@@ -8123,6 +11894,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8179,6 +11952,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Gemaal {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_gemaal}
 
 <table style="width: 100%">
@@ -8227,6 +12002,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8283,6 +12060,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Keermuur {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_keermuur}
 
 <table style="width: 100%">
@@ -8331,6 +12110,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8388,6 +12169,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Ponton {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ponton}
 
 <table style="width: 100%">
@@ -8436,6 +12219,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8492,6 +12277,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Sluis {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis}
 
 <table style="width: 100%">
@@ -8540,6 +12327,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8596,6 +12385,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Stormvloedkering {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stormvloedkering}
 
 <table style="width: 100%">
@@ -8644,6 +12435,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8700,6 +12493,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Stuw {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stuw}
 
 <table style="width: 100%">
@@ -8748,6 +12543,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8808,6 +12605,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Vispassage {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vispassage}
 
 <table style="width: 100%">
@@ -8856,6 +12655,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -8912,6 +12713,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Vuilvang {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vuilvang}
 
 <table style="width: 100%">
@@ -8964,6 +12767,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Walbescherming {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_walbescherming}
 
 <table style="width: 100%">
@@ -9012,6 +12817,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -9097,6 +12904,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Dek {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek}
 
 <table style="width: 100%">
@@ -9176,6 +13053,76 @@ Geometrische representatie van een object.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Landhoofd {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd}
@@ -9259,6 +13206,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Pijler {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler}
 
 <table style="width: 100%">
@@ -9338,6 +13355,76 @@ Geometrische representatie van een object.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Pyloon {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon}
@@ -9421,6 +13508,82 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Bron</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon">Pyloon</a>
+</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Schutkolk {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk}
 
 <table style="width: 100%">
@@ -9500,6 +13663,76 @@ Geometrische representatie van een object.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Sloof {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sloof}
@@ -9583,6 +13816,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sloof_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Sluisdeur {#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluisdeur}
 
 <table style="width: 100%">
@@ -9662,6 +13965,76 @@ Geometrische representatie van een object.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluisdeur_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 
@@ -9767,6 +14140,72 @@ Geometrische representatie van een zwembad.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zwembad_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zwembad.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een zwembad.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Constructie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_constructie}
 
 <table style="width: 100%">
@@ -9827,6 +14266,8 @@ Geometrische representatie van een zwembad.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -9912,6 +14353,72 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalcontainer_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Afvalcontainer.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Dok {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_dok}
 
 <table style="width: 100%">
@@ -9991,6 +14498,72 @@ Geometrische representatie van een dok.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_dok_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Dok.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een dok.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Geleideconstructie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie}
@@ -10096,6 +14669,194 @@ Geometrische representatie van de ligging van de geleideconstructie.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_puntgeometrie">
+<h6>puntgeometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Geleideconstructie.puntgeometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>puntgeometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van de ligging van de geleideconstructie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_lijngeometrie">
+<h6>lijngeometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Geleideconstructie.lijngeometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>lijngeometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van de ligging van de geleideconstructie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie_attribuutsoort_vlakgeometrie">
+<h6>vlakgeometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Geleideconstructie.vlakgeometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>vlakgeometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van de ligging van de geleideconstructie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Installatie {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie}
@@ -10208,6 +14969,128 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Installatie.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie_relatiesoort_hoort_bij">
+<h6>hoortBij</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Installatie.hoortBij</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>hoortBij</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Kast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kast}
 
 <table style="width: 100%">
@@ -10283,6 +15166,72 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kast_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Sirene {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene}
@@ -10362,6 +15311,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Verlichtingsarmatuur {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_verlichtingsarmatuur}
 
 <table style="width: 100%">
@@ -10437,6 +15456,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_verlichtingsarmatuur_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Windturbine {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_windturbine}
@@ -10516,6 +15605,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_windturbine_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Lift {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift}
 
 <table style="width: 100%">
@@ -10591,6 +15750,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Oplaadpunt {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt}
@@ -10670,6 +15899,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Pomp {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp}
 
 <table style="width: 100%">
@@ -10747,6 +16046,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Zonnepanelen {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen}
 
 <table style="width: 100%">
@@ -10822,6 +16191,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Mast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast}
@@ -10905,6 +16344,72 @@ Geeft aan of een mast al dan niet open is.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast_attribuutsoort_indicatie_open">
+<h6>indicatieOpen</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Mast.indicatieOpen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieOpen</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geeft aan of een mast al dan niet open is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Hoogspanningsmast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast}
 
 <table style="width: 100%">
@@ -10982,6 +16487,72 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Installatiemast {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast}
 
 <table style="width: 100%">
@@ -11057,6 +16628,72 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Installatiemast.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Muur {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur}
@@ -11193,6 +16830,246 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_lijngeometrie">
+<h6>lijngeometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Muur.lijngeometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>lijngeometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Lineaire geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_vlakgeometrie">
+<h6>vlakgeometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Muur.vlakgeometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>vlakgeometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Vlakgeometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_attribuutsoort_indicatie_valbescherming">
+<h6>indicatieValbescherming</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Muur.indicatieValbescherming</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieValbescherming</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur_relatiesoort_heeft_functie">
+<h6>heeftFunctie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Muur.heeftFunctie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftFunctie</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Omheining {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining}
 
 <table style="width: 100%">
@@ -11315,6 +17192,189 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Omheining.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een omheining.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_attribuutsoort_indicatie_valbescherming">
+<h6>indicatieValbescherming</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Omheining.indicatieValbescherming</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieValbescherming</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining_relatiesoort_heeft_functie">
+<h6>heeftFunctie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Omheining.heeftFunctie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftFunctie</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Opslagtank {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_opslagtank}
 
 <table style="width: 100%">
@@ -11394,6 +17454,72 @@ Geometrische representatie van een opslagtank</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_opslagtank_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Opslagtank.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een opslagtank</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Paal {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_paal}
@@ -11477,6 +17603,72 @@ Geometrische representatie van de paal</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_paal_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Paal.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van de paal</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Putdeksel {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_putdeksel}
 
 <table style="width: 100%">
@@ -11552,6 +17744,72 @@ Geometrische representatie van een putdeksel.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_putdeksel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Putdeksel.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een putdeksel.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Reservoir {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir}
@@ -11633,6 +17891,72 @@ Geometrische representatie van een reservoir.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Reservoir.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een reservoir.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Scherm {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm}
@@ -11745,6 +18069,128 @@ Geometrische representatie van een scherm.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Scherm.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een scherm.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm_relatiesoort_heeft_functie">
+<h6>heeftFunctie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Scherm.heeftFunctie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftFunctie</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Straatmeubilair {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair}
 
 <table style="width: 100%">
@@ -11826,6 +18272,72 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Straatmeubilair.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van het straatmeubilair.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Abri {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_abri}
 
 <table style="width: 100%">
@@ -11874,6 +18386,8 @@ Geometrische representatie van het straatmeubilair.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -11930,6 +18444,8 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+
+
 #### Bank {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_bank}
 
 <table style="width: 100%">
@@ -11978,6 +18494,8 @@ Geometrische representatie van het straatmeubilair.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -12034,6 +18552,8 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+
+
 #### Fontein {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fontein}
 
 <table style="width: 100%">
@@ -12082,6 +18602,8 @@ Geometrische representatie van het straatmeubilair.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -12138,6 +18660,8 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+
+
 #### Kunstobject {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kunstobject}
 
 <table style="width: 100%">
@@ -12182,6 +18706,8 @@ Geometrische representatie van het straatmeubilair.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -12242,6 +18768,8 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+
+
 #### Picknicktafel {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_picknicktafel}
 
 <table style="width: 100%">
@@ -12294,6 +18822,8 @@ Geometrische representatie van het straatmeubilair.</td>
 
 
 
+
+
 #### Speelvoorziening {#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_speelvoorziening}
 
 <table style="width: 100%">
@@ -12342,6 +18872,8 @@ Geometrische representatie van het straatmeubilair.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -12431,6 +18963,133 @@ Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar i
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Erfconstructie.geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een open bouwwerk.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Erfconstructie.naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een open bouwwerk zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 
 
 
@@ -12515,6 +19174,76 @@ De netwerken waarvan een netwerkelement lid is.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement_relatiesoort_in_netwerk">
+<h6>inNetwerk</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#inNetwerk</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>inNetwerk</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>in netwerk</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De netwerken waarvan een netwerkelement lid is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Netwerk {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerk}
 
 <table style="width: 100%">
@@ -12547,6 +19276,8 @@ De netwerken waarvan een netwerkelement lid is.</td>
 <tbody>
 </tbody>
 </table>
+
+
 
 
 
@@ -12686,6 +19417,217 @@ De verbindingen die de knoop verlaten.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_relatiesoort_inkomende_verbinding">
+<h6>inkomendeVerbinding</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#inkomendeVerbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>inkomendeVerbinding</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>inkomende verbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De verbindingen die de knoop binnenkomen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop_relatiesoort_uitgaande_verbinding">
+<h6>uitgaandeVerbinding</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#uitgaandeVerbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>uitgaandeVerbinding</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>uitgaande verbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De verbindingen die de knoop verlaten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Verbinding {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding}
 
 <table style="width: 100%">
@@ -12820,6 +19762,205 @@ De eindknoop van de verbinding.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">
+<h6>startknoop</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#startknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>startknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De startknoop van de verbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">
+<h6>eindknoop</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#eindknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>eindknoop</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De eindknoop van de verbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Netwerkverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing}
 
 <table style="width: 100%">
@@ -12886,6 +20027,72 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing_relatiesoort_netwerkelement">
+<h6>netwerkelement</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#netwerkelement</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>netwerkelement</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Het netwerkelement waarnaar verwezen wordt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Netwerkeigenschap {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap}
 
 <table style="width: 100%">
@@ -12950,6 +20157,76 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap_relatiesoort_netwerkverwijzing">
+<h6>netwerkverwijzing</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Netwerkeigenschap.netwerkverwijzing</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>netwerkverwijzing</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### SimpelePuntverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing}
@@ -13047,6 +20324,141 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">
+<h6>opPositie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#opPositie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>opPositie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">
+<h6>offset</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#offset</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>offset</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### SimpeleLineaireVerwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing}
@@ -13158,6 +20570,206 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_vanaf_positie">
+<h6>vanafPositie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#vanafPositie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>vanafPositie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De startpositie van de verbinding, uitgedrukt als de afstand vanaf het begin van verbinding langs diens curvegeometrie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_tot_positie">
+<h6>totPositie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#totPositie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>totPositie</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>tot positie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De eindpositie van de verbinding, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing_attribuutsoort_offset">
+<h6>offset</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#offset</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>offset</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Verbindingsverwijzing {#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing}
 
 <table style="width: 100%">
@@ -13266,6 +20878,140 @@ De verbinding waarnaar verwezen wordt.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing_attribuutsoort_betreft_richting">
+<h6>betreftRichting</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#betreftRichting</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>betreftRichting</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De richtingen van de gegeneraliseerde link waarop de verwijzing van toepassing is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>In gevallen waar een eigenschap niet van toepassing is op een richting langs een verbinding, maar een fenomeen langs een verbinding vertegenwoordigt, verwijst &quot;inRichting&quot; naar de rechterkant in de richting van de verbinding.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing_relatiesoort_verbinding">
+<h6>verbinding</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#verbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>verbinding</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De verbinding waarnaar verwezen wordt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 
@@ -13452,6 +21198,8 @@ InTegenovergesteldeRichting</td>
 
 
 
+
+
 #### Transportknoop {#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop}
 
 <table style="width: 100%">
@@ -13512,6 +21260,8 @@ InTegenovergesteldeRichting</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -13622,6 +21372,117 @@ InTegenovergesteldeRichting</td>
 </section>
 
 
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_ligt_op">
+<h6>ligtOp</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Transportruimte.ligtOp</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtOp</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte_relatiesoort_hyperverbinding">
+<h6>hyperverbinding</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Transportruimte.hyperverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>hyperverbinding</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 
 
 
@@ -13718,6 +21579,76 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_rijrichting">
+<h6>rijrichting</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#rijrichting</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>rijrichting</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/strookverbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Wegverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding}
@@ -13842,6 +21773,193 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_routenummer">
+<h6>routenummer</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#routenummer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>routenummer</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_attribuutsoort_indicatie_openbare_weg">
+<h6>indicatieOpenbareWeg</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#indicatieOpenbareWeg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieOpenbareWeg</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Indicatie openbare weg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Deze wegverbinding is al dan niet een openbare weg.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding_relatiesoort_heeft">
+<h6>heeft</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Wegverbinding.heeft</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeft</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Baanverbinding {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding}
 
 <table style="width: 100%">
@@ -13952,6 +22070,132 @@ Nummer toegekend aan een verbindingsbaan</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding_attribuutsoort_afritnummer">
+<h6>afritnummer</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#afritnummer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>afritnummer</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Nummer toegekend aan een verbindingsbaan</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Baanverbinding.isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Wegknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop}
 
 <table style="width: 100%">
@@ -14045,6 +22289,64 @@ Nummer toegekend aan een verbindingsbaan</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_relatiesoort_heeft">
+<h6>heeft</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Wegknoop.heeft</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeft</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Baanknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop}
 
 <table style="width: 100%">
@@ -14105,6 +22407,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14173,6 +22477,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Hectometerpunt {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hectometerpunt}
 
 <table style="width: 100%">
@@ -14217,6 +22523,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14302,6 +22610,64 @@ Nummer toegekend aan een verbindingsbaan</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Strookverbinding.isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Eindknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_eindknoop}
 
 <table style="width: 100%">
@@ -14350,6 +22716,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14406,6 +22774,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Koppelknoop {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_koppelknoop}
 
 <table style="width: 100%">
@@ -14454,6 +22824,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14510,6 +22882,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Rotonde {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotonde}
 
 <table style="width: 100%">
@@ -14562,6 +22936,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Verkeersplein {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeersplein}
 
 <table style="width: 100%">
@@ -14610,6 +22986,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14670,6 +23048,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Autoweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autoweg}
 
 <table style="width: 100%">
@@ -14726,6 +23106,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Erftoegangsweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_erftoegangsweg}
 
 <table style="width: 100%">
@@ -14774,6 +23156,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -14838,6 +23222,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Fietspad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietspad}
 
 <table style="width: 100%">
@@ -14894,6 +23280,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Fietsstraat {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstraat}
 
 <table style="width: 100%">
@@ -14942,6 +23330,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15002,6 +23392,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### GebiedsontsluitingswegOpen {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_open}
 
 <table style="width: 100%">
@@ -15058,6 +23450,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Ruiterpad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpad}
 
 <table style="width: 100%">
@@ -15110,6 +23504,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Voetgangerszone {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangerszone}
 
 <table style="width: 100%">
@@ -15158,6 +23554,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15218,6 +23616,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Voetpad {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad}
 
 <table style="width: 100%">
@@ -15274,6 +23674,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Busbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busbaan}
 
 <table style="width: 100%">
@@ -15322,6 +23724,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15382,6 +23786,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Fietsveer {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsveer}
 
 <table style="width: 100%">
@@ -15430,6 +23836,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15486,6 +23894,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Parallelbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_parallelbaan}
 
 <table style="width: 100%">
@@ -15534,6 +23944,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15590,6 +24002,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Ruiterpadbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpadbaan}
 
 <table style="width: 100%">
@@ -15638,6 +24052,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15694,6 +24110,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Ventweg {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ventweg}
 
 <table style="width: 100%">
@@ -15742,6 +24160,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15798,6 +24218,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Verkeerspleinbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeerspleinbaan}
 
 <table style="width: 100%">
@@ -15846,6 +24268,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -15902,6 +24326,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Voetpadbaan {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpadbaan}
 
 <table style="width: 100%">
@@ -15950,6 +24376,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16006,6 +24434,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Busstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busstrook}
 
 <table style="width: 100%">
@@ -16054,6 +24484,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16110,6 +24542,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Fietssuggestiestrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietssuggestiestrook}
 
 <table style="width: 100%">
@@ -16158,6 +24592,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16214,6 +24650,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Klimstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_klimstrook}
 
 <table style="width: 100%">
@@ -16262,6 +24700,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16318,6 +24758,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Opstelstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook}
 
 <table style="width: 100%">
@@ -16366,6 +24808,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16426,6 +24870,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### OpstelstrookOpgeblazenFietsopstelstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_opgeblazen_fietsopstelstrook}
 
 <table style="width: 100%">
@@ -16478,6 +24924,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16538,6 +24986,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### OpstelstrookRechtdoorOfLinksaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_linksaf}
 
 <table style="width: 100%">
@@ -16590,6 +25040,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16650,6 +25102,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### OpstelstrookRechtsaf {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtsaf}
 
 <table style="width: 100%">
@@ -16706,6 +25160,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Passeerstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_passeerstrook}
 
 <table style="width: 100%">
@@ -16754,6 +25210,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16810,6 +25268,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Rijstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rijstrook}
 
 <table style="width: 100%">
@@ -16858,6 +25318,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -16918,6 +25380,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Uitvoegstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_uitvoegstrook}
 
 <table style="width: 100%">
@@ -16966,6 +25430,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17022,6 +25488,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Voetgangersstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangersstrook}
 
 <table style="width: 100%">
@@ -17070,6 +25538,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17126,6 +25596,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Weefstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_weefstrook}
 
 <table style="width: 100%">
@@ -17178,6 +25650,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 
 
 
+
+
 #### Wisselstrook {#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wisselstrook}
 
 <table style="width: 100%">
@@ -17226,6 +25700,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17358,6 +25834,8 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
+
+
 #### Spoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding}
 
 <table style="width: 100%">
@@ -17432,6 +25910,8 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
+
+
 #### NationaleSpoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_nationale_spoorverbinding}
 
 <table style="width: 100%">
@@ -17488,6 +25968,8 @@ Eén rijrichting is op verbinding toegestaan.</td>
 
 
 
+
+
 #### LokaleSpoorverbinding {#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding}
 
 <table style="width: 100%">
@@ -17540,6 +26022,8 @@ Eén rijrichting is op verbinding toegestaan.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17663,6 +26147,141 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Halteplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_halteplaats}
 
 <table style="width: 100%">
@@ -17711,6 +26330,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17767,6 +26388,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Knooppunt {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_knooppunt}
 
 <table style="width: 100%">
@@ -17815,6 +26438,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17871,6 +26496,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Parkeerplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeerplaats}
 
 <table style="width: 100%">
@@ -17919,6 +26546,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -17975,6 +26604,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Snellaadstation {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_snellaadstation}
 
 <table style="width: 100%">
@@ -18023,6 +26654,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18079,6 +26712,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Tolplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_tolplaats}
 
 <table style="width: 100%">
@@ -18127,6 +26762,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18183,6 +26820,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Woonerf {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_woonerf}
 
 <table style="width: 100%">
@@ -18231,6 +26870,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18316,6 +26957,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Berm {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_berm}
 
 <table style="width: 100%">
@@ -18364,6 +27075,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18420,6 +27133,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Verkeerseiland {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerseiland}
 
 <table style="width: 100%">
@@ -18472,6 +27187,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Wildrooster {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wildrooster}
 
 <table style="width: 100%">
@@ -18520,6 +27237,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18605,6 +27324,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Emplacement {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_emplacement}
 
 <table style="width: 100%">
@@ -18653,6 +27442,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18709,6 +27500,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Perron {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_perron}
 
 <table style="width: 100%">
@@ -18761,6 +27554,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Spoorbaan {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorbaan}
 
 <table style="width: 100%">
@@ -18809,6 +27604,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -18894,6 +27691,141 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### BaanVoorVliegverkeer {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_baan_voor_vliegverkeer}
 
 <table style="width: 100%">
@@ -18950,6 +27882,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Luchthaven {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchthaven}
 
 <table style="width: 100%">
@@ -18998,6 +27932,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19095,6 +28031,141 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van het object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Bungalowpark {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_bungalowpark}
 
 <table style="width: 100%">
@@ -19139,6 +28210,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19191,6 +28264,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Park {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_park}
 
 <table style="width: 100%">
@@ -19235,6 +28310,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19287,6 +28364,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Sportterrein {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sportterrein}
 
 <table style="width: 100%">
@@ -19335,6 +28414,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 
 
 
+
+
 #### Volkstuin {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_volkstuin}
 
 <table style="width: 100%">
@@ -19379,6 +28460,8 @@ Breed geaccepteerde benaming van een zone zoals deze door de eigenaar is toegeke
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19472,6 +28555,141 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Begraafplaats {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_begraafplaats}
 
 <table style="width: 100%">
@@ -19524,6 +28742,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
+
+
 #### Schoolterrein {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_schoolterrein}
 
 <table style="width: 100%">
@@ -19560,6 +28780,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19616,6 +28838,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
+
+
 #### Gemaalcomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gemaalcomplex}
 
 <table style="width: 100%">
@@ -19664,6 +28888,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19720,6 +28946,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
+
+
 #### Sluiscomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sluiscomplex}
 
 <table style="width: 100%">
@@ -19768,6 +28996,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19824,6 +29054,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 
 
 
+
+
 #### Zuiveringscomplex {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zuiveringscomplex}
 
 <table style="width: 100%">
@@ -19872,6 +29104,8 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -19977,6 +29211,137 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone_attribuutsoort_indicatie_natuurvriendelijke_oever">
+<h6>indicatieNatuurvriendelijkeOever</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#indicatieNatuurvriendelijkeOever</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>indicatieNatuurvriendelijkeOever</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlaktewater waarbij de ontwikkeling van natuur, landschap en ecologie expliciet wordt gestimuleerd.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Waterbergingsgebied {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterbergingsgebied}
 
 <table style="width: 100%">
@@ -20056,6 +29421,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterbergingsgebied_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### GebruikszoneOppervlaktewater {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater}
@@ -20143,6 +29578,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Vaarwegzone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_vaarwegzone}
 
 <table style="width: 100%">
@@ -20191,6 +29696,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -20251,6 +29758,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### WatersportZone {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_watersport_zone}
 
 <table style="width: 100%">
@@ -20303,6 +29812,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -20392,6 +29903,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Grondkering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering}
 
 <table style="width: 100%">
@@ -20471,6 +30052,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Waterkering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterkering}
@@ -20554,6 +30205,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterkering_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Reducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering}
 
 <table style="width: 100%">
@@ -20635,6 +30356,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Fijnstofreducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_fijnstofreducering}
 
 <table style="width: 100%">
@@ -20687,6 +30478,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Geluidreducering {#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_geluidreducering}
 
 <table style="width: 100%">
@@ -20735,6 +30528,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -20818,6 +30613,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_afscheiding_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 
@@ -20964,6 +30829,214 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_wordt_bestuurd_door">
+<h6>wordtBestuurdDoor</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#wordtBestuurdDoor</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>wordtBestuurdDoor</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Relatie die aangeeft dat het gebied bestuurt wordt door de bestuurder.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_relatiesoort_ligt_in_bestuurlijk_gebied">
+<h6>ligtInBestuurlijkGebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtInBestuurlijkGebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtInBestuurlijkGebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van het bevatte gebied, zich moet bevinden, en/of mee moet samenvallen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>
+</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### BestuurlijkGebiedOpLand {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_land}
 
 <table style="width: 100%">
@@ -21012,6 +31085,8 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -21076,6 +31151,8 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 
 
 
+
+
 #### Veiligheidsregiogebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregiogebied}
 
 <table style="width: 100%">
@@ -21124,6 +31201,8 @@ De geometrische afbakening van het bevattend gebied, waarbinnen de geometrie van
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -21229,6 +31308,133 @@ De geometrische afbakening van het provinciegebied waarbinnen de geometrie van h
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_veiligheidsregiogebied">
+<h6>ligtInVeiligheidsregiogebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtInVeiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtInVeiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in veiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeentegebied_relatiesoort_ligt_in_provinciegebied">
+<h6>ligtInProvinciegebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtInProvinciegebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtInProvinciegebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in provinciegebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De geometrische afbakening van het provinciegebied waarbinnen de geometrie van het gemeentegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Provinciegebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied}
 
 <table style="width: 100%">
@@ -21318,6 +31524,72 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provinciegebied_relatiesoort_ligt_in_rijksgebied">
+<h6>ligtInRijksgebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtInRijksgebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtInRijksgebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in rijksgebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het provinciegebied zich moet bevinden, en/of mee moet samenvallen.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Rijksgebied {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijksgebied}
 
 <table style="width: 100%">
@@ -21374,6 +31646,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 
+
+
 #### BestuurlijkGebiedOpZee {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_bestuurlijk_gebied_op_zee}
 
 <table style="width: 100%">
@@ -21426,6 +31700,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -21490,6 +31766,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 
+
+
 #### AansluitendeZone {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_aansluitende_zone}
 
 <table style="width: 100%">
@@ -21546,6 +31824,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -21610,6 +31890,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 
+
+
 #### ContinentaalPlat {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_continentaal_plat}
 
 <table style="width: 100%">
@@ -21670,6 +31952,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -21750,6 +32034,145 @@ De organisatiecode</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_officiele_naam_incl_soort">
+<h6>officieleNaamInclSoort</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>https://identifier.overheid.nl/tooi/def/ont/officieleNaamInclSoort</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>officieleNaamInclSoort</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Officiële naam inclusief soort</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De officiële naam van de organisatie met soortaanduiding, bijvoorbeeld &#39;gemeente &#39;s-Gravenhage&#39;.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_overheidsorganisatie_attribuutsoort_organisatiecode">
+<h6>organisatiecode</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>https://identifier.overheid.nl/tooi/def/ont/organisatiecode</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>organisatiecode</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De organisatiecode</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>TOOI</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### OpenbaarLichaam {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam}
@@ -21837,6 +32260,76 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_openbaar_lichaam_relatiesoort_bestuurt_gebied">
+<h6>bestuurtGebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtGebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtGebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Waterschap {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschap}
 
 <table style="width: 100%">
@@ -21916,6 +32409,80 @@ Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke reg
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_waterschap_relatiesoort_bestuurt_waterschapsgebied">
+<h6>bestuurtWaterschapsgebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtWaterschapsgebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtWaterschapsgebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt waterschapsgebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover het waterschap op basis van wet- of regelgeving de politieke regie voert.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Informatiemodel Samenhangende Objecten</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Veiligheidsregio {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio}
@@ -21999,6 +32566,72 @@ Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politie
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_veiligheidsregio_relatiesoort_bestuurt_veiligheidsregiogebied">
+<h6>bestuurtVeiligheidsregiogebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtVeiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtVeiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt veiligheidsregiogebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover de veiligheidsregio  op basis van wet- of regelgeving de politieke regie voert van brandweerzorg, rampenbeheersing, crisisbeheersing, geneeskundige hulpverlening en handhaving van de openbare orde en veiligheid.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Gemeente {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeente}
 
 <table style="width: 100%">
@@ -22080,6 +32713,72 @@ Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie 
 </table>
 </section>
 
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_gemeente_relatiesoort_bestuurt_gemeentegebied">
+<h6>bestuurtGemeentegebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtGemeentegebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtGemeentegebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt gemeentegebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover de gemeente op basis van wet- of regelgeving de politieke regie voert.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Provincie {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provincie}
 
 <table style="width: 100%">
@@ -22159,6 +32858,72 @@ Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_provincie_relatiesoort_bestuurt_provinciegebied">
+<h6>bestuurtProvinciegebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtProvinciegebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtProvinciegebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt provinciegebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover de provincie op basis van wet- of regelgeving de politieke regie voert.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Rijk {#informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk}
@@ -22288,6 +33053,316 @@ Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de terri
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_rijksgebied">
+<h6>bestuurtRijksgebied</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtRijksgebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtRijksgebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt rijksgebied</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op land.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_territoriale_zee">
+<h6>bestuurtTerritorialeZee</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtTerritorialeZee</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtTerritorialeZee</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt territoriale zee</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 12 zeemijlen uit de kust.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_aansluitende_zone">
+<h6>bestuurtAansluitendeZone</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtAansluitendeZone</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtAansluitendeZone</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt aansluitende zone</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 24 zeemijlen vanaf de laagwaterlijn.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_exclusieve_economische_zone">
+<h6>bestuurtExclusieveEconomischeZone</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtExclusieveEconomischeZone</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtExclusieveEconomischeZone</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt exclusieve economische zone</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte waarover het Rijk op basis van wet- of regelgeving de politieke regie voert op zee, tot 200 zeemijlen vanaf de laagwaterlijn.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_bestuurlijke_gebieden_objecttype_rijk_relatiesoort_bestuurt_continentaal_plat">
+<h6>bestuurtContinentaalPlat</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#bestuurtContinentaalPlat</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>bestuurtContinentaalPlat</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>bestuurt continentaal plat</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte van de zeebodem en de ondergrond daarvan, buiten en grenzend aan de territoriale zee, waarover het Rijk op basis van wet- of regelgeving de politieke regie voert.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 
@@ -22450,6 +33525,274 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_formele_naam">
+<h6>formeleNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#formeleNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>formeleNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>formele naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Benaming van een door het gemeentebestuur aangewezen woonplaats.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een woonplaats zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Wijk {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk}
 
 <table style="width: 100%">
@@ -22590,6 +33933,266 @@ Geometrische representatie van een object.</td>
 </tr>
 </tbody>
 </table>
+</section>
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijkcode">
+<h6>wijkcode</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#wijkcode</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>wijkcode</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Codering van een wijk zoals deze door het CBS wordt gebruikt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_wijknaam">
+<h6>wijknaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#wijknaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>wijknaam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### Buurt {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt}
@@ -22734,6 +34337,262 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtcode">
+<h6>buurtcode</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#buurtcode</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>buurtcode</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Codering van een buurt zoals deze door het CBS wordt gebruikt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_buurtnaam">
+<h6>buurtnaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#buurtnaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>buurtnaam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Buurt.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### OpenbareRuimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte}
 
 <table style="width: 100%">
@@ -22876,6 +34735,274 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_formele_naam">
+<h6>formeleNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#formeleNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>formeleNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>formele naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Naam die aan een openbare ruimte is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een openbare ruimte zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een formele benaming in het Nederlands) of in het Nederlands (bij een formele benaming in het Fries).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt in</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Waterverbindingruimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_waterverbindingruimte}
 
 <table style="width: 100%">
@@ -22924,6 +35051,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -22980,6 +35109,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Wegverbindingruimte {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wegverbindingruimte}
 
 <table style="width: 100%">
@@ -23028,6 +35159,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -23198,6 +35331,400 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummer">
+<h6>huisnummer</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#huisnummer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>huisnummer</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een huisnummer is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nummering.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De gemeente voegt een huisnummer toe aan een adresseerbaar object. Een huisnummer is altijd een getal tussen 1 en 99999.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisletter">
+<h6>huisletter</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#huisletter</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>huisletter</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een huisletter is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De gemeente kan een huisletter toevoegen aan een huisnummer. Een huisletter mag een hoofdletter of een kleine letter zijn.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_huisnummertoevoeging">
+<h6>huisnummertoevoeging</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#huisnummertoevoeging</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>huisnummertoevoeging</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een huisnummertoevoeging is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De gemeente kan een huisnummertoevoeging toevoegen aan een huisnummer en een eventuele huisletter. Een huisnummertoevoeging bestaat uit 4 tekens en kan een combinatie zijn van hoofdletters, kleine letters en/of cijfers.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_attribuutsoort_postcode">
+<h6>postcode</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#postcode</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>postcode</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De postcode is een door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De postcode is een door PostNL bepaalde code, die hoort bij een combinatie van een straatnaam en een huisnummer. Een postcode bestaat uit 4 cijfers en 2 letters. </td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Nummeraanduiding.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding_relatiesoort_ligt_aan">
+<h6>ligtAan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#ligtAan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtAan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>ligt aan</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### AdresseerbaarObject {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object}
 
 <table style="width: 100%">
@@ -23293,6 +35820,153 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 </tr>
 </tbody>
 </table>
+</section>
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_hoofdadres">
+<h6>heeftAlsHoofdadres</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#heeftAlsHoofdadres</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftAlsHoofdadres</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>heeft als hoofdadres</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een hoofdadres is het primaire adres van een adresseerbaar object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object_relatiesoort_heeft_als_nevenadres">
+<h6>heeftAlsNevenadres</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#heeftAlsNevenadres</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>heeftAlsNevenadres</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>heeft als nevenadres</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevenadres mag alleen worden toegekend wanneer er meerdere relevante toegangen zijn en een toegang een wezenlijke betekenis heeft bij het aanduiden van het object, zoals een leveranciersingang. Met het nevenadres wordt expliciet niet een bepaald gedeelte van een adresseerbaar object aangeduid.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Catalogus BAG 2018</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Een extra adres. Een nevenadres mag alleen worden gegeven als er meer belangrijke toegangen zijn en een toegang een echte betekenis heeft, zoals een leveranciersingang. Een nevenadres is een eigenschap van het hele adresseerbare object en niet van alleen een deel hiervan. Een nevenadres is dus op dezelfde plek als het hoofdadres. Meestal wordt aan elk adresseerbaar object maar 1 adres gegeven.</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
 </section>
 
 #### BenoemdePlaats {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats}
@@ -23394,6 +36068,141 @@ Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats_attribuutsoort_type_te_plaatsen_object">
+<h6>typeTePlaatsenObject</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#typeTePlaatsenObject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>typeTePlaatsenObject</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>type te plaatsen object</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 
@@ -23623,6 +36432,266 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Plaatselijke naam van een bebouwingskern zoals deze als woonplaats bekend is of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een bebouwingskern zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern_relatiesoort_ligt_in">
+<h6>ligtIn</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bebouwingskern.ligtIn</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>ligtIn</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
 #### Industriekern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_industriekern}
 
 <table style="width: 100%">
@@ -23671,6 +36740,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -23727,6 +36798,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Woonkern {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_woonkern}
 
 <table style="width: 100%">
@@ -23775,6 +36848,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -23831,6 +36906,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Buurtschap {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_buurtschap}
 
 <table style="width: 100%">
@@ -23879,6 +36956,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -23935,6 +37014,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Stadsdeel {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_stadsdeel}
 
 <table style="width: 100%">
@@ -23983,6 +37064,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24100,6 +37183,206 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Plaatselijke naam van een streek zoals deze formeel is vastgesteld of bij het ontbreken daarvan zoals deze in het plaatselijk gebruik bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een streek zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### LandschappelijkGebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied}
 
 <table style="width: 100%">
@@ -24213,6 +37496,210 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Plaatselijke naam van een landschappelijk gebied zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een landschappelijk gebied zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Bosgebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bosgebied}
 
 <table style="width: 100%">
@@ -24261,6 +37748,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24317,6 +37806,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Duingebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_duingebied}
 
 <table style="width: 100%">
@@ -24365,6 +37856,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24421,6 +37914,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Heidegebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_heidegebied}
 
 <table style="width: 100%">
@@ -24469,6 +37964,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24525,6 +38022,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Polder {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_polder}
 
 <table style="width: 100%">
@@ -24573,6 +38072,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24629,6 +38130,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Watergebied {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_watergebied}
 
 <table style="width: 100%">
@@ -24681,6 +38184,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Zandverstuiving {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_zandverstuiving}
 
 <table style="width: 100%">
@@ -24729,6 +38234,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -24834,6 +38341,145 @@ Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_naam">
+<h6>naam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Plaatselijke naam van een reliëfzone zoals deze is vastgesteld of in het plaatselijk gebruik bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone_attribuutsoort_alternatieve_naam">
+<h6>alternatieveNaam</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#alternatieveNaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>alternatieveNaam</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>alternatieve naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alternatieve benaming van een reliëfzone zoals deze breed is geaccepteerd in de volksmond of zoals deze bekend staat in het Fries (bij een benaming in het Nederlands) of in het Nederlands (bij een benaming in het Fries)</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Berg {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg}
 
 <table style="width: 100%">
@@ -24913,6 +38559,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Dal {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal}
@@ -24996,6 +38712,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Grafheuvel {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel}
 
 <table style="width: 100%">
@@ -25075,6 +38861,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### HolleWeg {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_holle_weg}
@@ -25162,6 +39018,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_holle_weg_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Groeve {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve}
 
 <table style="width: 100%">
@@ -25241,6 +39167,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 #### Steilrand {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand}
@@ -25324,6 +39320,76 @@ Geometrische representatie van een object.</td>
 
 
 
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
 #### Terp {#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_terp}
 
 <table style="width: 100%">
@@ -25403,6 +39469,76 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_terp_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn geldigheid</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie materiële historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>heeft tijdlijn registratie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie formele historie</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie afleidbaar</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Mogelijk geen waarde</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
 
 
 
@@ -25493,6 +39629,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### FunctioneleRuimte {#informatiemodel_nen3610_domein_semantisch_model_objecttype_functionele_ruimte}
 
 <table style="width: 100%">
@@ -25559,6 +39697,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -25633,6 +39773,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### RegistratieveRuimte {#informatiemodel_nen3610_domein_semantisch_model_objecttype_registratieve_ruimte}
 
 <table style="width: 100%">
@@ -25703,6 +39845,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### GeoObject {#informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object}
 
 <table style="width: 100%">
@@ -25743,6 +39887,8 @@ Geometrische representatie van een object.</td>
 <tbody>
 </tbody>
 </table>
+
+
 
 
 
@@ -25814,6 +39960,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Wegverkeerruimte {#informatiemodel_nen3610_domein_semantisch_model_objecttype_wegverkeerruimte}
 
 <table style="width: 100%">
@@ -25880,6 +40028,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Verkeerruimte {#informatiemodel_nen3610_domein_semantisch_model_objecttype_verkeerruimte}
 
 <table style="width: 100%">
@@ -25942,6 +40092,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -26016,6 +40168,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### VirtueleRuimte {#informatiemodel_nen3610_domein_semantisch_model_objecttype_virtuele_ruimte}
 
 <table style="width: 100%">
@@ -26082,6 +40236,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -26156,6 +40312,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Kunstwerk {#informatiemodel_nen3610_domein_semantisch_model_objecttype_kunstwerk}
 
 <table style="width: 100%">
@@ -26222,6 +40380,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -26296,6 +40456,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Gebouw {#informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw}
 
 <table style="width: 100%">
@@ -26366,6 +40528,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Oppervlaktewater {#informatiemodel_nen3610_domein_semantisch_model_objecttype_oppervlaktewater}
 
 <table style="width: 100%">
@@ -26432,6 +40596,8 @@ Geometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
+
+
 
 
 
@@ -26509,6 +40675,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 ## Extern INSPIRE - Generic Network Model
 
 <div class="imageinfo">
@@ -26557,6 +40725,8 @@ Geometrische representatie van een object.</td>
 
 
 
+
+
 #### Node {#extern_inspire_generic_network_model}
 
 <table style="width: 100%">
@@ -26593,6 +40763,8 @@ Geometrische representatie van een object.</td>
 <tbody>
 </tbody>
 </table>
+
+
 
 
 
