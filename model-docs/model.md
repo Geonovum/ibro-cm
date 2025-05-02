@@ -116,7 +116,7 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#ReeelObject.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -300,7 +300,7 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#FunctioneleRuimte.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -511,7 +511,7 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#GeografischeRuimte.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -797,7 +797,7 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#RegistratieveRuimte.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -1535,7 +1535,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Een overblijvende plant met verhoute stam en kroon</td>
+<td>Een overblijvende plant met verhoute stam en kroon.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -1547,7 +1547,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier de bestaande populatie boom zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -1702,7 +1702,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken</td>
+<td>Opgaande rijvormige begroeiing van bomen (enkelvoudige/meervoudige stammen) mét ondergroei van struiken.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
@@ -1710,7 +1710,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie houtwal zoals deze is opgenomen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier de bestaande populatie houtwal zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -1865,11 +1865,11 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Begroeiing die het kweken van meerjarige siergewassen en bomen betreft ten behoeve van een later gebruik elders of voor het kweken van fruit</td>
+<td>Begroeiing die het kweken van meerjarige siergewassen en bomen betreft ten behoeve van een later gebruik elders of voor het kweken van fruit.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
-<td>De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen</td>
+<td>De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.</td>
 </tr>
 <tr>
 <th>Populatie</th>
@@ -2012,7 +2012,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten</td>
+<td>Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -2020,11 +2020,11 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
-<td>Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing</td>
+<td>Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen struiken, groenvoorziening en haag zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de heg, haag zoals deze is opgenomen in de basisregistratie topografie</td>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen struiken en groenvoorziening zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -2179,7 +2179,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Begroeiing die een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie betreft</td>
+<td>Begroeiing die een laagblijvende, aaneengesloten gras- en/of kruidachtige vegetatie betreft.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -2191,7 +2191,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen gras- en kruidachtigen,grasland agrarisch en grasland overig zoals deze is opgenomen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen gras- en kruidachtigen,grasland agrarisch en grasland overig zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -2346,7 +2346,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen</td>
+<td>Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -2354,11 +2354,11 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
-<td>Kan tijdelijk zonder gewas zijn of braak liggen</td>
+<td>Kan tijdelijk zonder gewas zijn of braak liggen.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object Braakliggend wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen</td>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object Braakliggend wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -2525,7 +2525,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie moeras zoals deze is opgenomen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier de bestaande populatie moeras zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -2680,7 +2680,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Terrein overwegend begroeid met rietvegetatie</td>
+<td>Terrein overwegend begroeid met rietvegetatie.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -2692,7 +2692,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier de bestaande populatie rietland zoals deze is opgenomen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier de bestaande populatie rietland zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -2847,7 +2847,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Terrein begroeid met heide en heideachtige vegetaties</td>
+<td>Terrein begroeid met heide en heideachtige vegetaties.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -3014,7 +3014,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies</td>
+<td>Oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -3022,11 +3022,11 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <th>Toelichting</th>
-<td>Onbegroeide grond is bewust niet bedekt</td>
+<td>Onbegroeide grond is bewust niet bedekt.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie</td>
+<td>Het betreft hier ten opzichte van de bestaande basisregistraties een nieuw objecttype, grotendeels het bestaande fysieke voorkomen type onverhard van terreinen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -3176,8 +3176,20 @@ Geometrische representatie van het object.</td>
 <td>Haag</td>
 </tr>
 <tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
 <th>Definitie</th>
-<td>TODO IMBOR definitie</td>
+<td>Gesloten lijnvormige beplanting, waarvan de hoogte en breedte door middel van knippen in stand wordt gehouden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen haag zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de heg, haag zoals deze is opgenomen in de basisregistratie topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -3324,7 +3336,7 @@ Geometrische representatie van het object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen</td>
+<td>Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -4304,7 +4316,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tr>
 <tr>
 <th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie waterloop en greppel/droge sloot zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+<td>Het betreft hier grotendeels de bestaande populatie waterloop zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -5064,6 +5076,10 @@ Geometrische representatie van een object.</td>
 <td>IMGEO 1.0</td>
 </tr>
 <tr>
+<th>Populatie</th>
+<td>Het betreft hier grotendeels de bestaande populatie greppel/droge sloot zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
 <th>Indicatie abstract object</th>
 <td>Nee</td>
 </tr>
@@ -5306,7 +5322,7 @@ Erfconstructies.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-Geometrische representatie van een gebouw.</td>
+Geometrische representatie van een object.</td>
 <td>
 <a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Solid"> GM_Solid</a>
 </td>
@@ -5342,7 +5358,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand_attribuutsoort_naam">naam</a>
 </td>
 <td>
-</td>
+Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
@@ -5393,7 +5409,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pand.geometrie</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -5401,7 +5417,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Geometrische representatie van een gebouw.</td>
+<td>Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -5454,7 +5470,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pand.aard</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#aard</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -5515,7 +5531,7 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pand.oorspronkelijkBouwjaar</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#oorspronkelijkBouwjaar</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -5576,11 +5592,23 @@ Aanduiding van het jaar waarin een gebouw oorspronkelijk als bouwkundig gereed i
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pand.naam</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#naam</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>naam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Breed geaccepteerde benaming van een gebouw zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -6973,7 +7001,7 @@ Geometrische representatie van een object.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel_attribuutsoort_bouwjaar">bouwjaar</a>
 </td>
 <td>
-</td>
+Aanduiding van het jaar waarin een Panddeel oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Year</a>
 </td>
@@ -7085,11 +7113,23 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Panddeel.bouwjaar</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#bouwjaar</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>bouwjaar</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aanduiding van het jaar waarin een Panddeel oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -8054,7 +8094,7 @@ Het pand waar het panddeel onderdeel van uit maakt.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-Geometrische representatie van een bouwlaag.</td>
+Geometrische representatie van een object.</td>
 <td>
 <a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
@@ -8117,15 +8157,19 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bouwlaag.geometrie</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>geometrie</td>
 </tr>
 <tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
 <th>Definitie</th>
-<td>Geometrische representatie van een bouwlaag.</td>
+<td>Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -8178,11 +8222,15 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bouwlaag.bouwlaagnummer</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#bouwlaagnummer</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>bouwlaagnummer</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -8389,7 +8437,7 @@ Geometrische representatie van een object.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_functie">functie</a>
 </td>
 <td>
-Aanduiding van de vergunde functie.</td>
+Categorisering van de functie van een Functiezone zoals in de vergunning is opgenomen.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_functie">Functie</a>
 </td>
@@ -8401,7 +8449,7 @@ Aanduiding van de vergunde functie.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone_attribuutsoort_bruto_vloeroppervlakte">brutoVloeroppervlakte</a>
 </td>
 <td>
-</td>
+BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
@@ -8529,11 +8577,11 @@ Aanduiding van de vergunde functie.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Aanduiding van de vergunde functie.</td>
+<td>Categorisering van de functie van een Functiezone zoals in de vergunning is opgenomen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>EMSO</td>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -8582,7 +8630,7 @@ Aanduiding van de vergunde functie.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Functiezone.brutoVloeroppervlakte</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#brutoVloeroppervlakte</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -8597,8 +8645,12 @@ Aanduiding van de vergunde functie.</td>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
 </tr>
 <tr>
+<th>Definitie</th>
+<td>BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
+</tr>
+<tr>
 <th>Herkomst definitie</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>Besluit Bouwwerken Leefomgeving</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -8774,7 +8826,7 @@ Aanduiding van de vergunde functie.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-</td>
+Geometrische representatie van een object.</td>
 <td>
 <a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSurface"> GM_MultiSurface</a>
 </td>
@@ -8786,7 +8838,7 @@ Aanduiding van de vergunde functie.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruiksoppervlakte">gebruiksoppervlakte</a>
 </td>
 <td>
-</td>
+Gebruiksoppervlakte als bedoeld in NEN 2580.</td>
 <td>
 <a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
@@ -8798,7 +8850,7 @@ Aanduiding van de vergunde functie.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone_attribuutsoort_gebruik">gebruik</a>
 </td>
 <td>
-</td>
+Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_geconstateerd_gebruik">GeconstateerdGebruik</a>
 </td>
@@ -8849,11 +8901,23 @@ Aanduiding van de vergunde functie.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.geometrie</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -8902,11 +8966,23 @@ Aanduiding van de vergunde functie.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.gebruiksoppervlakte</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#gebruiksoppervlakte</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebruiksoppervlakte als bedoeld in NEN 2580.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Besluit Bouwwerken Leefomgeving</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -8955,11 +9031,23 @@ Aanduiding van de vergunde functie.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gebruikzone.gebruik</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#gebruik</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>gebruik</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Categorisering van het feitelijk gebruik van een Gebruikzone.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gemeentelijk Gebouwinformatiemodel</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -9144,7 +9232,7 @@ Aanduiding van de vergunde functie.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
-Geometrische representatie van een verblijfsobject.</td>
+Geometrische representatie van een object.</td>
 <td>
 <a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
@@ -9231,15 +9319,19 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.geometrie</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>geometrie</td>
 </tr>
 <tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
 <th>Definitie</th>
-<td>Geometrische representatie van een verblijfsobject.</td>
+<td>Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -9292,11 +9384,15 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.gebruiksdoel</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#gebruiksdoel</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>gebruiksdoel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -9353,11 +9449,15 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.gebruiksoppervlakte</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#gebruiksoppervlakte</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>gebruiksoppervlakte</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -9418,7 +9518,7 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#wordtOpgebouwdUit</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#wordtAfgeleidVan</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -9475,7 +9575,7 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verblijfsobject.omvat</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#omvat</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -18894,6 +18994,14 @@ Geometrische representatie van het straatmeubilair.</td>
 <tr>
 <th>Herkomst</th>
 <td>Gemeentelijk Gebouwinformatiemodel</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een met de aarde verbonden duurzaam bouwwerk (op het achtererf), waarvan de grondoppervlakte op basis van de maaiveld geometrie kleiner is dan 5 m².</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Dit betreft deels een nieuw begrip en is bedoeld voor vereenvoudigen van het bijhoudingsproces. Is onderdeel van NEN3610 Constructies en een uitbreiding op EMSO Overige constructies.</td>
 </tr>
 <tr>
 <th>Indicatie abstract object</th>
@@ -28758,6 +28866,18 @@ Breed geaccepteerde benaming van een complex zoals deze door de eigenaar is toeg
 <td>Schoolterrein</td>
 </tr>
 <tr>
+<th>Herkomst</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een beheervak dat het gebied dat aan een school toebehoort begrenst, bijvoorbeeld niet alleen het schoolgebouw, maar ook het omliggende schoolplein.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
 <th>Indicatie abstract object</th>
 <td>Nee</td>
 </tr>
@@ -36153,6 +36273,10 @@ Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 <tr>
 <th>Alias</th>
 <td>type te plaatsen object</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Definitie</th>
