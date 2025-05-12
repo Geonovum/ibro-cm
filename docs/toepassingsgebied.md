@@ -1,7 +1,7 @@
 # Toepassingsgebied
 
-##  Een prototype van een integrale bronhouderregistratie
-Het informatiemodel is ontwikkeld voor het beschrijven van de gegevens in de integrale bronhouderregistratie (IBRO)
+##  Een prototype van een integrale Bronregistratie Objecten (IBRO)
+Het informatiemodel is ontwikkeld voor het beschrijven van de gegevens in de Integrale Bronregistratie Objecten (IBRO)
 De georegistraties Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en
 Gebouwen (BAG) en Basisregistratie Wet Onroerende Zaken (WOZ) registreren alle drie
 objectgegevens maar vertonen daarin weinig samenhang. Deze registraties zijn op verschillende

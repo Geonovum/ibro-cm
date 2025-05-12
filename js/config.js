@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Conceptueel Informatiemodel Integrale Bronhouderregistratie (IMIBRO)",
+  title: "Conceptueel Informatiemodel Integrale Bronregistratie Objecten (IMIBRO)",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie

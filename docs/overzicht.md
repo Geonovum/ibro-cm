@@ -1,10 +1,10 @@
 # Overzicht
 
 ## Naam en Acroniemen
-IMIBRO - Informatiemodel voor de Integrale Bronhouderregistratie (IBRO)
+IMIBRO - Informatiemodel voor de Integrale Bronregistratie Objecten (IBRO)
 
 ## Definitie
-In de Integrale Bronhouderregistratie (IBRO) worden de gegevens vastgelegd omtrent gesynchroniseerde objecten uit de BAG, BGT en WOZ.
+In de Integrale Bronregistratie Objecten (IBRO) worden de gegevens vastgelegd omtrent gesynchroniseerde objecten uit de BAG, BGT en WOZ.
 Het conceptueel informatiemodel IMIBRO definieert het informatiedomein van de IBRO en vormt de basis voor logische gegevensmodellen in het kader van de IBRO.
 
 ## Beschrijving
