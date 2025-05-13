@@ -84,13 +84,19 @@ let respecConfig = {
   // - Voeg dan pas hieronder toe.
   localBiblio: 
   {
-    MIM12: {
-      id: "MIM12",
-      title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
-      href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
-      status: "Definitief",
+    EMSO: {
+      id: "EMSO",
+      title: "DiS Geo : Eisen aan model samenhangende objectenregistratie",
+      href: "https://docs.geostandaarden.nl/disgeo/emso/",
+      status: "Versie ter vaststelling",
+      date: "2021-06-16",
       publisher: "Geonovum",
-      date: "2024-06-13"
+    },
+    IMBOR: {
+      id: "IMBOR",
+      title: "Informatiemodel Beheer Openbare Ruimte (IMBOR)",
+      href: "https://www.crow.nl/imbor",
+      publisher: "CROW",
     },
     "INSPIRE-D2.10.1": {
       id: "INSPIRE-D2.10.1",
@@ -100,12 +106,13 @@ let respecConfig = {
       publisher: "European Commission",
       date: "2013-04-05"
     },
-    EMSO: {
-      title: "DiS Geo : Eisen aan model samenhangende objectenregistratie",
-      href: "https://docs.geostandaarden.nl/disgeo/emso/",
-      status: "Versie ter vaststelling",
-      date: "2021-06-16",
+    MIM12: {
+      id: "MIM12",
+      title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
+      href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
+      status: "Definitief",
       publisher: "Geonovum",
+      date: "2024-06-13"
     },
     "NEN3610-2022": {
       title: "NEN-3610 Basismodel geo-informatie",
