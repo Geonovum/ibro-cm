@@ -1,10 +1,10 @@
-# Wijzigingen ten opzichte van DiS Geo : Eisen aan model samenhangende objectenregistratie 
+# Wijzigingen ten opzichte van DiS Geo : Eisen aan model samenhangende objectenregistratie
 
 Dit conceptueel informatiemodel is een verdere uitwerking van het informatiemodel dat in 2021 is gepresenteerd in de publicatie "DiS Geo: Eisen aan model samenhangende objectenregistratie" [[EMSO]].
 
 Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[EMSO]]:
 
-## Wijzigingen in Water {#wijzigingen-water}
+## Wijzigingen aan Water {#wijzigingen-water}
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-water-objecttypen}
 
@@ -16,7 +16,7 @@ Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[E
 
 | Objecttype | Reden |
 | ---------- | ------------- |
-| [Greppel](#informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel) | Greppel is als apart objecttype naast [Watergang](#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang) geïntroduceerd. Dit sluit ook aan op [[IMBOR]], [[GWSWS]] en [[BGT]]. |
+| [Greppel](#informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel) | Greppel is als apart objecttype naast [Watergang](#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang) geïntroduceerd. Dit sluit ook aan op [[IMBOR]], [[GWSW]] en [[BGT12]]. |
 
 ### Verwijderde objecttypen {#wijzigingen-water-objecttypen-verwijderd}
 
@@ -24,20 +24,20 @@ Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[E
 | ---------- | ------------- |
 | [Bron](https://docs.geostandaarden.nl/disgeo/emso/#bron) | Verwijderd omdat het objecttype heel beperkt wordt opgenomen in huidige registraties. |
 
-## Wijzigingen in Groen {#wijzigingen-groen}
+## Wijzigingen aan Groen {#wijzigingen-groen}
 
 ### Wijzinging aan bestaande objecttypen {#wijzigingen-groen-objecttypen}
 
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
-| [Houtsingel](https://docs.geostandaarden.nl/disgeo/emso/#houtsingel) | Attribuutsoort `geometrie` krijgt datatype `GM_Surface`. | Dit sluit aan op [[IMBOR]]. |
-| [Struik](https://docs.geostandaarden.nl/disgeo/emso/#struiken) | Attribuutsoort `indicatieHaag` is verwijderd. | Verwijderd vanwege toevoeging objecttype [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag). (Zie [[[#wijzigingen-groen-objecttypen-nieuw]]]) | 
+| [Houtsingel](https://docs.geostandaarden.nl/disgeo/emso/#houtsingel) | Attribuutsoort `geometrie` krijgt datatype `GM_Surface` (vlak). | Dit sluit aan op [[IMBOR]]. |
+| [Struik](https://docs.geostandaarden.nl/disgeo/emso/#struiken) | Attribuutsoort `indicatieHaag` is verwijderd. | Verwijderd vanwege toevoeging objecttype [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag). (Zie [[[#wijzigingen-groen-objecttypen-nieuw]]]) |
 
 ### Nieuwe objecttypen {#wijzigingen-groen-objecttypen-nieuw}
 
 | Objecttype | Reden |
 | ---------- | ------------- |
-| [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag) | Haag is als apart objecttype naast Struiken geïntroduceerd. Dit sluit ook aan op [[IMBOR]] en [[BGT]]. |
+| [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag) | Haag is als apart objecttype naast Struiken geïntroduceerd. Dit sluit ook aan op [[IMBOR]] en [[BGT12]]. |
 
 ### Verwijderde objecttypen {#wijzigingen-groen-objecttypen-verwijderd}
 
@@ -46,7 +46,7 @@ Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[E
 | [Bomenrij](https://docs.geostandaarden.nl/disgeo/emso/#bomenrij) | Verwijderd omdat het objecttype een aanvullende structuur is op Bomen in [[IMBOR]].      |
 | [Tuunwal](https://docs.geostandaarden.nl/disgeo/emso/#tuunwal) | Verwijderd omdat het objecttype heel beperkt wordt opgenomen in huidige registraties. |
 
-## Wijzigingen in Gebouw {#wijzigingen-gebouwen}
+## Wijzigingen aan Gebouw {#wijzigingen-gebouwen}
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-gebouw-objecttypen}
 
@@ -71,7 +71,7 @@ Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[E
 | [Open Bouwwerk](https://docs.geostandaarden.nl/disgeo/emso/#open-bouwwerk) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Gebouwzone](https://docs.geostandaarden.nl/disgeo/emso/#gebouwzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 
-## Wijzigingen in Kunstwerk {#wijzigingen-kunstwerken}
+## Wijzigingen aan Kunstwerk {#wijzigingen-kunstwerken}
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-kunstwerken-objecttypen}
 | Objecttype | Wijziziging | Reden |
@@ -86,6 +86,83 @@ Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[E
 | ---------- | ------------- |
 | [Erfconstructie](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie) | Aansluiting op Gemeentelijk Gebouwinformatiemodel. |
 
-## Wijzigingen in Transportuimten
+## Wijzigingen aan Transportuimten
 
-Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. 
+Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]].
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-transportuimten-objecttypen}
+
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Wegknoop](https://docs.geostandaarden.nl/disgeo/emso/#weg) | Het objecttype `Wegknoop` is een specialisatie geworden van [Transportknoop](#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop). | Dit sluit aan op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. |
+| [Wegknoop](https://docs.geostandaarden.nl/disgeo/emso/#weg) | In de definitie van de domeinwaarde `Verkeersplein`, behorende bij attribuutsoort `Type knoop`, is het gedeelte "uit tenminste 3 richtingen" verwijderd. | Het is niet altijd het geval dat er sprake is van verkeer uit tenminste 3 richtingen, bijvoorbeeld bij een verkeersplein in aanbouw. Net zoals bij de definitie van `Rotonde` is gekozen om dit weg te laten. |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | Het objecttype `Wegverbinding` is een specialisatie geworden van [Transportverbinding](#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding). | Dit sluit aan op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Fietspad`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Fietspadbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Fietspad` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Fietspad` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Ruiterpad`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Ruiterpadbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Ruiterpad` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Ruiterpad` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Veerverbinding`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Veerverbindingbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Veerverbinding` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Veerverbinding` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Voetpad`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Voetpadbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Voetpad` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Voetpad` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
+| [Spoorverbinding](https://docs.geostandaarden.nl/disgeo/emso/#spoorverbinding) | De naam van domeinwaarde `Nationaal Spoor`, behorende bij attribuutsoort `Type spoor`, is gewijzigd naar `Nationale Spoorverbinding`. | Consistentere naamgeving van subtyperingen. |
+| [Spoorverbinding](https://docs.geostandaarden.nl/disgeo/emso/#spoorverbinding) | De naam van domeinwaarde `Lokaal Spoor`, behorende bij attribuutsoort `Type spoor`, is gewijzigd naar `Lokale Spoorverbinding`. | Consistentere naamgeving van subtyperingen. |
+
+### Nieuwe objecttypen {#wijzigingen-transportuimten-objecttypen-nieuw}
+
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Transportknoop](#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop) | Dit objecttype is toegevoegd om transportruimten te verbinden met het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. |
+| [Transportverbinding](#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding) | Dit objecttype is toegevoegd om transportruimten te verbinden met het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. |
+| [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
+| [Strookverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
+| [Baanknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
+| [Strookknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
+
+## Wijzigingen aan Overige constructies {#wijzigingen-overige-constructies}
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-overige-constructies-objecttypen}
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Afvalcontainer](https://docs.geostandaarden.nl/disgeo/emso/#afvalcontainer) | Attribuutsoort `geometrie` krijgt datatype `GM_Point` (punt) | Vlak is hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Kast`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Sirene`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Verlichtingsarmatuur`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Windturbine`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Lift`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Oplaadpunt`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Pomp`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Zonnepanelen`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
+
+### Nieuwe objecttypen {#wijzigingen-overige-constructies-objecttypen-nieuw}
+
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
+| [Installatiemast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
+
+## Wijzigingen in Functionele zoneringen {#wijzigingen-functionele-zoneringen}
+
+Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat er geen duidelijk verschil was met het concept functionele ruimte uit [[NEN3610-2022]].
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-functionele-zoneringen-objecttypen}
+
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Reducering](https://docs.geostandaarden.nl/disgeo/emso/#reducering) | De naam van domeinwaarde `Fijnstof`, behorende bij attribuutsoort `Type reducering`, is gewijzigd naar `Fijnstofreducering`. | Consistentere naamgeving van subtyperingen. |
+| [Reducering](https://docs.geostandaarden.nl/disgeo/emso/#reducering) | De naam van domeinwaarde `Geluid`, behorende bij attribuutsoort `Type reducering`, is gewijzigd naar `Geluidreducering`. | Consistentere naamgeving van subtyperingen. |
+| [Begraafplaats](https://docs.geostandaarden.nl/disgeo/emso/#begraafplaats) | `Begraafplaats` is een subtype van [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) geworden. | Dit sluit aan op [[IMBOR]]. |
+| [Schoolterrein](https://docs.geostandaarden.nl/disgeo/emso/#schoolterrein) | `Schoolterrein` is een subtype van [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) geworden. | Dit sluit aan op [[IMBOR]]. |
+
+
+## Wijzigingen aan Registratieve ruimten {#wijzigingen-registratieve-ruimten}
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-registratieve-ruimten-objecttypen}
+
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Benoemde plaats](https://docs.geostandaarden.nl/disgeo/emso/#benoemde-plaats) | De naam van het attribuutsoort `type`, is gewijzigd naar `type te plaatsen object`. | De domeinwaarden voor deze eigenschap zijn geen typeringen van benoemde plaats, maar typeringen van de te plaatsen objecten op die plaats. |
+
+
+## Wijzigingen aan Geografische ruimten {#wijzigingen-geografische-ruimten}
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-geografische-ruimten-objecttypen}
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Reliëfzone](https://docs.geostandaarden.nl/disgeo/emso/#reliefzone) | Attribuutsoort `geometrie` krijgt datatype `GM_Surface` (vlak) | Zones zijn altijd vlakken. |

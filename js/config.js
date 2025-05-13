@@ -84,6 +84,14 @@ let respecConfig = {
   // - Voeg dan pas hieronder toe.
   localBiblio: 
   {
+    BGT12: {
+      id: "BGT12",
+      title: "Basisregistratie Grootschalige Topografie Gegegevenscatalogus BGT 1.2",
+      href: "https://docs.geostandaarden.nl/imgeo/catalogus/bgt/",
+      status: "Definitief",
+      date: "2020-07-01",
+      publisher: "Geonovum",
+    },
     EMSO: {
       id: "EMSO",
       title: "DiS Geo : Eisen aan model samenhangende objectenregistratie",
@@ -91,6 +99,12 @@ let respecConfig = {
       status: "Versie ter vaststelling",
       date: "2021-06-16",
       publisher: "Geonovum",
+    },
+    GWSW: {
+      id: "GWSW",
+      title: "Gegevenswoordenboek Stedelijk Water",
+      href: "https://data.gwsw.nl/",
+      publisher: "Stichting RIONED"
     },
     IMBOR: {
       id: "IMBOR",
