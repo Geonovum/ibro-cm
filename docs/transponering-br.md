@@ -27,7 +27,7 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
 | `erf` | onbepaald terrein | geen probleem want de populatie is 1 op 1|
-| `strand en strandwal`, `zandverstuiving` | `onbegroeide grond` | Dit is optionele IMGeo inhoud, als een gemeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch. |
+| `strand en strandwal`, `zandverstuiving` | `onbegroeide grond` | Dit is optionele IMGeo inhoud, als een gemeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch. Op te lossen door geografische ruimten te gebruiken met classificatie `Strand` of `Zandverstuiving`.|
 | `kruinlijn`, `opTalud` | vervalt | zelfde opmerking als bij `Wegdeel` |
 
 ## Groen
@@ -61,7 +61,7 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | `schuur` | `erfconstructie` | Optionele IMGeo inhoud. De IMGeo populatie schuren is aanvullend op de schuren die als BAG pand zijn geregistreerd. In  IBRO zijn dit erfconstructies. | 
 | `draadraster` en `faunaraster` | `omheining` | optionele IMGeo inhoud. Als een gemeente deze nu levert aan de BGT en wil blijven leveren is dit een probleem.| 
 
-## Functioneel gbied
+## Functioneel gebied
 
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
@@ -74,5 +74,4 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | -------- | ------- | ------- |
 | meerdere plus classificaties van `Bak`, `Bord`, `Kast`, `Mast`, `Put`, `Straatmeubilair`, `Waterinrichtingselement`, `Paal`| vervallen / worden onder 1 classificatie gevat |  optionele IMGeo inhoud. Als een gemeente deze nu levert aan de BGT en wil blijven leveren is dit een probleem.|
 | meerdere plus classificaties van `Paal` | worden onder 1 classificatie gevat |  optionele IMGeo inhoud. Als een gemeente deze nu levert aan de BGT en wil blijven leveren is dit een probleem.|
-bleem.|
 | `sensor` | vervalt |  optionele IMGeo inhoud. Als een gemeente deze nu levert aan de BGT en wil blijven leveren is dit een probleem.|
