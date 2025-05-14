@@ -4,5 +4,5 @@ In dit repository werkt Geonovum aan het conceptuele informatiemodel IBRO (Integ
 
 De werkversie van het scope document is hier te bekijken: https://geonovum.github.io/ibro-cm
 
-Zie ook het [scope document](https://geonovum.github.io/ibro-scope) voor de IBRO. 
+Zie ook het [scope document](https://docs.geostandaarden.nl/ibro/scope/) voor de IBRO. 
 
