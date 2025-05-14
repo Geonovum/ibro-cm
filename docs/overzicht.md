@@ -47,7 +47,7 @@ Voor het modelleren van netwerken, in het bijzonder transportnetwerken, is IMIBR
 
 Voor de inhoud van het informatiemodel betreffende netwerken in IMIBRO, zie de sectie [[[#domein-netwerk]]].
 
-#### Netwerkstructuur
+##### Netwerkstructuur
 
 Een netwerk bestaat uit een samenhangende verzameling van netwerkelementen, die elk een functie vervullen binnen het netwerk. Binnen transportnetwerken zijn dit doorgaans knopen (keuzepunten) en verbindingen (trajecten tussen knopen). Deze structuur maakt het mogelijk om beweging en routing binnen het netwerk te modelleren.
 
@@ -56,7 +56,7 @@ Een netwerk bestaat uit een samenhangende verzameling van netwerkelementen, die 
 
 Alle netwerkelementen zijn gerelateerd aan het overkoepelende netwerk waarin ze zich bevinden. Dit netwerk representeert de functionele structuur van de reële infrastructuur, zoals wegen of spoorwegen, en is daarmee onlosmakelijk verbonden met de fysieke werkelijkheid.
 
-#### Relaties met objecten en eigenschappen
+##### Relaties met objecten en eigenschappen
 
 Een transportnetwerk beschrijft de functionele inrichting van de reële infrastructuur en is daar onlosmakelijk mee verbonden. Bij de aanleg van nieuwe infrastructuur vormt het functionele ontwerp vaak de basis voor het fysieke ontwerp en de realisatie.
 
@@ -68,7 +68,7 @@ _Knopen en verbindingen bevinden zich binnen de contouren van de bijbehorende re
 
 Eigenschappen en objecten die relevant zijn voor het functioneren van het netwerk, zoals maximumsnelheden, straatnamen of objecten zoals haltes en verkeersborden, worden gekoppeld aan verbindingen binnen het netwerk. Wanneer deze eigenschappen slechts op een deel van de verbinding van toepassing zijn, gebruiken we lineaire netwerkverwijzingen (linear referencing) om de locatie van verandering aan te geven zonder de verbinding zelf op te splitsen.
 
-#### Netwerkverwijzingen
+##### Netwerkverwijzingen
 
 Om eigenschappen of verschijnselen op of langs een verbinding vast te leggen, bijvoorbeeld snelheidslimieten, of het voorkomen van bepaalde verkeersborden, worden netwerkverwijzingen gebruikt. Dit zijn administratieve verwijzingen naar specifieke delen van een verbinding, zonder dat de verbinding zelf hoeft te worden opgesplitst.
 
@@ -83,7 +83,7 @@ Er kunnen verschillende soorten netwerkverwijzingen bestaan. In IMIBRO beperken 
 
 Door gebruik van deze verwijzingen kan het netwerkmodel rijk en gedetailleerd worden ingericht, zonder dat de onderliggende structuur onnodig complex wordt gemaakt. Dit ondersteunt toepassingen als verkeersanalyse, routering, beheer van infrastructuur en beleidsontwikkeling.
 
-#### Transportnetwerken
+##### Transportnetwerken
 
 Transportnetwerken zijn een subtype van netwerken, specifiek gericht op het modelleren van infrastructuur voor transport en mobiliteit. In IMIBRO worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel [[NEN3610-2022]].
 
@@ -97,7 +97,7 @@ In IMIBRO is deze relatie expliciet gemodelleerd, maar bij verdere uitwerking in
 
 ![Netwerk](model-docs/media/transportnetwerk.png "Overzicht transportruimten")
 
-##### Wegennetwerken
+###### Wegennetwerken
 
 Een wegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van wegen. Het betreft de invulling van het [[NEN3610-2022]] type Wegverkeerruimte. Het beschrijft de functionele structuur van weginfrastructuur ten behoeve van verkeer.
 
@@ -126,7 +126,7 @@ Tot slot kunnen hectometerpunten als netwerkeigenschappen aan baanverbindingen w
 
 Zie de sectie [[[#domein-wegennetwerk]]] voor een gedetailleerd overzicht van de verschillende typen verbindingen en knopen binnen een wegennetwerk.
 
-##### Spoorwegennetwerken
+###### Spoorwegennetwerken
 
 Het spoorwegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van spoorwegen. Het betreft de invulling van het [[NEN3610-2022]] type Spoorverkeerruimte.
 
