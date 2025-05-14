@@ -4,6 +4,14 @@ Dit conceptueel informatiemodel is een verdere uitwerking van het informatiemode
 
 Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[EMSO]]:
 
+## Wijziginen aan levensfasen {#wijzigingen-levensfasen}
+
+In [[EMSO]] kennen alle objecttypen de levensfase `Afgevoerd`. Dit in IMIBRO niet meer het geval. De levensfase `Afgevoerd` beschrrijft in [[EMSO]] de fase van een object wat ten onrechte is opgevoerd in de registratie, of waarvan is vastgesteld dat het ontwerp of plan voor het realiseren van het object niet geleid heeft tot feitelijke realisatie van het object.
+
+De bedoeling van de levensfase is om het levenscyclus van een object in de werkelijkheid zo goed mogelijk te beschrijven. Het wel of niet beschreven zijn van een object in een registratie is hier geen onderdeel van. Met die reden is besloten om dat aspect niet meer in de levensfasen in IMIBRO op te nemen. Dit aspect kan wel beschreven worden in een logisch model, waar bepaald wordt hoe de registratiestatus van een object eruitziet.
+
+In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` opgenomen. Dit is een status die kan worden toegekend aan objecten waarvan het ontwerp of plan uiteindelijk niet is gerealiseerd.
+
 ## Wijzigingen aan Water {#wijzigingen-water}
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-water-objecttypen}

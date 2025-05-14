@@ -13,7 +13,33 @@ Het conceptueel informatiemodel IMIBRO definieert het informatiedomein van de IB
 
 In [[EMSO]] is de basis gelegd voor een conceptueel informatiemodel voor integrale objectregistratie. Dit informatiemodel is verder uitgewerkt in het kader van de IBRO.
 
-### Netwerken
+### Semantische kern
+
+De semantische kern van IMIBRO is gebaseerd op [[NEN3610-2022]] en vormt de basis voor het conceptueel informatiemodel. Het model is opgebouwd uit een aantal domeinen, die samen het informatiedomein van de IBRO vormen.
+
+De objecttypen die gedefinieerd zijn in IMIBRO zijn dan ook verdere invulling van de objecttypen die in [[NEN3610-2022]] zijn gedefinieerd.
+
+![Algemeen](model-docs/media/algemeen-overzicht.png "Overzicht semantische kern IMIBRO").
+
+#### Levensfasen
+
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo’n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. [[EMSO]]
+
+De mogelijke levensfasen per objectype zijn hier terug te vindien in het hoofdstuk [[[#enumeraties]]].
+
+<aside class="note">
+In [[EMSO]] kenden alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet meer het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
+</aside>
+
+#### Geometrie
+
+Voor de aspecten van geometrie in IMIBRO is aangesloten op hetgeen in [[EMSO]] is beschreven.
+
+### De informatiedomeinen
+
+IMIBRO is opgebouwd uit een aantal informatiedomeinen. In deze sectie worden verschillende domeinen toegelicht.
+
+#### Netwerken
 
 Voor het modelleren van netwerken, in het bijzonder transportnetwerken, is IMIBRO gemodelleerd als een extensie op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. Ten behoeve van de IBRO is een selectie uit het netwerkmodel overgenomen, vertaald naar het Nederlands, en gemodelleerd conform [[MIM12]].
 
