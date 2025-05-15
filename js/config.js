@@ -92,12 +92,12 @@ let respecConfig = {
   github: "https://github.com/Geonovum/ibro-cm",
   // Create PDF and link to file in header (optional):
   // TODO: Change the filename as preferred.
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "template.pdf",
-      },
-  ],
+  //alternateFormats: [
+  //    {
+  //        label: "pdf",
+  //        uri: "template.pdf",
+  //    },
+  //],
   // Lokale lijst voor bibliografie
   // - Kijk eerst naar de beschikbare www.specref.org .
   // - Kijk daarna in de organisatieconfig.
