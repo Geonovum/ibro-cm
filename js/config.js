@@ -65,6 +65,26 @@ let respecConfig = {
         name: "Linda van den Brink",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
+      },
+      {
+        name: "Dick Krijtenburg",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
+      },
+      {
+        name: "Sandra Leijten",
+        company: "Gemeente Rotterdam",
+        companyURL: "https://www.rotterdam.nl",
+      },
+      {
+        name: "Gerlof de Haan",
+        company: "VNG Realisatie",
+        companyURL: "https://www.vngrealisatie.nl",
+      },
+      {
+        name: "Hans van der Meij",
+        company: "VNG Realisatie",
+        companyURL: "https://www.vngrealisatie.nl",
       }
     ],
   // TODO: Vul de github URL in.
