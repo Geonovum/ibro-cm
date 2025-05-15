@@ -47,7 +47,7 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | BAG/BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
 | `Pand` | `Pand` | 1) Het betreft **grotendeels** dezelfde populatie. Dat deel van de populatie dat niet hetzelfde is, kan mapping problemen opleveren. 2) de geometrie is 3D, hier moet een 2D grondvlak (BGT) of bovenaanzichtgeometrie (BAG) uit afgeleid worden. |
-| `OpenbareRuimte` | `OpenbareRuimte` | De populatie wordt kleiner: alleen namen van wegen en vaarwegen worden nog opgenomen. Als een gemeente nog andere openbare ruimten bijhoudt moeten ze die uitfilteren. | 
+| `OpenbareRuimte` | `OpenbareRuimte` | De populatie wordt kleiner: alleen namen van wegen en water worden nog opgenomen. Bij kunstwerken en andere objecten wordt in IBRO de naam bij het kunstwerk opgenomen. Bij IBRO is bij de openbare ruimte niet opgenomen om wat voor type het gaat, zoals in de BAG. Dit is af te leiden door geometrisch te kijken over wat voor fysiek object de openbare ruimte geometrie heen ligt. | 
 
 
 ## Overige bouwwerken / kunstwerken
