@@ -4,12 +4,12 @@ De gemeente Rotterdam beoogt, met het [programma Mercator](https://www.rotterdam
 
 De huidige registratiesystemen zijn gescheiden ontstaan en kennen weinig samenhang. Dit leidt tot
 inefficiëntie en hoge kosten doordat objectinformatie in meerdere systemen moet worden
-bijgehouden, met soms tegenstrijdige gegevens als gevolg.
+bijgehouden, met soms tegenstrijdige gegevens als gevolg. Dit leidt weer tot de noodzaak van consistentiecontroles en de bijbehorende navolging daarvan.
 
 **Bronregistratie objecten**
 
 Rotterdam wil met de IBRO een prototype ontwikkelen dat aansluit op landelijke initiatieven zoals
-[Common Ground](https://commonground.nl/), het Federatief Datastelsel (FDS) en passend binnen de doelstellingen van Zicht op
+[Common Ground](https://commonground.nl/), het Federatief Datastelsel (FDS) en dat past binnen de doelstellingen van Zicht op
 Nederland (ZoN). Het programma start met een “greenfield”-aanpak, waarbij de nieuwe registratie
 parallel aan de bestaande systemen wordt ontwikkeld. Rotterdam streeft naar een integrale
 registratie die objecten in de fysieke ruimte centraal stelt. Deze nieuwe “Bronregistratie Objecten” is gebaseerd op landelijke standaarden zodat deze in de toekomst ook door andere overheden
@@ -24,7 +24,6 @@ Het informatiemodel voor de IBRO wordt ontwikkeld als onderdeel van een proeftui
 Dit document bevat een beschrijving van het conceptueel informatiemodel.
 Het informatiemodel is gebaseerd op de richtlijnen die door [[MIM12]] worden gesteld.
 De begrippen die in het conceptueel informatiemodel worden genoemd, zijn beschreven in het begrippenmodel
-**VERWIJZING OPNEMEN DIE PUBLIEK TOEGANKELIJK IS !!**
 
 <figure>
     <img src="media/conceptueel_informatiemodel.jpg">
