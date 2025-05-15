@@ -2,7 +2,7 @@
 
 De gemeente Rotterdam beoogt, met het [programma Mercator](https://www.rotterdam.nl/mercator) en de daarbinnen te ontwikkelen Integrale Bronregistratie Objecten (IBRO), een oplossing te bieden voor knelpunten in bestaande objectregistraties waarmee onder meer landelijke basisregistraties Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en Gebouwen (BAG) gevuld worden als ook onderliggend voor de Basisregistratie Wet Onroerende Zaken (WOZ). Het doel is een consistente, actuele en foutloze registratie te realiseren, die waar mogelijk ook 3D-objectinformatie omvat, en beter aansluit op de gebruikspraktijk van burgers en overheden.
 
-De huidige registratiesystemen zijn gescheiden ontstaan en kennen weinig samenhang. Dit leidt tot
+De huidige registratiesystemen zijn gescheiden ontstaan en kennen te weinig samenhang. Dit leidt tot
 inefficiëntie en hoge kosten doordat objectinformatie in meerdere systemen moet worden
 bijgehouden, met soms tegenstrijdige gegevens als gevolg. Dit leidt weer tot de noodzaak van consistentiecontroles en de bijbehorende navolging daarvan.
 
