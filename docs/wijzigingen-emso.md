@@ -40,6 +40,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | ---------- | ---------- | ------------- |
 | [Houtsingel](https://docs.geostandaarden.nl/disgeo/emso/#houtsingel) | Attribuutsoort `geometrie` krijgt datatype `GM_Surface` (vlak). | Dit sluit aan op [[IMBOR]]. |
 | [Struik](https://docs.geostandaarden.nl/disgeo/emso/#struiken) | Attribuutsoort `indicatieHaag` is verwijderd. | Verwijderd vanwege toevoeging objecttype [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag). (Zie [[[#wijzigingen-groen-objecttypen-nieuw]]]) |
+| [Onbegroeide grond](https://docs.geostandaarden.nl/disgeo/emso/#onbegroeide-grond) | Verplaatst naar [[[#domein-bodem]], als subtype van het objecttype Bodem uit [[NEN3610-2022]] | Onbegroeide grond was aangemerkt als type begroeiing, maar is in essentie geen begroeiing. |
 
 ### Nieuwe objecttypen {#wijzigingen-groen-objecttypen-nieuw}
 
