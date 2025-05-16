@@ -39,6 +39,42 @@ Voor de aspecten van geometrie in IMIBRO is aangesloten op hetgeen in [[EMSO]] i
 
 IMIBRO is opgebouwd uit een aantal informatiedomeinen. In deze sectie worden verschillende domeinen toegelicht.
 
+#### Groen
+
+Het domein Groen in IMIBRO beschrijft de groene objecttypen in onze leefomgeving, zoals bossen, bomen en struiken
+
+Binnen dit domein is [[[#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing]]] de hoofdklasse. [[[#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing]]] is een verdere invulling van het objecttype Begroeiing uit [[NEN3610-2022]].
+
+Daarnaast sluit de opdeling van typen binnen het domein groen aan op de indeling van het [[IMBOR]].
+
+![Groen](model-docs/media/groen-overzicht.png "Overzicht groen")
+
+#### Gebouwen
+
+Het domein Gebouwen binnen IBRO vormt een centrale bron voor consistente en betrouwbare gebouwinformatie binnen gemeenten. Het legt de basis voor het kunnen registreren en gebruiken van gegevens over gebouwen in landelijke voorzieningen zoals de BAG, BGT en WOZ, en in gemeentelijke werkprocessen.
+Het model is voorbereid op een toekomst waarin driedimensionale (3D) gebouwinformatie steeds belangrijker wordt en het gebruik van BIM in vergunningverlening eerder regel dan uitzondering is.
+
+Binnen dit domein worden gebouwen op een gedetailleerde manier en op verschillende niveaus beschreven. Zo bestaat een [pand](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand) uit één of meerdere [panddelen](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel), die kunnen verschillen in bouwjaar of constructie. Daarnaast worden functiezones onderscheiden op basis van het vergunde gebruik (zoals wonen, werken of onderwijs) en gebruikzones op basis van het feitelijke gebruik (zoals bijvoorbeeld woning of winkelruimte). Deze scheiding maakt het mogelijk om gebouwen zowel fysiek als functioneel nauwkeurig te beschrijven.
+Op deze wijze wordt de beschrijving van een gebouw in de IBRO opgebouwd uit verschillende gegevens "bouwsteentjes".
+De gebouwgegevens die nodig zijn voor het vullen of genereren van de registratie van gebouwde objecten in de bestaande landelijke registraties BAG, BGT (en deels) WOZ zijn vervolgens af te leiden of te genereren op basis van deze bouwstenen. In sommige gevallen gaat het dan om het gebruik van een enkele bouwsteen. In andere gevallen is voor de afleiding een combinatie van 1 of meerdere van deze bouwstenen nodig.
+
+Het domein Gebouw sluit nauw aan op nationale standaarden zoals [[NEN3610-2022]], [[NEN2580-2007]] (voor oppervlaktebepalingen) en is afgestemd op bredere landelijke ontwikkelingen, zoals [[EMSO]], het Federatief Datastelsel (FDS), en initiatieven rondom de indieningsvereisten voor de inzet van BIM bij de geautomatiseerde ondersteuning van het vergunningverleningproces.
+
+In [[[#fig-gebouw-vanuit-fysiek-perspectief]]] is een voorbeeld van een gebouw vanuit fysiek perspectief weergegeven. In het fysieke perspectief zijn de contouren van het pand en de bijbehorende panddelen weergegeven. Een pand bestaat altijd uit minimaal één panddeel van het type [basisconstructie](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie), maar bestaat meestal ook uit meerdere panddelen. In dit voorbeeld is ook een afdak (carport) als panddeel zichtbaar.
+De schuur in dit voorbeeld is een op zichzelf staand pand.
+
+![Gebouw vanuit fysiek perspectief](media/gebouwen-voorbeeld-1.png "Gebouw vanuit fysiek perspectief")
+
+Een gebouw kan ook vanuit een functioneel perspectief ([[[#fig-gebouw-vanuit-functieperspectief]]]) worden bekeken. In dit perspectief zijn de verschillende [functiezones](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) zichtbaar. Een functiezone is een clustering van aaneengesloten ruimten met dezelfde functie, zoals deze is vastgesteld in het kader van de vergunningverlening. Een functiezone en bevindt zich altijd op één [bouwlaag](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag) van een pand. Een bouwlaag kan meerdere functiezones hebben.
+
+![Gebouw vanuit functieperspectief](media/gebouwen-voorbeeld-2.png "Gebouw vanuit functieperspectief")
+
+Vanuit gebruiksperspectief ([[[#fig-gebouw-vanuit-gebruiksperspectief]]]) wordt een gebouw ingedeeld in [gebruikzones](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone). Dit is een clustering van aaneengesloten ruimten, waarvoor geldt dat deze deel uitmaakt van een zelfstandige eenheid van gebruik en zoals deze zich voordoet in de werkelijkheid (het feitelijke gebruik). Gebruikzones liggen altijd binnen één pand en op 1 of meer bouwlagen. Een pand kan meerdere gebruikzones hebben.
+
+![Gebouw vanuit gebruiksperspectief](media/gebouwen-voorbeeld-3.png "Gebouw vanuit gebruiksperspectief")
+
+Op deze wijze wordt een gebouw, zowel op basis van het fysiek voorkomen, als op basis van de vergunde situatie en op basis van het feitelijk gebruik, beschreven.
+
 #### Netwerken
 
 Voor het modelleren van netwerken, in het bijzonder transportnetwerken, is IMIBRO gemodelleerd als een extensie op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. Ten behoeve van de IBRO is een selectie uit het netwerkmodel overgenomen, vertaald naar het Nederlands, en gemodelleerd conform [[MIM12]].

@@ -148,11 +148,18 @@ let respecConfig = {
       publisher: "Geonovum",
       date: "2024-06-13"
     },
+    "NEN2580-2007": {
+      title: "NEN 2580 Oppervlakten en inhouden van gebouwen - Termen, definities en bepalingsmethoden",
+      href: "https://www.nen.nl/nen-2580-2007-nl-113982",
+      status: "Definitief",
+      date: "1 mei 2007",
+      publisher: "NEN",
+    },
     "NEN3610-2022": {
-      title: "NEN-3610 Basismodel geo-informatie",
+      title: "NEN 3610 Basismodel geo-informatie",
       href: "https://www.nen.nl/nen-3610-2022-nl-296137",
       status: "Definitief",
-      date: "Juni 2022",
+      date: "20 juni 2022",
       publisher: "NEN",
     }
   }
