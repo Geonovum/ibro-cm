@@ -95,6 +95,28 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | ---------- | ------------- |
 | [Erfconstructie](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie) | Aansluiting op Gemeentelijk Gebouwinformatiemodel. |
 
+## Wijzigingen aan Overige constructies {#wijzigingen-overige-constructies}
+
+### Wijziging aan bestaande objecttypen {#wijzigingen-overige-constructies-objecttypen}
+| Objecttype | Wijziziging | Reden |
+| ---------- | ---------- | ------------- |
+| [Afvalcontainer](https://docs.geostandaarden.nl/disgeo/emso/#afvalcontainer) | Attribuutsoort `geometrie` krijgt datatype `GM_Point` (punt) | Vlak is hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Kast`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Sirene`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Verlichtingsarmatuur`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Windturbine`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Lift`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Oplaadpunt`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Pomp`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Zonnepanelen`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
+
+### Nieuwe objecttypen {#wijzigingen-overige-constructies-objecttypen-nieuw}
+
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
+| [Installatiemast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
+
 ## Wijzigingen aan Transportuimten
 
 Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]].
@@ -124,28 +146,6 @@ Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmo
 | [Strookverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
 | [Baanknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
 | [Strookknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
-
-## Wijzigingen aan Overige constructies {#wijzigingen-overige-constructies}
-
-### Wijziging aan bestaande objecttypen {#wijzigingen-overige-constructies-objecttypen}
-| Objecttype | Wijziziging | Reden |
-| ---------- | ---------- | ------------- |
-| [Afvalcontainer](https://docs.geostandaarden.nl/disgeo/emso/#afvalcontainer) | Attribuutsoort `geometrie` krijgt datatype `GM_Point` (punt) | Vlak is hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Kast`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Sirene`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Verlichtingsarmatuur`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Windturbine`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Lift`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Oplaadpunt`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Pomp`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Zonnepanelen`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
-
-### Nieuwe objecttypen {#wijzigingen-overige-constructies-objecttypen-nieuw}
-
-| Objecttype | Reden |
-| ---------- | ------------- |
-| [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
-| [Installatiemast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
 
 ## Wijzigingen in Functionele zoneringen {#wijzigingen-functionele-zoneringen}
 
