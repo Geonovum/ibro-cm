@@ -68,7 +68,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Reden |
 | ---------- | ------------- |
 | [Panddeel](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
-| [Functiezone](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+| [Functiezone](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) en subtyperingen | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Gebruikzone](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 
 ### Verwijderde objecttypen {#wijzigingen-gebouw-objecttypen-verwijderd}
@@ -78,7 +78,6 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | [Gebouwcomponent](https://docs.geostandaarden.nl/disgeo/emso/#gebouwcomponent) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Toegangsdeur](https://docs.geostandaarden.nl/disgeo/emso/#toegangsdeur) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Open Bouwwerk](https://docs.geostandaarden.nl/disgeo/emso/#open-bouwwerk) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
-| [Gebouwzone](https://docs.geostandaarden.nl/disgeo/emso/#gebouwzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 
 ## Wijzigingen aan Kunstwerk {#wijzigingen-kunstwerken}
 
@@ -101,6 +100,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
 | [Afvalcontainer](https://docs.geostandaarden.nl/disgeo/emso/#afvalcontainer) | Attribuutsoort `geometrie` krijgt datatype `GM_Point` (punt) | Vlak is hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Waardetype van relatiesoort `hoortBij` aangepast van `Pand` naar [Constructie](#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_constructie). | De relatie is gegeneraliseerd omdat een installatie bij verschillende soorten constructie kan horen. |
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Kast`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Sirene`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Verlichtingsarmatuur`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
@@ -115,7 +115,6 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Reden |
 | ---------- | ------------- |
 | [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
-| [Installatiemast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatiemast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
 
 ## Wijzigingen aan Transportuimten
 
@@ -132,7 +131,7 @@ Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmo
 | [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Ruiterpad`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Ruiterpadbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Ruiterpad` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Ruiterpad` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
 | [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Veerverbinding`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Veerverbindingbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Veerverbinding` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Veerverbinding` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
 | [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | De naam van domeinwaarde `Voetpad`, behorende bij attribuutsoort `Type baan`, is gewijzigd naar `Voetpadbaan`. | Hiermee wordt onderscheid gemaakt tussen de domeinwaarde `Voetpad` als subtypering van [Wegverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) versus `Voetpad` als subtypering van [Baanverbinding](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding). |
-| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | Domeinwaarde `Tegenovergestelde richting` is toegevoegd aan het waardetype van attribuutsoort `rijrichting`. | Met de aansluiting op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]], is het noodzakelijk om deze toevoeging te maken. Een verbinding kan in één richting gedefinieerd worden, maar kan functioneel een tegenovergestelde rijrichting toegewezen krijgen. |
+| [Wegverbinding](https://docs.geostandaarden.nl/disgeo/emso/#wegverbinding) | Domeinwaarde `Tegenovergesteld eenrichting` is toegevoegd aan het waardetype van attribuutsoort `rijrichting`. | Met de aansluiting op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]], is het noodzakelijk om deze toevoeging te maken. Een verbinding kan in één richting gedefinieerd worden, maar kan functioneel een tegenovergestelde rijrichting toegewezen krijgen. |
 | [Spoorverbinding](https://docs.geostandaarden.nl/disgeo/emso/#spoorverbinding) | De naam van domeinwaarde `Nationaal Spoor`, behorende bij attribuutsoort `Type spoor`, is gewijzigd naar `Nationale Spoorverbinding`. | Consistentere naamgeving van subtyperingen. |
 | [Spoorverbinding](https://docs.geostandaarden.nl/disgeo/emso/#spoorverbinding) | De naam van domeinwaarde `Lokaal Spoor`, behorende bij attribuutsoort `Type spoor`, is gewijzigd naar `Lokale Spoorverbinding`. | Consistentere naamgeving van subtyperingen. |
 
@@ -147,7 +146,15 @@ Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmo
 | [Baanknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
 | [Strookknoop](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop) | Dit objecttype is toegevoegd om de hiërarchische structuur van het wegennetwerk te ondersteunen. |
 
-## Wijzigingen in Functionele zoneringen {#wijzigingen-functionele-zoneringen}
+## Wijzigingen aan Functionele gebouwobjecten {#wijzigingen-functionele-gebouwobjecten}
+
+### Verwijderde objecttypen {#wijzigingen-functionele-gebouwobjecten-objecttypen-verwijderd}
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Gebouwzone](https://docs.geostandaarden.nl/disgeo/emso/#gebouwzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+| [Verblijfsobject](https://docs.geostandaarden.nl/disgeo/emso/#verblijfsobject) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+
+## Wijzigingen aan Functionele zoneringen {#wijzigingen-functionele-zoneringen}
 
 Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat er geen duidelijk verschil was met het concept functionele ruimte uit [[NEN3610-2022]].
 
@@ -168,7 +175,7 @@ Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat e
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
 | [Benoemde plaats](https://docs.geostandaarden.nl/disgeo/emso/#benoemde-plaats) | De naam van het attribuutsoort `type`, is gewijzigd naar `type te plaatsen object`. | De domeinwaarden voor deze eigenschap zijn geen typeringen van benoemde plaats, maar typeringen van de te plaatsen objecten op die plaats. |
-
+| [Openbare ruimte](https://docs.geostandaarden.nl/disgeo/emso/#openbare-ruimte) | Het attribuutsoort `type` en bijbehorende domeinwaarden zijn verwijderd. | Het type object waar een openbare ruimte bij hoort is af te leiden uit administratieve of geografische relaties.  |
 
 ## Wijzigingen aan Geografische ruimten {#wijzigingen-geografische-ruimten}
 
