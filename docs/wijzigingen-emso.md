@@ -4,7 +4,7 @@ Dit conceptueel informatiemodel is een verdere uitwerking van het informatiemode
 
 Het volgende is eeen overzicht van de belangrijkste wijzigingen ten opzichte [[EMSO]]:
 
-## Wijziginen aan levensfasen {#wijzigingen-levensfasen}
+## Wijzigingen aan levensfasen {#wijzigingen-levensfasen}
 
 In [[EMSO]] kennen alle objecttypen de levensfase `Afgevoerd`. Dit in IMIBRO niet meer het geval. De levensfase `Afgevoerd` beschrrijft in [[EMSO]] de fase van een object wat ten onrechte is opgevoerd in de registratie, of waarvan is vastgesteld dat het ontwerp of plan voor het realiseren van het object niet geleid heeft tot feitelijke realisatie van het object.
 
