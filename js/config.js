@@ -104,10 +104,18 @@ let respecConfig = {
   // - Voeg dan pas hieronder toe.
   localBiblio: 
   {
+    "BAG10": {
+      id: "BAG10",
+      title: "Catalogus Basisregistratie Adressen en Gebouwen - 2018",
+      href: "https://www.geobasisregistraties.nl/documenten/publicatie/2018/03/12/catalogus-2018",
+      status: "Definitief",
+      date: "2018-07-01",
+      publisher: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+    },
     BGT12: {
       id: "BGT12",
       title: "Basisregistratie Grootschalige Topografie Gegegevenscatalogus BGT 1.2",
-      href: "https://docs.geostandaarden.nl/imgeo/catalogus/bgt/",
+      href: "https://docs.geostandaarden.nl/imgeo/def-im-BGT-20200701/",
       status: "Definitief",
       date: "2020-07-01",
       publisher: "Geonovum",
@@ -115,7 +123,7 @@ let respecConfig = {
     EMSO: {
       id: "EMSO",
       title: "DiS Geo : Eisen aan model samenhangende objectenregistratie",
-      href: "https://docs.geostandaarden.nl/disgeo/emso/",
+      href: "https://docs.geostandaarden.nl/disgeo/vv-al-emso-20210616/",
       status: "Versie ter vaststelling",
       date: "2021-06-16",
       publisher: "Geonovum",
@@ -131,6 +139,13 @@ let respecConfig = {
       title: "Informatiemodel Beheer Openbare Ruimte (IMBOR)",
       href: "https://www.crow.nl/imbor",
       publisher: "CROW",
+    },
+    "IMSOR-BG" : {
+      id: "IMSOR-BG",
+      title: "Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden",
+      href: "https://docs.geostandaarden.nl/disgeo/basis-im-imsor-20250516/",
+      date: "2025-05-16",
+      publisher: "Geonovum"
     },
     "INSPIRE-D2.10.1": {
       id: "INSPIRE-D2.10.1",
