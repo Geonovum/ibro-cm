@@ -89,7 +89,7 @@
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_reeel_object_attribuutsoort_status">status</a>
 </td>
 <td>
-</td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_reeel_object">StatusReeelObject</a>
 </td>
@@ -112,11 +112,23 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#ReeelObject.status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -221,7 +233,7 @@
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_functionele_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
-</td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_functionele_ruimte">StatusFunctioneleRuimte</a>
 </td>
@@ -244,11 +256,23 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#FunctioneleRuimte.status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -353,7 +377,7 @@
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
-</td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_geografische_ruimte">StatusGeografischeRuimte</a>
 </td>
@@ -376,11 +400,23 @@
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GeografischeRuimte.status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -605,7 +641,7 @@ Netwerkverwijzing die een object heeft.</td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte_attribuutsoort_status">status</a>
 </td>
 <td>
-</td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
 <td>
 <a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_registratieve_ruimte">StatusRegistratieveRuimte</a>
 </td>
@@ -628,11 +664,23 @@ Netwerkverwijzing die een object heeft.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#RegistratieveRuimte.status</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
 </tr>
 <tr>
 <th>Naam</th>
 <td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Identificerend</th>

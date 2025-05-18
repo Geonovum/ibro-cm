@@ -1,4 +1,4 @@
-## IBRO conceputeel model
+## IBRO conceptueel model
 
 In dit repository werkt Geonovum aan het conceptuele informatiemodel IBRO (Integrale Bronhouderregistratie), in het kader van programma Mercator van de gemeente Rotterdam.
 
