@@ -1,1 +1,1 @@
-TODO: vul in abstract.md een abstract in.
+Dit document beschrijft het conceptuele informatiemodel Integrale Bronregistratie Objecten (IMIBRO).
