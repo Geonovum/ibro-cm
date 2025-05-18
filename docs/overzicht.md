@@ -1,4 +1,4 @@
-# Overzicht infromatiemodel IMIBRO
+# Overzicht informatiemodel IMIBRO
 
 ## Naam en Acroniemen
 
@@ -19,13 +19,13 @@ De semantische kern van IMIBRO is gebaseerd op [[NEN3610-2022]] en vormt de basi
 
 De objecttypen die gedefinieerd zijn in IMIBRO zijn dan ook verdere invulling van de objecttypen die in [[NEN3610-2022]] zijn gedefinieerd. Deze objecttypen zijn uitgewerkt conform de principes beschreven in [[EMSO]] en gebruikmakend van [[MIM12]].
 
-![Algemeen](model-docs/media/algemeen-overzicht.png "Overzicht semantische kern IMIBRO").
+![Kern](model-docs/media/kern-overzicht.png "Overzicht semantische kern IMIBRO").
 
 #### Levensfasen
 
 Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo'n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. [[EMSO]]
 
-De mogelijke levensfasen per objectype zijn hier terug te vinden in het hoofdstuk [[[#enumeraties]]].
+De mogelijke levensfasen per objecttype zijn hier terug te vinden in het hoofdstuk [[[#enumeraties]]].
 
 <aside class="note">
 In [[EMSO]] kennen alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet meer het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
@@ -76,6 +76,9 @@ Binnen dit domein worden gebouwen op een gedetailleerde manier en op verschillen
 Op deze wijze wordt de beschrijving van een gebouw in de IBRO opgebouwd uit verschillende gegevens "bouwsteentjes".
 De gebouwgegevens die nodig zijn voor het vullen of genereren van de registratie van gebouwde objecten in de bestaande landelijke registraties BAG, BGT (en deels) WOZ zijn vervolgens af te leiden of te genereren op basis van deze bouwstenen. In sommige gevallen gaat het dan om het gebruik van een enkele bouwsteen. In andere gevallen is voor de afleiding een combinatie van één of meerdere van deze bouwstenen nodig.
 
+![Gebouwen](model-docs/media/gebouwen-overzicht.png "Overzicht gebouwen")
+
+
 Het domein Gebouw sluit nauw aan op nationale standaarden zoals [[NEN3610-2022]], [[NEN2580-2007]] (voor oppervlaktebepalingen) en is afgestemd op bredere landelijke ontwikkelingen, zoals [[EMSO]], het Federatief Datastelsel (FDS), en initiatieven rondom de indieningsvereisten voor de inzet van BIM bij de geautomatiseerde ondersteuning van het vergunningverleningproces.
 
 In [[[#fig-gebouw-vanuit-fysiek-perspectief]]] is een voorbeeld van een gebouw vanuit fysiek perspectief weergegeven. In het fysieke perspectief zijn de contouren van het pand en de bijbehorende panddelen weergegeven. Een pand bestaat altijd uit minimaal één panddeel van het type [basisconstructie](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie), maar bestaat meestal ook uit meerdere panddelen. In dit voorbeeld is ook een afdak (carport) als panddeel zichtbaar.
@@ -83,7 +86,7 @@ De schuur in dit voorbeeld is een op zichzelf staand pand.
 
 ![Gebouw vanuit fysiek perspectief](media/gebouwen-voorbeeld-1.png "Gebouw vanuit fysiek perspectief")
 
-Een gebouw kan ook vanuit een functioneel perspectief ([[[#fig-gebouw-vanuit-functieperspectief]]]) worden bekeken. In dit perspectief zijn de verschillende [functiezones](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) zichtbaar. Een functiezone is een clustering van aaneengesloten ruimten met dezelfde functie, zoals deze is vastgesteld in het kader van de vergunningverlening. Een functiezone en bevindt zich altijd op één [bouwlaag](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag) van een pand. Een bouwlaag kan meerdere functiezones hebben.
+Een gebouw kan ook vanuit een functioneel perspectief ([[[#fig-gebouw-vanuit-functieperspectief]]]) worden bekeken. In dit perspectief zijn de verschillende [functiezones](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) zichtbaar. Een functiezone is een clustering van aaneengesloten ruimten met dezelfde functie, zoals deze is vastgesteld in het kader van de vergunningverlening. Een functiezone bevindt zich altijd op één [bouwlaag](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag) van een pand. Een bouwlaag kan meerdere functiezones hebben.
 
 ![Gebouw vanuit functieperspectief](media/gebouwen-voorbeeld-2.png "Gebouw vanuit functieperspectief")
 
@@ -106,11 +109,15 @@ Verhardingen hebben een samenhang met functionele ruimten, zoals transportruimte
 Het domein Kunstwerken beschrijft de kunstwerken in de fysieke leefomgeving, zoals bruggen, tunnels en sluizen.
 Kunstwerken zijn civiel-technische constructies voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.
 
+![Kunstwerken](model-docs/media/kunstwerken-overzicht.png "Overzicht kunstwerken")
+
 De hoofdtypen kunstwerken die onderscheiden worden zijn [overbrugging](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging), [ondertunneling](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling), [waterstaatkundig kunstwerk](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk) en [Kunstwerkdeel](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel).
 
-#### Domein Overige constructies
+#### Overige constructies
 
 Het domein overige constructies beschrijft constructies die geen gebouw, verharding, of kunstwerk zijn, maar wel een belangrijke rol spelen in de fysieke leefomgeving. Dit kunnen bijvoorbeeld objecten zijn zoals afvalcontainer, putdeksels, lantaarnpalen of andere infrastructuur.
+
+![Overige constructies](model-docs/media/overige_constructies-overzicht.png "Overzicht overige constructies")
 
 #### Netwerken
 
@@ -162,13 +169,13 @@ Transportnetwerken zijn een subtype van netwerken, specifiek gericht op het mode
 
 Iedere transportruimte kan een hyperverbinding hebben met functionele ruimten die een logische samenhang kennen met de transportruimte, zoals parkeerplaatsen of bushaltes. Deze hyperverbindingen zijn geen fysieke verbindingen, maar abstracte verwijzingen tussen de objecten en de transportruimte.
 
-Daarnaast kan een transportruimte ook op reëele objecten liggen, zoals verharde wegen.
+Daarnaast kan een transportruimte ook op reële objecten liggen, zoals verharde wegen.
 
 <aside class="note">
-In IMIBRO is deze relatie expliciet gemodelleerd, maar bij verdere uitwerking in een logisch gegevensmodel kan deze relatie impliciet worden gemaakt en concreet worden ingevuld door een netwerkverwijzing te leggen vanuit het reëele object naar de transportruimte. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
+In IMIBRO is deze relatie expliciet gemodelleerd, maar bij verdere uitwerking in een logisch gegevensmodel kan deze relatie impliciet worden gemaakt en concreet worden ingevuld door een netwerkverwijzing te leggen vanuit het reëel object naar de transportruimte. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
 </aside>
 
-![Netwerk](model-docs/media/transportnetwerk.png "Overzicht transportruimten")
+![Netwerk](model-docs/media/transportnetwerk-overzicht.png "Overzicht transportruimten")
 
 ###### Wegennetwerken
 
@@ -203,7 +210,7 @@ Zie de sectie [[[#domein-wegennetwerk]]] voor een gedetailleerd overzicht van de
 
 Het spoorwegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van spoorwegen. Het betreft de invulling van het [[NEN3610-2022]] type Spoorverkeerruimte.
 
-![Netwerk](model-docs/media/spoorwegennetwerk.png "Overzicht spoorwegennetwerken")
+![Netwerk](model-docs/media/spoorwegennetwerk-overzicht.png "Overzicht spoorwegennetwerken")
 
 Het beschrijft de verkeerskundige inrichting van het spoorvervoer in Nederland. Het model richt zich op de functionele structuur van spoorwegen, met een onderscheid tussen knooppunten en verbindingen.
 
@@ -217,6 +224,8 @@ Zie de sectie [[[#domein-spoorwegennetwerk]]] voor meer details over het domein 
 #### Functionele ruimten
 
 Functionele ruimten zijn ruimten die een functie kennen. In dit domein worden de functionele ruimten beschreven die niet al zijn opgenomen in andere domeinen.
+
+![Functionele ruimten](model-docs/media/functionele_ruimten-overzicht.png "Overzicht functionele ruimten")
 
 #### Bestuurlijke gebieden
 
@@ -232,6 +241,12 @@ In het domein registratieve ruimten worden registratieve ruimten binnen een geme
 Voor het objecttype adresseerbaar object is in het informatiemodel het specifieker type benoemde plaats opgenomen. Dit betekent niet dat alle adresseerbare objecten ook benoemde plaatsen zijn. Naast benoemde plaatsen zijn er ook andere adresseerbare objecten bijvoorbeeld gerelateerd aan de bebouwde omgeving (bijvoorbeeld de verblijfsobjecten uit de BAG [[BAG10]]).
 </aside>
 
+![Registratieve ruimten](model-docs/media/registratieve_ruimten-overzicht.png "Overzicht registratieve ruimten")
+
 #### Geografische ruimten
 
-Onder het domein geografische ruimten vallen ruimten die bekendstaan onder een vanuit historie of gebruik bekende benaming of een fysisch-geografische samenhang kennen [[NEN3610-2022]]. De hoofdtypen zijn [bebouwingskern](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern), [streek](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek), [landschappelijk gebied](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied) en [reliëfzone](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone).
+Onder het domein geografische ruimten vallen ruimten die bekendstaan onder een vanuit historie of gebruik bekende benaming of een fysisch-geografische samenhang kennen [[NEN3610-2022]].
+
+![Geografische ruimten](model-docs/media/geografische_ruimten-overzicht.png "Overzicht geografische ruimten")
+
+De hoofdtypen zijn [bebouwingskern](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern), [streek](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek), [landschappelijk gebied](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied) en [reliëfzone](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone).
