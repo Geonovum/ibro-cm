@@ -57,7 +57,7 @@ Daarnaast sluit de opdeling van typen binnen het domein groen aan op de indeling
 
 Het domein bodem beschrijft het objecttype [onbegroeide grond](#informatiemodel_imibro_conceptueel_domein_bodem_objecttype_onbegroeide_grond). Dit is een oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies. Het is een specialisatie van het objecttype `Bodem` uit [[NEN3610-2022]].
 
-![Bodem](model-docs/media/bodem-overzicht.png "Overzicht groen")
+![Bodem](model-docs/media/bodem-overzicht.png "Overzicht bodem")
 
 #### Water
 
