@@ -5,7 +5,7 @@ Het informatiemodel is ontwikkeld voor het beschrijven van de gegevens in de Int
 
 De georegistraties Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en
 Gebouwen (BAG) en Basisregistratie Wet Onroerende Zaken (WOZ) registreren alle drie
-gegevens over objecten (alhoewel bij de WOZ zeer beperkt), maar vertonen daarin weinig samenhang. Deze registraties zijn op verschillende
+gegevens over objecten (alhoewel bij de WOZ zeer beperkt), maar vertonen daarin te weinig samenhang. Deze registraties zijn op verschillende
 momenten en gescheiden van elkaar ontstaan. Daardoor moeten gemeenten nu via arbeidsintensieve
 processen in drie verschillende ICT-systemen en dure koppelingen daartussen de objectgegevens
 synchroon houden. Gegevens over hetzelfde object wordt dus in drie verschillende registraties met elk hun eigen
@@ -29,7 +29,7 @@ waarde dan de drie huidige basisregistraties bij elkaar opgeteld.
 Rotterdam wil hierin via het programma Mercator een stap verder gaan en een Integrale
 Bronregistratie Objecten (IBRO) ontwikkelen. Dit wordt gedaan door naast de bestaande
 basisregistraties BAG, BGT en WOZ vanuit een greenfield-aanpak een nieuwe bronregistratie op te
-zetten (opgebouwd vanuit gesynchroniseerde objecten uit de BAG, BGT en WOZ1), met nieuwe
+zetten (opgebouwd vanuit basisobjecten waaruit de objecten in BAG, BGT en WOZ kunnen worden gevormd), met nieuwe
 geïntegreerde mutatieprocessen, nieuwe vormen van (3D-) inwinning en met toepassing van nieuwe
 concepten als Common Ground en passend binnen ontwikkelingen als het Federatief Datastelsel en
 Data bij de bron.
