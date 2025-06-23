@@ -119,13 +119,13 @@ Het domein overige constructies beschrijft constructies die geen gebouw, verhard
 
 ![Overige constructies](model-docs/media/overige_constructies-overzicht.png "Overzicht overige constructies")
 
-#### Netwerken
+#### Netwerk
 
 Netwerken, in het bijzonder transportnetwerken, zijn in IMIBRO opgenomen als een extensie op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. Ten behoeve van de IBRO is een selectie uit het netwerkmodel overgenomen, vertaald naar het Nederlands, en gemodelleerd conform [[MIM12]].
 
-![Netwerk](model-docs/media/netwerk.png "Overzicht netwerken")
+![Netwerk](model-docs/media/netwerk.png "Overzicht Netwerk")
 
-Voor de inhoud van het informatiemodel betreffende netwerken in IMIBRO, zie de sectie [[[#domein-netwerk]]].
+Voor de inhoud van het informatiemodel betreffende Netwerk in IMIBRO, zie de sectie [[[#domein-netwerk]]].
 
 ##### Netwerkstructuur
 
@@ -163,9 +163,9 @@ Er kunnen verschillende soorten netwerkverwijzingen bestaan. In IMIBRO beperken 
 
 Door gebruik van deze verwijzingen kan het netwerkmodel rijk en gedetailleerd worden ingericht, zonder dat de onderliggende structuur onnodig complex wordt gemaakt. Dit ondersteunt toepassingen als verkeersanalyse, routering, beheer van infrastructuur en beleidsontwikkeling.
 
-##### Transportnetwerken
+##### Transportnetwerk
 
-Transportnetwerken zijn een subtype van netwerken, specifiek gericht op het modelleren van infrastructuur voor transport en mobiliteit. In IMIBRO worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Netwerken zijn een verdere uitwerking van de virtuele objecten transportruimten in het basismodel [[NEN3610-2022]].
+Het Transportnetwerk is een nadere uitwerking van Netwerk, specifiek gericht op het modelleren van infrastructuur voor transport en mobiliteit. In IMIBRO worden twee transportnetwerken onderscheiden: wegen en spoorwegen. Het netwerk is een verdere uitwerking van het virtuele object Transportruimte in het basismodel [[NEN3610-2022]].
 
 Iedere transportruimte kan een hyperverbinding hebben met functionele ruimten die een logische samenhang kennen met de transportruimte, zoals parkeerplaatsen of bushaltes. Deze hyperverbindingen zijn geen fysieke verbindingen, maar abstracte verwijzingen tussen de objecten en de transportruimte.
 
@@ -177,11 +177,11 @@ In IMIBRO is deze relatie expliciet gemodelleerd, maar bij verdere uitwerking in
 
 ![Netwerk](model-docs/media/transportnetwerk-overzicht.png "Overzicht transportruimten")
 
-###### Wegennetwerken
+###### Wegennetwerk
 
 Een wegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van wegen. Het betreft de invulling van het [[NEN3610-2022]] type Wegverkeerruimte. Het beschrijft de functionele structuur van weginfrastructuur ten behoeve van verkeer.
 
-![Netwerk](model-docs/media/wegennetwerk-overzicht.png "Overzicht wegennetwerken")
+![Wegennetwerk](model-docs/media/wegennetwerk-overzicht.png "Overzicht wegennetwerk")
 
 Het model is hiërarchisch opgebouwd en onderscheidt verschillende niveaus van wegonderdelen, elk bedoeld voor specifieke verkeersstromen en -gebruikers.
 
