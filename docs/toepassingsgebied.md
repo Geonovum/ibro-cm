@@ -1,13 +1,14 @@
 # Toepassingsgebied
 
 ##  Een prototype van een integrale Bronregistratie Objecten (IBRO)
-Het informatiemodel is ontwikkeld voor het beschrijven van de gegevens in de Integrale Bronregistratie Objecten (IBRO)
+Het informatiemodel is ontwikkeld voor het beschrijven van de gegevens in de Integrale Bronregistratie Objecten (IBRO).
+
 De georegistraties Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en
 Gebouwen (BAG) en Basisregistratie Wet Onroerende Zaken (WOZ) registreren alle drie
-objectgegevens maar vertonen daarin weinig samenhang. Deze registraties zijn op verschillende
+gegevens over objecten (alhoewel bij de WOZ zeer beperkt), maar vertonen daarin weinig samenhang. Deze registraties zijn op verschillende
 momenten en gescheiden van elkaar ontstaan. Daardoor moeten gemeenten nu via arbeidsintensieve
 processen in drie verschillende ICT-systemen en dure koppelingen daartussen de objectgegevens
-synchroon houden. Hetzelfde object wordt dus in drie verschillende registraties met elk hun eigen
+synchroon houden. Gegevens over hetzelfde object wordt dus in drie verschillende registraties met elk hun eigen
 inhoud opgenomen wat ervoor zorgt dat objectinformatie versnipperd wordt opgeslagen. Dat is
 kostbaar, inefficiënt en op onderdelen is harmonisatie vanwege tegenstrijdige wetgeving zelfs
 onmogelijk. Dit  leidt dit tot knelpunten in beheer, gebruik en de informatievoorziening van geoinformatie.
