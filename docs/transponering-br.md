@@ -1,6 +1,6 @@
 # Transponering van IBRO naar de basisregistraties
 
-Deze bijlage beschrijft hoe de elementen uit IBRO corresponderen met elementen uit de basisregistraties BAG en BGT, inclusief het optionele deel, IMGeo [[IMGEO211]]. Het is geen volledige lijst, maar biedt een eerste opsomming van (mogelijke) knelpunten in de transponering. Naar de WOZ is nog niet gekeken.
+Deze bijlage beschrijft hoe de elementen uit IBRO corresponderen met elementen uit de basisregistraties BAG en BGT, inclusief het optionele deel, IMGeo [[IMGEO22]]. Het is geen volledige lijst, maar biedt een eerste opsomming van (mogelijke) knelpunten in de transponering. Naar de WOZ is nog niet gekeken.
 
 ## Wegen
 

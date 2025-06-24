@@ -177,11 +177,11 @@ let respecConfig = {
       date: "20 juni 2022",
       publisher: "NEN",
     },
-    "IMGEO211": {
+    "IMGEO22": {
       title: "Basisregistratie grootschalige topografie Gegevenscatalogus IMGeo",
-      href: "https://docs.geostandaarden.nl/bgt/def-im-gcimgeo211-20130700/doc.pdf",
+      href: "https://docs.geostandaarden.nl/imgeo/def-im-IMGeo-20200701/",
       status: "Definitief",
-      date: "juli 2013",
+      date: "1 juli 2020",
       publisher: "Geonovum",
     }
   }
