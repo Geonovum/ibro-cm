@@ -234,7 +234,7 @@ Het conceptuele informatiemodel voor bestuurlijke gebieden is wel opgenomen in I
 
 #### Registratieve ruimten
 
-In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten.
+In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten. Het gaat hier om de resterende registratieve ruimten, naast de bestuurlijke gebieden, die in een apart domein gedefinieerd zijn. 
 
 <aside class="note">
 Voor het objecttype adresseerbaar object is in het informatiemodel het specifieker type benoemde plaats opgenomen. Dit betekent niet dat alle adresseerbare objecten ook benoemde plaatsen zijn. Naast benoemde plaatsen zijn er ook andere adresseerbare objecten bijvoorbeeld gerelateerd aan de bebouwde omgeving (bijvoorbeeld de verblijfsobjecten uit de BAG [[BAG10]]).
