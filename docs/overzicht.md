@@ -69,8 +69,7 @@ De verschillende hoofdtypen oppervlaktewater die onderscheiden worden zijn [wate
 
 #### Gebouwen
 
-Het domein Gebouwen binnen IBRO vormt een centrale bron voor consistente en betrouwbare gebouwinformatie binnen gemeenten. Het legt de basis voor het kunnen registreren en gebruiken van gegevens over gebouwen in landelijke voorzieningen zoals de BAG, BGT en WOZ, en in gemeentelijke werkprocessen.
-Het model is voorbereid op een toekomst waarin driedimensionale (3D) gebouwinformatie steeds belangrijker wordt en het gebruik van BIM in vergunningverlening eerder regel dan uitzondering is.
+Het domein Gebouwen binnen IBRO vormt een centrale bron voor consistente en betrouwbare gebouwinformatie binnen gemeenten. Het model is voorbereid op een toekomst waarin driedimensionale (3D) gebouwinformatie steeds belangrijker wordt en het gebruik van BIM in vergunningverlening eerder regel dan uitzondering is.
 
 Binnen dit domein worden gebouwen op een gedetailleerde manier en op verschillende niveaus beschreven. Zo bestaat een [pand](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand) uit één of meerdere [panddelen](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel), die kunnen verschillen in bouwjaar of constructie. Daarnaast worden functiezones onderscheiden op basis van het vergunde gebruik (zoals wonen, werken of onderwijs) en gebruikzones op basis van het feitelijke gebruik (zoals bijvoorbeeld woning of winkelruimte). Deze scheiding maakt het mogelijk om gebouwen zowel fysiek als functioneel nauwkeurig te beschrijven.
 Op deze wijze wordt de beschrijving van een gebouw in de IBRO opgebouwd uit verschillende gegevens "bouwsteentjes".
