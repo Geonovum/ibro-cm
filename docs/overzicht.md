@@ -146,7 +146,7 @@ Daarbij geldt het volgende ontwerpprincipe:
 
 _Knopen en verbindingen bevinden zich binnen de contouren van de bijbehorende reële objecten._
 
-Eigenschappen en objecten die relevant zijn voor het functioneren van het netwerk, zoals maximumsnelheden, straatnamen of objecten zoals haltes en verkeersborden, worden gekoppeld aan verbindingen binnen het netwerk. Wanneer deze eigenschappen slechts op een deel van de verbinding van toepassing zijn, gebruiken we lineaire netwerkverwijzingen (linear referencing) om de locatie van verandering aan te geven zonder de verbinding zelf op te splitsen.
+Eigenschappen en objecten die relevant zijn voor het functioneren van het netwerk, zoals maximumsnelheden, straatnamen of objecten zoals haltes en verkeersborden, kunnen worden gekoppeld aan verbindingen binnen het netwerk. Wanneer deze eigenschappen slechts op een deel van de verbinding van toepassing zijn, gebruiken we lineaire netwerkverwijzingen (linear referencing) om de locatie van verandering aan te geven zonder de verbinding zelf op te splitsen.
 
 ##### Netwerkverwijzingen
 
@@ -229,7 +229,7 @@ Functionele ruimten zijn ruimten die een functie kennen. In dit domein worden de
 
 #### Bestuurlijke gebieden
 
-Het domein bestuurlijke gebieden beschrijft de bestuurlijke indeling van Nederland. Dit betreft de indeling in gemeenten, wijken, buurten en andere bestuurlijke eenheden.
+Het domein bestuurlijke gebieden beschrijft de bestuurlijke indeling van Nederland. Dit betreft de indeling in provincies, gemeenten en andere bestuurlijke eenheden.
 
 Het conceptuele informatiemodel voor bestuurlijke gebieden is wel opgenomen in IMIBRO, maar wordt in een apart traject verder ontwikkeld. Zie [[IMSOR-BG]] voor de huidige beschrijving van het informatiemodel.
 
