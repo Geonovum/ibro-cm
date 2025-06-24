@@ -6,8 +6,8 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
-| Wegdeel  | Wegverbinding en Verharding | In IBRO worden functie en fysiek voorkomen van wegdelen gescheiden in functionele ruimten en verharding. Om vanuit IBRO naar BGT te kunnen leveren moet dit weer samengevoegd worden tot 1 wegdeel. |
-| Calamiteitendoorsteek | *vervalt* | Verplichte BGT inhoud. |
+| Wegdeel  | Wegverbinding en Verharding | In IBRO worden functie en fysiek voorkomen van wegdelen gescheiden in functionele ruimten en verharding. Om vanuit IBRO naar BGT te kunnen leveren moet dit weer samengevoegd worden tot 1 wegdeel. Het attribuut functie dient voor een deel ook vanuit de combinatie van Wegennetwerk en Verharding te worden samengesteld. |
+| Calamiteitendoorsteek | *vervalt* | Optionele IMGeo inhoud. |
 | Voetpad op trap | *vervalt*, transponering is naar Voetpad | Verplichte BGT inhoud. Het is echter niet  mogelijk om voetpad op trap te onderscheiden in IBRO. |
 | Nadere classificaties van Open verharding | Elementenverharding | Nadere classificaties vervallen. Dit is optionele IMGeo inhoud, maar als een gemeente deze plus classificaties nu wel bijhoudt en aan de LV wil leveren is dit problematisch. |
 | Nadere classificaties van `Half verhard` | `Halfverharding` | idem |
