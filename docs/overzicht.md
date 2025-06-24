@@ -185,8 +185,8 @@ Een wegennetwerk is een type transportnetwerk dat specifiek gericht is op het mo
 
 Het model is hiërarchisch opgebouwd en onderscheidt verschillende niveaus van wegonderdelen, elk bedoeld voor specifieke verkeersstromen en -gebruikers.
 
-- Wegverbindingen vormen de hoofdelementen van het netwerk. Ze representeren doorgaans verharde of onverharde wegen en kunnen meerdere routenummers dragen. Wegverbindingen kunnen openbaar of niet-openbaar zijn.
-- Baanverbindingen zijn delen van een weg die bestemd zijn voor specifieke verkeersdeelnemers, zoals rijbanen of afritten. Ze zijn altijd onderdeel van een wegverbinding.
+- Wegverbindingen vormen de hoofdelementen van het netwerk. Ze representeren doorgaans verharde of onverharde wegen en kunnen meerdere routenummers dragen. Een wegverbinding kan openbaar of niet-openbaar zijn.
+- Baanverbindingen zijn delen van een weg die bestemd zijn voor specifieke verkeersdeelnemers, zoals rijbanen of afritten. Een baanverbinding is altijd onderdeel van een wegverbinding.
 - Strookverbindingen zijn gemarkeerde delen van een baan, zoals rijstroken, en vormen het fijnmazigste onderdeel van de verkeersruimte.
 
 Deze verbindingen worden met elkaar verbonden door transportknopen:
@@ -202,7 +202,7 @@ Een wegverbinding of wegknoop kan verbonden zijn met één of meerdere openbare 
 De relatie vanuit wegverbinding en wegknoop met openbare ruimte is expliciet gemodelleerd in IMIBRO, maar kan in een logisch gegevensmodel impliciet worden gemaakt en concreet worden ingevuld met een netwerkverwijzing vanuit de openbare ruimte naar de wegverbinding of wegknoop. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
 </aside>
 
-Tot slot kunnen hectometerpunten als netwerkeigenschappen aan baanverbindingen worden gekoppeld door middel van een netwerkverwijzing.
+Tot slot kunnen hectometerpunten als netwerkeigenschappen aan een baanverbinding worden gekoppeld door middel van een netwerkverwijzing.
 
 Zie de sectie [[[#domein-wegennetwerk]]] voor een gedetailleerd overzicht van de verschillende typen verbindingen en knopen binnen een wegennetwerk.
 
@@ -217,7 +217,7 @@ Het beschrijft de verkeerskundige inrichting van het spoorvervoer in Nederland. 
 - Spoorverbindingen vormen de basiselementen van het spoornetwerk. Ze beschrijven de functionele verbinding tussen twee knopen en vertegenwoordigen het traject waarover treinen zich verplaatsen.
 - Spoorwegknopen representeren de punten in het netwerk waar spoorverbindingen samenkomen of eindigen. Dit zijn typische begin-, eind- of keuzepunten voor spoorverkeer, zoals wissels, stations of eindpunten van een lijn.
 
-Zowel de spoorverbindingen als spoorwegknopen zijn specialisaties van Spoorverkeerruimte, waarmee ze als functionele onderdelen van het spoorsysteem worden beschouwd. Spoorverbindingen zijn daarnaast ook een type Transportverbinding, terwijl spoorwegknopen ook onder Transportknoop vallen.
+Zowel Spoorverbinding als Spoorwegknoop zijn specialisaties van Spoorverkeerruimte, waarmee ze als functionele onderdelen van het spoorsysteem worden beschouwd. Spoorverbinding is daarnaast ook een type Transportverbinding, terwijl Spoorwegknoop ook onder Transportknoop valt.
 
 Zie de sectie [[[#domein-spoorwegennetwerk]]] voor meer details over het domein spoorwegennetwerk.
 
