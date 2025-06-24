@@ -8,11 +8,10 @@ Deze bijlage beschrijft hoe de elementen uit IBRO corresponderen met elementen u
 | -------- | ------- | ------- |
 | Wegdeel  | Wegverbinding en Verharding | In IBRO worden functie en fysiek voorkomen van wegdelen gescheiden in functionele ruimten en verharding. Om vanuit IBRO naar BGT te kunnen leveren moet dit weer samengevoegd worden tot 1 wegdeel. Het attribuut functie dient voor een deel ook vanuit de combinatie van Wegennetwerk en Verharding te worden samengesteld. |
 | Calamiteitendoorsteek | *vervalt* | Optionele IMGeo inhoud. |
-| Voetpad op trap | *vervalt*, transponering is naar Voetpad | Verplichte BGT inhoud. Het is echter niet  mogelijk om voetpad op trap te onderscheiden in IBRO. |
 | Nadere classificaties van Open verharding | Elementenverharding | Nadere classificaties vervallen. Dit is optionele IMGeo inhoud, maar als een gemeente deze plus classificaties nu wel bijhoudt en aan de LV wil leveren is dit problematisch. |
 | Nadere classificaties van `Half verhard` | `Halfverharding` | idem |
-| `kruinlijn` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is de kruinlijn hieruit af te leiden. | 
-| `opTalud` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is hieruit af te leiden dat het wegdeel op een talud ligt? Geldt ook voor Onbegroeid terreindeel, Begroeid terreindeel, Ondersteunend Wegdeel | 
+| `kruinlijn` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is de kruinlijn hieruit af te leiden. Dit testen in Mercator project.| 
+| `opTalud` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is hieruit af te leiden dat het wegdeel op een talud ligt.  Dit testen in Mercator project. Geldt ook voor Onbegroeid terreindeel, Begroeid terreindeel, Ondersteunend Wegdeel | 
 | `geleideconstructie` | `geleideconstructie` | Optionele IMGeo inhoud. Problematisch als een gemeente deze nu aan BGT levert, omdat er in IMGeo ook twee Waterinrichtingselementen zijn, `remmingswerk` en `geleidewerk`, die in IBRO `geleideconstructie` worden. Deze zijn niet meer terug te mappen naar Waterinrichtingselement en Weginrichtingselement.| 
 
 ## Spoor
@@ -34,7 +33,6 @@ Deze bijlage beschrijft hoe de elementen uit IBRO corresponderen met elementen u
 
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
-| `houtwal` | `houtsingel` | Dit zijn twee verschillende dingen. Wel allebei lijnvormige beplanting maar een houtwal staat op een aarden wal en een houtsingel niet. Strikt genomen is dit geen goede transponering, maar een andere is er niet.|
 | `open duinvegetatie` en `gesloten duinvegetatie` | gras- en kruidachtigen of struiken of onbegroeide grond | Open en gesloten duinvegetatie worden niet meer onderscheiden in IBRO. Dit is optionele IMGeo inhoud. Als een gemeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch.|
 | `wijngaarden` en `klein fruit` | fruit- en kweekboom: fruitkwekerij met lage opstand | Wijngaarden en klein fruit zijn niet te onderscheiden in IBRO maar zijn optionele IMGeo inhoud.| 
 | Plusclassificaties van `bouwland` | allemaal `akkerland` in IBRO | Optionele IMGeo inhoud|
