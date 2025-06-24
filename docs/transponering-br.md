@@ -13,7 +13,7 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | Nadere classificaties van `Half verhard` | `Halfverharding` | idem |
 | `kruinlijn` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is de kruinlijn hieruit af te leiden. | 
 | `opTalud` | vervalt | Verplichte BGT inhoud. Het objecttype heeft 2.5D geometrie. Wellicht is hieruit af te leiden dat het wegdeel op een talud ligt? Geldt ook voor Onbegroeid terreindeel, Begroeid terreindeel, Ondersteunend Wegdeel | 
-| `geleideconstructie` | `geleideconstructie` | Optionele IMGeo inhoud. Problematisch als een gemeente deze nu aan BGT levert, omdat er in IMGeo ook twee Waterinrichtingselementen zijn, `remmingswerk` en `geleidewerk`, die in de SOR `geleideconstructie` worden. Deze zijn niet meer terug te mappen naar Waterinrichtingselement en Weginrichtingselement.| 
+| `geleideconstructie` | `geleideconstructie` | Optionele IMGeo inhoud. Problematisch als een gemeente deze nu aan BGT levert, omdat er in IMGeo ook twee Waterinrichtingselementen zijn, `remmingswerk` en `geleidewerk`, die in IBRO `geleideconstructie` worden. Deze zijn niet meer terug te mappen naar Waterinrichtingselement en Weginrichtingselement.| 
 
 ## Spoor
 
@@ -35,9 +35,9 @@ Deze bijlage beschrijft hoe de elementen uit BGT en BAG corresponderen met eleme
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
 | `houtwal` | `houtsingel` | Dit zijn twee verschillende dingen. Wel allebei lijnvormige beplanting maar een houtwal staat op een aarden wal en een houtsingel niet. Strikt genomen is dit geen goede transponering, maar een andere is er niet.|
-| `open duinvegetatie` en `gesloten duinvegetatie` | gras- en kruidachtigen of struiken of onbegroeide grond | Open en gesloten duinvegetatie worden niet meer onderscheiden in de SOR. Dit is optionele IMGeo inhoud. Als een gemeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch.|
-| `wijngaarden` en `klein fruit` | fruit- en kweekboom: fruitkwekerij met lage opstand | Wijngaarden en klein fruit zijn niet te onderscheiden in de SOR maar zijn optionele IMGeo inhoud.| 
-| Plusclassificaties van `bouwland` | allemaal `akkerland` in de SOR | Optionele IMGeo inhoud|
+| `open duinvegetatie` en `gesloten duinvegetatie` | gras- en kruidachtigen of struiken of onbegroeide grond | Open en gesloten duinvegetatie worden niet meer onderscheiden in IBRO. Dit is optionele IMGeo inhoud. Als een gemeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch.|
+| `wijngaarden` en `klein fruit` | fruit- en kweekboom: fruitkwekerij met lage opstand | Wijngaarden en klein fruit zijn niet te onderscheiden in IBRO maar zijn optionele IMGeo inhoud.| 
+| Plusclassificaties van `bouwland` | allemaal `akkerland` in IBRO | Optionele IMGeo inhoud|
 | `bosplantsoen` | `bos` | Optionele IMGeo inhoud. Als een gemeente zowel Bos als Bosplantsoen heeft dan zou het lastig zijn om die weer bij BGT levering op te splitsen.  |
 | `planten`, `struikrozen`, `heesters` en `bodembedekkers` | `struiken` | Optionele IMGeo inhoud. Als Rotterdam deze nu levert aan de BGT en wil blijven leveren is dit problematisch, want in IBRO kun je ze niet onderscheiden.|
 | `kruinlijn`, `opTalud` | vervalt | zelfde opmerking als bij `Wegdeel` |
