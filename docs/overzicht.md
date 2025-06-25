@@ -198,7 +198,7 @@ Alle verbindingen vallen onder het type Wegverkeerruimteverbinding, en hebben da
 Een wegverbinding of wegknoop kan verbonden zijn met één of meerdere openbare ruimten.
 
 <aside class="note">
-De relatie vanuit wegverbinding en wegknoop met openbare ruimte is expliciet gemodelleerd in IMIBRO, maar kan in een logisch gegevensmodel impliciet worden gemaakt en concreet worden ingevuld met een netwerkverwijzing vanuit de openbare ruimte naar de wegverbinding of wegknoop. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
+De relatie vanuit wegverbinding en wegknoop met openbare ruimte is expliciet gemodelleerd in IMIBRO, maar kan in een logisch gegevensmodel impliciet worden gemaakt en concreet worden ingevuld met een netwerkverwijzing vanuit de openbare ruimte naar de wegverbinding of wegknoop, of andersom, vanuit het netwerkelement naar de openbare ruimte. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
 </aside>
 
 Tot slot kunnen hectometerpunten als netwerkeigenschappen aan een baanverbinding worden gekoppeld door middel van een netwerkverwijzing.
