@@ -39,7 +39,7 @@ Dit informatiemodel betreft een prototype van de IBRO.
 
 <figure>
     <img src="media/basisproces_IBRO.jpg">
-    <figcaption>Basisproces IBRO</figcaption>
+    <figcaption>Basisproces IBRO (bron: VNG)</figcaption>
 </figure>
 
 

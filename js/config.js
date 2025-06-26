@@ -29,7 +29,7 @@ let respecConfig = {
   license: "cc-by",                 // Attribution, met bronvermelding
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "ibro-cm",
-  
+  maxTocLevel: 9,
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
 
