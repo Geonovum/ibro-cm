@@ -149,7 +149,7 @@ Eigenschappen en objecten die relevant zijn voor het functioneren van het netwer
 
 ##### Netwerkverwijzingen
 
-Om eigenschappen of verschijnselen op of langs een verbinding vast te leggen, bijvoorbeeld snelheidslimieten, of het voorkomen van bepaalde verkeersborden, worden netwerkverwijzingen gebruikt. Dit zijn administratieve verwijzingen naar specifieke delen van een verbinding, zonder dat de verbinding zelf hoeft te worden opgesplitst.
+Om eigenschappen of verschijnselen op of langs een verbinding vast te leggen, bijvoorbeeld snelheidslimieten, of het voorkomen van hectometerpunten, worden netwerkverwijzingen gebruikt. Dit zijn administratieve verwijzingen naar specifieke delen van een verbinding, zonder dat de verbinding zelf informatiekundig hoeft te worden opgesplitst.
 
 Er kunnen verschillende soorten netwerkverwijzingen bestaan. In IMIBRO beperken we ons tot twee soorten netwerkverwijzingen:
 
@@ -226,21 +226,13 @@ Functionele ruimten zijn ruimten die een functie kennen. In dit domein worden de
 
 ![Functionele ruimten](model-docs/media/functionele_ruimten-overzicht.png "Overzicht functionele ruimten")
 
-#### Bestuurlijke gebieden
-
-Het domein bestuurlijke gebieden beschrijft de bestuurlijke indeling van Nederland. Dit betreft de indeling in provincies, gemeenten en andere bestuurlijke eenheden.
-
-Het conceptuele informatiemodel voor bestuurlijke gebieden is wel opgenomen in IMIBRO, maar wordt in een apart traject verder ontwikkeld. Zie [[IMSOR-BG]] voor de huidige beschrijving van het informatiemodel.
-
 #### Registratieve ruimten
 
-In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten. Het gaat hier om de resterende registratieve ruimten, naast de bestuurlijke gebieden, die in een apart domein gedefinieerd zijn. 
-
-<aside class="note">
-Voor het objecttype adresseerbaar object is in het informatiemodel het specifieker type benoemde plaats opgenomen. Dit betekent niet dat alle adresseerbare objecten ook benoemde plaatsen zijn. Naast benoemde plaatsen zijn er ook andere adresseerbare objecten bijvoorbeeld gerelateerd aan de bebouwde omgeving (bijvoorbeeld de verblijfsobjecten uit de BAG [[BAG10]]).
-</aside>
+In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten.
 
 ![Registratieve ruimten](model-docs/media/registratieve_ruimten-overzicht.png "Overzicht registratieve ruimten")
+
+Gemeentegebieden en andere bestuurlijke gebieden zijn geen onderdeel van IMIBRO. Voor bestuurlijke gebieden wordt gewerkt aan een apart conceptueel informatiemodel [[IMSOR-BG]].
 
 #### Geografische ruimten
 

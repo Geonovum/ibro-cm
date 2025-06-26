@@ -4561,7 +4561,7 @@ Het pand waarin een bouwlaag ligt.</td>
 </tr>
 <tr>
 <th>Herkomst</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -4569,7 +4569,7 @@ Het pand waarin een bouwlaag ligt.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Identificerend</th>
@@ -4739,7 +4739,7 @@ De bouwlaag waarin een functiezone ligt.</td>
 </tr>
 <tr>
 <th>Herkomst</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -19150,7 +19150,7 @@ Functie als reducering die het scherm vervult.</td>
 </tr>
 <tr>
 <th>Herkomst</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Definitie</th>
@@ -19158,7 +19158,7 @@ Functie als reducering die het scherm vervult.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>Gemeentelijk Gebouwinformatiemodel</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Populatie</th>

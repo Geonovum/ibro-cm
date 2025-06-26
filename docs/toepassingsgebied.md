@@ -9,9 +9,9 @@ gegevens over objecten (alhoewel bij de WOZ zeer beperkt), maar vertonen daarin 
 momenten en gescheiden van elkaar ontstaan. Daardoor moeten gemeenten nu via arbeidsintensieve
 processen in drie verschillende ICT-systemen en dure koppelingen daartussen de objectgegevens
 synchroon houden. Gegevens over hetzelfde object wordt dus in drie verschillende registraties met elk hun eigen
-inhoud opgenomen wat ervoor zorgt dat objectinformatie versnipperd wordt opgeslagen. Dat is
+inhoud opgenomen wat ervoor zorgt dat objectgegevens versnipperd worden opgeslagen. Dat is
 kostbaar, inefficiënt en op onderdelen is harmonisatie vanwege tegenstrijdige wetgeving zelfs
-onmogelijk. Dit  leidt dit tot knelpunten in beheer, gebruik en de informatievoorziening van geoinformatie.
+onmogelijk. Dit leidt tot knelpunten in beheer, gebruik en de informatievoorziening van geoinformatie.
 
 Gemeenten zijn (mede)beheerder van deze geobasisregistraties. Zij hebben in een eerder stadium via
 de VNG aangegeven de bestaande registraties in samenhang te willen doorontwikkelen tot een
@@ -23,7 +23,7 @@ woonplaatsen en openbare ruimten. De registratie moet overeenkomen met de feitel
 Tevens staat de levensloop van objecten in de registratie centraal, waardoor ook historische
 objectgegevens worden opgebouwd. Door het object centraal te stellen en een bronregistratie op te
 zetten die de levensloop van het object – bij wijze van spreken van plan tot sloop - als uitgangspunt
-neemt voor de vastlegging van gegevens, genereert zo’n objectenregistratie meer toegevoegde
+neemt voor de vastlegging van gegevens, genereert zo'n objectenregistratie meer toegevoegde
 waarde dan de drie huidige basisregistraties bij elkaar opgeteld.
 
 Rotterdam wil hierin via het programma Mercator een stap verder gaan en een Integrale
