@@ -23,13 +23,17 @@ De objecttypen die gedefinieerd zijn in IMIBRO zijn dan ook verdere invulling va
 
 #### Levensfasen
 
-Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo'n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. [[EMSO]]
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo'n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. Een object kan altijd maar één status hebben op een bepaald moment in tijd. [[EMSO]]
 
 De mogelijke levensfasen per objecttype zijn hier terug te vinden in het hoofdstuk [[[#enumeraties]]].
 
 <aside class="note">
-In [[EMSO]] kennen alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet meer het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
+In [[EMSO]] kennen alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
 </aside>
+
+#### Onderscheid reële en virtuele objecten
+
+Bij de uitwerking van de IBRO wordt een scheiding aangebracht tussen reële (voorheen vaak aangeduid als fysieke) objecttypen en virtuele objecttypen. De aanleiding is dat definities van virtuele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. Reële objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de IBRO een strikte scheiding aan te brengen tussen reële objecttypen en virtuele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van de geometrische representatie van verschillende objecttypen. Daar waar dat de in de huidige registraties vaak niet mogelijk is, wordt het in de IBRO bijvoorbeeld mogelijk dat er meerdere virtuele indelingen op één reële locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de IBRO enorm. virtuele en reële objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen. [[EMSO]]
 
 #### Geometrie
 
@@ -77,8 +81,11 @@ De gebouwgegevens die nodig zijn voor het vullen of genereren van de registratie
 
 ![Gebouwen](model-docs/media/gebouwen-overzicht.png "Overzicht gebouwen")
 
-
 Het domein Gebouw sluit nauw aan op nationale standaarden zoals [[NEN3610-2022]], [[NEN2580-2007]] (voor oppervlaktebepalingen) en is afgestemd op bredere landelijke ontwikkelingen, zoals [[EMSO]], het Federatief Datastelsel (FDS), en initiatieven rondom de indieningsvereisten voor de inzet van BIM bij de geautomatiseerde ondersteuning van het vergunningverleningproces.
+
+<aside class="note">
+De onderstaande voorbeelden (plaatjes) en de verschillende weergaven van de geometrische vastlegging zijn indicatief. Bij de afbakening van de geometrie en de berekening van oppervlaktes (bruto vloeroppervlakte en gebruiksoppervlakte) in de IBRO volgen we de NEN2580 en de meetinstructie WOZ.
+</aside>
 
 In [[[#fig-gebouw-vanuit-fysiek-perspectief]]] is een voorbeeld van een gebouw vanuit fysiek perspectief weergegeven. In het fysieke perspectief zijn de contouren van het pand en de bijbehorende panddelen weergegeven. Een pand bestaat altijd uit minimaal één panddeel van het type [basisconstructie](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie), maar bestaat meestal ook uit meerdere panddelen. In dit voorbeeld is ook een afdak (carport) als panddeel zichtbaar.
 De schuur in dit voorbeeld is een op zichzelf staand pand.

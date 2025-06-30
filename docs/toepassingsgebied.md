@@ -15,8 +15,7 @@ onmogelijk. Dit leidt tot knelpunten in beheer, gebruik en de informatievoorzien
 
 Gemeenten zijn (mede)beheerder van deze geobasisregistraties. Zij hebben in een eerder stadium via
 de VNG aangegeven de bestaande registraties in samenhang te willen doorontwikkelen tot een
-Samenhangende Objecten Registratie (SOR), zie ook paragraaf 2.6 waarin het voortraject is
-beschreven. Het doel hierbij was de ontwikkeling van een uniforme registratie met basisgegevens over
+Samenhangende Objecten Registratie (SOR). Het doel hierbij was de ontwikkeling van een uniforme registratie met basisgegevens over
 fysieke objecten in de buitenruimte, zoals die nu in de BGT, BAG en WOZ opgenomen zijn. Ook
 worden basisgegevens van registratieve objecten opgenomen, zoals bestuurlijke gebieden,
 woonplaatsen en openbare ruimten. De registratie moet overeenkomen met de feitelijke situatie.
