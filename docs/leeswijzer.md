@@ -1,4 +1,4 @@
-# Leeswijzer voor het IMIBRO-model
+# Leeswijzer
 
 Het hoofdstuk [[[#toepassingsgebied]]] beschrijft de aanleiding en doelstelling van het model. Het legt uit hoe de IBRO voortkomt uit de behoefte om versnipperde gegevens in BAG, BGT en WOZ samen te brengen in één samenhangende registratie. 
 
