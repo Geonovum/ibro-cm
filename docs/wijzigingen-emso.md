@@ -38,8 +38,8 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
-| [Houtsingel](https://docs.geostandaarden.nl/disgeo/emso/#houtsingel) | Attribuutsoort `geometrie` krijgt datatype `GM_Surface` (vlak). | Dit sluit aan op [[IMBOR]]. |
-| [Struik](https://docs.geostandaarden.nl/disgeo/emso/#struiken) | Attribuutsoort `indicatieHaag` is verwijderd. | Verwijderd vanwege toevoeging objecttype [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag). (Zie [[[#wijzigingen-groen-objecttypen-nieuw]]]) |
+| [Struiken](https://docs.geostandaarden.nl/disgeo/emso/#struiken) | Attribuutsoort `indicatieHaag` is verwijderd. | Verwijderd vanwege toevoeging objecttype [Haag](#informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag). (Zie [[[#wijzigingen-groen-objecttypen-nieuw]]]) |
+| [Akkerland](https://docs.geostandaarden.nl/disgeo/emso/#akkerland) | Hernoemd naar Bouwland. | Dit sluit aan op [[IMBOR]]. |
 | [Onbegroeide grond](https://docs.geostandaarden.nl/disgeo/emso/#onbegroeide-grond) | Verplaatst naar [[[#domein-bodem]], als subtype van het objecttype Bodem uit [[NEN3610-2022]] | Onbegroeide grond was aangemerkt als type begroeiing, maar is in essentie geen begroeiing. |
 
 ### Nieuwe objecttypen {#wijzigingen-groen-objecttypen-nieuw}
@@ -62,6 +62,10 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
 | [Gebouw](https://docs.geostandaarden.nl/disgeo/emso/#gebouw) | Hernoemd naar [Pand](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand). | Aansluiting op het Gemeentelijk Gebouwinformatiemodel, waar is gekozen voor de naam Pand in plaats van de naam Gebouw zoals in de SOR. De BAG afbakeningscriteria blijven behouden. Dit om de BAG bijhouding niet te verstoren. |
+| [Gebouw](https://docs.geostandaarden.nl/disgeo/emso/#gebouw) | Nieuwe attribuutsoort `indicatieOpenConstructie` aan `Gebouw` (nu `Pand`). | Ten behoeve van het kunnen afleiden van gebouwen met een open constructie, zoals open loodsen. |
+| [Gebouw](https://docs.geostandaarden.nl/disgeo/emso/#gebouw) | Nieuwe domeinwaarde `Overkapping` toegevoegd aan attribuutsoort `Type gebouw`. | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+| [Gebouw](https://docs.geostandaarden.nl/disgeo/emso/#gebouw) | Nieuwe domeinwaarde `Parkeergarage` toegevoegd aan attribuutsoort `Type gebouw`. | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+| [Gebouw](https://docs.geostandaarden.nl/disgeo/emso/#gebouw) | Nieuwe domeinwaarde `Uitkijktoren` toegevoegd aan attribuutsoort `Type gebouw`. | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 
 ### Nieuwe objecttypen {#wijzigingen-gebouw-objecttypen-nieuw}
 
@@ -70,6 +74,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | [Panddeel](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Functiezone](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone) en subtyperingen | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 | [Gebruikzone](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
+| [Toegangspunt](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toegangspunt) | Functionele vervanging van [Toegangsdeur](https://docs.geostandaarden.nl/disgeo/emso/#toegangsdeur) |
 
 ### Verwijderde objecttypen {#wijzigingen-gebouw-objecttypen-verwijderd}
 
@@ -85,6 +90,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
 | [Kunstwerk](https://docs.geostandaarden.nl/disgeo/emso/#kunstwerk) | Het type kunstwerk `Flyover` is ene subtype van `Viaduct` geworden. | Een flyover is een deelverzameling van viaduct. |
+| [Kunstwerkdeel](https://docs.geostandaarden.nl/disgeo/emso/#kunstwerkdeel) | Kunstwerkdeel is opgenomen als specialisatie van Constructie in plaats van NEN 3610 Kunstwerk en heeft een "is onderdeel van" relatie gekregen naar [Kunstwerk](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk) | Sluit aan op IMWA en AQUO. |
 
 ## Wijzigingen in Overige constructies {#wijzigingen-overige-constructies}
 
@@ -99,16 +105,9 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 ### Wijziging aan bestaande objecttypen {#wijzigingen-overige-constructies-objecttypen}
 | Objecttype | Wijziziging | Reden |
 | ---------- | ---------- | ------------- |
-| [Afvalcontainer](https://docs.geostandaarden.nl/disgeo/emso/#afvalcontainer) | Attribuutsoort `geometrie` krijgt datatype `GM_Point` (punt) | Vlak is hier niet van toepassing. |
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Waardetype van relatiesoort `hoortBij` aangepast van `Pand` naar [Constructie](#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_constructie). | De relatie is gegeneraliseerd omdat een installatie bij verschillende soorten constructie kan horen. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Kast`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Sirene`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Verlichtingsarmatuur`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. | Lijn of vlak zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Windturbine`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Lift`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Oplaadpunt`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Pomp`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Point` (punt) heeft. |
-| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Van de domeinwaarde `Zonnepanelen`, behorende bij attribuutsoort `Type installatie`, is specifieker vastgelegd, dat de attribuutsoort `geometrie` het datatype `GM_Surface` (vlak) heeft. | Punt of lijn zijn hier niet van toepassing. |
+| [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Nieuwe domeinwaarde `Transformator`, behorende bij attribuutsoort `Type installatie`. | Ten behoeve van opnemen trafo's in de BGT. |
+| [Straatmeubilair](https://docs.geostandaarden.nl/disgeo/emso/#straatmeubilair) | Domeinwaarde `Bank` vervangend door `Zitelement`. | Sluit aan op IMBOR en verbreedt de mogelijk op te nemen objecten. |
 
 ### Nieuwe objecttypen {#wijzigingen-overige-constructies-objecttypen-nieuw}
 
@@ -152,7 +151,6 @@ Het model voor tranportuimten is hergebaseerd op het generieke INSPIRE netwerkmo
 | Objecttype | Reden |
 | ---------- | ------------- |
 | [Gebouwzone](https://docs.geostandaarden.nl/disgeo/emso/#gebouwzone) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
-| [Verblijfsobject](https://docs.geostandaarden.nl/disgeo/emso/#verblijfsobject) | Aansluiting op het Gemeentelijk Gebouwinformatiemodel. |
 
 ## Wijzigingen aan Functionele zoneringen {#wijzigingen-functionele-zoneringen}
 
@@ -166,7 +164,8 @@ Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat e
 | [Reducering](https://docs.geostandaarden.nl/disgeo/emso/#reducering) | De naam van domeinwaarde `Geluid`, behorende bij attribuutsoort `Type reducering`, is gewijzigd naar `Geluidreducering`. | Consistentere naamgeving van subtyperingen. |
 | [Begraafplaats](https://docs.geostandaarden.nl/disgeo/emso/#begraafplaats) | `Begraafplaats` is een subtype van [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) geworden. | Dit sluit aan op [[IMBOR]]. |
 | [Schoolterrein](https://docs.geostandaarden.nl/disgeo/emso/#schoolterrein) | `Schoolterrein` is een subtype van [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) geworden. | Dit sluit aan op [[IMBOR]]. |
-
+| [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) | Nieuwe domeinwaarde `Industrieel complex`, behorende bij attribuutsoort `Type complex`. | Betere representatie van verschillende typen complexen |
+| [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) | Nieuwe domeinwaarde `Zorgcomplex`, behorende bij attribuutsoort `Type complex`. | Betere representatie van verschillende typen complexen |
 
 ## Wijzigingen aan Registratieve ruimten {#wijzigingen-registratieve-ruimten}
 
@@ -176,6 +175,13 @@ Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat e
 | ---------- | ---------- | ------------- |
 | [Benoemde plaats](https://docs.geostandaarden.nl/disgeo/emso/#benoemde-plaats) | De naam van het attribuutsoort `type`, is gewijzigd naar `type te plaatsen object`. | De domeinwaarden voor deze eigenschap zijn geen typeringen van benoemde plaats, maar typeringen van de te plaatsen objecten op die plaats. |
 | [Openbare ruimte](https://docs.geostandaarden.nl/disgeo/emso/#openbare-ruimte) | Het attribuutsoort `type` en bijbehorende domeinwaarden zijn verwijderd. | Het type object waar een openbare ruimte bij hoort is af te leiden uit administratieve of geografische relaties.  |
+
+### Nieuwe objecttypen {#wijzigingen-registratieve-ruimten-objecttypen-nieuw}
+
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Subbuurt](#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_subbuurt) | Uitbreiden expressiviteit. |
+| [Subbuurtdeel](#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_subbuurtdeel) | Uitbreiden expressiviteit. |
 
 ## Wijzigingen aan Geografische ruimten {#wijzigingen-geografische-ruimten}
 
