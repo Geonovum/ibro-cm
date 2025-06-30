@@ -37,7 +37,40 @@ Bij de uitwerking van de IBRO wordt een scheiding aangebracht tussen reële (voo
 
 #### Geometrie
 
-Voor de aspecten van geometrie in IMIBRO is aangesloten op hetgeen in [[EMSO]] is beschreven.
+In het conceptueel model van de IBRO staan de te onderscheiden begrippen (soorten geo-objecten) centraal. Deze worden los gezien van de weergave in informatieproducten, zoals kaarten. Dit beïnvloedt ook hoe geometrie binnen het model wordt benaderd.
+
+Het model vertrekt niet vanuit bestaande topologische principes, maar vanuit het definiëren van relevante geo-objecten als abstracties van verschijnselen in de werkelijkheid, gekoppeld aan een positie ten opzichte van de aarde. Deze positie wordt vastgelegd in een coördinaatreferentiesysteem.
+
+Voor reële objecten wordt bepaald welke verschijnselen zich in de 3D-werkelijkheid bevinden en hoe deze worden afgebakend als abstractie. Op basis hiervan worden de objecttypen gedefinieerd en relaties tussen deze objecttypen vastgesteld, zoals of "ligt in" of "overlapt met". Afhankelijk van de aard van het objecttype wordt bepaald of een object als volume (3D), vlak op hoogte (2,5D) of vlak (2D) wordt gemodelleerd.
+
+Objecttypen worden vaak als 3D of 2,5D abstractie gemodelleerd, waarbij een geometrie pas als zodanig geldt als deze expliciet in 3D-ruimte is vastgelegd (x, y, z). Indirecte beschrijvingen, zoals hoogte-attributen bij een 2D-geometrie, vallen hier niet onder.
+
+2,5D geometrie bestaat uit 2D-vlakken met z-waarden. Volumes maken daar geen deel van uit. 3D geometrie voegt volumes toe, die open of gesloten kunnen zijn. De mate waarin 2D, 2,5D of 3D nodig is, verschilt per hoofdtype object.
+
+**Ontwerpprincipes:**
+
+* Alle reële objecten in IMIBRO hebben een geometrie. Of dit een 3D, 2.5D of 2D geometrie is, zal op logisch niveau bepaald worden, afhankelijk van de registratie-eisen.
+* Functionele ruimten hebben een 2D geometrie en functionele gebouwobjecten 2,5D geometrie.
+
+##### Topologie
+Het model beschrijft de begrippen, hun onderlinge relaties en de bijbehorende ruimtelijke abstractie (2D, 2,5D of 3D). Keuze voor een 3D-benadering leidt tot complexere ruimtelijke relaties. Het begrip maaiveld als vaste referentielaag wordt minder centraal, gezien de variatie in perspectieven en gebruikersbehoeften.
+
+Essentieel is dat ruimtelijke relaties tussen objecten correct worden weergegeven, bijvoorbeeld dat z-waarden aantonen dat een object daadwerkelijk boven een ander ligt.
+
+**Ontwerpprincipes:**
+
+* Reële objecten bedekken met hun x,y-geometrie het volledige grondgebied van Nederland.
+* Geometrieën van objecten kunnen boven elkaar liggen (zoals een brug boven water).
+* Geometrieën van objecten kunnen elkaar uitsluiten; dit geldt met name in 3D.
+
+Deze principes gelden ook voor verzamelingen van functionele ruimten of geografische begrippen, waarbij grenzen soms precies moeten aansluiten of juist mogen overlappen.
+
+**Aanvullende ontwerpprincipes:**
+
+* Functionele ruimten zijn niet landsdekkend en mogen elkaar overlappen.
+* Voor functionele gebouwobjecten wordt 2,5D toegepast.
+
+Geografische ruimten zijn niet landsdekkend, mogen overlappen en kennen een 2D geometrie.
 
 #### Overwegingen
 
