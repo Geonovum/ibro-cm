@@ -45407,7 +45407,7 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.ligtInProvinciegebied</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Gemeentegebied.ligtInProvinciegebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -45458,7 +45458,7 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.ligtInVeiligheidsregiogebied</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Gemeentegebied.ligtInVeiligheidsregiogebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -45614,7 +45614,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.ligtInRijksgebied</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:ProvinciegebiedligtInRijksgebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46023,7 +46023,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.geometrie</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46068,7 +46068,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.type</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.type</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46117,7 +46117,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.wordtBestuurdDoor</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.wordtBestuurdDoor</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46156,7 +46156,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.ligtInBestuurlijkGebied</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.ligtInBestuurlijkGebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46264,7 +46264,7 @@ Fase van de levenscyclus waarin een bestuurlijk gebied zich bevindt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.status</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:RegistratieveRuimte.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46443,7 +46443,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.type</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:OpenbaarLichaamtype</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46492,7 +46492,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.bestuurtGebied</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:OpenbaarLichaambestuurtGebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46604,7 +46604,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.officieleNaamInclSoort</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Overheidsorganisatie.officieleNaamInclSoort</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46633,7 +46633,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>${package}${owner}.organisatiecode</td>
+<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Overheidsorganisatieorganisatiecode</td>
 </tr>
 <tr>
 <th>Naam</th>
