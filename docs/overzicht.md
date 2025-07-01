@@ -135,11 +135,11 @@ Vanuit gebruiksperspectief ([[[#fig-gebouw-vanuit-gebruiksperspectief]]]) wordt 
 
 Op deze wijze wordt een gebouw, zowel op basis van het fysiek voorkomen, als op basis van de vergunde situatie en op basis van het feitelijk gebruik, beschreven.
 
-#### Verharding
+#### Verhardingen
 
-Het domein Verharding beschrijft de verharde oppervlakken in de fysieke leefomgeving, zoals wegen, fietspaden, trottoirs, pleinen en parkeerplaatsen.
+Het domein Verhardingen beschrijft de verharde oppervlakken in de fysieke leefomgeving, zoals wegen, fietspaden, trottoirs, pleinen en parkeerplaatsen.
 
-![Verharding](model-docs/media/verharding-overzicht.png "Overzicht verharding")
+![Verhardingen](model-docs/media/verhardingen-overzicht.png "Overzicht verhardingen")
 
 Verhardingen hebben een samenhang met functionele ruimten, zoals transportruimten. Zo kunnen [wegverbindingen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) en [-knopen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop) functioneel gekoppeld zijn aan verhardingen, om zo de verkeersstructuur en -stromen en de fysieke inrichting van de openbare ruimte te representeren.
 

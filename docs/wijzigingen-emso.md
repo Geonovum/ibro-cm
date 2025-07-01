@@ -167,6 +167,11 @@ Het concept functionele zone(ring) is vervangen door functionele ruimte, omdat e
 | [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) | Nieuwe domeinwaarde `Industrieel complex`, behorende bij attribuutsoort `Type complex`. | Betere representatie van verschillende typen complexen |
 | [Complex](https://docs.geostandaarden.nl/disgeo/emso/#complex) | Nieuwe domeinwaarde `Zorgcomplex`, behorende bij attribuutsoort `Type complex`. | Betere representatie van verschillende typen complexen |
 
+### Verwijderde objecttypen {#wijzigingen-functionele-zoneringen-objecttypen-verwijderd}
+| Objecttype | Reden |
+| ---------- | ------------- |
+| [Oppervlaktewaterlichaam](https://docs.geostandaarden.nl/disgeo/emso/#oppervlaktewaterlichaam) | Verwijderd omdat de afbakening van dit objecttype onduidelijk is. |
+
 ## Wijzigingen aan Registratieve ruimten {#wijzigingen-registratieve-ruimten}
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-registratieve-ruimten-objecttypen}
