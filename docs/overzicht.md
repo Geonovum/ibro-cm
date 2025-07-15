@@ -23,17 +23,54 @@ De objecttypen die gedefinieerd zijn in IMIBRO zijn dan ook verdere invulling va
 
 #### Levensfasen
 
-Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo'n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. [[EMSO]]
+Objecten kunnen zich in verschillende fasen van ontwikkeling bevinden. Zo'n fase van ontwikkeling van een object duiden we aan met het begrip levensfase. De verschillende levensfasen van een object tezamen vormen de levenscyclus van een object. Welke levensfasen worden onderscheiden is afhankelijk van het specifieke objecttype. In het informatiemodel komen vier hoofdsoorten objecttypen voor: reële objecten, functionele ruimten, registratieve ruimten en geografische ruimten. Elk van deze soorten objecttypen kent dezelfde indeling in hoofdfasen en meestal dezelfde indeling in levensfasen. Voor de meeste objecttypen van een bepaald soort objecttype zullen de statussen die het object in principe kan aannemen dan ook allemaal gelijk zijn, omdat deze in de regel voortvloeien uit de aard van het soort objecttype. Zo kan een object dat administratief wordt gevormd nooit een status "in aanbouw" kennen. Genuanceerde verschillen worden daarbij niet doorvertaald naar specifieke benamingen van statussen. Een object kan altijd maar één status hebben op een bepaald moment in tijd. [[EMSO]]
 
 De mogelijke levensfasen per objecttype zijn hier terug te vinden in het hoofdstuk [[[#enumeraties]]].
 
 <aside class="note">
-In [[EMSO]] kennen alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet meer het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
+In [[EMSO]] kennen alle objecttypen de mogelijke status `Afgevoerd`. Dit is in IMIBRO niet het geval. Zie [[[#wijzigingen-levensfasen]]] voor een toelichting.
 </aside>
+
+#### Onderscheid reële en virtuele objecten
+
+Bij de uitwerking van de IBRO wordt een scheiding aangebracht tussen reële (voorheen vaak aangeduid als fysieke) objecttypen en virtuele objecttypen. De aanleiding is dat definities van virtuele objecttypen sterk samenhangen met specifieke gebruikstoepassingen of afsprakenkaders. Reële objecttypen worden altijd gedefinieerd door hetgeen in het terrein zichtbaar is. Door in de IBRO een strikte scheiding aan te brengen tussen reële objecttypen en virtuele objecttypen, kunnen duidelijkere regels worden opgesteld over onder meer samenhang en overlap van de geometrische representatie van verschillende objecttypen. Daar waar dat de in de huidige registraties vaak niet mogelijk is, wordt het in de IBRO bijvoorbeeld mogelijk dat er meerdere virtuele indelingen op één reële locatie voorkomen. Hiermee vergroten we de flexibiliteit en de gebruiksmogelijkheden van de IBRO enorm. virtuele en reële objecttypen worden hierbij altijd als aparte objecttypen gedefinieerd, als de begrenzing ervan kan verschillen. [[EMSO]]
 
 #### Geometrie
 
-Voor de aspecten van geometrie in IMIBRO is aangesloten op hetgeen in [[EMSO]] is beschreven.
+In het conceptueel model van de IBRO staan de te onderscheiden begrippen (soorten geo-objecten) centraal. Deze worden los gezien van de weergave in informatieproducten, zoals kaarten. Dit beïnvloedt ook hoe geometrie binnen het model wordt benaderd.
+
+Het model vertrekt niet vanuit bestaande topologische principes, maar vanuit het definiëren van relevante geo-objecten als abstracties van verschijnselen in de werkelijkheid, gekoppeld aan een positie ten opzichte van de aarde. Deze positie wordt vastgelegd in een coördinaatreferentiesysteem.
+
+Voor reële objecten wordt bepaald welke verschijnselen zich in de 3D-werkelijkheid bevinden en hoe deze worden afgebakend als abstractie. Op basis hiervan worden de objecttypen gedefinieerd en relaties tussen deze objecttypen vastgesteld, zoals of "ligt in" of "overlapt met". Afhankelijk van de aard van het objecttype wordt bepaald of een object als volume (3D), vlak op hoogte (2,5D) of vlak (2D) wordt gemodelleerd.
+
+Objecttypen worden vaak als 3D of 2,5D abstractie gemodelleerd, waarbij een geometrie pas als zodanig geldt als deze expliciet in 3D-ruimte is vastgelegd (x, y, z). Indirecte beschrijvingen, zoals hoogte-attributen bij een 2D-geometrie, vallen hier niet onder.
+
+2,5D geometrie bestaat uit 2D-vlakken met z-waarden. Volumes maken daar geen deel van uit. 3D geometrie voegt volumes toe, die open of gesloten kunnen zijn. De mate waarin 2D, 2,5D of 3D nodig is, verschilt per hoofdtype object.
+
+**Ontwerpprincipes:**
+
+* Alle reële objecten in IMIBRO hebben een geometrie. Of dit een 3D, 2.5D of 2D geometrie is, zal op logisch niveau bepaald worden, afhankelijk van de registratie-eisen.
+* Functionele ruimten hebben een 2D geometrie en functionele gebouwobjecten 2,5D geometrie.
+
+##### Topologie
+Het model beschrijft de begrippen, hun onderlinge relaties en de bijbehorende ruimtelijke abstractie (2D, 2,5D of 3D). Keuze voor een 3D-benadering leidt tot complexere ruimtelijke relaties. Het begrip maaiveld als vaste referentielaag wordt minder centraal, gezien de variatie in perspectieven en gebruikersbehoeften.
+
+Essentieel is dat ruimtelijke relaties tussen objecten correct worden weergegeven, bijvoorbeeld dat z-waarden aantonen dat een object daadwerkelijk boven een ander ligt.
+
+**Ontwerpprincipes:**
+
+* Reële objecten bedekken met hun x,y-geometrie het volledige grondgebied van Nederland.
+* Geometrieën van objecten kunnen boven elkaar liggen (zoals een brug boven water).
+* Geometrieën van objecten kunnen elkaar uitsluiten; dit geldt met name in 3D.
+
+Deze principes gelden ook voor verzamelingen van functionele ruimten of geografische begrippen, waarbij grenzen soms precies moeten aansluiten of juist mogen overlappen.
+
+**Aanvullende ontwerpprincipes:**
+
+* Functionele ruimten zijn niet landsdekkend en mogen elkaar overlappen.
+* Voor functionele gebouwobjecten wordt 2,5D toegepast.
+
+Geografische ruimten zijn niet landsdekkend, mogen overlappen en kennen een 2D geometrie.
 
 #### Overwegingen
 
@@ -77,8 +114,11 @@ De gebouwgegevens die nodig zijn voor het vullen of genereren van de registratie
 
 ![Gebouwen](model-docs/media/gebouwen-overzicht.png "Overzicht gebouwen")
 
-
 Het domein Gebouw sluit nauw aan op nationale standaarden zoals [[NEN3610-2022]], [[NEN2580-2007]] (voor oppervlaktebepalingen) en is afgestemd op bredere landelijke ontwikkelingen, zoals [[EMSO]], het Federatief Datastelsel (FDS), en initiatieven rondom de indieningsvereisten voor de inzet van BIM bij de geautomatiseerde ondersteuning van het vergunningverleningproces.
+
+<aside class="note">
+De onderstaande voorbeelden (plaatjes) en de verschillende weergaven van de geometrische vastlegging zijn indicatief. Bij de afbakening van de geometrie en de berekening van oppervlaktes (bruto vloeroppervlakte en gebruiksoppervlakte) in de IBRO volgen we de NEN2580 en de meetinstructie WOZ.
+</aside>
 
 In [[[#fig-gebouw-vanuit-fysiek-perspectief]]] is een voorbeeld van een gebouw vanuit fysiek perspectief weergegeven. In het fysieke perspectief zijn de contouren van het pand en de bijbehorende panddelen weergegeven. Een pand bestaat altijd uit minimaal één panddeel van het type [basisconstructie](#informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_basisconstructie), maar bestaat meestal ook uit meerdere panddelen. In dit voorbeeld is ook een afdak (carport) als panddeel zichtbaar.
 De schuur in dit voorbeeld is een op zichzelf staand pand.
@@ -95,11 +135,11 @@ Vanuit gebruiksperspectief ([[[#fig-gebouw-vanuit-gebruiksperspectief]]]) wordt 
 
 Op deze wijze wordt een gebouw, zowel op basis van het fysiek voorkomen, als op basis van de vergunde situatie en op basis van het feitelijk gebruik, beschreven.
 
-#### Verharding
+#### Verhardingen
 
-Het domein Verharding beschrijft de verharde oppervlakken in de fysieke leefomgeving, zoals wegen, fietspaden, trottoirs, pleinen en parkeerplaatsen.
+Het domein Verhardingen beschrijft de verharde oppervlakken in de fysieke leefomgeving, zoals wegen, fietspaden, trottoirs, pleinen en parkeerplaatsen.
 
-![Verharding](model-docs/media/verharding-overzicht.png "Overzicht verharding")
+![Verhardingen](model-docs/media/verhardingen-overzicht.png "Overzicht verhardingen")
 
 Verhardingen hebben een samenhang met functionele ruimten, zoals transportruimten. Zo kunnen [wegverbindingen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) en [-knopen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop) functioneel gekoppeld zijn aan verhardingen, om zo de verkeersstructuur en -stromen en de fysieke inrichting van de openbare ruimte te representeren.
 
@@ -149,7 +189,7 @@ Eigenschappen en objecten die relevant zijn voor het functioneren van het netwer
 
 ##### Netwerkverwijzingen
 
-Om eigenschappen of verschijnselen op of langs een verbinding vast te leggen, bijvoorbeeld snelheidslimieten, of het voorkomen van bepaalde verkeersborden, worden netwerkverwijzingen gebruikt. Dit zijn administratieve verwijzingen naar specifieke delen van een verbinding, zonder dat de verbinding zelf hoeft te worden opgesplitst.
+Om eigenschappen of verschijnselen op of langs een verbinding vast te leggen, bijvoorbeeld snelheidslimieten, of het voorkomen van hectometerpunten, worden netwerkverwijzingen gebruikt. Dit zijn administratieve verwijzingen naar specifieke delen van een verbinding, zonder dat de verbinding zelf informatiekundig hoeft te worden opgesplitst.
 
 Er kunnen verschillende soorten netwerkverwijzingen bestaan. In IMIBRO beperken we ons tot twee soorten netwerkverwijzingen:
 
@@ -226,21 +266,13 @@ Functionele ruimten zijn ruimten die een functie kennen. In dit domein worden de
 
 ![Functionele ruimten](model-docs/media/functionele_ruimten-overzicht.png "Overzicht functionele ruimten")
 
-#### Bestuurlijke gebieden
-
-Het domein bestuurlijke gebieden beschrijft de bestuurlijke indeling van Nederland. Dit betreft de indeling in provincies, gemeenten en andere bestuurlijke eenheden.
-
-Het conceptuele informatiemodel voor bestuurlijke gebieden is wel opgenomen in IMIBRO, maar wordt in een apart traject verder ontwikkeld. Zie [[IMSOR-BG]] voor de huidige beschrijving van het informatiemodel.
-
 #### Registratieve ruimten
 
-In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten. Het gaat hier om de resterende registratieve ruimten, naast de bestuurlijke gebieden, die in een apart domein gedefinieerd zijn. 
-
-<aside class="note">
-Voor het objecttype adresseerbaar object is in het informatiemodel het specifieker type benoemde plaats opgenomen. Dit betekent niet dat alle adresseerbare objecten ook benoemde plaatsen zijn. Naast benoemde plaatsen zijn er ook andere adresseerbare objecten bijvoorbeeld gerelateerd aan de bebouwde omgeving (bijvoorbeeld de verblijfsobjecten uit de BAG [[BAG10]]).
-</aside>
+In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten.
 
 ![Registratieve ruimten](model-docs/media/registratieve_ruimten-overzicht.png "Overzicht registratieve ruimten")
+
+Gemeentegebieden en andere bestuurlijke gebieden zijn geen onderdeel van IMIBRO. Voor bestuurlijke gebieden wordt gewerkt aan een apart conceptueel informatiemodel [[IMSOR-BG]].
 
 #### Geografische ruimten
 
