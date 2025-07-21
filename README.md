@@ -8,6 +8,9 @@ Als je een nieuwe publicatie wilt starten, lees dan eerst de instructies in de R
 
 In dit repository werkt Geonovum aan het conceptuele informatiemodel IBRO (Integrale Bronhouderregistratie), in het kader van programma Mercator van de gemeente Rotterdam.
 
-De werkversie van het scope document is hier te bekijken: https://geonovum.github.io/ibro-cm
+De werkversie van het conceptueel informatiemodel document is hier te bekijken: https://geonovum.github.io/ibro-cm
 
-Zie ook het [scope document](https://docs.geostandaarden.nl/ibro/scope/) voor de IBRO. 
+Zie ook:
+- het [scope document](https://docs.geostandaarden.nl/ibro/scope/) voor de IBRO. 
+- de [laatste officieel gepubliceerde versie](https://docs.geostandaarden.nl/ibro/ibro-cm/) van het conceptueel informatiemodel document.
+- het [logisch informatiemodel](https://geonovum.github.io/ibro-lm) (werkversie)
