@@ -2,8 +2,21 @@
 
 Het IBRO informatiemodel wordt afgestemd met OGC CityGML v3.0 [[CityGML3]]. 
 
-Om rekening mee te houden: 
-- *Only top-level features are allowed as direct members of a city model.*
+Om rekening mee te houden: *Only top-level features are allowed as direct members of a city model.* Dit zijn (beperkt tot de feature types waar we mappings naar hebben): 
+- CityFurniture
+- GenericLogicalSpace
+- LandUse
+- Railway
+- Road
+- Waterway
+- PlantCover
+- SolitaryVegetationObject
+- WaterBody
+- OtherConstruction
+- Bridge
+- Building
+- Tunnel
+- CityObjectGroup
 
 ## Kern
 De kern van generieke objecttypen:
@@ -11,7 +24,7 @@ De kern van generieke objecttypen:
 | IBRO Concept           | CityGML Element      | Opmerkingen                |
 |------------------------|----------------------|----------------------------|
 | **ReeelObject**        | AbstractPhysicalSpace|                            |
-| `status`               | Transaction.type     | Er is een transactie-gebaseerd versioning model waar iets van status in zit maar het matcht op het eerste gezicht niet goed.      |
+| `status`               | Transaction.type     | Er is een transactie-gebaseerd versioning model waar iets van status in zit maar het matcht op het eerste gezicht niet goed.|
 | `geometrie`            | lod[n][geometrytype] | Er zijn meerdere geometrieën per space / thematic surface, zie Figure 23 |
 | **FunctioneleRuimte**  | GenericLogicalSpace  | geen fysiek object         | 
 | `status`               | Transaction.type     | zie hierboven              |
@@ -25,7 +38,7 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 ## Groen
 | IBRO Concept                         | CityGML Element          | Opmerkingen                |
 |--------------------------------------|--------------------------|----------------------------|
-| **Begroeiing**                       | Vegetation               |                            |
+| **Begroeiing**                       | AbstractVegetationObject |                            |
 | Alle subklassen behalve boom en haag | PlantCover               | Het `class` attribuut vullen met naam van subklasse.|
 | **Boom**, **Haag**                   | SolitaryVegetationObject |                            |
 
@@ -37,18 +50,18 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 ## Water
 | IBRO Concept                       | CityGML Element          | Opmerkingen                |
 |------------------------------------|--------------------------|----------------------------|
-| **Oppervlaktewater**               | WaterSurface of WaterBody| Afhankelijk van of het water als volume, of alleen het wateroppervlak als vlak wordt gemodelleerd.|
+| **Oppervlaktewater**               | WaterBody                | CityGML heeft ook klasse WaterSurface maar dit is geen TopLevelFeaturetype. WaterBody kan met alleen een WaterSurface worden opgenomen of met ook een WaterGroundSurface.|
 | `indicatiePrimair`                 | -                        | Niet in CityGML. Bij Transportation heb je wel Waterway, dat zou gebruikt kunnen worden om water als ding met transportfunctie te modelleren.|
-| Alle subklassen                    | WaterSurface of Waterbody| Het `class` attribuut vullen met naam van subklasse.|
-| **Watergang**                      | WaterSurface of WaterBody| Als hierboven              |
-| **Getijdengebied**                 | WaterSurface of WaterBody| WaterBody meest geschikt, dat kan ook semi permanent zijn.|
-| **Greppel**                        | WaterSurface of WaterBody| Als hierboven              |
+| Alle subklassen                    | Waterbody                | Het `class` attribuut vullen met naam van subklasse.|
+| **Watergang**                      | WaterBody                | Als hierboven              |
+| **Getijdengebied**                 | WaterBody                | WaterBody kan ook semi permanent zijn.|
+| **Greppel**                        | WaterBody                | Als hierboven              |
 
 ## Gebouwen
 | IBRO Concept                       | CityGML Element             | Opmerkingen                |
 |------------------------------------|-----------------------------|----------------------------|
-| **Pand** (alle pand typen) als `aardPand` = Vrijstaand gebouw    | Building                 | Buildings zijn *freestanding, self-supporting constructions*.|
-| **Pand** overig                    | BuildingPart                | *A BuildingPart is a physical or functional subdivision of a Building. It would be considered a Building, if it were not part of a collection of other BuildingParts.*|
+| **Pand** (alle pand typen) als `aardPand` = Vrijstaand gebouw| Building                 | Buildings zijn *freestanding, self-supporting constructions*.|
+| **Pand** overig                    | Building met BuildingPart   | BuildingPart is geen TopLevelFeaturetype. *A BuildingPart is a physical or functional subdivision of a Building. It would be considered a Building, if it were not part of a collection of other BuildingParts.*|
 | `status`                           | `conditionOfConstruction`   |                            |
 | `aardPand`                         | `class`                     |                            |
 | `oorsronkelijkBouwjaar`            | `dateOfConstruction`        |                            |
@@ -86,7 +99,7 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 ## Verhardingen
 | IBRO Concept                       | CityGML Element             | Opmerkingen                |
 |------------------------------------|-----------------------------|----------------------------|
-| **Verharding**                     | TrafficArea                 | In Citygml is dit een thematic surface terwijl Verharding een fysiek object is |
+| **Verharding**                     | TrafficArea                 | In Citygml is dit een thematic surface terwijl Verharding een fysiek object is. TrafficArea is geen TopLevelFeaturetype, moet als onderdeel van een Road opgenomen worden.|
 | Alle subklassen                    | `surfaceMaterial`           |                            |
 
 ## Kunstwerken
@@ -160,6 +173,9 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 | **Afvalcontainer**                 | CityFurniture               |                            |
 
 ## Netwerk
+
+NB geen fysieke objecten. 
+
 | IBRO Concept                       | CityGML Element             | Opmerkingen                |
 |------------------------------------|-----------------------------|----------------------------|
 | **Netwerk**                        | -                           | Op dit abstractieniveau heeft CityGML niets                           |
@@ -190,7 +206,7 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 | **Wegverkeerruimteknoop**          | -                           |                            |
 | **Wegknoop**                       | -                           |                            |
 | `heeftOpenbareRuimte`              | `relatedTo`                 |                            |
-| **verkeersplein**                  | Intersection                | IBRO concept is nauwer     |
+| **verkeersplein**                  | Intersection                | IBRO concept is nauwer. NB Intersection is geen TopLevelFeaturetype. Intersections moeten als onderdeel van Road worden opgenomen.|
 | **Grensknoop**                     | -                           |                            |
 | **Koppelknoop**                    | -                           |                            |
 | **Rotonde**                        | Intersection                | IBRO concept is nauwer     |
