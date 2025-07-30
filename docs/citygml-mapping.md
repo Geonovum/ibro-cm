@@ -10,15 +10,15 @@ De kern van generieke objecttypen:
 
 | IBRO Concept           | CityGML Element      | Opmerkingen                |
 |------------------------|----------------------|----------------------------|
-| **ReeelObject**        | AbstractPhysicalSpace|                          |
+| **ReeelObject**        | AbstractPhysicalSpace|                            |
 | `status`               | Transaction.type     | Er is een transactie-gebaseerd versioning model waar iets van status in zit maar het matcht op het eerste gezicht niet goed.      |
 | `geometrie`            | lod[n][geometrytype] | Er zijn meerdere geometrieën per space / thematic surface, zie Figure 23 |
-| **FunctioneleRuimte**  | AbstractLogicalSpace |                          |
+| **FunctioneleRuimte**  | GenericLogicalSpace  | geen fysiek object         | 
 | `status`               | Transaction.type     | zie hierboven              |
-| **GeografischeRuimte** | -                    | Er is geen citygml concept dat hier goed bij aansluit | 
-| **RegistratieveRuimte**| -                    | Er is geen citygml concept dat hier goed bij aansluit | 
-| **Constructie**       | Construction          |                           |
-| **OnbepaaldTerrein**  | LandUse               | Geen CityGML concept mapt hier specifiek naar, ik zou zeggen het is een type LandUse. | 
+| **GeografischeRuimte** | GenericLogicalSpace  | geen fysiek object         | 
+| **RegistratieveRuimte**| GenericLogicalSpace  | geen fysiek object         | 
+| **Constructie**        | Construction         |                            |
+| **OnbepaaldTerrein**   | LandUse              | Geen CityGML concept mapt hier specifiek naar, ik zou zeggen het is een type LandUse. | 
 
 Hierna kijken we alleen naar de fysieke objecten van IBRO.
 
@@ -199,3 +199,45 @@ Hierna kijken we alleen naar de fysieke objecten van IBRO.
 | **Wegverbinding**                  | Road                        |                            |
 | `routenummer`                      | `name`                      | Dit is een attribuut bij de hoogste abstracte topklasse, AbstractFeature|
 | `indicatieOpenbareWeg`             | -                           | Enige manier is om met een virtual zone aan te geven of een ruimte openbaar is of niet |
+
+## Spoorwegennetwerk
+| IBRO Concept                       | CityGML Element             | Opmerkingen                |
+|------------------------------------|-----------------------------|----------------------------|
+| **Spoorwegknoop**                  | -                           |                            |
+| **Spoorverbinding**                | Railway                     |                            | 
+| Alle subklassen                    | Railway                     | Het `class` attribuut vullen met naam van subklasse.|
+
+## Functionele ruimten
+Als we alleen de fysieke objecttypen mappen, dan is onderstaande niet relevant. Toch even gekeken hoe dit zou mappen. 
+
+| IBRO Concept                       | CityGML Element             | Opmerkingen                |
+|------------------------------------|-----------------------------|----------------------------|
+| 
+| [herhaling] **FunctioneleRuimte**  | GenericLogicalSpace         | Zie [CityGML CM 7.7](https://docs.ogc.org/is/20-010/20-010.html#toc35).|
+| `naam`                             | `name`                      |                            |
+| **Afscheiding** en **Kering**      | `function`                  | Opnemen als waarde van attribuut `function` bij het fysiek object |
+| Overige subklassen                 | GenericLogicalSpace         | Vul `class` met klassenaam.|
+
+## Registratieve ruimten
+Als we alleen de fysieke objecttypen mappen, dan is onderstaande niet relevant. Toch even gekeken hoe dit zou mappen. Het is een incomplete mapping.
+
+| IBRO Concept                       | CityGML Element             | Opmerkingen                |
+|------------------------------------|-----------------------------|----------------------------|
+| [herhaling] **RegistratieveRuimte**| GenericLogicalSpace         | Zie [CityGML CM 7.7](https://docs.ogc.org/is/20-010/20-010.html#toc35).|
+| **Nummeraanduiding**               | Address                     |                            |
+| Overige subklassen                 | GenericLogicalSpace         | Vul `class` met klassenaam.|
+| `formeleNaam`                      | `name`                      |                            |
+| `alternatieveNaam`                 | `name`                      |                            |
+| `ligtIn`                           | `relatedTo`                 | relatedTo is gedefinieerd bij AbstractCityObject |
+ 
+## Geografische ruimten
+Als we alleen de fysieke objecttypen mappen, dan is onderstaande niet relevant. Toch even gekeken hoe dit zou mappen. Het is een incomplete mapping.
+
+N.B. je maakt in CityGML een 3D  Digital Terrain Model met behulp van de **Relief** module.
+
+| IBRO Concept                       | CityGML Element             | Opmerkingen                |
+|------------------------------------|-----------------------------|----------------------------|
+| [herhaling] **GeografischeRuimte** | GenericLogicalSpace         | Zie [CityGML CM 7.7](https://docs.ogc.org/is/20-010/20-010.html#toc35).|
+| Alle subklassen                    | GenericLogicalSpace         | Vul `class` met klassenaam.|
+| `alternatieveNaam`                 | `name`                      |                            |
+| `naam`                             | `name`                      |                            |
