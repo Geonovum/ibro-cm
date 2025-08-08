@@ -68,6 +68,7 @@ Deze bijlage beschrijft hoe de elementen uit IBRO corresponderen met elementen u
 
 | BGT/IMGeo    | IBRO/EMSO | Opmerkingen |
 | -------- | ------- | ------- |
+| `sneltram` en `tram` | `Lokale spoorverbinding` | Verplichte BGT inhoud. In IBRO vervalt het onderscheid tussen sneltram en tram. Deze keuze was in de SOR gemaakt omdat definitie van sneltram en tram en (bovengrondse) metro niet eenduidig zijn. |
 | `havenkraan` | *vervalt* | Dit is optionele IMGeo inhoud, maar als een gemeeente deze plus classificatie nu wel bijhoudt en aan de LV levert is dit problematisch.|
 
 ## Functioneel gebied
