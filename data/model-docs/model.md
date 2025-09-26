@@ -1,6 +1,6 @@
 # Informatiemodel Conceptueel model IBRO
 ## Domein Kern
-![Kern](model-docs/media/kern.png "Domein Kern")
+![Kern](data/model-docs/media/kern.png "Domein Kern")
 
 ### Objecttypen
 
@@ -1550,7 +1550,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 ## Domein Groen
-![Groen](model-docs/media/groen.png "Domein Groen")
+![Groen](data/model-docs/media/groen.png "Domein Groen")
 
 ### Objecttypen
 
@@ -3034,7 +3034,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 ## Domein Bodem
-![Bodem](model-docs/media/bodem.png "Domein Bodem")
+![Bodem](data/model-docs/media/bodem.png "Domein Bodem")
 
 ### Objecttypen
 
@@ -3141,7 +3141,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 ## Domein Water
-![Water](model-docs/media/water.png "Domein Water")
+![Water](data/model-docs/media/water.png "Domein Water")
 
 ### Objecttypen
 
@@ -4490,7 +4490,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 ## Domein Gebouwen
-![Gebouwen](model-docs/media/gebouwen.png "Domein Gebouwen")
+![Gebouwen](data/model-docs/media/gebouwen.png "Domein Gebouwen")
 
 ### Objecttypen
 
@@ -6932,7 +6932,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Pandtypen
-![Pandtypen](model-docs/media/pandtypen.png "Domein Pandtypen")
+![Pandtypen](data/model-docs/media/pandtypen.png "Domein Pandtypen")
 
 ### Objecttypen
 
@@ -9758,7 +9758,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Panddeeltypen
-![Panddeeltypen](model-docs/media/panddeeltypen.png "Domein Panddeeltypen")
+![Panddeeltypen](data/model-docs/media/panddeeltypen.png "Domein Panddeeltypen")
 
 ### Objecttypen
 
@@ -10515,7 +10515,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Functiezonetypen
-![Functiezonetypen](model-docs/media/functiezonetypen.png "Domein Functiezonetypen")
+![Functiezonetypen](data/model-docs/media/functiezonetypen.png "Domein Functiezonetypen")
 
 ### Objecttypen
 
@@ -11406,7 +11406,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Gebruikzonetypen
-![Gebruikzonetypen](model-docs/media/gebruikzonetypen.png "Domein Gebruikzonetypen")
+![Gebruikzonetypen](data/model-docs/media/gebruikzonetypen.png "Domein Gebruikzonetypen")
 
 ### Objecttypen
 
@@ -16932,7 +16932,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Verhardingen
-![Verhardingen](model-docs/media/verhardingen.png "Domein Verhardingen")
+![Verhardingen](data/model-docs/media/verhardingen.png "Domein Verhardingen")
 
 ### Objecttypen
 
@@ -17438,7 +17438,7 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 
 
 ## Domein Kunstwerken
-![Kunstwerken](model-docs/media/kunstwerken.png "Domein Kunstwerken")
+![Kunstwerken](data/model-docs/media/kunstwerken.png "Domein Kunstwerken")
 
 ### Objecttypen
 
@@ -21071,7 +21071,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 ## Domein Overige constructies
-![Overige constructies](model-docs/media/overige_constructies.png "Domein Overige constructies")
+![Overige constructies](data/model-docs/media/overige_constructies.png "Domein Overige constructies")
 
 ### Objecttypen
 
@@ -24396,7 +24396,7 @@ Functie die dit object vervult.</td>
 
 
 ## Domein Netwerk
-![Netwerk](model-docs/media/netwerk.png "Domein Netwerk")
+![Netwerk](data/model-docs/media/netwerk.png "Domein Netwerk")
 
 ### Objecttypen
 
@@ -26259,7 +26259,7 @@ InTegenovergesteldeRichting</td>
 
 
 ## Domein Transportnetwerk
-![Transportnetwerk](model-docs/media/transportnetwerk.png "Domein Transportnetwerk")
+![Transportnetwerk](data/model-docs/media/transportnetwerk.png "Domein Transportnetwerk")
 
 ### Objecttypen
 
@@ -26666,7 +26666,7 @@ Een relatie vanuit een netwerk naar een functionele ruimte waarmee functionele s
 
 
 ## Domein Wegennetwerk
-![Wegennetwerk](model-docs/media/wegennetwerk.png "Domein Wegennetwerk")
+![Wegennetwerk](data/model-docs/media/wegennetwerk.png "Domein Wegennetwerk")
 
 ### Objecttypen
 
@@ -32080,7 +32080,7 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 ## Domein Spoorwegennetwerk
-![Spoorwegennetwerk](model-docs/media/spoorwegennetwerk.png "Domein Spoorwegennetwerk")
+![Spoorwegennetwerk](data/model-docs/media/spoorwegennetwerk.png "Domein Spoorwegennetwerk")
 
 ### Objecttypen
 
@@ -32538,7 +32538,7 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 ## Domein Functionele ruimten
-![Functionele ruimten](model-docs/media/functionele_ruimten.png "Domein Functionele ruimten")
+![Functionele ruimten](data/model-docs/media/functionele_ruimten.png "Domein Functionele ruimten")
 
 ### Objecttypen
 
@@ -37749,7 +37749,7 @@ Geometrische representatie van een object.</td>
 
 
 ## Domein Registratieve ruimten
-![Registratieve ruimten](model-docs/media/registratieve_ruimten.png "Domein Registratieve ruimten")
+![Registratieve ruimten](data/model-docs/media/registratieve_ruimten.png "Domein Registratieve ruimten")
 
 ### Objecttypen
 
@@ -40843,7 +40843,7 @@ Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor
 
 
 ## Domein Geografische ruimten
-![Geografische ruimten](model-docs/media/geografische_ruimten.png "Domein Geografische ruimten")
+![Geografische ruimten](data/model-docs/media/geografische_ruimten.png "Domein Geografische ruimten")
 
 ### Objecttypen
 
@@ -44142,7 +44142,7 @@ Geometrische representatie van een object.</td>
 
 
 ## Extern NEN 3610:2022 - Basismodel geo-informatie
-![NEN 3610:2022 - Basismodel geo-informatie](model-docs/media/nen_3610_2022_-_basismodel_geo-informatie.png "Extern NEN 3610:2022 - Basismodel geo-informatie")
+![NEN 3610:2022 - Basismodel geo-informatie](data/model-docs/media/nen_3610_2022_-_basismodel_geo-informatie.png "Extern NEN 3610:2022 - Basismodel geo-informatie")
 
 ### Objecttypen
 
@@ -45320,7 +45320,7 @@ Geometrische representatie van een object.</td>
 
 
 ## Extern INSPIRE - Generic Network Model
-![INSPIRE - Generic Network Model](model-docs/media/inspire_-_generic_network_model.png "Extern INSPIRE - Generic Network Model")
+![INSPIRE - Generic Network Model](data/model-docs/media/inspire_-_generic_network_model.png "Extern INSPIRE - Generic Network Model")
 
 ### Objecttypen
 
@@ -45420,7 +45420,7 @@ Geometrische representatie van een object.</td>
 
 
 ## Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden
-![Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden](model-docs/media/informatiemodel_samenhangende_objecten_-_bestuurlijke_gebieden.png "Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden")
+![Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden](data/model-docs/media/informatiemodel_samenhangende_objecten_-_bestuurlijke_gebieden.png "Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden")
 
 ### Objecttypen
 

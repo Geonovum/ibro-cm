@@ -19,7 +19,7 @@ De semantische kern van IMIBRO is gebaseerd op [[NEN3610-2022]] en vormt de basi
 
 De objecttypen die gedefinieerd zijn in IMIBRO zijn dan ook verdere invulling van de objecttypen die in [[NEN3610-2022]] zijn gedefinieerd. Deze objecttypen zijn uitgewerkt conform de principes beschreven in [[EMSO]] en gebruikmakend van [[MIM12]].
 
-![Kern](model-docs/media/kern-overzicht.png "Overzicht semantische kern IMIBRO").
+![Kern](data/model-docs/media/kern-overzicht.png "Overzicht semantische kern IMIBRO").
 
 #### Levensfasen
 
@@ -88,19 +88,19 @@ Binnen dit domein is [[[#informatiemodel_imibro_conceptueel_domein_groen_objectt
 
 Daarnaast sluit de opdeling van typen binnen het domein groen aan op de indeling van het [[IMBOR]].
 
-![Groen](model-docs/media/groen-overzicht.png "Overzicht groen")
+![Groen](data/model-docs/media/groen-overzicht.png "Overzicht groen")
 
 #### Bodem
 
 Het domein bodem beschrijft het objecttype [onbegroeide grond](#informatiemodel_imibro_conceptueel_domein_bodem_objecttype_onbegroeide_grond). Dit is een oppervlakte die niet bedekt is met enige vorm van begroeiing, water, verharding, gebouwen of andere constructies. Het is een specialisatie van het objecttype `Bodem` uit [[NEN3610-2022]].
 
-![Bodem](model-docs/media/bodem-overzicht.png "Overzicht bodem")
+![Bodem](data/model-docs/media/bodem-overzicht.png "Overzicht bodem")
 
 #### Water
 
 In IMIBRO is beschrijft het domein water verschillende typen oppervlaktewater. Een oppervlaktewaterobject is een massa van water dat de bodem bedekt, of in normale omstandigheden kan bedekken. [[NEN3610-2022]].
 
-![Water](model-docs/media/water-overzicht.png "Overzicht water")
+![Water](data/model-docs/media/water-overzicht.png "Overzicht water")
 
 De verschillende hoofdtypen oppervlaktewater die onderscheiden worden zijn [watervlakte](#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte), [watergang](#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang), [getijdengebied](#informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied) en [greppel](#informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel).
 
@@ -112,7 +112,7 @@ Binnen dit domein worden gebouwen op een gedetailleerde manier en op verschillen
 Op deze wijze wordt de beschrijving van een gebouw in de IBRO opgebouwd uit verschillende gegevens "bouwsteentjes".
 De gebouwgegevens die nodig zijn voor het vullen of genereren van de registratie van gebouwde objecten in de bestaande landelijke registraties BAG, BGT (en deels) WOZ zijn vervolgens af te leiden of te genereren op basis van deze bouwstenen. In sommige gevallen gaat het dan om het gebruik van een enkele bouwsteen. In andere gevallen is voor de afleiding een combinatie van één of meerdere van deze bouwstenen nodig.
 
-![Gebouwen](model-docs/media/gebouwen-overzicht.png "Overzicht gebouwen")
+![Gebouwen](data/model-docs/media/gebouwen-overzicht.png "Overzicht gebouwen")
 
 Het domein Gebouw sluit nauw aan op nationale standaarden zoals [[NEN3610-2022]], [[NEN2580-2007]] (voor oppervlaktebepalingen) en is afgestemd op bredere landelijke ontwikkelingen, zoals [[EMSO]], het Federatief Datastelsel (FDS), en initiatieven rondom de indieningsvereisten voor de inzet van BIM bij de geautomatiseerde ondersteuning van het vergunningverleningproces.
 
@@ -139,7 +139,7 @@ Op deze wijze wordt een gebouw, zowel op basis van het fysiek voorkomen, als op 
 
 Het domein Verhardingen beschrijft de verharde oppervlakken in de fysieke leefomgeving, zoals wegen, fietspaden, trottoirs, pleinen en parkeerplaatsen.
 
-![Verhardingen](model-docs/media/verhardingen-overzicht.png "Overzicht verhardingen")
+![Verhardingen](data/model-docs/media/verhardingen-overzicht.png "Overzicht verhardingen")
 
 Verhardingen hebben een samenhang met functionele ruimten, zoals transportruimten. Zo kunnen [wegverbindingen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding) en [-knopen](#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop) functioneel gekoppeld zijn aan verhardingen, om zo de verkeersstructuur en -stromen en de fysieke inrichting van de openbare ruimte te representeren.
 
@@ -148,7 +148,7 @@ Verhardingen hebben een samenhang met functionele ruimten, zoals transportruimte
 Het domein Kunstwerken beschrijft de kunstwerken in de fysieke leefomgeving, zoals bruggen, tunnels en sluizen.
 Kunstwerken zijn civiel-technische constructies voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.
 
-![Kunstwerken](model-docs/media/kunstwerken-overzicht.png "Overzicht kunstwerken")
+![Kunstwerken](data/model-docs/media/kunstwerken-overzicht.png "Overzicht kunstwerken")
 
 De hoofdtypen kunstwerken die onderscheiden worden zijn [overbrugging](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging), [ondertunneling](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling), [waterstaatkundig kunstwerk](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk) en [Kunstwerkdeel](#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel).
 
@@ -156,13 +156,13 @@ De hoofdtypen kunstwerken die onderscheiden worden zijn [overbrugging](#informat
 
 Het domein overige constructies beschrijft constructies die geen gebouw, verharding, of kunstwerk zijn, maar wel een belangrijke rol spelen in de fysieke leefomgeving. Dit kunnen bijvoorbeeld objecten zijn zoals afvalcontainer, putdeksels, lantaarnpalen of andere infrastructuur.
 
-![Overige constructies](model-docs/media/overige_constructies-overzicht.png "Overzicht overige constructies")
+![Overige constructies](data/model-docs/media/overige_constructies-overzicht.png "Overzicht overige constructies")
 
 #### Netwerk
 
 Netwerken, in het bijzonder transportnetwerken, zijn in IMIBRO opgenomen als een extensie op het generieke INSPIRE netwerkmodel [[INSPIRE-D2.10.1]]. Ten behoeve van de IBRO is een selectie uit het netwerkmodel overgenomen, vertaald naar het Nederlands, en gemodelleerd conform [[MIM12]].
 
-![Netwerk](model-docs/media/netwerk.png "Overzicht Netwerk")
+![Netwerk](data/model-docs/media/netwerk.png "Overzicht Netwerk")
 
 Voor de inhoud van het informatiemodel betreffende Netwerk in IMIBRO, zie de sectie [[[#domein-netwerk]]].
 
@@ -214,13 +214,13 @@ Daarnaast kan een transportruimte ook op reële objecten liggen, zoals verharde 
 In IMIBRO is deze relatie expliciet gemodelleerd, maar bij verdere uitwerking in een logisch gegevensmodel kan deze relatie impliciet worden gemaakt en concreet worden ingevuld door een netwerkverwijzing te leggen vanuit het reëel object naar de transportruimte. Dit is afhankelijk van de implementatiecontext en de specifieke eisen van de toepassing.
 </aside>
 
-![Netwerk](model-docs/media/transportnetwerk-overzicht.png "Overzicht transportruimten")
+![Netwerk](data/model-docs/media/transportnetwerk-overzicht.png "Overzicht transportruimten")
 
 ###### Wegennetwerk
 
 Een wegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van wegen. Het betreft de invulling van het [[NEN3610-2022]] type Wegverkeerruimte. Het beschrijft de functionele structuur van weginfrastructuur ten behoeve van verkeer.
 
-![Wegennetwerk](model-docs/media/wegennetwerk-overzicht.png "Overzicht wegennetwerk")
+![Wegennetwerk](data/model-docs/media/wegennetwerk-overzicht.png "Overzicht wegennetwerk")
 
 Het model is hiërarchisch opgebouwd en onderscheidt verschillende niveaus van wegonderdelen, elk bedoeld voor specifieke verkeersstromen en -gebruikers.
 
@@ -249,7 +249,7 @@ Zie de sectie [[[#domein-wegennetwerk]]] voor een gedetailleerd overzicht van de
 
 Het spoorwegennetwerk is een type transportnetwerk dat specifiek gericht is op het modelleren van spoorwegen. Het betreft de invulling van het [[NEN3610-2022]] type Spoorverkeerruimte.
 
-![Netwerk](model-docs/media/spoorwegennetwerk-overzicht.png "Overzicht spoorwegennetwerken")
+![Netwerk](data/model-docs/media/spoorwegennetwerk-overzicht.png "Overzicht spoorwegennetwerken")
 
 Het beschrijft de verkeerskundige inrichting van het spoorvervoer in Nederland. Het model richt zich op de functionele structuur van spoorwegen, met een onderscheid tussen knooppunten en verbindingen.
 
@@ -264,13 +264,13 @@ Zie de sectie [[[#domein-spoorwegennetwerk]]] voor meer details over het domein 
 
 Functionele ruimten zijn ruimten die een functie kennen. In dit domein worden de functionele ruimten beschreven die niet al zijn opgenomen in andere domeinen.
 
-![Functionele ruimten](model-docs/media/functionele_ruimten-overzicht.png "Overzicht functionele ruimten")
+![Functionele ruimten](data/model-docs/media/functionele_ruimten-overzicht.png "Overzicht functionele ruimten")
 
 #### Registratieve ruimten
 
 In het domein registratieve ruimten worden registratieve ruimten binnen een gemeentegebied gedefinieerd, zoals adresseerbare objecten, wijken, buurten en woonplaatsen. Deze objecttypen zijn van administratief belang, zoals bijvoorbeeld voor het adresseren van objecten.
 
-![Registratieve ruimten](model-docs/media/registratieve_ruimten-overzicht.png "Overzicht registratieve ruimten")
+![Registratieve ruimten](data/model-docs/media/registratieve_ruimten-overzicht.png "Overzicht registratieve ruimten")
 
 Gemeentegebieden en andere bestuurlijke gebieden zijn geen onderdeel van IMIBRO. Voor bestuurlijke gebieden wordt gewerkt aan een apart conceptueel informatiemodel [[IMSOR-BG]].
 
@@ -278,6 +278,6 @@ Gemeentegebieden en andere bestuurlijke gebieden zijn geen onderdeel van IMIBRO.
 
 Onder het domein geografische ruimten vallen ruimten die bekendstaan onder een vanuit historie of gebruik bekende benaming of een fysisch-geografische samenhang kennen [[NEN3610-2022]].
 
-![Geografische ruimten](model-docs/media/geografische_ruimten-overzicht.png "Overzicht geografische ruimten")
+![Geografische ruimten](data/model-docs/media/geografische_ruimten-overzicht.png "Overzicht geografische ruimten")
 
 De hoofdtypen zijn [bebouwingskern](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern), [streek](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek), [landschappelijk gebied](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied) en [reliëfzone](#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone).
