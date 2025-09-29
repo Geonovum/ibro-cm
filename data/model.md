@@ -1,8 +1,9 @@
 # Informatiemodel Conceptueel model IBRO
 ## Domein Kern
-![Kern](data/model-docs/media/kern.png "Domein Kern")
+![Kern](data/media/kern.png "Domein Kern")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_object">
 <h4>Object</h4>
@@ -71,8 +72,8 @@
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -151,174 +152,7 @@ Netwerkverwijzing die een object heeft.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte">
-<h5>GeografischeRuimte</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GeografischeRuimte</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GeografischeRuimte</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Geografische ruimte</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Ruimte die bekendstaat onder een vanuit de historie of het gebruik bekende benaming of een fysisch-geografische samenhang, al dan niet met zijn omgeving, kent.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Dit objecttype is gelijk aan het objecttype Geografische ruimte uit NEN 3610, maar is opgenomen als specialisatie daarvan omdat er specifieke kenmerken voor zijn gedefinieerd.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/geografische_ruimte">https://definities.geostandaarden.nl/ibro/id/begrip/geografische_ruimte</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geografische_ruimte">GeografischeRuimte (NEN 3610:2022 - Basismodel geo-informatie)</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_object">Object</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte_attribuutsoort_status">status</a>
-</td>
-<td>
-Fase van de levenscyclus waarin een object zich bevindt.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_geografische_ruimte">StatusGeografischeRuimte</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte_attribuutsoort_status">
-<h6>status</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>status</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_functionele_ruimte">
 <h5>FunctioneleRuimte</h5>
 
@@ -408,8 +242,8 @@ Fase van de levenscyclus waarin een object zich bevindt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -487,170 +321,7 @@ Fase van de levenscyclus waarin een object zich bevindt.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte">
-<h5>RegistratieveRuimte</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#RegistratieveRuimte</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>RegistratieveRuimte</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek-bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>NEN 3610:2022 nl</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Dit objecttype is gelijk aan het objecttype Registratieve ruimte uit NEN 3610, maar is opgenomen als specialisatie daarvan omdat er specifieke kenmerken voor zijn gedefinieerd.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/registratieve_ruimte">https://definities.geostandaarden.nl/ibro/id/begrip/registratieve_ruimte</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_registratieve_ruimte">RegistratieveRuimte (NEN 3610:2022 - Basismodel geo-informatie)</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_object">Object</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte_attribuutsoort_status">status</a>
-</td>
-<td>
-Fase van de levenscyclus waarin een object zich bevindt.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_registratieve_ruimte">StatusRegistratieveRuimte</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte_attribuutsoort_status">
-<h6>status</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>status</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_reeel_object">
 <h5>ReeelObject</h5>
 
@@ -740,8 +411,8 @@ Fase van de levenscyclus waarin een object zich bevindt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -768,7 +439,7 @@ Fase van de levenscyclus waarin een object zich bevindt.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_object">GM_Object</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Object"> GM_Object</a>
 </td>
 <td>
 1..*</td>
@@ -875,81 +546,7 @@ Geometrische representatie van een object.</td>
 </section>
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_onbepaald_terrein">
-<h6>OnbepaaldTerrein</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#OnbepaaldTerrein</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OnbepaaldTerrein</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet verder wordt gedetailleerd in andere reële objecten en dat bestaat uit een mengvorm van verharding, water, begroeiing en/of constructies.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Gebaseerd op definitie van erf in BGT</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In plaats van onbepaald terrein kan ter plaatse ook de reële topografie worden ingewonnen (vrijwillig).</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/onbepaald_terrein">https://definities.geostandaarden.nl/ibro/id/begrip/onbepaald_terrein</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie Erf zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_reeel_object">ReeelObject</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_constructie">
 <h6>Constructie</h6>
 
@@ -1037,8 +634,427 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_onbepaald_terrein">
+<h6>OnbepaaldTerrein</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OnbepaaldTerrein</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OnbepaaldTerrein</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Onbepaald terrein</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fysiek begrensd en zichtbaar terrein dat bij een gebouw hoort, dat niet verder wordt gedetailleerd in andere reële objecten en dat bestaat uit een mengvorm van verharding, water, begroeiing en/of constructies.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gebaseerd op definitie van erf in BGT</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>In plaats van onbepaald terrein kan ter plaatse ook de reële topografie worden ingewonnen (vrijwillig).</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/onbepaald_terrein">https://definities.geostandaarden.nl/ibro/id/begrip/onbepaald_terrein</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie Erf zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_reeel_object">ReeelObject</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
 </section>
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte">
+<h5>RegistratieveRuimte</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#RegistratieveRuimte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>RegistratieveRuimte</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Registratieve ruimte</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek-bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>NEN 3610:2022 nl</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Dit objecttype is gelijk aan het objecttype Registratieve ruimte uit NEN 3610, maar is opgenomen als specialisatie daarvan omdat er specifieke kenmerken voor zijn gedefinieerd.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/registratieve_ruimte">https://definities.geostandaarden.nl/ibro/id/begrip/registratieve_ruimte</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_registratieve_ruimte">RegistratieveRuimte (NEN 3610:2022 - Basismodel geo-informatie)</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_object">Object</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte_attribuutsoort_status">status</a>
+</td>
+<td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_registratieve_ruimte">StatusRegistratieveRuimte</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_registratieve_ruimte_attribuutsoort_status">
+<h6>status</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte">
+<h5>GeografischeRuimte</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GeografischeRuimte</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GeografischeRuimte</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Geografische ruimte</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimte die bekendstaat onder een vanuit de historie of het gebruik bekende benaming of een fysisch-geografische samenhang, al dan niet met zijn omgeving, kent.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>NEN 3610:2022 nl</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Dit objecttype is gelijk aan het objecttype Geografische ruimte uit NEN 3610, maar is opgenomen als specialisatie daarvan omdat er specifieke kenmerken voor zijn gedefinieerd.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/geografische_ruimte">https://definities.geostandaarden.nl/ibro/id/begrip/geografische_ruimte</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_nen3610_domein_semantisch_model_objecttype_geografische_ruimte">GeografischeRuimte (NEN 3610:2022 - Basismodel geo-informatie)</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_object">Object</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte_attribuutsoort_status">status</a>
+</td>
+<td>
+Fase van de levenscyclus waarin een object zich bevindt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kern_enumeratie_status_geografische_ruimte">StatusGeografischeRuimte</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kern_objecttype_geografische_ruimte_attribuutsoort_status">
+<h6>status</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#status</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>status</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Fase van de levenscyclus waarin een object zich bevindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+</section>
+
 
 
 ### Keuzen tussen datatypen
@@ -1177,6 +1193,10 @@ Geometrische representatie van een object.</td>
 <td>MultiPuntOfMultiVlak</td>
 </tr>
 <tr>
+<th>Alias</th>
+<td>Multipunt of multivlak</td>
+</tr>
+<tr>
 <th>Herkomst</th>
 <td>EMSO</td>
 </tr>
@@ -1250,12 +1270,6 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Herkomst definitie</th>
 <td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/niet_gerealiseerd_reeel_object">https://definities.geostandaarden.nl/ibro/id/begrip/niet_gerealiseerd_reeel_object</a>
-</td>
 </tr>
 <tr>
 <th>Datum opname</th>
@@ -1341,6 +1355,10 @@ Object waarvan de feitelijke sloop of verwijdering is afgerond.</td>
 <td>StatusFunctioneleRuimte</td>
 </tr>
 <tr>
+<th>Alias</th>
+<td>Status functionele ruimte</td>
+</tr>
+<tr>
 <th>Herkomst</th>
 <td>EMSO</td>
 </tr>
@@ -1421,6 +1439,10 @@ Object dat is opgeheven.</td>
 <td>StatusRegistratieveRuimte</td>
 </tr>
 <tr>
+<th>Alias</th>
+<td>Status registratieve ruimte</td>
+</tr>
+<tr>
 <th>Herkomst</th>
 <td>EMSO</td>
 </tr>
@@ -1491,6 +1513,10 @@ Object dat door het bevoegd gezag is ingetrokken op grond van wet- of regelgevin
 <td>StatusGeografischeRuimte</td>
 </tr>
 <tr>
+<th>Alias</th>
+<td>Status geografische ruimte</td>
+</tr>
+<tr>
 <th>Herkomst</th>
 <td>EMSO</td>
 </tr>
@@ -1550,9 +1576,10 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 ## Domein Groen
-![Groen](data/model-docs/media/groen.png "Domein Groen")
+![Groen](data/media/groen.png "Domein Groen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">
 <h4>Begroeiing</h4>
@@ -1640,6 +1667,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtsingel">
 <h5>Houtsingel</h5>
 
@@ -1715,6 +1743,83 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland">
+<h5>Rietland</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rietland</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rietland</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein overwegend begroeid met rietvegetatie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Het reëel object Rietland is opgenomen om de specifieke combinatie van water en kenmerkende begroeiing weer te geven ten behoeve van navigatie en toegankelijkheid. Deze gebieden kenmerken zich door een heel eigen verschijningsvorm, waarbinnen de begroeiing plaatselijk en tijdelijk kan veranderen, maar waar onderhoud gericht is op behoud van de typische verschijningsvorm van rietland.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rietland">https://definities.geostandaarden.nl/ibro/id/begrip/rietland</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie rietland zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_houtwal">
 <h5>Houtwal</h5>
 
@@ -1786,6 +1891,955 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide">
+<h5>Heide</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Heide</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Heide</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met heide en heideachtige vegetaties.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Het reëel object Heide is opgenomen om de kenmerkende begroeiing weer te geven ten behoeve van navigatie en toegankelijkheid. Deze gebieden kenmerken zich door een heel eigen verschijningsvorm, waarbinnen de begroeiing plaatselijk en tijdelijk kan veranderen, maar waar onderhoud gericht is op behoud van de typische verschijningsvorm van heide.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/heide">https://definities.geostandaarden.nl/ibro/id/begrip/heide</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie heide zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag">
+<h5>Haag</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Haag</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Haag</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gesloten lijnvormige beplanting, waarvan de hoogte en breedte door middel van knippen in stand wordt gehouden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/haag">https://definities.geostandaarden.nl/ibro/id/begrip/haag</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen haag zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de heg, haag zoals deze is opgenomen in de basisregistratie topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">
+<h5>FruitOfKweekbomen</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#FruitOfKweekbomen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>FruitOfKweekbomen</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Fruit of kweekbomen</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Begroeiing die het kweken van meerjarige siergewassen en bomen betreft ten behoeve van een later gebruik elders of voor het kweken van fruit.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fruit-_of_kweekbomen">https://definities.geostandaarden.nl/ibro/id/begrip/fruit-_of_kweekbomen</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen fruitteelt en boomteelt zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de Boomkwekerij, Fruitkwekerij en Boomgaard zoals deze is opgenomen in de basisregistratie topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_boomkwekerij">
+<h6>Boomkwekerij</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Boomkwekerij</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Boomkwekerij</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/boomkwekerij">https://definities.geostandaarden.nl/ibro/id/begrip/boomkwekerij</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_hoogstam_boomgaarden">
+<h6>HoogstamBoomgaarden</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#HoogstamBoomgaarden</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>HoogstamBoomgaarden</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Hoogstam boomgaarden</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met hoogstamfruitbomen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hoogstam_boomgaarden">https://definities.geostandaarden.nl/ibro/id/begrip/hoogstam_boomgaarden</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruitkwekerij_met_lage_opstand">
+<h6>FruitkwekerijMetLageOpstand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#FruitkwekerijMetLageOpstand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>FruitkwekerijMetLageOpstand</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Fruitkwekerij met lage opstand</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met laagstamfruitbomen, druivenstokken of begroeid met heesters voor zachtfruit zoals bessen of frambozen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fruitkwekerij_met_lage_opstand">https://definities.geostandaarden.nl/ibro/id/begrip/fruitkwekerij_met_lage_opstand</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_bouwland">
+<h5>Bouwland</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bouwland</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bouwland</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Kan tijdelijk zonder gewas zijn of braak liggen.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bouwland">https://definities.geostandaarden.nl/ibro/id/begrip/bouwland</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object Braakliggend wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">
+<h5>Bos</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bos</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bos</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bos">https://definities.geostandaarden.nl/ibro/id/begrip/bos</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen loofbos, naaldbos en gemengd bos en groenvoorziening van type bosplantsoen van begroeid terreindeel zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_naaldbos">
+<h6>Naaldbos</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Naaldbos</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Naaldbos</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/naaldbos">https://definities.geostandaarden.nl/ibro/id/begrip/naaldbos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_griend_en_hakhout">
+<h6>GriendEnHakhout</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GriendEnHakhout</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GriendEnHakhout</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Griend en hakhout</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/griend_en_hakhout">https://definities.geostandaarden.nl/ibro/id/begrip/griend_en_hakhout</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_gemengd_bos">
+<h6>GemengdBos</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GemengdBos</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GemengdBos</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Gemengd bos</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemengd_bos">https://definities.geostandaarden.nl/ibro/id/begrip/gemengd_bos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_loofbos">
+<h6>Loofbos</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Loofbos</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Loofbos</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/loofbos">https://definities.geostandaarden.nl/ibro/id/begrip/loofbos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken">
+<h5>Struiken</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Struiken</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Struiken</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/struiken"> https://definities.geostandaarden.nl/ibro/id/begrip/struiken</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier de bestaande populatie fysiek voorkomen struiken en circa de helft van groenvoorziening (de rest valt onder gras- en kruidachtigen) zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_gras_en_kruidachtigen">
 <h5>GrasEnKruidachtigen</h5>
 
@@ -1865,578 +2919,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_haag">
-<h5>Haag</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Haag</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Haag</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>IMBOR 2025</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gesloten lijnvormige beplanting, waarvan de hoogte en breedte door middel van knippen in stand wordt gehouden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>IMBOR 2025</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/haag">https://definities.geostandaarden.nl/ibro/id/begrip/haag</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen haag zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de heg, haag zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_bouwland">
-<h5>Bouwland</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bouwland</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bouwland</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein in gebruik als akker, met gewassen die in een teelt-roulatieschema zijn opgenomen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Kan tijdelijk zonder gewas zijn of braak liggen.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bouwland">https://definities.geostandaarden.nl/ibro/id/begrip/bouwland</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen bouwland zoals deze is opgenomen in de basisregistratie grootschalige topografie. BRT-object Braakliggend wordt voor zover het landbouwgrond betreft ook in dit objecttype akkerland opgenomen.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_rietland">
-<h5>Rietland</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rietland</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rietland</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein overwegend begroeid met rietvegetatie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Het reëel object Rietland is opgenomen om de specifieke combinatie van water en kenmerkende begroeiing weer te geven ten behoeve van navigatie en toegankelijkheid. Deze gebieden kenmerken zich door een heel eigen verschijningsvorm, waarbinnen de begroeiing plaatselijk en tijdelijk kan veranderen, maar waar onderhoud gericht is op behoud van de typische verschijningsvorm van rietland.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rietland">https://definities.geostandaarden.nl/ibro/id/begrip/rietland</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie rietland zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">
-<h5>Bos</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bos</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bos</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Begroeiing die een dusdanige aantal bomen betreft dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>Gebaseerd op de definities van bos in de BGT 1.2 en van Griend en Hakhout uit IMGeo 2.2</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>De definitie van Bos laat voldoende ruimte voor plaatselijke aanwezigheid van struiken.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bos">https://definities.geostandaarden.nl/ibro/id/begrip/bos</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie fysiek voorkomen loofbos, naaldbos en gemengd bos en groenvoorziening van type bosplantsoen van begroeid terreindeel zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_naaldbos">
-<h6>Naaldbos</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Naaldbos</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Naaldbos</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met een dusdanige aantal naaldbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/naaldbos">https://definities.geostandaarden.nl/ibro/id/begrip/naaldbos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_griend_en_hakhout">
-<h6>GriendEnHakhout</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GriendEnHakhout</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GriendEnHakhout</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Griend en hakhout</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met loofbomen, in een dicht groeiverband die periodiek wordt ingekort.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/griend_en_hakhout">https://definities.geostandaarden.nl/ibro/id/begrip/griend_en_hakhout</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_gemengd_bos">
-<h6>GemengdBos</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GemengdBos</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GemengdBos</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Gemengd bos</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met een dusdanig aantal naald- en loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemengd_bos">https://definities.geostandaarden.nl/ibro/id/begrip/gemengd_bos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_loofbos">
-<h6>Loofbos</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Loofbos</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Loofbos</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met een dusdanige aantal loofbomen dat deze een min of meer gesloten geheel vormen of, na volgroeiing van de bomen, zullen vormen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/loofbos">https://definities.geostandaarden.nl/ibro/id/begrip/loofbos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_bos">Bos</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_boom">
 <h5>Boom</h5>
 
@@ -2512,444 +2995,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">
-<h5>FruitOfKweekbomen</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#FruitOfKweekbomen</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>FruitOfKweekbomen</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Fruit of kweekbomen</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Begroeiing die het kweken van meerjarige siergewassen en bomen betreft ten behoeve van een later gebruik elders of voor het kweken van fruit.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>De hier bedoelde kwekerijen onderscheiden zich van kwekerijen van potplanten door de langdurige stand/teelt van gewassen.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fruit-_of_kweekbomen">https://definities.geostandaarden.nl/ibro/id/begrip/fruit-_of_kweekbomen</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen fruitteelt en boomteelt zoals deze is opgenomen in de basisregistratie grootschalige topografie. En de Boomkwekerij, Fruitkwekerij en Boomgaard zoals deze is opgenomen in de basisregistratie topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_boomkwekerij">
-<h6>Boomkwekerij</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Boomkwekerij</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Boomkwekerij</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein, overwegend in gebruik t.b.v. het opkweken van bomen (inclusief coniferen en sparren) en struiken, waarbij de hoogte van de aanplant niet van belang is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/boomkwekerij">https://definities.geostandaarden.nl/ibro/id/begrip/boomkwekerij</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruitkwekerij_met_lage_opstand">
-<h6>FruitkwekerijMetLageOpstand</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#FruitkwekerijMetLageOpstand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>FruitkwekerijMetLageOpstand</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Fruitkwekerij met lage opstand</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met laagstamfruitbomen, druivenstokken of begroeid met heesters voor zachtfruit zoals bessen of frambozen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fruitkwekerij_met_lage_opstand">https://definities.geostandaarden.nl/ibro/id/begrip/fruitkwekerij_met_lage_opstand</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_hoogstam_boomgaarden">
-<h6>HoogstamBoomgaarden</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#HoogstamBoomgaarden</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>HoogstamBoomgaarden</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Hoogstam boomgaarden</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met hoogstamfruitbomen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hoogstam_boomgaarden">https://definities.geostandaarden.nl/ibro/id/begrip/hoogstam_boomgaarden</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_fruit_of_kweekbomen">FruitOfKweekbomen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_heide">
-<h5>Heide</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Heide</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Heide</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Terrein begroeid met heide en heideachtige vegetaties.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Het reëel object Heide is opgenomen om de kenmerkende begroeiing weer te geven ten behoeve van navigatie en toegankelijkheid. Deze gebieden kenmerken zich door een heel eigen verschijningsvorm, waarbinnen de begroeiing plaatselijk en tijdelijk kan veranderen, maar waar onderhoud gericht is op behoud van de typische verschijningsvorm van heide.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/heide">https://definities.geostandaarden.nl/ibro/id/begrip/heide</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie heide zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_struiken">
-<h5>Struiken</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Struiken</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Struiken</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Begroeiing van bodembedekkers en/of houtachtige en/of meerstammige overblijvende planten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>Dit omvat alle begroeiing die niet valt onder de overige reële objecten onder Begroeiing.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/struiken"> https://definities.geostandaarden.nl/ibro/id/begrip/struiken</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier de bestaande populatie fysiek voorkomen struiken en circa de helft van groenvoorziening (de rest valt onder gras- en kruidachtigen) zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_groen_objecttype_begroeiing">Begroeiing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_groen_objecttype_moeras">
 <h5>Moeras</h5>
 
@@ -3033,10 +3079,12 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
+
 ## Domein Bodem
-![Bodem](data/model-docs/media/bodem.png "Domein Bodem")
+![Bodem](data/media/bodem.png "Domein Bodem")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_bodem_objecttype_onbegroeide_grond">
 <h4>OnbegroeideGrond</h4>
@@ -3140,10 +3188,12 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
+
 ## Domein Water
-![Water](data/model-docs/media/water.png "Domein Water")
+![Water](data/media/water.png "Domein Water")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">
 <h4>Oppervlaktewater</h4>
@@ -3231,6 +3281,79 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 
 
 
+
+<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel">
+<h5>Greppel</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Greppel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Greppel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>IMGEO 1.0</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMGEO 1.0</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/greppel">https://definities.geostandaarden.nl/ibro/id/begrip/greppel</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier grotendeels de bestaande populatie greppel/droge sloot zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">
 <h5>Watergang</h5>
 
@@ -3304,8 +3427,8 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -3320,7 +3443,7 @@ Object dat niet langer als zodanig wordt aangemerkt.</td>
 <td>
 Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -3380,6 +3503,7 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 </table>
 </section>
 </section>
+
 
 
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_kanaal">
@@ -3449,73 +3573,7 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_rivier">
-<h6>Rivier</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rivier</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rivier</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een watergang en stroomt naar laaggelegen streken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rivier">https://definities.geostandaarden.nl/ibro/id/begrip/rivier</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_sloot">
 <h6>Sloot</h6>
 
@@ -3583,6 +3641,75 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_rivier">
+<h6>Rivier</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rivier</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rivier</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Water dat door atmosferische neerslag op hellende terreinen valt, vloeit, voor zover het niet verdampt of door planten wordt opgenomen, tezamen tot een watergang en stroomt naar laaggelegen streken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rivier">https://definities.geostandaarden.nl/ibro/id/begrip/rivier</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watergang">Watergang</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_gracht">
 <h6>Gracht</h6>
 
@@ -3650,6 +3777,7 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_beek">
 <h6>Beek</h6>
 
@@ -3718,6 +3846,7 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">
 <h5>Watervlakte</h5>
 
@@ -3791,8 +3920,8 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -3807,7 +3936,7 @@ Deze watergang is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>
 Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -3833,6 +3962,10 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Naam</th>
 <td>indicatiePrimair</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>indicatie primair</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -3868,6 +4001,75 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_plas">
+<h6>Plas</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Plas</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Plas</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/plas">https://definities.geostandaarden.nl/ibro/id/begrip/plas</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_ven">
 <h6>Ven</h6>
@@ -3936,140 +4138,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_vijver">
-<h6>Vijver</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Vijver</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vijver</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vijver">https://definities.geostandaarden.nl/ibro/id/begrip/vijver</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_zee">
-<h6>Zee</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Zee</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Zee</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Uitgestrekt oppervlak zout water.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zee">https://definities.geostandaarden.nl/ibro/id/begrip/zee</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_meer">
 <h6>Meer</h6>
 
@@ -4137,19 +4206,20 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_plas">
-<h6>Plas</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_vijver">
+<h6>Vijver</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Plas</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vijver</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Plas</td>
+<td>Vijver</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -4157,7 +4227,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Waterpartij, ontstaan door de winning van delfstoffen in dagbouw, die in contact staat met de vrije grondwaterspiegel.</td>
+<td>Gegraven waterpartij, aangelegd in stedelijke omgeving of in een parklandschap.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -4166,7 +4236,75 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/plas">https://definities.geostandaarden.nl/ibro/id/begrip/plas</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vijver">https://definities.geostandaarden.nl/ibro/id/begrip/vijver</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_watervlakte">Watervlakte</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_zee">
+<h6>Zee</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zee</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Zee</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Uitgestrekt oppervlak zout water.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zee">https://definities.geostandaarden.nl/ibro/id/begrip/zee</a>
 </td>
 </tr>
 <tr>
@@ -4205,6 +4343,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_getijdengebied">
 <h5>Getijdengebied</h5>
 
@@ -4268,6 +4407,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -4342,6 +4482,7 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_slik">
 <h6>Slik</h6>
 
@@ -4410,78 +4551,8 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 </section>
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_water_objecttype_greppel">
-<h5>Greppel</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Greppel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Greppel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>IMGEO 1.0</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>IMGEO 1.0</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/greppel">https://definities.geostandaarden.nl/ibro/id/begrip/greppel</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie greppel/droge sloot zoals deze is opgenomen in de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_water_objecttype_oppervlaktewater">Oppervlaktewater</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-</section>
 
 
 
@@ -4490,9 +4561,10 @@ Deze watervlakte is al dan niet een hoofdverbinding in het watersysteem.</td>
 
 
 ## Domein Gebouwen
-![Gebouwen](data/model-docs/media/gebouwen.png "Domein Gebouwen")
+![Gebouwen](data/media/gebouwen.png "Domein Gebouwen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_pand">
 <h4>Pand</h4>
@@ -4592,8 +4664,8 @@ Erfconstructies.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -4620,7 +4692,7 @@ Fysieke verschijningsvorm van een pand.</td>
 <td>
 Aanduiding van het jaar waarin een constructie oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
 <td>
-<a class="link" href="#primitief_datatype_year">Year</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Year</a>
 </td>
 <td>
 1</td>
@@ -4632,7 +4704,7 @@ Aanduiding van het jaar waarin een constructie oorspronkelijk als bouwkundig ger
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -4644,7 +4716,7 @@ Naam van een object.</td>
 <td>
 Indicatie dat het pand een open constructie heeft.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -4659,8 +4731,8 @@ Indicatie dat het pand een open constructie heeft.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -4768,6 +4840,10 @@ Een Pand bestaat uit minimaal 1 Panddeel (Type: Basisconstructie).</td>
 <tr>
 <th>Naam</th>
 <td>oorspronkelijkBouwjaar</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>oorspronkelijk bouwjaar</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -4959,6 +5035,7 @@ Een Pand bestaat uit minimaal 1 Panddeel (Type: Basisconstructie).</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_panddeel">
 <h4>Panddeel</h4>
 
@@ -5034,8 +5111,8 @@ Een Pand kent altijd een verplicht Panddeel type Basisconstructie (zie bij Pand)
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5050,7 +5127,7 @@ Een Pand kent altijd een verplicht Panddeel type Basisconstructie (zie bij Pand)
 <td>
 Aanduiding van het jaar waarin een constructie oorspronkelijk als bouwkundig gereed is of zal worden opgeleverd.</td>
 <td>
-<a class="link" href="#primitief_datatype_year">Year</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Year</a>
 </td>
 <td>
 1</td>
@@ -5065,8 +5142,8 @@ Aanduiding van het jaar waarin een constructie oorspronkelijk als bouwkundig ger
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5194,6 +5271,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_bouwlaag">
 <h4>Bouwlaag</h4>
 
@@ -5283,8 +5361,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5299,7 +5377,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 <td>
 Niveau waarop een bouwlaag zich bevindt</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -5314,8 +5392,8 @@ Niveau waarop een bouwlaag zich bevindt</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5453,6 +5531,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_functiezone">
 <h4>Functiezone</h4>
 
@@ -5484,8 +5563,7 @@ Object waarin dit object ligt.</td>
 <td>Een Functiezone kan inpandig zijn of gebouwgebonden buitenruimte zijn.
 Elke Functiezone wordt geclassificeerd op basis van de hoofdfuncties Verblijven, Verkeer, Opslag of Technisch. De
 hoofdfunctie Verblijven wordt nader onderverdeeld in subfuncties conform de gebruiksfuncties uit het Besluit
-Bouwwerken Leefomgeving (Bbl). Het betreft hier de vergunde functie.
-</td>
+Bouwwerken Leefomgeving (Bbl). Het betreft hier de vergunde functie.</td>
 </tr>
 <tr>
 <th>Begrip</th>
@@ -5530,8 +5608,8 @@ Bouwwerken Leefomgeving (Bbl). Het betreft hier de vergunde functie.
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5546,7 +5624,7 @@ Bouwwerken Leefomgeving (Bbl). Het betreft hier de vergunde functie.
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -5558,7 +5636,7 @@ Geometrische representatie van een object.</td>
 <td>
 BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -5573,8 +5651,8 @@ BrutoVloeroppervlakte als bedoeld in NEN 2580.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5751,6 +5829,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_gebruikzone">
 <h4>Gebruikzone</h4>
 
@@ -5822,8 +5901,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -5838,7 +5917,7 @@ Object waarin dit object ligt.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_multi_surface">GM_MultiSurface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_MultiSurface"> GM_MultiSurface</a>
 </td>
 <td>
 1</td>
@@ -5850,7 +5929,7 @@ Geometrische representatie van een object.</td>
 <td>
 Gebruiksoppervlakte als bedoeld in NEN 2580.</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -5865,8 +5944,8 @@ Gebruiksoppervlakte als bedoeld in NEN 2580.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -6039,6 +6118,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_toegangspunt">
 <h4>Toegangspunt</h4>
 
@@ -6104,8 +6184,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -6120,7 +6200,7 @@ Object waarin dit object ligt.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_point">GM_Point</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Point"> GM_Point</a>
 </td>
 <td>
 1</td>
@@ -6159,8 +6239,8 @@ Aard van gebruik van een toegangsdeur.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -6374,6 +6454,7 @@ Object waar dit object bijhoort.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebouwen_objecttype_verblijfsobject">
 <h4>Verblijfsobject</h4>
 
@@ -6439,8 +6520,8 @@ Object waar dit object bijhoort.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -6455,7 +6536,7 @@ Object waar dit object bijhoort.</td>
 <td>
 Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -6467,7 +6548,7 @@ Gebruiksoppervlakte van een verblijfsobject.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_object">GM_Object</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Object"> GM_Object</a>
 </td>
 <td>
 1</td>
@@ -6482,8 +6563,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -6718,6 +6799,7 @@ Object dat dit object overlapt.</td>
 
 
 
+
 ### Enumeraties
 
 #### AardPand {#informatiemodel_imibro_conceptueel_domein_gebouwen_enumeratie_aard_pand}
@@ -6932,9 +7014,10 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 ## Domein Pandtypen
-![Pandtypen](data/model-docs/media/pandtypen.png "Domein Pandtypen")
+![Pandtypen](data/media/pandtypen.png "Domein Pandtypen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bijgebouw">
 <h4>Bijgebouw</h4>
@@ -6995,6 +7078,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -7069,6 +7153,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_garage">
 <h5>Garage</h5>
 
@@ -7137,6 +7222,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">
 <h4>Bedrijfsgebouw</h4>
 
@@ -7202,6 +7288,483 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_parkeergarage">
+<h5>Parkeergarage</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Parkeergarage</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Parkeergarage</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parkeergarage">https://definities.geostandaarden.nl/ibro/id/begrip/parkeergarage</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_loods">
+<h5>Loods</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Loods</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Loods</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Groot en hoog gebouw met veelal grote inrijdeuren bedoeld voor het opslaan van handels- of industriële goederen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/loods">https://definities.geostandaarden.nl/ibro/id/begrip/loods</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_boerderij">
+<h5>Boerderij</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Boerderij</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Boerderij</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Pand dat zodanig constructief is vormgegeven dat daarbinnen een combinatie van agrarische bedrijfsvoering en bewoning door de bedrijfsvoerder kan plaatsvinden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/boerderij">https://definities.geostandaarden.nl/ibro/id/begrip/boerderij</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_molen">
+<h5>Molen</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Molen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Molen</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bedrijfsgebouw dat gekenmerkt wordt door het in een aan het gebouw aanwezig zijn van een draaiend mechaniek waarbij wind wordt omgezet in rotatie-energie van de op het gebouw aanwezige wieken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/molen">https://definities.geostandaarden.nl/ibro/id/begrip/molen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_fabriek">
+<h5>Fabriek</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fabriek</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fabriek</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bedrijfsgebouw dat constructief is vormgegeven zodat daarbinnen op grote schaal stoffen of goederen geproduceerd kunnen worden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fabriek">https://definities.geostandaarden.nl/ibro/id/begrip/fabriek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_stal">
+<h5>Stal</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Stal</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Stal</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bedrijfsgebouw met een constructie gericht op het daarbinnen onderbrengen van vee.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/stal">https://definities.geostandaarden.nl/ibro/id/begrip/stal</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_hangar">
+<h5>Hangar</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Hangar</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Hangar</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bedrijfsgebouw met een omvang en constructie gericht op het produceren, onderhouden of stallen van vliegtuigen en/of helikopters.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hangar">https://definities.geostandaarden.nl/ibro/id/begrip/hangar</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_voertuigenstalling">
 <h5>Voertuigenstalling</h5>
@@ -7270,341 +7833,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_stal">
-<h5>Stal</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Stal</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Stal</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bedrijfsgebouw met een constructie gericht op het daarbinnen onderbrengen van vee.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/stal">https://definities.geostandaarden.nl/ibro/id/begrip/stal</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_loods">
-<h5>Loods</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Loods</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Loods</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Groot en hoog gebouw met veelal grote inrijdeuren bedoeld voor het opslaan van handels- of industriële goederen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/loods">https://definities.geostandaarden.nl/ibro/id/begrip/loods</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_boerderij">
-<h5>Boerderij</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Boerderij</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Boerderij</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Pand dat zodanig constructief is vormgegeven dat daarbinnen een combinatie van agrarische bedrijfsvoering en bewoning door de bedrijfsvoerder kan plaatsvinden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/boerderij">https://definities.geostandaarden.nl/ibro/id/begrip/boerderij</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_fabriek">
-<h5>Fabriek</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fabriek</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fabriek</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bedrijfsgebouw dat constructief is vormgegeven zodat daarbinnen op grote schaal stoffen of goederen geproduceerd kunnen worden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fabriek">https://definities.geostandaarden.nl/ibro/id/begrip/fabriek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_hangar">
-<h5>Hangar</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Hangar</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Hangar</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bedrijfsgebouw met een omvang en constructie gericht op het produceren, onderhouden of stallen van vliegtuigen en/of helikopters.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hangar">https://definities.geostandaarden.nl/ibro/id/begrip/hangar</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kas">
 <h5>Kas</h5>
 
@@ -7672,141 +7901,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_parkeergarage">
-<h5>Parkeergarage</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Parkeergarage</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Parkeergarage</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parkeergarage">https://definities.geostandaarden.nl/ibro/id/begrip/parkeergarage</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_molen">
-<h5>Molen</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Molen</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Molen</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bedrijfsgebouw dat gekenmerkt wordt door het in een aan het gebouw aanwezig zijn van een draaiend mechaniek waarbij wind wordt omgezet in rotatie-energie van de op het gebouw aanwezige wieken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/molen">https://definities.geostandaarden.nl/ibro/id/begrip/molen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bedrijfsgebouw">Bedrijfsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_doelgroepengebouw">
 <h4>Doelgroepengebouw</h4>
 
@@ -7866,6 +7962,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -7940,6 +8037,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gevangenis">
 <h5>Gevangenis</h5>
 
@@ -8008,6 +8106,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">
 <h4>Gebedsgebouw</h4>
 
@@ -8073,6 +8172,75 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kerkgebouw">
+<h5>Kerkgebouw</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kerkgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kerkgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op het houden van christelijke erediensten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/kerkgebouw"> https://definities.geostandaarden.nl/ibro/id/begrip/kerkgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_synagoge">
 <h5>Synagoge</h5>
@@ -8141,207 +8309,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_moskee">
-<h5>Moskee</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Moskee</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Moskee</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebedsgebouw met een constructie gericht op islamitische geloofsuitoefening.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/moskee"> https://definities.geostandaarden.nl/ibro/id/begrip/moskee</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kapel">
-<h5>Kapel</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kapel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Kapel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Klein gebedsgebouw dat is vormgegeven om te kunnen fungeren voor individuele bezinning.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/kapel"> https://definities.geostandaarden.nl/ibro/id/begrip/kapel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kerkgebouw">
-<h5>Kerkgebouw</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kerkgebouw</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Kerkgebouw</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebedsgebouw met een constructie gericht op het houden van christelijke erediensten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/kerkgebouw"> https://definities.geostandaarden.nl/ibro/id/begrip/kerkgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_tempel">
 <h5>Tempel</h5>
 
@@ -8409,6 +8377,143 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_moskee">
+<h5>Moskee</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Moskee</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Moskee</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebedsgebouw met een constructie gericht op islamitische geloofsuitoefening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/moskee"> https://definities.geostandaarden.nl/ibro/id/begrip/moskee</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kapel">
+<h5>Kapel</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kapel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kapel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Klein gebedsgebouw dat is vormgegeven om te kunnen fungeren voor individuele bezinning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/kapel"> https://definities.geostandaarden.nl/ibro/id/begrip/kapel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_gebedsgebouw">Gebedsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_klooster">
 <h5>Klooster</h5>
 
@@ -8477,6 +8582,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_installatiegebouw">
 <h4>Installatiegebouw</h4>
 
@@ -8536,6 +8642,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -8610,6 +8717,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_energiecentrale">
 <h5>Energiecentrale</h5>
 
@@ -8678,6 +8786,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_kantoorgebouw">
 <h4>Kantoorgebouw</h4>
 
@@ -8745,6 +8854,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_multigebouw">
 <h4>Multigebouw</h4>
 
@@ -8812,6 +8922,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_overkapping">
 <h4>Overkapping</h4>
 
@@ -8879,6 +8990,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_recreatiegebouw">
 <h4>Recreatiegebouw</h4>
 
@@ -8938,6 +9050,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -9013,6 +9126,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_toren">
 <h4>Toren</h4>
 
@@ -9072,6 +9186,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -9146,73 +9261,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_klokkentoren">
-<h5>Klokkentoren</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Klokkentoren</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Klokkentoren</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Toren bedoeld voor de ophanging van een uurwerk en/of klokkenspel.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/klokkentoren">https://definities.geostandaarden.nl/ibro/id/begrip/klokkentoren</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_toren">Toren</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_vuurtoren">
 <h5>Vuurtoren</h5>
 
@@ -9280,73 +9329,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_watertoren">
-<h5>Watertoren</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Watertoren</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Watertoren</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Toren die oorspronkelijk is bedoeld voor de opslag van drinkwater in een bovenin het gebouw gelegen waterreservoir.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/watertoren">https://definities.geostandaarden.nl/ibro/id/begrip/watertoren</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_toren">Toren</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_fabrieksschoorsteen">
 <h5>Fabrieksschoorsteen</h5>
 
@@ -9414,7 +9397,144 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_watertoren">
+<h5>Watertoren</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Watertoren</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Watertoren</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Toren die oorspronkelijk is bedoeld voor de opslag van drinkwater in een bovenin het gebouw gelegen waterreservoir.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/watertoren">https://definities.geostandaarden.nl/ibro/id/begrip/watertoren</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_toren">Toren</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_klokkentoren">
+<h5>Klokkentoren</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Klokkentoren</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Klokkentoren</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Toren bedoeld voor de ophanging van een uurwerk en/of klokkenspel.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/klokkentoren">https://definities.geostandaarden.nl/ibro/id/begrip/klokkentoren</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_toren">Toren</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_vestingsgebouw">
 <h4>Vestingsgebouw</h4>
 
@@ -9474,6 +9594,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -9548,73 +9669,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bunker">
-<h5>Bunker</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bunker</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bunker</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Van oorsprong versterkt militair gebouw gericht op het schuilen tegen beschietingen en bombardementen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bunker">https://definities.geostandaarden.nl/ibro/id/begrip/bunker</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_vestingsgebouw">Vestingsgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_fort">
 <h5>Fort</h5>
 
@@ -9682,7 +9737,76 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_bunker">
+<h5>Bunker</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bunker</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bunker</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Van oorsprong versterkt militair gebouw gericht op het schuilen tegen beschietingen en bombardementen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bunker">https://definities.geostandaarden.nl/ibro/id/begrip/bunker</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_vestingsgebouw">Vestingsgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_pandtypen_objecttype_woongebouw">
 <h4>Woongebouw</h4>
 
@@ -9757,10 +9881,12 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
 ## Domein Panddeeltypen
-![Panddeeltypen](data/model-docs/media/panddeeltypen.png "Domein Panddeeltypen")
+![Panddeeltypen](data/media/panddeeltypen.png "Domein Panddeeltypen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_basisconstructie">
 <h4>Basisconstructie</h4>
@@ -9782,7 +9908,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Pandeel wat de oorspronkelijke constructie betreft van het pand waarin het panddeel is gelegen.</td>
+<td>Panddeel wat de oorspronkelijke constructie betreft van het pand waarin het panddeel is gelegen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -9829,6 +9955,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_latere_aanbouw">
 <h4>LatereAanbouw</h4>
 
@@ -9900,6 +10027,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_serre">
 <h4>Serre</h4>
 
@@ -9967,6 +10095,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_afdak">
 <h4>Afdak</h4>
 
@@ -10038,6 +10167,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_balkon">
 <h4>Balkon</h4>
 
@@ -10105,6 +10235,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_bordes">
 <h4>Bordes</h4>
 
@@ -10172,6 +10303,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_dakkapel">
 <h4>Dakkapel</h4>
 
@@ -10239,6 +10371,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_kolom">
 <h4>Kolom</h4>
 
@@ -10306,6 +10439,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_laadperron">
 <h4>Laadperron</h4>
 
@@ -10373,6 +10507,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_loopbrug">
 <h4>Loopbrug</h4>
 
@@ -10440,6 +10575,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_panddeeltypen_objecttype_toegangstrap">
 <h4>Toegangstrap</h4>
 
@@ -10514,10 +10650,12 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
 ## Domein Functiezonetypen
-![Functiezonetypen](data/model-docs/media/functiezonetypen.png "Domein Functiezonetypen")
+![Functiezonetypen](data/media/functiezonetypen.png "Domein Functiezonetypen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_bijeenkomstfunctie">
 <h4>Bijeenkomstfunctie</h4>
@@ -10586,6 +10724,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_celfunctie">
 <h4>Celfunctie</h4>
 
@@ -10653,6 +10792,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_gezondheidszorgfunctie">
 <h4>Gezondheidszorgfunctie</h4>
 
@@ -10720,6 +10860,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_industriefunctie">
 <h4>Industriefunctie</h4>
 
@@ -10787,6 +10928,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_kantoorfunctie">
 <h4>Kantoorfunctie</h4>
 
@@ -10854,6 +10996,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_logiesfunctie">
 <h4>Logiesfunctie</h4>
 
@@ -10921,6 +11064,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_onderwijsfunctie">
 <h4>Onderwijsfunctie</h4>
 
@@ -10988,6 +11132,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_opslagfunctie">
 <h4>Opslagfunctie</h4>
 
@@ -11055,6 +11200,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_sportfunctie">
 <h4>Sportfunctie</h4>
 
@@ -11122,6 +11268,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_technische_functie">
 <h4>TechnischeFunctie</h4>
 
@@ -11193,6 +11340,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_verkeersfunctie">
 <h4>Verkeersfunctie</h4>
 
@@ -11264,6 +11412,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_winkelfunctie">
 <h4>Winkelfunctie</h4>
 
@@ -11331,6 +11480,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functiezonetypen_objecttype_woonfunctie">
 <h4>Woonfunctie</h4>
 
@@ -11405,10 +11555,12 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
 ## Domein Gebruikzonetypen
-![Gebruikzonetypen](data/model-docs/media/gebruikzonetypen.png "Domein Gebruikzonetypen")
+![Gebruikzonetypen](data/media/gebruikzonetypen.png "Domein Gebruikzonetypen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_agrarisch_bedrijf">
 <h4>AgrarischBedrijf</h4>
@@ -11475,6 +11627,75 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_viskwekerij">
+<h5>Viskwekerij</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Viskwekerij</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Viskwekerij</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/viskwekerij">https://definities.geostandaarden.nl/ibro/id/begrip/viskwekerij</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_agrarisch_bedrijf">AgrarischBedrijf</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_akkerbouw">
 <h5>Akkerbouw</h5>
@@ -11543,6 +11764,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_tuinbouw">
 <h5>Tuinbouw</h5>
 
@@ -11610,73 +11832,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_viskwekerij">
-<h5>Viskwekerij</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Viskwekerij</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Viskwekerij</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Vorm van aquacultuur, waarbij vissen op een commerciële manier worden gekweekt voor consumptie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/viskwekerij">https://definities.geostandaarden.nl/ibro/id/begrip/viskwekerij</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_agrarisch_bedrijf">AgrarischBedrijf</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_veehouderij">
 <h5>Veehouderij</h5>
 
@@ -11745,6 +11901,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_bijeenkomsten">
 <h4>Bijeenkomsten</h4>
 
@@ -11812,6 +11969,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_cellen">
 <h4>Cellen</h4>
 
@@ -11879,6 +12037,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_detailhandel">
 <h4>Detailhandel</h4>
 
@@ -11946,6 +12105,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">
 <h4>Dienstverlening</h4>
 
@@ -12011,6 +12171,415 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_tol">
+<h5>Tol</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Tol</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Tol</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Tolheffing ten behoeve van het gebruik van verkeers- of waterwegen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tol">https://definities.geostandaarden.nl/ibro/id/begrip/tol</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_buurtgebouw">
+<h5>Buurtgebouw</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Buurtgebouw</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Buurtgebouw</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Activiteitencentrum in een wijk, buurt of dorp waar activiteiten plaatsvinden van en voor de bewoners hiervan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/buurtgebouw">https://definities.geostandaarden.nl/ibro/id/begrip/buurtgebouw</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wasstraat">
+<h5>Wasstraat</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Wasstraat</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Wasstraat</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Dienstverlening in de vorm van mechanische reiniging van de buitenzijde van voertuigen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/wasstraat">https://definities.geostandaarden.nl/ibro/id/begrip/wasstraat</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_crematorium">
+<h5>Crematorium</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Crematorium</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Crematorium</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verbranding van lichamen van overledenen in een speciale oven.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/crematorium">https://definities.geostandaarden.nl/ibro/id/begrip/crematorium</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_paleis">
+<h5>Paleis</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Paleis</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Paleis</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ambtsverblijf dat een openbare of ceremoniële functie heeft.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/paleis">https://definities.geostandaarden.nl/ibro/id/begrip/paleis</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_bibliotheek">
+<h5>Bibliotheek</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bibliotheek</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bibliotheek</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend of ter inzage aangeboden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bibliotheek">https://definities.geostandaarden.nl/ibro/id/begrip/bibliotheek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_politiebureau">
 <h5>Politiebureau</h5>
@@ -12079,73 +12648,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_bibliotheek">
-<h5>Bibliotheek</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bibliotheek</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bibliotheek</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bewaarplaats voor boeken en andere media waarbij deze al dan niet aan het publiek worden uitgeleend of ter inzage aangeboden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bibliotheek">https://definities.geostandaarden.nl/ibro/id/begrip/bibliotheek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_laboratorium">
 <h5>Laboratorium</h5>
 
@@ -12213,73 +12716,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_gemeentekantoor">
-<h5>Gemeentekantoor</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gemeentekantoor</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Gemeentekantoor</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Directe dienstverlening vanuit een gemeente aan inwoners en bedrijven.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemeentekantoor">https://definities.geostandaarden.nl/ibro/id/begrip/gemeentekantoor</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_rechtbank">
 <h5>Rechtbank</h5>
 
@@ -12347,19 +12784,20 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_crematorium">
-<h5>Crematorium</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_gemeentekantoor">
+<h5>Gemeentekantoor</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Crematorium</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gemeentekantoor</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Crematorium</td>
+<td>Gemeentekantoor</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -12367,7 +12805,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Verbranding van lichamen van overledenen in een speciale oven.</td>
+<td>Directe dienstverlening vanuit een gemeente aan inwoners en bedrijven.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -12376,7 +12814,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/crematorium">https://definities.geostandaarden.nl/ibro/id/begrip/crematorium</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemeentekantoor">https://definities.geostandaarden.nl/ibro/id/begrip/gemeentekantoor</a>
 </td>
 </tr>
 <tr>
@@ -12414,73 +12852,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_buurtgebouw">
-<h5>Buurtgebouw</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Buurtgebouw</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Buurtgebouw</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Activiteitencentrum in een wijk, buurt of dorp waar activiteiten plaatsvinden van en voor de bewoners hiervan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/buurtgebouw">https://definities.geostandaarden.nl/ibro/id/begrip/buurtgebouw</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_verkeerstoren">
 <h5>Verkeerstoren</h5>
 
@@ -12548,208 +12920,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_tol">
-<h5>Tol</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Tol</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Tol</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Tolheffing ten behoeve van het gebruik van verkeers- of waterwegen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tol">https://definities.geostandaarden.nl/ibro/id/begrip/tol</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_paleis">
-<h5>Paleis</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Paleis</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Paleis</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Ambtsverblijf dat een openbare of ceremoniële functie heeft.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/paleis">https://definities.geostandaarden.nl/ibro/id/begrip/paleis</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wasstraat">
-<h5>Wasstraat</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Wasstraat</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Wasstraat</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Dienstverlening in de vorm van mechanische reiniging van de buitenzijde van voertuigen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/wasstraat">https://definities.geostandaarden.nl/ibro/id/begrip/wasstraat</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_dienstverlening">Dienstverlening</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_energievoorziening">
 <h4>Energievoorziening</h4>
 
@@ -12817,6 +12989,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_groothandel">
 <h4>Groothandel</h4>
 
@@ -12876,6 +13049,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -12950,6 +13124,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_veiling">
 <h5>Veiling</h5>
 
@@ -13018,6 +13193,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_horeca">
 <h4>Horeca</h4>
 
@@ -13083,6 +13259,75 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_hotel">
+<h5>Hotel</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Hotel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Hotel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Dienstverlening gericht op het met een commercieel oogmerk aanbieden van overnachtingen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hotel">https://definities.geostandaarden.nl/ibro/id/begrip/hotel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_horeca">Horeca</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_strandpaviljoen">
 <h5>Strandpaviljoen</h5>
@@ -13151,74 +13396,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_hotel">
-<h5>Hotel</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Hotel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Hotel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Dienstverlening gericht op het met een commercieel oogmerk aanbieden van overnachtingen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hotel">https://definities.geostandaarden.nl/ibro/id/begrip/hotel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_horeca">Horeca</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_industrie">
 <h4>Industrie</h4>
 
@@ -13278,6 +13457,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -13353,6 +13533,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_kantoor">
 <h4>Kantoor</h4>
 
@@ -13420,6 +13601,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_kunst">
 <h4>Kunst</h4>
 
@@ -13479,6 +13661,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -13553,73 +13736,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_museum">
-<h5>Museum</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Museum</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Museum</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Activiteiten gericht op het bijeenbrengen en (ten minste voor een gedeelte) voortdurend voor het publiek uitstallen van materiële en immateriële getuigenissen van de mens en zijn omgeving.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/museum">https://definities.geostandaarden.nl/ibro/id/begrip/museum</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_kunst">Kunst</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_podiumkunst">
 <h5>Podiumkunst</h5>
 
@@ -13687,7 +13804,76 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_museum">
+<h5>Museum</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Museum</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Museum</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Activiteiten gericht op het bijeenbrengen en (ten minste voor een gedeelte) voortdurend voor het publiek uitstallen van materiële en immateriële getuigenissen van de mens en zijn omgeving.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/museum">https://definities.geostandaarden.nl/ibro/id/begrip/museum</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_kunst">Kunst</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_onderwijs">
 <h4>Onderwijs</h4>
 
@@ -13755,6 +13941,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_opslag">
 <h4>Opslag</h4>
 
@@ -13820,6 +14007,143 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_munitiedepot">
+<h5>Munitiedepot</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Munitiedepot</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Munitiedepot</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Opslagplaats voor munitie en explosieven.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/munitiedepot">https://definities.geostandaarden.nl/ibro/id/begrip/munitiedepot</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_opslag">Opslag</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_distributiecentrum">
+<h5>Distributiecentrum</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Distributiecentrum</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Distributiecentrum</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Activiteiten gericht op het vanaf een geconcentreerde locatie verspreiden van goederen door een bedrijf.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/distributiecentrum">https://definities.geostandaarden.nl/ibro/id/begrip/distributiecentrum</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_opslag">Opslag</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_magazijn">
 <h5>Magazijn</h5>
@@ -13888,73 +14212,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_distributiecentrum">
-<h5>Distributiecentrum</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Distributiecentrum</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Distributiecentrum</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Activiteiten gericht op het vanaf een geconcentreerde locatie verspreiden van goederen door een bedrijf.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/distributiecentrum">https://definities.geostandaarden.nl/ibro/id/begrip/distributiecentrum</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_opslag">Opslag</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_koelcel">
 <h5>Koelcel</h5>
 
@@ -14022,74 +14280,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_munitiedepot">
-<h5>Munitiedepot</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Munitiedepot</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Munitiedepot</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Opslagplaats voor munitie en explosieven.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/munitiedepot">https://definities.geostandaarden.nl/ibro/id/begrip/munitiedepot</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_opslag">Opslag</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_productverwerking">
 <h4>Productverwerking</h4>
 
@@ -14157,6 +14349,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_recreatie">
 <h4>Recreatie</h4>
 
@@ -14216,6 +14409,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tbody>
 </table>
 </section>
+
 
 
 
@@ -14291,6 +14485,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_religie">
 <h4>Religie</h4>
 
@@ -14358,6 +14553,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_sport">
 <h4>Sport</h4>
 
@@ -14423,6 +14619,75 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_manege">
+<h5>Manege</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Manege</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Manege</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Beoefening van het paardrijden in een besloten omgeving.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/manege">https://definities.geostandaarden.nl/ibro/id/begrip/manege</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_sport">Sport</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_zwembadzone">
 <h5>Zwembadzone</h5>
@@ -14491,74 +14756,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_manege">
-<h5>Manege</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Manege</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Manege</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Beoefening van het paardrijden in een besloten omgeving.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/manege">https://definities.geostandaarden.nl/ibro/id/begrip/manege</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_sport">Sport</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">
 <h4>Techniek</h4>
 
@@ -14624,6 +14823,211 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_gasverdeelstation">
+<h5>Gasverdeelstation</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gasverdeelstation</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gasverdeelstation</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Drukverlaging van aardgas in een netwerk ten behoeve van toevoer in een lokaal net.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gasverdeelstation">https://definities.geostandaarden.nl/ibro/id/begrip/gasverdeelstation</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_rioolgemaal">
+<h5>Rioolgemaal</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rioolgemaal</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rioolgemaal</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Activiteiten gericht op het binnen een rioolstelsel naar een hoger peil brengen of over langere afstand transporteren van afvalwater.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rioolgemaal">https://definities.geostandaarden.nl/ibro/id/begrip/rioolgemaal</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_radarpost">
+<h5>Radarpost</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Radarpost</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Radarpost</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Waarnemingen met behulp van radar om vliegtuigen en scheepsbewegingen te observeren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/radarpost">https://definities.geostandaarden.nl/ibro/id/begrip/radarpost</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_brugwachtershuis">
 <h5>Brugwachtershuis</h5>
@@ -14692,207 +15096,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_rioolgemaal">
-<h5>Rioolgemaal</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rioolgemaal</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rioolgemaal</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Activiteiten gericht op het binnen een rioolstelsel naar een hoger peil brengen of over langere afstand transporteren van afvalwater.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rioolgemaal">https://definities.geostandaarden.nl/ibro/id/begrip/rioolgemaal</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_peilmeetstation">
-<h5>Peilmeetstation</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Peilmeetstation</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Peilmeetstation</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Meting van landelijke of regionale waterstanden via het Monitoring Systeem Water met behulp van een Digitaal Niveau Meter (DNM).</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/peilmeetstation">https://definities.geostandaarden.nl/ibro/id/begrip/peilmeetstation</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_radarpost">
-<h5>Radarpost</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Radarpost</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Radarpost</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Waarnemingen met behulp van radar om vliegtuigen en scheepsbewegingen te observeren.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/radarpost">https://definities.geostandaarden.nl/ibro/id/begrip/radarpost</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_transformatorstation">
 <h5>Transformatorstation</h5>
 
@@ -14960,6 +15164,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_pompstation">
 <h5>Pompstation</h5>
 
@@ -15027,19 +15232,20 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_gasverdeelstation">
-<h5>Gasverdeelstation</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_peilmeetstation">
+<h5>Peilmeetstation</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gasverdeelstation</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Peilmeetstation</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Gasverdeelstation</td>
+<td>Peilmeetstation</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -15047,7 +15253,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Drukverlaging van aardgas in een netwerk ten behoeve van toevoer in een lokaal net.</td>
+<td>Meting van landelijke of regionale waterstanden via het Monitoring Systeem Water met behulp van een Digitaal Niveau Meter (DNM).</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -15056,7 +15262,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gasverdeelstation">https://definities.geostandaarden.nl/ibro/id/begrip/gasverdeelstation</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/peilmeetstation">https://definities.geostandaarden.nl/ibro/id/begrip/peilmeetstation</a>
 </td>
 </tr>
 <tr>
@@ -15094,73 +15300,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_observatorium">
-<h5>Observatorium</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Observatorium</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Observatorium</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Waarnemingen in de ruimte.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/observatorium">https://definities.geostandaarden.nl/ibro/id/begrip/observatorium</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_telecommunicatie">
 <h5>Telecommunicatie</h5>
 
@@ -15228,7 +15368,76 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_observatorium">
+<h5>Observatorium</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Observatorium</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Observatorium</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Waarnemingen in de ruimte.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/observatorium">https://definities.geostandaarden.nl/ibro/id/begrip/observatorium</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_techniek">Techniek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">
 <h4>Voertuigen</h4>
 
@@ -15294,6 +15503,279 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_ambulancepost">
+<h5>Ambulancepost</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ambulancepost</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ambulancepost</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Opstelpunt voor voertuigen om medische hulpverleners te vervoeren naar een plaats waar behoefte is aan spoedeisende hulp of om slachtoffers of patiënten te vervoeren naar een ziekenhuis.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ambulancepost">https://definities.geostandaarden.nl/ibro/id/begrip/ambulancepost</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_metrostation">
+<h5>Metrostation</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Metrostation</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Metrostation</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebruiksgebied dat bedoeld is voor het in- en uitstappen in metrovoertuigen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/metrostation">https://definities.geostandaarden.nl/ibro/id/begrip/metrostation</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_brandweerkazerne">
+<h5>Brandweerkazerne</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Brandweerkazerne</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Brandweerkazerne</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Opstelpunt van materieel en manschappen ten behoeve van brandbestrijding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/brandweerkazerne">https://definities.geostandaarden.nl/ibro/id/begrip/brandweerkazerne</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_station">
+<h5>Station</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Station</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Station</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebruiksgebied dat bedoeld is voor het in- en uitstappen in treinen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/station">https://definities.geostandaarden.nl/ibro/id/begrip/station</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_remise">
 <h5>Remise</h5>
@@ -15362,73 +15844,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_brandweerkazerne">
-<h5>Brandweerkazerne</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Brandweerkazerne</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Brandweerkazerne</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Opstelpunt van materieel en manschappen ten behoeve van brandbestrijding.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/brandweerkazerne">https://definities.geostandaarden.nl/ibro/id/begrip/brandweerkazerne</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_parkeergaragezone">
 <h5>Parkeergaragezone</h5>
 
@@ -15496,208 +15912,8 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_metrostation">
-<h5>Metrostation</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Metrostation</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Metrostation</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebruiksgebied dat bedoeld is voor het in- en uitstappen in metrovoertuigen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/metrostation">https://definities.geostandaarden.nl/ibro/id/begrip/metrostation</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_station">
-<h5>Station</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Station</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Station</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebruiksgebied dat bedoeld is voor het in- en uitstappen in treinen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/station">https://definities.geostandaarden.nl/ibro/id/begrip/station</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_ambulancepost">
-<h5>Ambulancepost</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ambulancepost</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ambulancepost</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Opstelpunt voor voertuigen om medische hulpverleners te vervoeren naar een plaats waar behoefte is aan spoedeisende hulp of om slachtoffers of patiënten te vervoeren naar een ziekenhuis.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ambulancepost">https://definities.geostandaarden.nl/ibro/id/begrip/ambulancepost</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_voertuigen">Voertuigen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">
 <h4>Wonen</h4>
 
@@ -15764,889 +15980,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_benedenwoning">
-<h5>Benedenwoning</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Benedenwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Benedenwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Etagewoning of flatwoning op de begane grond met een voordeur die op straat uitkomt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/benedenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/benedenwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_personeelshuisvesting">
-<h5>Personeelshuisvesting</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Personeelshuisvesting</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Personeelshuisvesting</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Woonruimte die specifiek bedoeld is voor het onderbrengen van personeel van een bepaalde organisatie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/personeelshuisvesting">https://definities.geostandaarden.nl/ibro/id/begrip/personeelshuisvesting</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_galerijflatwoning">
-<h5>Galerijflatwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Galerijflatwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Galerijflatwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Flatwoning waarbij de voordeur uitkomt op een aan de buitenkant gelegen loopgang.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/galerijflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/galerijflatwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_bovenwoning">
-<h5>Bovenwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bovenwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bovenwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Etagewoning of flatwoning op een etage die bereikbaar is via een binnentrap met een mogelijk gemeenschappelijke voordeur die op straat uitkomt of een eigen voordeur heeft die niet in een portiek uitkomt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bovenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/bovenwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_tussenwoning">
-<h5>Tussenwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Tussenwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Tussenwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Eengezinswoning waarbij de tussenmuren aan andere panden grenzen en waarbij de woningen ten opzichte van elkaar in een gelijk vlak of lijn liggen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tussenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/tussenwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_twee_onder_een_kap_woning">
-<h5>TweeOnderEenKapWoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#TweeOnderEenKapWoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>TweeOnderEenKapWoning</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>2-onder-1-kapwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Eengezinswoning waarvan het hoofdgebouw is verbonden met het hoofdgebouw van één andere gelijksoortige en gelijkvormige woning (niet zijnde een tussenwoning).</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/2-onder-1-kapwoning">https://definities.geostandaarden.nl/ibro/id/begrip/2-onder-1-kapwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_maisonnette">
-<h5>Maisonnette</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Maisonnette</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Maisonnette</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Specifiek type flatwoning waarbij de woning zelf twee of meer bouwlagen heeft en de voordeur uitkomt op een gemeenschappelijke loopgang, op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of gesloten portiek.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/maisonnette">https://definities.geostandaarden.nl/ibro/id/begrip/maisonnette</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_geschakelde_twee_onder_een_kap_woning">
-<h5>GeschakeldeTweeOnderEenKapWoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GeschakeldeTweeOnderEenKapWoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GeschakeldeTweeOnderEenKapWoning</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Geschakelde 2-onder-1-kapwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>2-onder-1-kapwoning waarbij de muren van aanbouwen gedeeltelijk aan (aanbouwen van) andere woningen grenzen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/geschakelde_2-onder-1-kapwoning">https://definities.geostandaarden.nl/ibro/id/begrip/geschakelde_2-onder-1-kapwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_vrijstaande_woning">
-<h5>VrijstaandeWoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#VrijstaandeWoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>VrijstaandeWoning</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Vrijstaande woning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Eengezinswoning die los staat van (eventueel) aanwezige andere objecten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vrijstaande_woning">https://definities.geostandaarden.nl/ibro/id/begrip/vrijstaande_woning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_portiekflatwoning">
-<h5>Portiekflatwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Portiekflatwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Portiekflatwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Flatwoning waarbij de voordeur uitkomt op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of een gesloten portiek.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/portiekflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/portiekflatwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_portiekwoning">
-<h5>Portiekwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Portiekwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Portiekwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Etagewoning waarbij de voordeur uitkomt in een open portiek.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/portiekwoning">https://definities.geostandaarden.nl/ibro/id/begrip/portiekwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_corridorflatwoning">
-<h5>Corridorflatwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Corridorflatwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Corridorflatwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Flatwoning waarbij de voordeur uitkomt op een centraal binnen de bouwmassa per etage gelegen loopgang dan wel op een centrale hal op de etage.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/corridorflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/corridorflatwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_eindwoning">
-<h5>Eindwoning</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Eindwoning</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Eindwoning</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Eengezinswoning die grenst aan een aanliggende woning en die ligt op het begin of einde van de reeks woningen zonder (extra) bij de woning behorende grond aan de zijkant van de woning.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eindwoning">https://definities.geostandaarden.nl/ibro/id/begrip/eindwoning</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_geschakelde_woning">
 <h5>GeschakeldeWoning</h5>
 
@@ -16718,7 +16052,904 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_corridorflatwoning">
+<h5>Corridorflatwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Corridorflatwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Corridorflatwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Flatwoning waarbij de voordeur uitkomt op een centraal binnen de bouwmassa per etage gelegen loopgang dan wel op een centrale hal op de etage.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/corridorflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/corridorflatwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_personeelshuisvesting">
+<h5>Personeelshuisvesting</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Personeelshuisvesting</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Personeelshuisvesting</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Woonruimte die specifiek bedoeld is voor het onderbrengen van personeel van een bepaalde organisatie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/personeelshuisvesting">https://definities.geostandaarden.nl/ibro/id/begrip/personeelshuisvesting</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_bovenwoning">
+<h5>Bovenwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bovenwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bovenwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Etagewoning of flatwoning op een etage die bereikbaar is via een binnentrap met een mogelijk gemeenschappelijke voordeur die op straat uitkomt of een eigen voordeur heeft die niet in een portiek uitkomt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bovenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/bovenwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_geschakelde_twee_onder_een_kap_woning">
+<h5>GeschakeldeTweeOnderEenKapWoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GeschakeldeTweeOnderEenKapWoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GeschakeldeTweeOnderEenKapWoning</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Geschakelde 2-onder-1-kapwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>2-onder-1-kapwoning waarbij de muren van aanbouwen gedeeltelijk aan (aanbouwen van) andere woningen grenzen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/geschakelde_2-onder-1-kapwoning">https://definities.geostandaarden.nl/ibro/id/begrip/geschakelde_2-onder-1-kapwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_galerijflatwoning">
+<h5>Galerijflatwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Galerijflatwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Galerijflatwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Flatwoning waarbij de voordeur uitkomt op een aan de buitenkant gelegen loopgang.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/galerijflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/galerijflatwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_portiekflatwoning">
+<h5>Portiekflatwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Portiekflatwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Portiekflatwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Flatwoning waarbij de voordeur uitkomt op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of een gesloten portiek.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/portiekflatwoning">https://definities.geostandaarden.nl/ibro/id/begrip/portiekflatwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_maisonnette">
+<h5>Maisonnette</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Maisonnette</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Maisonnette</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Specifiek type flatwoning waarbij de woning zelf twee of meer bouwlagen heeft en de voordeur uitkomt op een gemeenschappelijke loopgang, op een gemeenschappelijk afsluitbaar trappenhuis, een centrale hal of gesloten portiek.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/maisonnette">https://definities.geostandaarden.nl/ibro/id/begrip/maisonnette</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_portiekwoning">
+<h5>Portiekwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Portiekwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Portiekwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Etagewoning waarbij de voordeur uitkomt in een open portiek.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/portiekwoning">https://definities.geostandaarden.nl/ibro/id/begrip/portiekwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_benedenwoning">
+<h5>Benedenwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Benedenwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Benedenwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Etagewoning of flatwoning op de begane grond met een voordeur die op straat uitkomt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/benedenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/benedenwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_twee_onder_een_kap_woning">
+<h5>TweeOnderEenKapWoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#TweeOnderEenKapWoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>TweeOnderEenKapWoning</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>2-onder-1-kapwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Eengezinswoning waarvan het hoofdgebouw is verbonden met het hoofdgebouw van één andere gelijksoortige en gelijkvormige woning (niet zijnde een tussenwoning).</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/2-onder-1-kapwoning">https://definities.geostandaarden.nl/ibro/id/begrip/2-onder-1-kapwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_eindwoning">
+<h5>Eindwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Eindwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Eindwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Eengezinswoning die grenst aan een aanliggende woning en die ligt op het begin of einde van de reeks woningen zonder (extra) bij de woning behorende grond aan de zijkant van de woning.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eindwoning">https://definities.geostandaarden.nl/ibro/id/begrip/eindwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_tussenwoning">
+<h5>Tussenwoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Tussenwoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Tussenwoning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Eengezinswoning waarbij de tussenmuren aan andere panden grenzen en waarbij de woningen ten opzichte van elkaar in een gelijk vlak of lijn liggen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tussenwoning">https://definities.geostandaarden.nl/ibro/id/begrip/tussenwoning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_vrijstaande_woning">
+<h5>VrijstaandeWoning</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#VrijstaandeWoning</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>VrijstaandeWoning</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Vrijstaande woning</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Eengezinswoning die los staat van (eventueel) aanwezige andere objecten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vrijstaande_woning">https://definities.geostandaarden.nl/ibro/id/begrip/vrijstaande_woning</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_wonen">Wonen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_zorg">
 <h4>Zorg</h4>
 
@@ -16785,73 +17016,7 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_ziekenhuis">
-<h5>Ziekenhuis</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ziekenhuis</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ziekenhuis</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Onderzoek, behandeling en verpleging van patiënten in het kader van professionele gezondheidszorg.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ziekenhuis">https://definities.geostandaarden.nl/ibro/id/begrip/ziekenhuis</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_zorg">Zorg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_institutioneel_huishouden">
 <h5>InstitutioneelHuishouden</h5>
 
@@ -16923,6 +17088,65 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_ziekenhuis">
+<h5>Ziekenhuis</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ziekenhuis</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ziekenhuis</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Onderzoek, behandeling en verpleging van patiënten in het kader van professionele gezondheidszorg.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ziekenhuis">https://definities.geostandaarden.nl/ibro/id/begrip/ziekenhuis</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_gebruikzonetypen_objecttype_zorg">Zorg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
 
 
@@ -16931,10 +17155,21 @@ Toegangspunt is primair bedoeld voor toegang tot een object door vracht zonder g
 
 
 
+</section>
+</section>
+
+
+
+
+
+
+
+
 ## Domein Verhardingen
-![Verhardingen](data/model-docs/media/verhardingen.png "Domein Verhardingen")
+![Verhardingen](data/media/verhardingen.png "Domein Verhardingen")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">
 <h4>Verharding</h4>
@@ -17027,6 +17262,7 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 
 
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_onverhard">
 <h5>Onverhard</h5>
 
@@ -17094,274 +17330,7 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_betonverharding">
-<h5>Betonverharding</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Betonverharding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Betonverharding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gesloten verharding bestaande uit gewapend of ongewapend beton.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/betonverharding">https://definities.geostandaarden.nl/ibro/id/begrip/betonverharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_halfverharding">
-<h5>Halfverharding</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Halfverharding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Halfverharding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/halfverharding">https://definities.geostandaarden.nl/ibro/id/begrip/halfverharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_kunststofverharding">
-<h5>Kunststofverharding</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kunststofverharding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Kunststofverharding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verharding bestaande uit een synthetisch vervaardigd materiaal.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kunststofverharding">https://definities.geostandaarden.nl/ibro/id/begrip/kunststofverharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_elementenverharding">
-<h5>Elementenverharding</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Elementenverharding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Elementenverharding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/elementenverharding">https://definities.geostandaarden.nl/ibro/id/begrip/elementenverharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_asfaltverharding">
 <h5>Asfaltverharding</h5>
 
@@ -17429,6 +17398,65 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_elementenverharding">
+<h5>Elementenverharding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Elementenverharding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Elementenverharding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Open verharding opgebouwd uit losse elementen die in meer of mindere mate met elkaar verbonden zijn.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/elementenverharding">https://definities.geostandaarden.nl/ibro/id/begrip/elementenverharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
 
 
@@ -17437,10 +17465,225 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 
 
 
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_halfverharding">
+<h5>Halfverharding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Halfverharding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Halfverharding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Open verharding bestaande uit onsamenhangend materiaal dat meer draagkracht levert dan de originele grond.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/halfverharding">https://definities.geostandaarden.nl/ibro/id/begrip/halfverharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_kunststofverharding">
+<h5>Kunststofverharding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kunststofverharding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kunststofverharding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verharding bestaande uit een synthetisch vervaardigd materiaal.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kunststofverharding">https://definities.geostandaarden.nl/ibro/id/begrip/kunststofverharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_betonverharding">
+<h5>Betonverharding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Betonverharding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Betonverharding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gesloten verharding bestaande uit gewapend of ongewapend beton.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/betonverharding">https://definities.geostandaarden.nl/ibro/id/begrip/betonverharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_verhardingen_objecttype_verharding">Verharding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
+
+
+
+
+
+
+
 ## Domein Kunstwerken
-![Kunstwerken](data/model-docs/media/kunstwerken.png "Domein Kunstwerken")
+![Kunstwerken](data/media/kunstwerken.png "Domein Kunstwerken")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">
 <h4>Kunstwerk</h4>
@@ -17527,8 +17770,8 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -17543,7 +17786,7 @@ Een verhardingsvlak bestaat uit één Type verharding. Het gaat hierbij over het
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -17608,6 +17851,355 @@ Naam van een object.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">
+<h5>Ondertunneling</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ondertunneling</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ondertunneling</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke typeringen verplicht in de registratie worden opgenomen.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ondertunneling">https://definities.geostandaarden.nl/ibro/id/begrip/ondertunneling</a>
+</td>
+</tr>
+<tr>
+<th>Populatie</th>
+<td>Het betreft hier grotendeels de bestaande populatie tunneldelen zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van kunstwerkdelen van Type duiker indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_duiker">
+<h6>Duiker</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Duiker</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Duiker</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de watergang onderbreekt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/duiker">https://definities.geostandaarden.nl/ibro/id/begrip/duiker</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sifon">
+<h6>Sifon</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Sifon</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Sifon</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kokervormige constructie met een verlaagd middengedeelte dat geheel met water is gevuld en die twee watergangen met elkaar verbindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sifon">https://definities.geostandaarden.nl/ibro/id/begrip/sifon</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_tunnel">
+<h6>Tunnel</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Tunnel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Tunnel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tunnel">https://definities.geostandaarden.nl/ibro/id/begrip/tunnel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_hevel">
+<h6>Hevel</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Hevel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Hevel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kokervormige constructie met een verhoogd middengedeelte dat twee wederzijds gelegen wateren met elkaar verbindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hevel">https://definities.geostandaarden.nl/ibro/id/begrip/hevel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">
 <h5>WaterstaatkundigKunstwerk</h5>
@@ -17684,8 +18276,8 @@ Naam van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -17764,274 +18356,7 @@ Functie die dit object vervult.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_walbescherming">
-<h6>Walbescherming</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Walbescherming</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Walbescherming</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/walbescherming">https://definities.geostandaarden.nl/ibro/id/begrip/walbescherming</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_damwand">
-<h6>Damwand</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Damwand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Damwand</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/damwand"> https://definities.geostandaarden.nl/ibro/id/begrip/damwand</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_coupure">
-<h6>Coupure</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Coupure</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Coupure</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/coupure">https://definities.geostandaarden.nl/ibro/id/begrip/coupure</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vuilvang">
-<h6>Vuilvang</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Vuilvang</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vuilvang</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorziening om de watergang dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vuilvang">https://definities.geostandaarden.nl/ibro/id/begrip/vuilvang</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_gemaal">
 <h6>Gemaal</h6>
 
@@ -18099,19 +18424,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_steiger">
-<h6>Steiger</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">
+<h6>Sluis</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Steiger</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Sluis</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Steiger</td>
+<td>Sluis</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -18119,7 +18445,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.</td>
+<td>Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -18128,7 +18454,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/steiger">https://definities.geostandaarden.nl/ibro/id/begrip/steiger</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sluis">https://definities.geostandaarden.nl/ibro/id/begrip/sluis</a>
 </td>
 </tr>
 <tr>
@@ -18166,19 +18492,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_bodemval">
-<h6>Bodemval</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vispassage">
+<h6>Vispassage</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bodemval</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vispassage</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Bodemval</td>
+<td>Vispassage</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -18186,7 +18513,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Sprong in de bodem van een watergang.</td>
+<td>Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -18195,7 +18522,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href=" http://definities.acceptatie.geostandaarden.nl/imgeo/id/begrip/Bodemval"> http://definities.acceptatie.geostandaarden.nl/imgeo/id/begrip/Bodemval</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vispassage">https://definities.geostandaarden.nl/ibro/id/begrip/vispassage</a>
 </td>
 </tr>
 <tr>
@@ -18233,6 +18560,687 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_damwand">
+<h6>Damwand</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Damwand</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Damwand</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Grondkerende of waterkerende constructie bestaande uit (nagenoeg) verticaal in de grond aangebrachte elementen die door middel van een langsprofiel in elkaar grijpen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/damwand"> https://definities.geostandaarden.nl/ibro/id/begrip/damwand</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_walbescherming">
+<h6>Walbescherming</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Walbescherming</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Walbescherming</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Nagenoeg verticale wand tot kering van grond om afkalving van water te voorkomen, niet zijnde een kademuur.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/walbescherming">https://definities.geostandaarden.nl/ibro/id/begrip/walbescherming</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vuilvang">
+<h6>Vuilvang</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vuilvang</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vuilvang</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voorziening om de watergang dan wel één of meerdere objecten benedenstrooms te vrijwaren van drijvend vuil en dergelijke.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vuilvang">https://definities.geostandaarden.nl/ibro/id/begrip/vuilvang</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dijklichaam">
+<h6>Dijklichaam</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Dijklichaam</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Dijklichaam</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aangelegde waterkering van grond, die het achterliggende land beschermt tegen overstromingen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dijklichaam">https://definities.geostandaarden.nl/ibro/id/begrip/dijklichaam</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stormvloedkering">
+<h6>Stormvloedkering</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Stormvloedkering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Stormvloedkering</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Waterkerende constructie die gesloten wordt bij zeer hoge buitenwaterstanden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/stormvloedkering">https://definities.geostandaarden.nl/ibro/id/begrip/stormvloedkering</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schot">
+<h6>Schot</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Schot</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Schot</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schot">https://definities.geostandaarden.nl/ibro/id/begrip/schot</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_krib">
+<h6>Krib</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Krib</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Krib</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kunstmatig lichaam van aarde, steen, turf of rijshout (en tegenwoordig beton of staal), om water te keren of te leiden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/krib">https://definities.geostandaarden.nl/ibro/id/begrip/krib</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_voorde">
+<h6>Voorde</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voorde</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Voorde</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Doorwaadbare, doorgaans verharde, plaats in de watergang, die dient voor de oversteek van die watergang.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voorde">https://definities.geostandaarden.nl/ibro/id/begrip/voorde</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_coupure">
+<h6>Coupure</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Coupure</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Coupure</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/coupure">https://definities.geostandaarden.nl/ibro/id/begrip/coupure</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ponton">
+<h6>Ponton</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ponton</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ponton</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ponton">https://definities.geostandaarden.nl/ibro/id/begrip/ponton</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vaste_dam">
 <h6>VasteDam</h6>
 
@@ -18304,140 +19312,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ponton">
-<h6>Ponton</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ponton</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ponton</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Vastliggend drijflichaam, dat dienst doet als aanlegplaats van vaartuigen of daartoe toegang geeft.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ponton">https://definities.geostandaarden.nl/ibro/id/begrip/ponton</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_vispassage">
-<h6>Vispassage</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Vispassage</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vispassage</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Waterbouwkundig constructie dat tot doel heeft vissen toegang te bieden tot een door een kunstwerk onbereikbaar geworden achterland.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vispassage">https://definities.geostandaarden.nl/ibro/id/begrip/vispassage</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_strekdam">
 <h6>Strekdam</h6>
 
@@ -18505,19 +19380,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stormvloedkering">
-<h6>Stormvloedkering</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_bodemval">
+<h6>Bodemval</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Stormvloedkering</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bodemval</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Stormvloedkering</td>
+<td>Bodemval</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -18525,7 +19401,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Waterkerende constructie die gesloten wordt bij zeer hoge buitenwaterstanden.</td>
+<td>Sprong in de bodem van een watergang.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -18534,7 +19410,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/stormvloedkering">https://definities.geostandaarden.nl/ibro/id/begrip/stormvloedkering</a>
+<a href=" http://definities.acceptatie.geostandaarden.nl/imgeo/id/begrip/Bodemval"> http://definities.acceptatie.geostandaarden.nl/imgeo/id/begrip/Bodemval</a>
 </td>
 </tr>
 <tr>
@@ -18572,19 +19448,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schot">
-<h6>Schot</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_steiger">
+<h6>Steiger</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Schot</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Steiger</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Schot</td>
+<td>Steiger</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -18592,7 +19469,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Permanente afscheiding, verticaal in het water geplaatst, bedoeld om het waterpeil van het aan beide zijden aanwezige water te regelen.</td>
+<td>Vaste (niet drijvende) waterbouwkundige constructie, verbonden met de wal, voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -18601,7 +19478,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schot">https://definities.geostandaarden.nl/ibro/id/begrip/schot</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/steiger">https://definities.geostandaarden.nl/ibro/id/begrip/steiger</a>
 </td>
 </tr>
 <tr>
@@ -18639,73 +19516,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">
-<h6>Sluis</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Sluis</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Sluis</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kunstmatige, afsluitbare waterkering die een scheepvaartverbinding tussen twee wateren met verschillende waterpeilen mogelijk maakt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sluis">https://definities.geostandaarden.nl/ibro/id/begrip/sluis</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_stuw">
 <h6>Stuw</h6>
 
@@ -18773,208 +19584,8 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_voorde">
-<h6>Voorde</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voorde</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Voorde</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Doorwaadbare, doorgaans verharde, plaats in de watergang, die dient voor de oversteek van die watergang.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voorde">https://definities.geostandaarden.nl/ibro/id/begrip/voorde</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dijklichaam">
-<h6>Dijklichaam</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Dijklichaam</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Dijklichaam</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Aangelegde waterkering van grond, die het achterliggende land beschermt tegen overstromingen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dijklichaam">https://definities.geostandaarden.nl/ibro/id/begrip/dijklichaam</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_krib">
-<h6>Krib</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Krib</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Krib</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kunstmatig lichaam van aarde, steen, turf of rijshout (en tegenwoordig beton of staal), om water te keren of te leiden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/krib">https://definities.geostandaarden.nl/ibro/id/begrip/krib</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_waterstaatkundig_kunstwerk">WaterstaatkundigKunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">
 <h5>Overbrugging</h5>
 
@@ -19044,8 +19655,8 @@ Functie die dit object vervult.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -19060,7 +19671,7 @@ Functie die dit object vervult.</td>
 <td>
 Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -19125,6 +19736,211 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ecoduct">
+<h6>Ecoduct</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ecoduct</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ecoduct</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Overbruggingsconstructie over een weg of spoorweg, bedoeld voor het passeren van dieren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ecoduct">https://definities.geostandaarden.nl/ibro/id/begrip/ecoduct</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct">
+<h6>Viaduct</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Viaduct</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Viaduct</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/viaduct"> https://definities.geostandaarden.nl/ibro/id/begrip/viaduct</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_flyover class="notoc">
+<h6>Flyover</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Flyover</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Flyover</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fly-over">https://definities.geostandaarden.nl/ibro/id/begrip/fly-over</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct">Viaduct</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_brug">
 <h6>Brug</h6>
@@ -19193,6 +20009,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overkluizing">
 <h6>Overkluizing</h6>
 
@@ -19260,140 +20077,7 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct">
-<h6>Viaduct</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Viaduct</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Viaduct</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Overbruggingsconstructie over een weg, spoorweg of terreinverdieping, bedoeld voor verkeer.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href=" https://definities.geostandaarden.nl/ibro/id/begrip/viaduct"> https://definities.geostandaarden.nl/ibro/id/begrip/viaduct</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_flyover">
-<h7>Flyover</h7>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Flyover</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Flyover</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of meer ongelijkvloerse verkeersstromen wordt geleid.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fly-over">https://definities.geostandaarden.nl/ibro/id/begrip/fly-over</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_viaduct">Viaduct</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_aquaduct">
 <h6>Aquaduct</h6>
 
@@ -19461,418 +20145,9 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ecoduct">
-<h6>Ecoduct</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ecoduct</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ecoduct</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Overbruggingsconstructie over een weg of spoorweg, bedoeld voor het passeren van dieren.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ecoduct">https://definities.geostandaarden.nl/ibro/id/begrip/ecoduct</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
 </section>
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">
-<h5>Ondertunneling</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ondertunneling</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ondertunneling</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Ondergrondse of onder water gelegen verbinding tussen twee punten, aan beide einden voorzien van een open bakconstructie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>In een later stadium zullen registratieregels worden opgesteld waarin een nadere invulling wordt gegeven welke typeringen verplicht in de registratie worden opgenomen.</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ondertunneling">https://definities.geostandaarden.nl/ibro/id/begrip/ondertunneling</a>
-</td>
-</tr>
-<tr>
-<th>Populatie</th>
-<td>Het betreft hier grotendeels de bestaande populatie tunneldelen zoals deze is opgenomen in de basisregistratie grootschalige topografie. En van kunstwerkdelen van Type duiker indien opgenomen in het IMGeo deel van de basisregistratie grootschalige topografie.</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerk">Kunstwerk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_duiker">
-<h6>Duiker</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Duiker</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Duiker</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kunstwerk voor de waterhuishouding, bestaande uit een gesloten kokervormige constructie met een in- en uitstroomopening, die niet de gehele waterbreedte beslaat, aangebracht onder een weg of spoorweg of in een dam of ander terrein en de bodem van de watergang onderbreekt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/duiker">https://definities.geostandaarden.nl/ibro/id/begrip/duiker</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_hevel">
-<h6>Hevel</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Hevel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Hevel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kokervormige constructie met een verhoogd middengedeelte dat twee wederzijds gelegen wateren met elkaar verbindt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hevel">https://definities.geostandaarden.nl/ibro/id/begrip/hevel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sifon">
-<h6>Sifon</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Sifon</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Sifon</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kokervormige constructie met een verlaagd middengedeelte dat geheel met water is gevuld en die twee watergangen met elkaar verbindt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sifon">https://definities.geostandaarden.nl/ibro/id/begrip/sifon</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_tunnel">
-<h6>Tunnel</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Tunnel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Tunnel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kokervormig kunstwerk onder een of meer wegen, spoorwegen, waterwegen en/of andere hindernissen, als ondergrondse doorgang voor verkeer, leidingen of dieren.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tunnel">https://definities.geostandaarden.nl/ibro/id/begrip/tunnel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_ondertunneling">Ondertunneling</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">
 <h4>Kunstwerkdeel</h4>
 
@@ -19944,8 +20219,8 @@ Deze overbrugging is al dan niet beweegbaar is (kan open en dicht).</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -20020,6 +20295,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 </section>
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sloof">
 <h5>Sloof</h5>
 
@@ -20087,8 +20363,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -20168,450 +20444,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek">
-<h5>Dek</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Dek</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Dek</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Direct door het verkeer belaste deel van de bovenbouw van de brug.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dek">https://definities.geostandaarden.nl/ibro/id/begrip/dek</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
-</td>
-<td>
-Object waar dit object onderdeel van uit maakt.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">
-<h6>isOnderdeelVan</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>is onderdeel van</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Object waar dit object onderdeel van uit maakt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Kardinaliteit relatie bron</th>
-<td>0..*</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk">
-<h5>Schutkolk</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Schutkolk</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Schutkolk</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schutkolk">https://definities.geostandaarden.nl/ibro/id/begrip/schutkolk</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
-</td>
-<td>
-Object waar dit object onderdeel van uit maakt.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">Sluis</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">
-<h6>isOnderdeelVan</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>is onderdeel van</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Object waar dit object onderdeel van uit maakt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Kardinaliteit relatie bron</th>
-<td>0..*</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler">
-<h5>Pijler</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pijler</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Pijler</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/pijler">https://definities.geostandaarden.nl/ibro/id/begrip/pijler</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
-</td>
-<td>
-Object waar dit object onderdeel van uit maakt.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-<section class="notoc">
-<h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">
-<h6>isOnderdeelVan</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>isOnderdeelVan</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>is onderdeel van</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Object waar dit object onderdeel van uit maakt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Kardinaliteit relatie bron</th>
-<td>0..*</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluisdeur">
 <h5>Sluisdeur</h5>
 
@@ -20679,8 +20512,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -20760,6 +20593,454 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd">
+<h5>Landhoofd</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Landhoofd</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Landhoofd</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/landhoofd">https://definities.geostandaarden.nl/ibro/id/begrip/landhoofd</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+</td>
+<td>
+Object waar dit object onderdeel van uit maakt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Object waar dit object onderdeel van uit maakt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek">
+<h5>Dek</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Dek</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Dek</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Direct door het verkeer belaste deel van de bovenbouw van de brug.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dek">https://definities.geostandaarden.nl/ibro/id/begrip/dek</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+</td>
+<td>
+Object waar dit object onderdeel van uit maakt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_dek_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Object waar dit object onderdeel van uit maakt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler">
+<h5>Pijler</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pijler</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Pijler</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ondersteuningsconstructie van overbruggingen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/pijler">https://definities.geostandaarden.nl/ibro/id/begrip/pijler</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_kunstwerkdeel">Kunstwerkdeel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+</td>
+<td>
+Object waar dit object onderdeel van uit maakt.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pijler_relatiesoort_is_onderdeel_van">
+<h6>isOnderdeelVan</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>isOnderdeelVan</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>is onderdeel van</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Object waar dit object onderdeel van uit maakt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_pyloon">
 <h5>Pyloon</h5>
 
@@ -20827,8 +21108,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -20914,19 +21195,20 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd">
-<h5>Landhoofd</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk">
+<h5>Schutkolk</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Landhoofd</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Schutkolk</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Landhoofd</td>
+<td>Schutkolk</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -20934,7 +21216,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.</td>
+<td>Deel van de sluis waarin de te schutten schepen afmeren en op een hoger of lager niveau worden gebracht.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -20943,7 +21225,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/landhoofd">https://definities.geostandaarden.nl/ibro/id/begrip/landhoofd</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schutkolk">https://definities.geostandaarden.nl/ibro/id/begrip/schutkolk</a>
 </td>
 </tr>
 <tr>
@@ -20981,8 +21263,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -20992,12 +21274,12 @@ Object waar dit object onderdeel van uit maakt.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">isOnderdeelVan</a>
 </td>
 <td>
 Object waar dit object onderdeel van uit maakt.</td>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_overbrugging">Overbrugging</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_sluis">Sluis</a>
 </td>
 <td>
 1</td>
@@ -21010,7 +21292,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 <section class="notoc">
 <h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_landhoofd_relatiesoort_is_onderdeel_van">
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_kunstwerken_objecttype_schutkolk_relatiesoort_is_onderdeel_van">
 <h6>isOnderdeelVan</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -21070,10 +21352,12 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 
+
 ## Domein Overige constructies
-![Overige constructies](data/model-docs/media/overige_constructies.png "Domein Overige constructies")
+![Overige constructies](data/media/overige_constructies.png "Domein Overige constructies")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalcontainer">
 <h4>Afvalcontainer</h4>
@@ -21146,6 +21430,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_dok">
 <h4>Dok</h4>
 
@@ -21217,6 +21502,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie">
 <h4>Erfconstructie</h4>
 
@@ -21286,8 +21572,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -21302,7 +21588,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 <td>
 Breed geaccepteerde benaming van een erfconstructie zoals deze door de eigenaar is toegekend of zoals deze in de volksmond bekend staat.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -21365,6 +21651,7 @@ Breed geaccepteerde benaming van een erfconstructie zoals deze door de eigenaar 
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_geleideconstructie">
 <h4>Geleideconstructie</h4>
 
@@ -21436,6 +21723,7 @@ Breed geaccepteerde benaming van een erfconstructie zoals deze door de eigenaar 
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">
 <h4>Installatie</h4>
 
@@ -21507,8 +21795,8 @@ Breed geaccepteerde benaming van een erfconstructie zoals deze door de eigenaar 
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -21587,274 +21875,7 @@ Object waar dit object bijhoort.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp">
-<h5>Pomp</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Pomp</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Pomp</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Technische inrichting om vloeistoffen en/of gassen te verplaatsen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/pomp">https://definities.geostandaarden.nl/ibro/id/begrip/pomp</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt">
-<h5>Oplaadpunt</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Oplaadpunt</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Oplaadpunt</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Systeem voor opladen van elektrische auto&#39;s.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/oplaadpunt">https://definities.geostandaarden.nl/ibro/id/begrip/oplaadpunt</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen">
-<h5>Zonnepanelen</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Zonnepanelen</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Zonnepanelen</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Installatie om zonne-energie om te zetten in energie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zonnepanelen">https://definities.geostandaarden.nl/ibro/id/begrip/zonnepanelen</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift">
-<h5>Lift</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Lift</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Lift</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Installatie gericht op het verticaal vervoeren van personen en goederen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/lift">https://definities.geostandaarden.nl/ibro/id/begrip/lift</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_windturbine">
 <h5>Windturbine</h5>
 
@@ -21922,140 +21943,7 @@ Object waar dit object bijhoort.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene">
-<h5>Sirene</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Sirene</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Sirene</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Installatie welke geluiden van variabele toonhoogte kan voortbrengen om de bevolking te waarschuwen voor gevaarlijke situaties.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sirene">https://definities.geostandaarden.nl/ibro/id/begrip/sirene</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_transformator">
-<h5>Transformator</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Transformator</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Transformator</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>IMIBRO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Installatie voor het transformeren van elektrische wisselspanning van hoge naar lage spanning en andersom.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>IMBOR</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/transformator">https://definities.geostandaarden.nl/ibro/id/begrip/transformator</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kast">
 <h5>Kast</h5>
 
@@ -22123,6 +22011,215 @@ Object waar dit object bijhoort.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_transformator">
+<h5>Transformator</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Transformator</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Transformator</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>IMIBRO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Installatie voor het transformeren van elektrische wisselspanning van hoge naar lage spanning en andersom.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMBOR</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/transformator">https://definities.geostandaarden.nl/ibro/id/begrip/transformator</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_pomp">
+<h5>Pomp</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Pomp</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Pomp</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Technische inrichting om vloeistoffen en/of gassen te verplaatsen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Als het een werkende pomp is, wordt deze als Pomp opgenomen; in andere gevallen (bv historische, niet-werkende pomp) als straatmeubilair zijnde kunstobject.</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/pomp">https://definities.geostandaarden.nl/ibro/id/begrip/pomp</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_lift">
+<h5>Lift</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Lift</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Lift</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Installatie gericht op het verticaal vervoeren van personen en goederen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/lift">https://definities.geostandaarden.nl/ibro/id/begrip/lift</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_verlichtingsarmatuur">
 <h5>Verlichtingsarmatuur</h5>
 
@@ -22190,7 +22287,212 @@ Object waar dit object bijhoort.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_sirene">
+<h5>Sirene</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Sirene</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Sirene</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Installatie welke geluiden van variabele toonhoogte kan voortbrengen om de bevolking te waarschuwen voor gevaarlijke situaties.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sirene">https://definities.geostandaarden.nl/ibro/id/begrip/sirene</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_oplaadpunt">
+<h5>Oplaadpunt</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Oplaadpunt</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Oplaadpunt</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Systeem voor opladen van elektrische auto&#39;s.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/oplaadpunt">https://definities.geostandaarden.nl/ibro/id/begrip/oplaadpunt</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zonnepanelen">
+<h5>Zonnepanelen</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zonnepanelen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Zonnepanelen</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Installatie om zonne-energie om te zetten in energie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zonnepanelen">https://definities.geostandaarden.nl/ibro/id/begrip/zonnepanelen</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_installatie">Installatie</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_mast">
 <h4>Mast</h4>
 
@@ -22260,8 +22562,8 @@ Object waar dit object bijhoort.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -22276,7 +22578,7 @@ Object waar dit object bijhoort.</td>
 <td>
 Geeft aan of een mast al dan niet open is.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -22340,6 +22642,7 @@ Geeft aan of een mast al dan niet open is.</td>
 </table>
 </section>
 </section>
+
 
 
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast">
@@ -22410,6 +22713,7 @@ Geeft aan of een mast al dan niet open is.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur">
 <h4>Muur</h4>
 
@@ -22479,8 +22783,8 @@ Geeft aan of een mast al dan niet open is.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -22495,7 +22799,7 @@ Geeft aan of een mast al dan niet open is.</td>
 <td>
 Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -22510,8 +22814,8 @@ Muur die al dan niet bedoeld is om vallen te voorkomen.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -22642,73 +22946,7 @@ Functie die dit object vervult.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kademuur">
-<h5>Kademuur</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kademuur</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Kademuur</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kademuur">https://definities.geostandaarden.nl/ibro/id/begrip/kademuur</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur">Muur</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_keermuur">
 <h5>Keermuur</h5>
 
@@ -22776,7 +23014,76 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kademuur">
+<h5>Kademuur</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kademuur</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kademuur</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kademuur">https://definities.geostandaarden.nl/ibro/id/begrip/kademuur</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_muur">Muur</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_omheining">
 <h4>Omheining</h4>
 
@@ -22846,8 +23153,8 @@ Functie die dit object vervult.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -22862,7 +23169,7 @@ Functie die dit object vervult.</td>
 <td>
 Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -22877,8 +23184,8 @@ Omheining die al dan niet bedoeld is om vallen te voorkomen.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -23010,6 +23317,7 @@ Functie die dit object vervult.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_opslagtank">
 <h4>Opslagtank</h4>
 
@@ -23081,6 +23389,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_paal">
 <h4>Paal</h4>
 
@@ -23152,6 +23461,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_putdeksel">
 <h4>Putdeksel</h4>
 
@@ -23219,6 +23529,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir">
 <h4>Reservoir</h4>
 
@@ -23289,67 +23600,7 @@ Functie die dit object vervult.</td>
 
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_bezinkbak">
-<h5>Bezinkbak</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bezinkbak</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bezinkbak</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>BGT</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>BGT</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir">Reservoir</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_bassin">
 <h5>Bassin</h5>
 
@@ -23411,7 +23662,70 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_bezinkbak">
+<h5>Bezinkbak</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bezinkbak</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bezinkbak</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>BGT</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>BGT</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_reservoir">Reservoir</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_scherm">
 <h4>Scherm</h4>
 
@@ -23483,8 +23797,8 @@ Functie die dit object vervult.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -23564,6 +23878,7 @@ Functie die dit object vervult.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">
 <h4>Straatmeubilair</h4>
 
@@ -23634,19 +23949,20 @@ Functie die dit object vervult.</td>
 
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kunstobject">
-<h5>Kunstobject</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalbak">
+<h5>Afvalbak</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kunstobject</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Afvalbak</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Kunstobject</td>
+<td>Afvalbak</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -23654,7 +23970,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt.</td>
+<td>Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -23663,7 +23979,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kunstobject">https://definities.geostandaarden.nl/ibro/id/begrip/kunstobject</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/afvalbak">https://definities.geostandaarden.nl/ibro/id/begrip/afvalbak</a>
 </td>
 </tr>
 <tr>
@@ -23701,6 +24017,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_herdenkingsmonument">
 <h5>Herdenkingsmonument</h5>
 
@@ -23768,19 +24085,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_picknicktafel">
-<h5>Picknicktafel</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fontein">
+<h5>Fontein</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Picknicktafel</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fontein</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Picknicktafel</td>
+<td>Fontein</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -23788,7 +24106,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen).</td>
+<td>Natuurlijke of kunstmatige installatie die water spuit.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -23797,7 +24115,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/picknicktafel">https://definities.geostandaarden.nl/ibro/id/begrip/picknicktafel</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fontein">https://definities.geostandaarden.nl/ibro/id/begrip/fontein</a>
 </td>
 </tr>
 <tr>
@@ -23835,19 +24153,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_abri">
-<h5>Abri</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fietsenparkeerplaats">
+<h5>Fietsenparkeerplaats</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Abri</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fietsenparkeerplaats</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Abri</td>
+<td>Fietsenparkeerplaats</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -23855,7 +24174,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Overdekte wachtplaats voor passagiers van het openbaar vervoer.</td>
+<td>Voorziening in de openbare ruimte voor het stallen van fietsen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -23864,7 +24183,7 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/abri">https://definities.geostandaarden.nl/ibro/id/begrip/abri</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsenparkeerplaats">https://definities.geostandaarden.nl/ibro/id/begrip/fietsenparkeerplaats</a>
 </td>
 </tr>
 <tr>
@@ -23902,6 +24221,75 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_speelvoorziening">
+<h5>Speelvoorziening</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Speelvoorziening</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Speelvoorziening</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/speelvoorziening">https://definities.geostandaarden.nl/ibro/id/begrip/speelvoorziening</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zitelement">
 <h5>Zitelement</h5>
 
@@ -23973,207 +24361,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fontein">
-<h5>Fontein</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fontein</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fontein</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Natuurlijke of kunstmatige installatie die water spuit.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fontein">https://definities.geostandaarden.nl/ibro/id/begrip/fontein</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_fietsenparkeerplaats">
-<h5>Fietsenparkeerplaats</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fietsenparkeerplaats</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fietsenparkeerplaats</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorziening in de openbare ruimte voor het stallen van fietsen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsenparkeerplaats">https://definities.geostandaarden.nl/ibro/id/begrip/fietsenparkeerplaats</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_afvalbak">
-<h5>Afvalbak</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Afvalbak</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Afvalbak</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/afvalbak">https://definities.geostandaarden.nl/ibro/id/begrip/afvalbak</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_openbaar_toilet">
 <h5>OpenbaarToilet</h5>
 
@@ -24245,19 +24433,20 @@ Functie die dit object vervult.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_speelvoorziening">
-<h5>Speelvoorziening</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_picknicktafel">
+<h5>Picknicktafel</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Speelvoorziening</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Picknicktafel</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Speelvoorziening</td>
+<td>Picknicktafel</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -24265,7 +24454,7 @@ Functie die dit object vervult.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen.</td>
+<td>Tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen).</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -24274,7 +24463,143 @@ Functie die dit object vervult.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/speelvoorziening">https://definities.geostandaarden.nl/ibro/id/begrip/speelvoorziening</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/picknicktafel">https://definities.geostandaarden.nl/ibro/id/begrip/picknicktafel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_kunstobject">
+<h5>Kunstobject</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kunstobject</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kunstobject</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kunstobject">https://definities.geostandaarden.nl/ibro/id/begrip/kunstobject</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_straatmeubilair">Straatmeubilair</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_abri">
+<h5>Abri</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Abri</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Abri</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Overdekte wachtplaats voor passagiers van het openbaar vervoer.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/abri">https://definities.geostandaarden.nl/ibro/id/begrip/abri</a>
 </td>
 </tr>
 <tr>
@@ -24313,6 +24638,7 @@ Functie die dit object vervult.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_zwembad">
 <h4>Zwembad</h4>
 
@@ -24395,10 +24721,12 @@ Functie die dit object vervult.</td>
 
 
 
+
 ## Domein Netwerk
-![Netwerk](data/model-docs/media/netwerk.png "Domein Netwerk")
+![Netwerk](data/media/netwerk.png "Domein Netwerk")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerk">
 <h4>Netwerk</h4>
@@ -24448,6 +24776,7 @@ Functie die dit object vervult.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">
 <h4>Netwerkelement</h4>
 
@@ -24496,8 +24825,8 @@ Functie die dit object vervult.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -24576,300 +24905,7 @@ De netwerken waarvan een netwerkelement lid is.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">
-<h5>Verbinding</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Verbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Netwerkelement dat twee posities met elkaar verbindt en een homogeen pad in het netwerk voorstelt. De verbonden posities kunnen worden voorgesteld als knopen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verbinding">https://definities.geostandaarden.nl/ibro/id/begrip/verbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#extern_inspire_generic_network_model">Link</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_curve">GM_Curve</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Overzicht Relatiesoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">startknoop</a>
-</td>
-<td>
-De startknoop van de verbinding.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
-</td>
-<td>
-0..1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">eindknoop</a>
-</td>
-<td>
-De eindknoop van de verbinding.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
-</td>
-<td>
-0..1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-<section class="notoc">
-<h5>Details Relatiesoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">
-<h6>startknoop</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#startknoop</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>startknoop</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>De startknoop van de verbinding.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>0..1</td>
-</tr>
-<tr>
-<th>Kardinaliteit relatie bron</th>
-<td>0..*</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">
-<h6>eindknoop</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#eindknoop</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>eindknoop</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>De eindknoop van de verbinding.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>0..1</td>
-</tr>
-<tr>
-<th>Kardinaliteit relatie bron</th>
-<td>0..*</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">
 <h5>Knoop</h5>
 
@@ -24951,8 +24987,8 @@ De eindknoop van de verbinding.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -24967,7 +25003,7 @@ De eindknoop van de verbinding.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_point">GM_Point</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Point"> GM_Point</a>
 </td>
 <td>
 1</td>
@@ -24982,8 +25018,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -25172,7 +25208,303 @@ De verbindingen die de knoop verlaten.</td>
 </section>
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">
+<h5>Verbinding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Netwerkelement dat twee posities met elkaar verbindt en een homogeen pad in het netwerk voorstelt. De verbonden posities kunnen worden voorgesteld als knopen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verbinding">https://definities.geostandaarden.nl/ibro/id/begrip/verbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkelement">Netwerkelement</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#extern_inspire_generic_network_model">Link</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Curve"> GM_Curve</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+<section class="notoc">
+<h5>Overzicht Relatiesoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">startknoop</a>
+</td>
+<td>
+De startknoop van de verbinding.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
+</td>
+<td>
+0..1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">eindknoop</a>
+</td>
+<td>
+De eindknoop van de verbinding.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_knoop">Knoop</a>
+</td>
+<td>
+0..1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+<section class="notoc">
+<h5>Details Relatiesoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_startknoop">
+<h6>startknoop</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#startknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>startknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De startknoop van de verbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding_relatiesoort_eindknoop">
+<h6>eindknoop</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#eindknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>eindknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>De eindknoop van de verbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Kardinaliteit relatie bron</th>
+<td>0..*</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkverwijzing">
 <h4>Netwerkverwijzing</h4>
 
@@ -25221,8 +25553,8 @@ De verbindingen die de knoop verlaten.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -25297,6 +25629,7 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 </section>
 </section>
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing">
 <h5>Verbindingsverwijzing</h5>
 
@@ -25362,8 +25695,8 @@ Het netwerkelement waarnaar verwezen wordt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -25393,8 +25726,8 @@ De richtingen van de gegeneraliseerde link waarop de verwijzing van toepassing i
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -25521,211 +25854,7 @@ De verbinding waarnaar verwezen wordt.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing">
-<h6>SimpelePuntverwijzing</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#SimpelePuntverwijzing</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>SimpelePuntverwijzing</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Simpele puntverwijzing</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een netwerkreferentie die beperkt is tot een punt op een verbinding. Het punt is de locatie op het netwerkelement op de positie &#39;op positie&#39; langs het netwerk, met een eventuele offset.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/simpele_puntverwijzing">https://definities.geostandaarden.nl/ibro/id/begrip/simpele_puntverwijzing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">opPositie</a>
-</td>
-<td>
-Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
-</td>
-<td>
-1</td>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">offset</a>
-</td>
-<td>
-Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
-</td>
-<td>
-0..1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">
-<h6>opPositie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#opPositie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>opPositie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">
-<h6>offset</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#offset</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>offset</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>0..1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_lineaire_verwijzing">
 <h6>SimpeleLineaireVerwijzing</h6>
 
@@ -25795,8 +25924,8 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -25992,8 +26121,215 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing">
+<h6>SimpelePuntverwijzing</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#SimpelePuntverwijzing</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>SimpelePuntverwijzing</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Simpele puntverwijzing</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een netwerkreferentie die beperkt is tot een punt op een verbinding. Het punt is de locatie op het netwerkelement op de positie &#39;op positie&#39; langs het netwerk, met een eventuele offset.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/simpele_puntverwijzing">https://definities.geostandaarden.nl/ibro/id/begrip/simpele_puntverwijzing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbindingsverwijzing">Verbindingsverwijzing</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">opPositie</a>
+</td>
+<td>
+Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+</td>
+<td>
+1</td>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">offset</a>
+</td>
+<td>
+Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_primitief_datatype_lengte">Lengte</a>
+</td>
+<td>
+0..1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_op_positie">
+<h6>opPositie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#opPositie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>opPositie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Positie van het punt, uitgedrukt als de afstand vanaf het begin van de verbinding langs diens curvegeometrie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_simpele_puntverwijzing_attribuutsoort_offset">
+<h6>offset</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#offset</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>offset</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indien van toepassing. Een positieve offset is een verschuiving naar rechts in de richting van de verbinding, een negatieve offset is een verschuiving naar links.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>D2.10.1 INSPIRE Data Specifications – Base Models – Generic Network Model</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>0..1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
 </section>
+
+
+</section>
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_netwerkeigenschap">
 <h4>Netwerkeigenschap</h4>
 
@@ -26042,8 +26378,8 @@ Een verschuiving ten opzichte van de middellijngeometrie van de verbinding, indi
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -26119,6 +26455,7 @@ Ruimtelijke verwijzing van de netwerkgerelateerde eigenschap.</td>
 </section>
 
 </section>
+
 
 
 
@@ -26259,9 +26596,10 @@ InTegenovergesteldeRichting</td>
 
 
 ## Domein Transportnetwerk
-![Transportnetwerk](data/model-docs/media/transportnetwerk.png "Domein Transportnetwerk")
+![Transportnetwerk](data/media/transportnetwerk.png "Domein Transportnetwerk")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">
 <h4>Transportruimte</h4>
@@ -26350,8 +26688,8 @@ InTegenovergesteldeRichting</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -26491,89 +26829,7 @@ Een relatie vanuit een netwerk naar een functionele ruimte waarmee functionele s
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding">
-<h5>Transportverbinding</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Transportverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Transportverbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Transportruimte die twee knopen met elkaar verbindt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/transportverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/transportverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportknoop">
 <h5>Transportknoop</h5>
 
@@ -26657,6 +26913,81 @@ Een relatie vanuit een netwerk naar een functionele ruimte waarmee functionele s
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportverbinding">
+<h5>Transportverbinding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Transportverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Transportverbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Transportruimte die twee knopen met elkaar verbindt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/transportverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/transportverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_netwerk_objecttype_verbinding">Verbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_transportnetwerk_objecttype_transportruimte">Transportruimte</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
 
 
@@ -26665,10 +26996,21 @@ Een relatie vanuit een netwerk naar een functionele ruimte waarmee functionele s
 
 
 
+</section>
+</section>
+
+
+
+
+
+
+
+
 ## Domein Wegennetwerk
-![Wegennetwerk](data/model-docs/media/wegennetwerk.png "Domein Wegennetwerk")
+![Wegennetwerk](data/media/wegennetwerk.png "Domein Wegennetwerk")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding">
 <h4>Wegverkeerruimteverbinding</h4>
@@ -26751,8 +27093,8 @@ Een relatie vanuit een netwerk naar een functionele ruimte waarmee functionele s
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -26774,12 +27116,12 @@ De toegestane beweegrichting van de hoofdverkeersgebruiker op een weg/baan/stroo
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_vlak_geometrie">vlakGeometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
 </td>
 <td>
 Vlakgeometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -26838,18 +27180,18 @@ Vlakgeometrische representatie van een object.</td>
 </tbody>
 </table>
 </section>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_vlak_geometrie">
-<h6>vlakGeometrie</h6>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteverbinding_attribuutsoort_vlakgeometrie">
+<h6>vlakgeometrie</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrieVlak</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#vlakgeometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>vlakGeometrie</td>
+<td>vlakgeometrie</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -26884,6 +27226,7 @@ Vlakgeometrische representatie van een object.</td>
 </table>
 </section>
 </section>
+
 
 
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">
@@ -26951,8 +27294,8 @@ Vlakgeometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -26967,7 +27310,7 @@ Vlakgeometrische representatie van een object.</td>
 <td>
 Nummer toegekend aan een verbindingsbaan</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -26982,8 +27325,8 @@ Nummer toegekend aan een verbindingsbaan</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -27171,743 +27514,7 @@ Hectometerpunt dat dit object heeft.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hoofdrijbaan">
-<h6>Hoofdrijbaan</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Hoofdrijbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Hoofdrijbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verkeer dragende baan bestemd voor doorgaand verkeer.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hoofdrijbaan">https://definities.geostandaarden.nl/ibro/id/begrip/hoofdrijbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpadbaan">
-<h6>Ruiterpadbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ruiterpadbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ruiterpadbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpadbaan">https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpadbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpadbaan">
-<h6>Voetpadbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voetpadbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Voetpadbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpadbaan">https://definities.geostandaarden.nl/ibro/id/begrip/voetpadbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetveer">
-<h6>Voetveer</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voetveer</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Voetveer</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geregelde verbinding per vaartuig bestemd voor voetgangers.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetveer">https://definities.geostandaarden.nl/ibro/id/begrip/voetveer</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_parallelbaan">
-<h6>Parallelbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Parallelbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Parallelbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een verkeer dragende baan buiten de bebouwde kom die naast een hoofdrijbaan loopt en het lokale verkeer dat die hoofdrijbaan mag en wil kruisen, oprijden of verlaten, kan opvangen, verzamelen of verdelen, of alleen voor lokaal verkeer gebruikt kan worden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parallelbaan">https://definities.geostandaarden.nl/ibro/id/begrip/parallelbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ventweg">
-<h6>Ventweg</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ventweg</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ventweg</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Een verkeer dragende baan binnen de bebouwde kom die naast een hoofdrijbaan loopt en het lokale verkeer dat die hoofdrijbaan mag en wil kruisen, oprijden of verlaten, kan opvangen, verzamelen of verdelen, of alleen voor lokaal verkeer gebruikt kan worden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ventweg">https://definities.geostandaarden.nl/ibro/id/begrip/ventweg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busbaan">
-<h6>Busbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Busbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Busbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/busbaan">https://definities.geostandaarden.nl/ibro/id/begrip/busbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeerspleinbaan">
-<h6>Verkeerspleinbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verkeerspleinbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Verkeerspleinbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Hoofdrijbaan op een verkeersplein.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeerspleinbaan">https://definities.geostandaarden.nl/ibro/id/begrip/verkeerspleinbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotondebaan">
-<h6>Rotondebaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rotondebaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rotondebaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Hoofdrijbaan op een rotonde.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rotondebaan">https://definities.geostandaarden.nl/ibro/id/begrip/rotondebaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsveer">
-<h6>Fietsveer</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fietsveer</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fietsveer</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsveer">https://definities.geostandaarden.nl/ibro/id/begrip/fietsveer</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbindingbaan">
-<h6>Veerverbindingbaan</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbindingbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Veerverbindingbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/veerverbindingbaan">https://definities.geostandaarden.nl/ibro/id/begrip/veerverbindingbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verbindingsbaan">
 <h6>Verbindingsbaan</h6>
 
@@ -27975,19 +27582,20 @@ Hectometerpunt dat dit object heeft.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verzorgingsbaan">
-<h6>Verzorgingsbaan</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_parallelbaan">
+<h6>Parallelbaan</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verzorgingsbaan</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Parallelbaan</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Verzorgingsbaan</td>
+<td>Parallelbaan</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -27995,7 +27603,7 @@ Hectometerpunt dat dit object heeft.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer.</td>
+<td>Een verkeer dragende baan buiten de bebouwde kom die naast een hoofdrijbaan loopt en het lokale verkeer dat die hoofdrijbaan mag en wil kruisen, oprijden of verlaten, kan opvangen, verzamelen of verdelen, of alleen voor lokaal verkeer gebruikt kan worden.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -28004,7 +27612,7 @@ Hectometerpunt dat dit object heeft.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsbaan">https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsbaan</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parallelbaan">https://definities.geostandaarden.nl/ibro/id/begrip/parallelbaan</a>
 </td>
 </tr>
 <tr>
@@ -28042,6 +27650,7 @@ Hectometerpunt dat dit object heeft.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietspadbaan">
 <h6>Fietspadbaan</h6>
 
@@ -28113,7 +27722,756 @@ Hectometerpunt dat dit object heeft.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hoofdrijbaan">
+<h6>Hoofdrijbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Hoofdrijbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Hoofdrijbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verkeer dragende baan bestemd voor doorgaand verkeer.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/hoofdrijbaan">https://definities.geostandaarden.nl/ibro/id/begrip/hoofdrijbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotondebaan">
+<h6>Rotondebaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rotondebaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rotondebaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Hoofdrijbaan op een rotonde.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rotondebaan">https://definities.geostandaarden.nl/ibro/id/begrip/rotondebaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpadbaan">
+<h6>Voetpadbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voetpadbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Voetpadbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Baan aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden die bedoeld is voor voetgangers.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpadbaan">https://definities.geostandaarden.nl/ibro/id/begrip/voetpadbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsveer">
+<h6>Fietsveer</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fietsveer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fietsveer</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geregelde verbinding per vaartuig bestemd voor het fietsverkeer en snorfietsen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsveer">https://definities.geostandaarden.nl/ibro/id/begrip/fietsveer</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeerspleinbaan">
+<h6>Verkeerspleinbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verkeerspleinbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verkeerspleinbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Hoofdrijbaan op een verkeersplein.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeerspleinbaan">https://definities.geostandaarden.nl/ibro/id/begrip/verkeerspleinbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpadbaan">
+<h6>Ruiterpadbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ruiterpadbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ruiterpadbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Speciaal zandpad aanliggend/parallel aan de hoofdrijbaan, al dan niet gescheiden, waarover ruiters kunnen rijden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpadbaan">https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpadbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verzorgingsbaan">
+<h6>Verzorgingsbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verzorgingsbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verzorgingsbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verkeer dragende baan op een parkeer- of verzorgingsplaats voor rustend verkeer.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsbaan">https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ventweg">
+<h6>Ventweg</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ventweg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Ventweg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een verkeer dragende baan binnen de bebouwde kom die naast een hoofdrijbaan loopt en het lokale verkeer dat die hoofdrijbaan mag en wil kruisen, oprijden of verlaten, kan opvangen, verzamelen of verdelen, of alleen voor lokaal verkeer gebruikt kan worden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ventweg">https://definities.geostandaarden.nl/ibro/id/begrip/ventweg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busbaan">
+<h6>Busbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Busbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Busbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/busbaan">https://definities.geostandaarden.nl/ibro/id/begrip/busbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbindingbaan">
+<h6>Veerverbindingbaan</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbindingbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Veerverbindingbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geregelde verbinding per vaartuig bestemd voor onbepaalde hoofdverkeersgebruik.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/veerverbindingbaan">https://definities.geostandaarden.nl/ibro/id/begrip/veerverbindingbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetveer">
+<h6>Voetveer</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voetveer</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Voetveer</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geregelde verbinding per vaartuig bestemd voor voetgangers.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetveer">https://definities.geostandaarden.nl/ibro/id/begrip/voetveer</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanverbinding">Baanverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">
 <h5>Strookverbinding</h5>
 
@@ -28181,8 +28539,8 @@ Hectometerpunt dat dit object heeft.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -28261,1090 +28619,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_klimstrook">
-<h6>Klimstrook</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Klimstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Klimstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/klimstrook">https://definities.geostandaarden.nl/ibro/id/begrip/klimstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_uitvoegstrook">
-<h6>Uitvoegstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Uitvoegstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Uitvoegstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat bestemd is voor bestuurders die de doorgaande rijbaan verlaten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/uitvoegstrook">https://definities.geostandaarden.nl/ibro/id/begrip/uitvoegstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vluchtstrook">
-<h6>Vluchtstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Vluchtstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vluchtstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Door een doorgetrokken streep van de rijbaan van de autosnelweg of autoweg afgescheiden weggedeelte, dat bestemd is voor gebruik in noodgevallen, behoudens voor de duur van openstelling als spitsstrook.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vluchtstrook">https://definities.geostandaarden.nl/ibro/id/begrip/vluchtstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_bufferstrook">
-<h6>Bufferstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bufferstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Bufferstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bufferstrook">https://definities.geostandaarden.nl/ibro/id/begrip/bufferstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_weefstrook">
-<h6>Weefstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Weefstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Weefstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook bedoeld voor het afwikkelen en uitwisselen van rijdend verkeer afkomstig van verschillende rijbanen en gaande naar verschillende rijbanen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/weefstrook">https://definities.geostandaarden.nl/ibro/id/begrip/weefstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_redresseerstrook">
-<h6>Redresseerstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Redresseerstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Redresseerstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/redresseerstrook">https://definities.geostandaarden.nl/ibro/id/begrip/redresseerstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_linksaf">
-<h6>OpstelstrookRechtdoorOfLinksaf</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoorOfLinksaf</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OpstelstrookRechtdoorOfLinksaf</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Opstelstrook rechtdoor+linksaf</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan of rechtdoor te gaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Blinksaf">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Blinksaf</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_rechtsaf">
-<h6>OpstelstrookRechtdoorOfRechtsaf</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoorOfRechtsaf</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OpstelstrookRechtdoorOfRechtsaf</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Opstelstrook rechtdoor+rechtsaf</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Brechtsaf">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Brechtsaf</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstrook">
-<h6>Fietsstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fietsstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fietsstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop afbeeldingen van een fiets zijn aangebracht.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsstrook">https://definities.geostandaarden.nl/ibro/id/begrip/fietsstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vrachtwagenstrook">
-<h6>Vrachtwagenstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Vrachtwagenstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Vrachtwagenstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vrachtwagenstrook">https://definities.geostandaarden.nl/ibro/id/begrip/vrachtwagenstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rijstrook">
-<h6>Rijstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rijstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rijstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook waar voertuigen over rijden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rijstrook">https://definities.geostandaarden.nl/ibro/id/begrip/rijstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_plusstrook">
-<h6>Plusstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Plusstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Plusstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/plusstrook">https://definities.geostandaarden.nl/ibro/id/begrip/plusstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_passeerstrook">
-<h6>Passeerstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Passeerstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Passeerstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/passeerstrook">https://definities.geostandaarden.nl/ibro/id/begrip/passeerstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_invoegstrook">
-<h6>Invoegstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Invoegstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Invoegstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan oprijden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/invoegstrook">https://definities.geostandaarden.nl/ibro/id/begrip/invoegstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_opgeblazen_fietsopstelstrook">
-<h6>OpstelstrookOpgeblazenFietsopstelstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookOpgeblazenFietsopstelstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OpstelstrookOpgeblazenFietsopstelstrook</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Opstelstrook opgeblazen fietsopstelstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_opgeblazen_fietsopstelstrook">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_opgeblazen_fietsopstelstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietssuggestiestrook">
-<h6>Fietssuggestiestrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fietssuggestiestrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fietssuggestiestrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Strook die voor fietsers is gereserveerd zonder fietssymbool.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietssuggestiestrook">https://definities.geostandaarden.nl/ibro/id/begrip/fietssuggestiestrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_linksaf">
 <h6>OpstelstrookLinksaf</h6>
 
@@ -29416,349 +28691,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor">
-<h6>OpstelstrookRechtdoor</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoor</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>OpstelstrookRechtdoor</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Opstelstrook rechtdoor</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor_-_strookverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor_-_strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook">
-<h6>Opstelstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Opstelstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Opstelstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busstrook">
-<h6>Busstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Busstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Busstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/busstrook_-_strook">https://definities.geostandaarden.nl/ibro/id/begrip/busstrook_-_strook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_spitsstrook">
-<h6>Spitsstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Spitsstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Spitsstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Vluchtstrook die als rijstrook is aangewezen met een bord.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>RVV-Bordaanduiding: C23-01</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/spitsstrook">https://definities.geostandaarden.nl/ibro/id/begrip/spitsstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wisselstrook">
-<h6>Wisselstrook</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Wisselstrook</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Wisselstrook</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/wisselstrook">https://definities.geostandaarden.nl/ibro/id/begrip/wisselstrook</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtsaf">
 <h6>OpstelstrookRechtsaf</h6>
 
@@ -29830,6 +28763,287 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_invoegstrook">
+<h6>Invoegstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Invoegstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Invoegstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat is bestemd voor bestuurders die de doorgaande rijbaan oprijden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/invoegstrook">https://definities.geostandaarden.nl/ibro/id/begrip/invoegstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor">
+<h6>OpstelstrookRechtdoor</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoor</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OpstelstrookRechtdoor</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Opstelstrook rechtdoor</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtdoor te gaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor_-_strookverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor_-_strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vrachtwagenstrook">
+<h6>Vrachtwagenstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vrachtwagenstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vrachtwagenstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook specifiek bestemd voor vrachtverkeer en meestal ook bussen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vrachtwagenstrook">https://definities.geostandaarden.nl/ibro/id/begrip/vrachtwagenstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_rechtsaf">
+<h6>OpstelstrookRechtdoorOfRechtsaf</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoorOfRechtsaf</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OpstelstrookRechtdoorOfRechtsaf</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Opstelstrook rechtdoor+rechtsaf</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om rechtsaf te slaan of rechtdoor te gaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Brechtsaf">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Brechtsaf</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangersstrook">
 <h6>Voetgangersstrook</h6>
 
@@ -29897,7 +29111,1176 @@ Object waar dit object onderdeel van uit maakt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_passeerstrook">
+<h6>Passeerstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Passeerstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Passeerstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Lokale wegverbreding op smalle wegen buiten de bebouwde kom waar langzaam verkeer gepasseerd kan worden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/passeerstrook">https://definities.geostandaarden.nl/ibro/id/begrip/passeerstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_spitsstrook">
+<h6>Spitsstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Spitsstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Spitsstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Vluchtstrook die als rijstrook is aangewezen met een bord.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>RVV-Bordaanduiding: C23-01</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/spitsstrook">https://definities.geostandaarden.nl/ibro/id/begrip/spitsstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietssuggestiestrook">
+<h6>Fietssuggestiestrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fietssuggestiestrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fietssuggestiestrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook die voor fietsers is gereserveerd zonder fietssymbool.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietssuggestiestrook">https://definities.geostandaarden.nl/ibro/id/begrip/fietssuggestiestrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_klimstrook">
+<h6>Klimstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Klimstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Klimstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook waarbij trager rijdend verkeer (zoals vrachtwagens) en het overige sneller rijdende verkeer gescheiden wordt bij het beklimmen van een heuvel of berg.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/klimstrook">https://definities.geostandaarden.nl/ibro/id/begrip/klimstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_busstrook">
+<h6>Busstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Busstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Busstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop het woord «BUS» of «LIJNBUS» is aangebracht.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/busstrook_-_strook">https://definities.geostandaarden.nl/ibro/id/begrip/busstrook_-_strook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_redresseerstrook">
+<h6>Redresseerstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Redresseerstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Redresseerstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook langs de buitenste rijstroken van een rijbaan met als doel om uit de koers geraakte voertuigen op te vangen en terug op koers te brengen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/redresseerstrook">https://definities.geostandaarden.nl/ibro/id/begrip/redresseerstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_plusstrook">
+<h6>Plusstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Plusstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Plusstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Smalle strook aan de linkerzijde van een rijbaan met dynamische openstelling.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/plusstrook">https://definities.geostandaarden.nl/ibro/id/begrip/plusstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rijstrook">
+<h6>Rijstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rijstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rijstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook waar voertuigen over rijden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/rijstrook">https://definities.geostandaarden.nl/ibro/id/begrip/rijstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_vluchtstrook">
+<h6>Vluchtstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Vluchtstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Vluchtstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Door een doorgetrokken streep van de rijbaan van de autosnelweg of autoweg afgescheiden weggedeelte, dat bestemd is voor gebruik in noodgevallen, behoudens voor de duur van openstelling als spitsstrook.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/vluchtstrook">https://definities.geostandaarden.nl/ibro/id/begrip/vluchtstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook">
+<h6>Opstelstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Opstelstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Opstelstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om naar de gewenste richting (linksaf, rechtdoor, rechtsaf) af te slaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_bufferstrook">
+<h6>Bufferstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bufferstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bufferstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Extra rijstrook die kan worden opengesteld om te voorkomen dat een file vóór een knelpunt zo lang wordt dat hij andere verkeersstromen gaat blokkeren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bufferstrook">https://definities.geostandaarden.nl/ibro/id/begrip/bufferstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_opgeblazen_fietsopstelstrook">
+<h6>OpstelstrookOpgeblazenFietsopstelstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookOpgeblazenFietsopstelstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OpstelstrookOpgeblazenFietsopstelstrook</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Opstelstrook opgeblazen fietsopstelstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructurele voorziening nabij kruisingen waar fietsers zich voor het andere verkeer opstellen om linksaf te slaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_opgeblazen_fietsopstelstrook">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_opgeblazen_fietsopstelstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_uitvoegstrook">
+<h6>Uitvoegstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Uitvoegstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Uitvoegstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Door een blokmarkering van de doorgaande rijbaan afgescheiden weggedeelte dat bestemd is voor bestuurders die de doorgaande rijbaan verlaten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/uitvoegstrook">https://definities.geostandaarden.nl/ibro/id/begrip/uitvoegstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstrook">
+<h6>Fietsstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fietsstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fietsstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Door doorgetrokken of onderbroken strepen gemarkeerd gedeelte van de rijbaan waarop afbeeldingen van een fiets zijn aangebracht.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsstrook">https://definities.geostandaarden.nl/ibro/id/begrip/fietsstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wisselstrook">
+<h6>Wisselstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Wisselstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Wisselstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Rijstrook die afhankelijk van de drukte geopend wordt voor een bepaalde rijrichting.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/wisselstrook">https://definities.geostandaarden.nl/ibro/id/begrip/wisselstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_opstelstrook_rechtdoor_of_linksaf">
+<h6>OpstelstrookRechtdoorOfLinksaf</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#OpstelstrookRechtdoorOfLinksaf</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>OpstelstrookRechtdoorOfLinksaf</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Opstelstrook rechtdoor+linksaf</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructurele voorziening nabij kruisingen waar verkeersdeelnemers zich opstellen om linksaf te slaan of rechtdoor te gaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Blinksaf">https://definities.geostandaarden.nl/ibro/id/begrip/opstelstrook_rechtdoor%2Blinksaf</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_weefstrook">
+<h6>Weefstrook</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Weefstrook</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Weefstrook</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Strook bedoeld voor het afwikkelen en uitwisselen van rijdend verkeer afkomstig van verschillende rijbanen en gaande naar verschillende rijbanen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/weefstrook">https://definities.geostandaarden.nl/ibro/id/begrip/weefstrook</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookverbinding">Strookverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">
 <h5>Wegverbinding</h5>
 
@@ -29963,8 +30346,8 @@ Object waar dit object onderdeel van uit maakt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -29979,7 +30362,7 @@ Object waar dit object onderdeel van uit maakt.</td>
 <td>
 Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op een wegverbinding mogelijk.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1..*</td>
@@ -29991,7 +30374,7 @@ Routenummer die over de wegverbinding loopt. Er zijn meerdere routenummers op ee
 <td>
 Deze wegverbinding is al dan niet een openbare weg.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -30006,8 +30389,8 @@ Deze wegverbinding is al dan niet een openbare weg.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -30094,7 +30477,7 @@ De openbare ruimte dit object heeft.</td>
 </tr>
 <tr>
 <th>Alias</th>
-<td>Indicatie openbare weg</td>
+<td>indicatie openbare weg</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -30183,349 +30566,7 @@ De openbare ruimte dit object heeft.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpad">
-<h6>Ruiterpad</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Ruiterpad</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Ruiterpad</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Vrij liggend pad (zonder naast/parallel liggende weg) waarvan ruiters gebruik dienen te maken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpad">https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpad</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad">
-<h6>Voetpad</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voetpad</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Voetpad</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Vrij liggend pad (zonder naast/parallel liggende weg) waarvan voetgangers gebruik dienen te maken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>RVV-Bordaanduiding: G7</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpad">https://definities.geostandaarden.nl/ibro/id/begrip/voetpad</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstraat">
-<h6>Fietsstraat</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fietsstraat</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fietsstraat</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Straat die ingericht is als fietsroute waar auto’s zijn toegestaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsstraat">https://definities.geostandaarden.nl/ibro/id/begrip/fietsstraat</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_erftoegangsweg">
-<h6>Erftoegangsweg</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Erftoegangsweg</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Erftoegangsweg</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden. Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de &#39;verblijvers&#39; zoals fietsers en voetgangers.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/erftoegangsweg">https://definities.geostandaarden.nl/ibro/id/begrip/erftoegangsweg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_open">
-<h6>GebiedsontsluitingswegOpen</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GebiedsontsluitingswegOpen</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GebiedsontsluitingswegOpen</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Gebiedsontsluitingsweg open</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_open">https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_open</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fiets_of_bromfietspad">
 <h6>FietsOfBromfietspad</h6>
 
@@ -30601,215 +30642,7 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbinding">
-<h6>Veerverbinding</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Veerverbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geregelde wegverbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/veerverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/veerverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_gesloten">
-<h6>GebiedsontsluitingswegGesloten</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#GebiedsontsluitingswegGesloten</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>GebiedsontsluitingswegGesloten</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Gebiedsontsluitingsweg gesloten</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_gesloten">https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_gesloten</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autoweg">
-<h6>Autoweg</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Autoweg</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Autoweg</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Weg die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Toelichting</th>
-<td>RVV-Bordaanduiding: G3</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/autoweg">https://definities.geostandaarden.nl/ibro/id/begrip/autoweg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietspad">
 <h6>Fietspad</h6>
 
@@ -30881,36 +30714,37 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad_op_trap">
-<h6>VoetpadOpTrap</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_ruiterpad">
+<h6>Ruiterpad</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#VoetpadOpTrap</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Ruiterpad</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>VoetpadOpTrap</td>
+<td>Ruiterpad</td>
 </tr>
 <tr>
 <th>Herkomst</th>
-<td>BGT</td>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken.</td>
+<td>Vrij liggend pad (zonder naast/parallel liggende weg) waarvan ruiters gebruik dienen te maken.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>BGT 1.2</td>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpad_op_trap">https://definities.geostandaarden.nl/ibro/id/begrip/voetpad_op_trap</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpad">https://definities.geostandaarden.nl/ibro/id/begrip/ruiterpad</a>
 </td>
 </tr>
 <tr>
@@ -30948,19 +30782,20 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangerszone">
-<h6>Voetgangerszone</h6>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_fietsstraat">
+<h6>Fietsstraat</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Voetgangerszone</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fietsstraat</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Voetgangerszone</td>
+<td>Fietsstraat</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -30968,7 +30803,7 @@ De openbare ruimte dit object heeft.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers.</td>
+<td>Straat die ingericht is als fietsroute waar auto’s zijn toegestaan.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -30977,7 +30812,7 @@ De openbare ruimte dit object heeft.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetgangerszone">https://definities.geostandaarden.nl/ibro/id/begrip/voetgangerszone</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fietsstraat">https://definities.geostandaarden.nl/ibro/id/begrip/fietsstraat</a>
 </td>
 </tr>
 <tr>
@@ -31015,6 +30850,79 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad">
+<h6>Voetpad</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voetpad</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Voetpad</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Vrij liggend pad (zonder naast/parallel liggende weg) waarvan voetgangers gebruik dienen te maken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>RVV-Bordaanduiding: G7</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpad">https://definities.geostandaarden.nl/ibro/id/begrip/voetpad</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autosnelweg">
 <h6>Autosnelweg</h6>
 
@@ -31086,8 +30994,497 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_autoweg">
+<h6>Autoweg</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Autoweg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Autoweg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Weg die alleen voor snel gemotoriseerd (min 50km/uur) verkeer toegankelijk is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>RVV-Bordaanduiding: G3</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/autoweg">https://definities.geostandaarden.nl/ibro/id/begrip/autoweg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_open">
+<h6>GebiedsontsluitingswegOpen</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GebiedsontsluitingswegOpen</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GebiedsontsluitingswegOpen</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Gebiedsontsluitingsweg open</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verbindt een auto(snel)weg met een erftoegangsweg waar wel land- en bosbouwverkeer is toegestaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_open">https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_open</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetpad_op_trap">
+<h6>VoetpadOpTrap</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#VoetpadOpTrap</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>VoetpadOpTrap</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>BGT</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>BGT 1.2</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetpad_op_trap">https://definities.geostandaarden.nl/ibro/id/begrip/voetpad_op_trap</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_voetgangerszone">
+<h6>Voetgangerszone</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Voetgangerszone</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Voetgangerszone</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegverbinding die bedoeld is voor voetgangers met uitzondering van fietsers en bestemmingsverkeer en, tussen bepaalde tijden, andere verkeersgebruikers.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/voetgangerszone">https://definities.geostandaarden.nl/ibro/id/begrip/voetgangerszone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_erftoegangsweg">
+<h6>Erftoegangsweg</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Erftoegangsweg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Erftoegangsweg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Weg met gemengd langzaam verkeer en gemotoriseerd verkeer, zonder rijrichtingscheiding en zonder gescheiden fietspaden. Weg biedt directe toegang tot verblijfsgebieden op de plaats van herkomst en bestemming. Verblijven staat hier centraal en het autoverkeer dient zich aan te passen (met name door lage rijsnelheden) aan de &#39;verblijvers&#39; zoals fietsers en voetgangers.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/erftoegangsweg">https://definities.geostandaarden.nl/ibro/id/begrip/erftoegangsweg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_gebiedsontsluitingsweg_gesloten">
+<h6>GebiedsontsluitingswegGesloten</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#GebiedsontsluitingswegGesloten</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>GebiedsontsluitingswegGesloten</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Gebiedsontsluitingsweg gesloten</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verbindt een auto(snel)weg met een erftoegangsweg waar geen land- en bosbouwverkeer is toegestaan.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_gesloten">https://definities.geostandaarden.nl/ibro/id/begrip/gebiedsontsluitingsweg_gesloten</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_veerverbinding">
+<h6>Veerverbinding</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Veerverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Veerverbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geregelde wegverbinding per vaartuig bestemd voor (on)bepaald hoofdverkeersgebruik.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/veerverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/veerverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverbinding">Wegverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
 </section>
 </section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteknoop">
 <h4>Wegverkeerruimteknoop</h4>
 
@@ -31170,6 +31567,143 @@ De openbare ruimte dit object heeft.</td>
 
 
 
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop">
+<h5>Baanknoop</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Baanknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Baanknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Transportknoop die een begin- of eindpunt is van een baanverbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/baanknoop">https://definities.geostandaarden.nl/ibro/id/begrip/baanknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteknoop">Wegverkeerruimteknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop">
+<h5>Strookknoop</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Strookknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Strookknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Transportknoop die een begin- of eindpunt is van een strookverbinding.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/strookknoop">https://definities.geostandaarden.nl/ibro/id/begrip/strookknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteknoop">Wegverkeerruimteknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">
 <h5>Wegknoop</h5>
 
@@ -31235,8 +31769,8 @@ De openbare ruimte dit object heeft.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -31246,12 +31780,12 @@ De openbare ruimte dit object heeft.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_attribuutsoort_geometrie_vlak">geometrieVlak</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_attribuutsoort_vlakgeometrie">vlakgeometrie</a>
 </td>
 <td>
 Vlakgeometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 0..1</td>
@@ -31266,8 +31800,8 @@ Vlakgeometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -31294,18 +31828,18 @@ De openbare ruimte dit object heeft.</td>
 
 <section class="notoc">
 <h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_attribuutsoort_geometrie_vlak">
-<h6>geometrieVlak</h6>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop_attribuutsoort_vlakgeometrie">
+<h6>vlakgeometrie</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrieVlak</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#vlakgeometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>geometrieVlak</td>
+<td>vlakgeometrie</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -31394,341 +31928,7 @@ De openbare ruimte dit object heeft.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotonde">
-<h6>Rotonde</h6>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Rotonde</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Rotonde</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kruising">https://definities.geostandaarden.nl/ibro/id/begrip/kruising</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_eindknoop">
-<h6>Eindknoop</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Eindknoop</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Eindknoop</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop met 1 verbinding en is het einde van een doodlopende weg.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eindknoop">https://definities.geostandaarden.nl/ibro/id/begrip/eindknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_kruising">
-<h6>Kruising</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Kruising</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Kruising</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kruising">https://definities.geostandaarden.nl/ibro/id/begrip/kruising</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_koppelknoop">
-<h6>Koppelknoop</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Koppelknoop</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Koppelknoop</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/koppelknoop">https://definities.geostandaarden.nl/ibro/id/begrip/koppelknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_grensknoop">
-<h6>Grensknoop</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Grensknoop</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Grensknoop</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grensknoop">https://definities.geostandaarden.nl/ibro/id/begrip/grensknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_verkeersplein">
 <h6>Verkeersplein</h6>
 
@@ -31796,20 +31996,20 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_baanknoop">
-<h5>Baanknoop</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_koppelknoop">
+<h6>Koppelknoop</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Baanknoop</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Koppelknoop</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Baanknoop</td>
+<td>Koppelknoop</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -31817,7 +32017,7 @@ De openbare ruimte dit object heeft.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Transportknoop die een begin- of eindpunt is van een baanverbinding.</td>
+<td>Wegknoop waar twee verschillende type wegverbindingen aan elkaar verbonden zijn.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -31826,7 +32026,7 @@ De openbare ruimte dit object heeft.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/baanknoop">https://definities.geostandaarden.nl/ibro/id/begrip/baanknoop</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/koppelknoop">https://definities.geostandaarden.nl/ibro/id/begrip/koppelknoop</a>
 </td>
 </tr>
 <tr>
@@ -31845,7 +32045,7 @@ De openbare ruimte dit object heeft.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteknoop">Wegverkeerruimteknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tr>
@@ -31864,19 +32064,20 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_strookknoop">
-<h5>Strookknoop</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_grensknoop">
+<h6>Grensknoop</h6>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Strookknoop</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Grensknoop</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Strookknoop</td>
+<td>Grensknoop</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -31884,7 +32085,7 @@ De openbare ruimte dit object heeft.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Transportknoop die een begin- of eindpunt is van een strookverbinding.</td>
+<td>Wegknoop met 1 verbinding en betreft een doorgaande verbinding met het wegennetwerk van een buurland.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -31893,7 +32094,7 @@ De openbare ruimte dit object heeft.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/strookknoop">https://definities.geostandaarden.nl/ibro/id/begrip/strookknoop</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grensknoop">https://definities.geostandaarden.nl/ibro/id/begrip/grensknoop</a>
 </td>
 </tr>
 <tr>
@@ -31912,7 +32113,211 @@ De openbare ruimte dit object heeft.</td>
 <tr>
 <th>Supertype</th>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegverkeerruimteknoop">Wegverkeerruimteknoop</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_eindknoop">
+<h6>Eindknoop</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Eindknoop</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Eindknoop</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegknoop met 1 verbinding en is het einde van een doodlopende weg.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eindknoop">https://definities.geostandaarden.nl/ibro/id/begrip/eindknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_kruising">
+<h6>Kruising</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Kruising</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Kruising</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegknoop waar tenminste drie verbindingen samenkomen in de vorm van een Y,T of +.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kruising">https://definities.geostandaarden.nl/ibro/id/begrip/kruising</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_rotonde">
+<h6>Rotonde</h6>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Rotonde</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Rotonde</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegknoop waarop het verkeer voorrang heeft en waarop de wegen radiaal aansluiten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/kruising">https://definities.geostandaarden.nl/ibro/id/begrip/kruising</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_wegknoop">Wegknoop</a>
 </td>
 </tr>
 <tr>
@@ -31932,6 +32337,8 @@ De openbare ruimte dit object heeft.</td>
 
 </section>
 </section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_wegennetwerk_objecttype_hectometerpunt">
 <h4>Hectometerpunt</h4>
 
@@ -31999,6 +32406,7 @@ De openbare ruimte dit object heeft.</td>
 
 
 </section>
+
 
 
 
@@ -32080,9 +32488,10 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 ## Domein Spoorwegennetwerk
-![Spoorwegennetwerk](data/model-docs/media/spoorwegennetwerk.png "Domein Spoorwegennetwerk")
+![Spoorwegennetwerk](data/media/spoorwegennetwerk.png "Domein Spoorwegennetwerk")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorwegknoop">
 <h4>Spoorwegknoop</h4>
@@ -32167,6 +32576,7 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding">
 <h4>Spoorverbinding</h4>
 
@@ -32253,6 +32663,83 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 
+
+<section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding">
+<h5>LokaleSpoorverbinding</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#LokaleSpoorverbinding</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>LokaleSpoorverbinding</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Lokale spoorverbinding</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Spoorverbinding in gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Toelichting</th>
+<td>Het gaat hier om spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan, en spoor voor een railvoertuig voor personenvervoer voor de korte afstand. </td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/lokale_spoorverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/lokale_spoorverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_nationale_spoorverbinding">
 <h5>NationaleSpoorverbinding</h5>
 
@@ -32324,212 +32811,8 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding">
-<h5>LokaleSpoorverbinding</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#LokaleSpoorverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>LokaleSpoorverbinding</td>
-</tr>
-<tr>
-<th>Alias</th>
-<td>Lokale spoorverbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Spoorverbinding in gesloten spoornetwerk bedoeld voor en beperkt tot stedelijk/regionaal vervoer van personen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/lokale_spoorverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/lokale_spoorverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_spoorverbinding">Spoorverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-<section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_tramverbinding">
-<h6>Tramverbinding</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Tramverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Tramverbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>BGT</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Spoor voor een railvoertuig voor personenvervoer voor de korte afstand. </td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>BGT 1.2</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/tramverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/tramverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding">LokaleSpoorverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_sneltramverbinding">
-<h6>Sneltramverbinding</h6>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Sneltramverbinding</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Sneltramverbinding</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>BGT</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan. </td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>BGT 1.2</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sneltramverbinding">https://definities.geostandaarden.nl/ibro/id/begrip/sneltramverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_spoorwegennetwerk_objecttype_lokale_spoorverbinding">LokaleSpoorverbinding</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
-</section>
 
 
 
@@ -32538,9 +32821,10 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 
 
 ## Domein Functionele ruimten
-![Functionele ruimten](data/model-docs/media/functionele_ruimten.png "Domein Functionele ruimten")
+![Functionele ruimten](data/media/functionele_ruimten.png "Domein Functionele ruimten")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_afscheiding">
 <h4>Afscheiding</h4>
@@ -32611,8 +32895,8 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -32627,7 +32911,7 @@ Eén rijrichting is toegestaan in de tegenovergestelde richting van de verbindin
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_line_string">GM_LineString</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
 </td>
 <td>
 1</td>
@@ -32690,6 +32974,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">
 <h4>Complex</h4>
 
@@ -32755,8 +33040,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -32771,7 +33056,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -32783,7 +33068,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -32894,207 +33179,7 @@ Naam van een object.</td>
 </section>
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zorgcomplex">
-<h5>Zorgcomplex</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Zorgcomplex</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Zorgcomplex</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>IBRO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Alle bij een zorginstellingslocatie behorende begroeiing, verharding en gebouwen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>IMIBRO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zorgcomplex">https://definities.geostandaarden.nl/ibro/id/begrip/zorgcomplex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sluiscomplex">
-<h5>Sluiscomplex</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Sluiscomplex</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Sluiscomplex</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Alle bij een sluis behorend water, begroeiing, verharding en gebouwen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sluiscomplex">https://definities.geostandaarden.nl/ibro/id/begrip/sluiscomplex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zuiveringscomplex">
-<h5>Zuiveringscomplex</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Zuiveringscomplex</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Zuiveringscomplex</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat water gezuiverd wordt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zuiveringscomplex">https://definities.geostandaarden.nl/ibro/id/begrip/zuiveringscomplex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_coupurecomplex">
 <h5>Coupurecomplex</h5>
 
@@ -33162,6 +33247,7 @@ Naam van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_begraafplaats">
 <h5>Begraafplaats</h5>
 
@@ -33233,6 +33319,7 @@ Naam van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_havencomplex">
 <h5>Havencomplex</h5>
 
@@ -33300,36 +33387,37 @@ Naam van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_schoolterrein">
-<h5>Schoolterrein</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zorgcomplex">
+<h5>Zorgcomplex</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Schoolterrein</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zorgcomplex</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Schoolterrein</td>
+<td>Zorgcomplex</td>
 </tr>
 <tr>
 <th>Herkomst</th>
-<td>IMBOR 2025</td>
+<td>IBRO</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Een beheervak dat het gebied dat aan een school toebehoort begrenst, bijvoorbeeld niet alleen het schoolgebouw, maar ook het omliggende schoolplein.</td>
+<td>Alle bij een ziekenhuis / zorginstellingslocatie behorende begroeiing, verharding en gebouwen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>IMBOR 2025</td>
+<td>IMIBRO</td>
 </tr>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schoolterrein">https://definities.geostandaarden.nl/ibro/id/begrip/schoolterrein</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zorgcomplex">https://definities.geostandaarden.nl/ibro/id/begrip/zorgcomplex</a>
 </td>
 </tr>
 <tr>
@@ -33367,19 +33455,20 @@ Naam van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gemaalcomplex">
-<h5>Gemaalcomplex</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_zuiveringscomplex">
+<h5>Zuiveringscomplex</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gemaalcomplex</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zuiveringscomplex</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Gemaalcomplex</td>
+<td>Zuiveringscomplex</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -33387,7 +33476,7 @@ Naam van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen.</td>
+<td>Geheel van gebouwen, constructies, verharding en begroeiing dat ervoor zorgt dat water gezuiverd wordt.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -33396,7 +33485,7 @@ Naam van een object.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemaalcomplex">https://definities.geostandaarden.nl/ibro/id/begrip/gemaalcomplex</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zuiveringscomplex">https://definities.geostandaarden.nl/ibro/id/begrip/zuiveringscomplex</a>
 </td>
 </tr>
 <tr>
@@ -33434,6 +33523,75 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sluiscomplex">
+<h5>Sluiscomplex</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Sluiscomplex</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Sluiscomplex</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alle bij een sluis behorend water, begroeiing, verharding en gebouwen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/sluiscomplex">https://definities.geostandaarden.nl/ibro/id/begrip/sluiscomplex</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_industrieel_complex">
 <h5>IndustrieelComplex</h5>
 
@@ -33505,6 +33663,75 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_schoolterrein">
+<h5>Schoolterrein</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Schoolterrein</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Schoolterrein</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Een beheervak dat het gebied dat aan een school toebehoort begrenst, bijvoorbeeld niet alleen het schoolgebouw, maar ook het omliggende schoolplein.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>IMBOR 2025</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/schoolterrein">https://definities.geostandaarden.nl/ibro/id/begrip/schoolterrein</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_stuwcomplex">
 <h5>Stuwcomplex</h5>
 
@@ -33572,7 +33799,76 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gemaalcomplex">
+<h5>Gemaalcomplex</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gemaalcomplex</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gemaalcomplex</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Alle bij een gemaal behorend water, begroeiing, verharding en gebouwen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gemaalcomplex">https://definities.geostandaarden.nl/ibro/id/begrip/gemaalcomplex</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_complex">Complex</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_gebruikszone_oppervlaktewater">
 <h4>GebruikszoneOppervlaktewater</h4>
 
@@ -33642,8 +33938,8 @@ Naam van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -33658,7 +33954,7 @@ Naam van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -33718,6 +34014,7 @@ Geometrische representatie van een object.</td>
 </table>
 </section>
 </section>
+
 
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_vaarwegzone">
@@ -33787,6 +34084,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_watersportzone">
 <h5>Watersportzone</h5>
 
@@ -33854,6 +34152,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_visserijzone">
 <h5>Visserijzone</h5>
 
@@ -33922,6 +34221,7 @@ Geometrische representatie van een object.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">
 <h4>Kering</h4>
 
@@ -33995,8 +34295,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -34011,7 +34311,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -34072,6 +34372,152 @@ Geometrische representatie van een object.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering">
+<h5>Grondkering</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Grondkering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Grondkering</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voorziening bedoeld om grond te keren.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grondkering">https://definities.geostandaarden.nl/ibro/id/begrip/grondkering</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">Kering</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterkering">
 <h5>Waterkering</h5>
@@ -34138,8 +34584,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -34154,7 +34600,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -34217,151 +34663,8 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering">
-<h5>Grondkering</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Grondkering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Grondkering</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorziening bedoeld om grond te keren.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grondkering">https://definities.geostandaarden.nl/ibro/id/begrip/grondkering</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_kering">Kering</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_line_string">GM_LineString</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_grondkering_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchtvaartzone">
 <h4>Luchtvaartzone</h4>
 
@@ -34431,8 +34734,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -34447,7 +34750,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -34459,7 +34762,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -34570,6 +34873,7 @@ Naam van een object.</td>
 </section>
 
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_luchthaven">
 <h5>Luchthaven</h5>
 
@@ -34637,6 +34941,7 @@ Naam van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_baan_voor_vliegverkeer">
 <h5>BaanVoorVliegverkeer</h5>
 
@@ -34709,6 +35014,7 @@ Naam van een object.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_oeverzone">
 <h4>Oeverzone</h4>
 
@@ -34782,8 +35088,8 @@ Naam van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -34798,7 +35104,7 @@ Naam van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -34810,7 +35116,7 @@ Geometrische representatie van een object.</td>
 <td>
 Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlaktewater waarbij de ontwikkeling van natuur, landschap en ecologie expliciet wordt gestimuleerd.</td>
 <td>
-<a class="link" href="#primitief_datatype_boolean">Boolean</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Boolean</a>
 </td>
 <td>
 1</td>
@@ -34883,6 +35189,10 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <td>indicatieNatuurvriendelijkeOever</td>
 </tr>
 <tr>
+<th>Alias</th>
+<td>indicatie natuurvriendelijke oever</td>
+</tr>
+<tr>
 <th>Herkomst</th>
 <td>EMSO</td>
 </tr>
@@ -34918,6 +35228,7 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">
 <h4>Recreatiezone</h4>
 
@@ -34987,8 +35298,8 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -35003,7 +35314,7 @@ Deze oeverzone is al dan niet een door de mens ingericht gebied langs oppervlakt
 <td>
 Geometrische representatie van het object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -35015,7 +35326,7 @@ Geometrische representatie van het object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -35126,73 +35437,7 @@ Naam van een object.</td>
 </section>
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_park">
-<h5>Park</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Park</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Park</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/park">https://definities.geostandaarden.nl/ibro/id/begrip/park</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_bungalowpark">
 <h5>Bungalowpark</h5>
 
@@ -35260,73 +35505,7 @@ Naam van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_volkstuin">
-<h5>Volkstuin</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Volkstuin</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Volkstuin</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/volkstuin">https://definities.geostandaarden.nl/ibro/id/begrip/volkstuin</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_camping">
 <h5>Camping</h5>
 
@@ -35394,6 +35573,7 @@ Naam van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_speeltuin">
 <h5>Speeltuin</h5>
 
@@ -35461,6 +35641,143 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_park">
+<h5>Park</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Park</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Park</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Landschappelijk ingericht terrein, met begroeiing, verharding, water en gebouwen, bedoeld als recreatieve voorziening.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/park">https://definities.geostandaarden.nl/ibro/id/begrip/park</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_volkstuin">
+<h5>Volkstuin</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Volkstuin</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Volkstuin</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geheel van begroeiing, verharding en gebouwen in gebruik als particuliere tuinen die niet bij de woning liggen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/volkstuin">https://definities.geostandaarden.nl/ibro/id/begrip/volkstuin</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_recreatiezone">Recreatiezone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_sportterrein">
 <h5>Sportterrein</h5>
 
@@ -35529,6 +35846,7 @@ Naam van een object.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">
 <h4>Reducering</h4>
 
@@ -35598,8 +35916,8 @@ Naam van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -35614,7 +35932,7 @@ Naam van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_line_string">GM_LineString</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
 </td>
 <td>
 1</td>
@@ -35675,6 +35993,75 @@ Geometrische representatie van een object.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_fijnstofreducering">
+<h5>Fijnstofreducering</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Fijnstofreducering</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Fijnstofreducering</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voorziening bedoeld om verspreiding van fijnstof te verminderen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fijnstofreducering">https://definities.geostandaarden.nl/ibro/id/begrip/fijnstofreducering</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">Reducering</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_geluidreducering">
 <h5>Geluidreducering</h5>
@@ -35743,74 +36130,8 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_fijnstofreducering">
-<h5>Fijnstofreducering</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Fijnstofreducering</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Fijnstofreducering</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorziening bedoeld om verspreiding van fijnstof te verminderen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/fijnstofreducering">https://definities.geostandaarden.nl/ibro/id/begrip/fijnstofreducering</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_reducering">Reducering</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">
 <h4>Spoorzone</h4>
 
@@ -35880,8 +36201,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -35896,7 +36217,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -35957,6 +36278,211 @@ Geometrische representatie van een object.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_perron">
+<h5>Perron</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Perron</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Perron</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verhoogde constructie langs een (spoor)rails voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/perron">https://definities.geostandaarden.nl/ibro/id/begrip/perron</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorbaan">
+<h5>Spoorbaan</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Spoorbaan</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Spoorbaan</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebaand gedeelte voor het verkeer over rails.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/spoorbaan">https://definities.geostandaarden.nl/ibro/id/begrip/spoorbaan</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overweg">
+<h5>Overweg</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Overweg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Overweg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gelijkvloerse kruising van een weg met een (spoor)rails.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/overweg">https://definities.geostandaarden.nl/ibro/id/begrip/overweg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_emplacement">
 <h5>Emplacement</h5>
@@ -36025,208 +36551,8 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorbaan">
-<h5>Spoorbaan</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Spoorbaan</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Spoorbaan</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebaand gedeelte voor het verkeer over rails.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/spoorbaan">https://definities.geostandaarden.nl/ibro/id/begrip/spoorbaan</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
 </section>
 
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overweg">
-<h5>Overweg</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Overweg</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Overweg</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gelijkvloerse kruising van een weg met een (spoor)rails.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/overweg">https://definities.geostandaarden.nl/ibro/id/begrip/overweg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_perron">
-<h5>Perron</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Perron</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Perron</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verhoogde constructie langs een (spoor)rails voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/perron">https://definities.geostandaarden.nl/ibro/id/begrip/perron</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_spoorzone">Spoorzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">
 <h4>VerkeerskundigFunctioneleZone</h4>
 
@@ -36300,8 +36626,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -36316,7 +36642,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -36328,7 +36654,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -36439,207 +36765,7 @@ Naam van een object.</td>
 </section>
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_inrit">
-<h5>Inrit</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Inrit</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Inrit</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geeft toegang tot een bestemmingsdoel.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/inrit">https://definities.geostandaarden.nl/ibro/id/begrip/inrit</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_snellaadstation">
-<h5>Snellaadstation</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Snellaadstation</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Snellaadstation</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/snellaadstation">https://definities.geostandaarden.nl/ibro/id/begrip/snellaadstation</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_woonerf">
-<h5>Woonerf</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Woonerf</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Woonerf</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/woonerf">https://definities.geostandaarden.nl/ibro/id/begrip/woonerf</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_tankstation">
 <h5>Tankstation</h5>
 
@@ -36707,19 +36833,20 @@ Naam van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verzorgingsplaats">
-<h5>Verzorgingsplaats</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_inrit">
+<h5>Inrit</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verzorgingsplaats</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Inrit</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Verzorgingsplaats</td>
+<td>Inrit</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -36727,7 +36854,7 @@ Naam van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen.</td>
+<td>Geeft toegang tot een bestemmingsdoel.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -36736,7 +36863,7 @@ Naam van een object.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsplaats">https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsplaats</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/inrit">https://definities.geostandaarden.nl/ibro/id/begrip/inrit</a>
 </td>
 </tr>
 <tr>
@@ -36774,207 +36901,7 @@ Naam van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_knooppunt">
-<h5>Knooppunt</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Knooppunt</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Knooppunt</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/knooppunt">https://definities.geostandaarden.nl/ibro/id/begrip/knooppunt</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeervlak">
-<h5>Parkeervlak</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Parkeervlak</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Parkeervlak</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parkeervlak">https://definities.geostandaarden.nl/ibro/id/begrip/parkeervlak</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overstapplaats">
-<h5>Overstapplaats</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Overstapplaats</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Overstapplaats</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorziening waar men kan overstappen tussen modaliteiten of netwerken.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/overstapplaats">https://definities.geostandaarden.nl/ibro/id/begrip/overstapplaats</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeerplaats">
 <h5>Parkeerplaats</h5>
 
@@ -37042,6 +36969,7 @@ Naam van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_halteplaats">
 <h5>Halteplaats</h5>
 
@@ -37109,6 +37037,211 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_overstapplaats">
+<h5>Overstapplaats</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Overstapplaats</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Overstapplaats</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voorziening waar men kan overstappen tussen modaliteiten of netwerken.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/overstapplaats">https://definities.geostandaarden.nl/ibro/id/begrip/overstapplaats</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verzorgingsplaats">
+<h5>Verzorgingsplaats</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verzorgingsplaats</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verzorgingsplaats</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsplaats">https://definities.geostandaarden.nl/ibro/id/begrip/verzorgingsplaats</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_snellaadstation">
+<h5>Snellaadstation</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Snellaadstation</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Snellaadstation</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Infrastructuurelement, doorgaans langs autosnelwegen, dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden in een relatief korte tijd.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/snellaadstation">https://definities.geostandaarden.nl/ibro/id/begrip/snellaadstation</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_tolplaats">
 <h5>Tolplaats</h5>
 
@@ -37176,7 +37309,212 @@ Naam van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_knooppunt">
+<h5>Knooppunt</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Knooppunt</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Knooppunt</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegknoop van twee stroomwegen waartussen ongelijkvloerse uitwisseling mogelijk is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/knooppunt">https://definities.geostandaarden.nl/ibro/id/begrip/knooppunt</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_parkeervlak">
+<h5>Parkeervlak</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Parkeervlak</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Parkeervlak</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Parkeergelegenheid bestemd voor het parkeren van één of meerdere voertuigen direct langs de doorgaande weg gelegen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/parkeervlak">https://definities.geostandaarden.nl/ibro/id/begrip/parkeervlak</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_woonerf">
+<h5>Woonerf</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Woonerf</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Woonerf</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/woonerf">https://definities.geostandaarden.nl/ibro/id/begrip/woonerf</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerskundig_functionele_zone">VerkeerskundigFunctioneleZone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_waterbergingsgebied">
 <h4>Waterbergingsgebied</h4>
 
@@ -37246,8 +37584,8 @@ Naam van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -37262,7 +37600,7 @@ Naam van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -37325,6 +37663,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">
 <h4>Wegzone</h4>
 
@@ -37394,8 +37733,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -37410,7 +37749,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -37471,6 +37810,75 @@ Geometrische representatie van een object.</td>
 </section>
 </section>
 
+
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeersdrempel">
+<h5>Verkeersdrempel</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verkeersdrempel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verkeersdrempel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeersdrempel">https://definities.geostandaarden.nl/ibro/id/begrip/verkeersdrempel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
 
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wildrooster">
 <h5>Wildrooster</h5>
@@ -37539,140 +37947,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerseiland">
-<h5>Verkeerseiland</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verkeerseiland</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Verkeerseiland</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeerseiland">https://definities.geostandaarden.nl/ibro/id/begrip/verkeerseiland</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeersdrempel">
-<h5>Verkeersdrempel</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Verkeersdrempel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Verkeersdrempel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Verhoging in een regionale rijbaan, bedoeld om het gemotoriseerde verkeer met een lage snelheid te laten rijden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeersdrempel">https://definities.geostandaarden.nl/ibro/id/begrip/verkeersdrempel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_berm">
 <h5>Berm</h5>
 
@@ -37740,6 +38015,65 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_verkeerseiland">
+<h5>Verkeerseiland</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Verkeerseiland</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Verkeerseiland</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Weggedeelte van beperkte omvang, uitgevoerd als een verhoging of wegmarkering, dat wordt omsloten door rijbanen of rijstroken en als doel heeft verkeersstromen te scheiden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/verkeerseiland">https://definities.geostandaarden.nl/ibro/id/begrip/verkeerseiland</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_functionele_ruimten_objecttype_wegzone">Wegzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
 
 
@@ -37748,10 +38082,21 @@ Geometrische representatie van een object.</td>
 
 
 
+</section>
+</section>
+
+
+
+
+
+
+
+
 ## Domein Registratieve ruimten
-![Registratieve ruimten](data/model-docs/media/registratieve_ruimten.png "Domein Registratieve ruimten")
+![Registratieve ruimten](data/media/registratieve_ruimten.png "Domein Registratieve ruimten")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_woonplaats">
 <h4>Woonplaats</h4>
@@ -37826,8 +38171,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -37842,7 +38187,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object zoals formeel benoemd.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -37854,7 +38199,7 @@ Naam van een object zoals formeel benoemd.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -37881,8 +38226,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38118,6 +38463,7 @@ Object waarin dit object ligt.
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_wijk">
 <h4>Wijk</h4>
 
@@ -38191,8 +38537,8 @@ Object waarin dit object ligt.
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38207,7 +38553,7 @@ Object waarin dit object ligt.
 <td>
 Codering van een wijk zoals deze door het CBS wordt gebruikt.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38219,7 +38565,7 @@ Codering van een wijk zoals deze door het CBS wordt gebruikt.</td>
 <td>
 Naam die aan een wijk is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38246,8 +38592,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38465,6 +38811,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_buurt">
 <h4>Buurt</h4>
 
@@ -38538,8 +38885,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38554,7 +38901,7 @@ Object waarin dit object ligt.</td>
 <td>
 Codering van een buurt zoals deze door het CBS wordt gebruikt.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38566,7 +38913,7 @@ Codering van een buurt zoals deze door het CBS wordt gebruikt.</td>
 <td>
 Naam die aan een buurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38593,8 +38940,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38812,6 +39159,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_subbuurt">
 <h4>Subbuurt</h4>
 
@@ -38877,8 +39225,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -38893,7 +39241,7 @@ Object waarin dit object ligt.</td>
 <td>
 Codering van een subbuurt.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38905,7 +39253,7 @@ Codering van een subbuurt.</td>
 <td>
 Naam die aan een subbuurt is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -38932,8 +39280,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39126,7 +39474,7 @@ Object waarin dit object ligt.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>IMIBRO</td>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Datum opname</th>
@@ -39151,6 +39499,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_subbuurtdeel">
 <h4>Subbuurtdeel</h4>
 
@@ -39216,8 +39565,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39232,7 +39581,7 @@ Object waarin dit object ligt.</td>
 <td>
 Codering van een subbuurtdeel.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -39244,7 +39593,7 @@ Codering van een subbuurtdeel.</td>
 <td>
 Naam die aan een subbuurtdeel is toegekend in een daartoe strekkend formeel gemeentelijk besluit.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -39271,8 +39620,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39465,7 +39814,7 @@ Object waarin dit object ligt.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
-<td>IMIBRO</td>
+<td>EMSO</td>
 </tr>
 <tr>
 <th>Datum opname</th>
@@ -39490,6 +39839,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_openbare_ruimte">
 <h4>OpenbareRuimte</h4>
 
@@ -39503,6 +39853,10 @@ Object waarin dit object ligt.</td>
 <tr>
 <th>Naam</th>
 <td>OpenbareRuimte</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Openbare ruimte</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -39563,8 +39917,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39579,7 +39933,7 @@ Object waarin dit object ligt.</td>
 <td>
 Naam van een object zoals formeel benoemd.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -39591,7 +39945,7 @@ Naam van een object zoals formeel benoemd.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -39603,7 +39957,7 @@ Alternatieve benaming van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 0..1</td>
@@ -39618,8 +39972,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39853,6 +40207,7 @@ Object waarin dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_nummeraanduiding">
 <h4>Nummeraanduiding</h4>
 
@@ -39926,8 +40281,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -39942,7 +40297,7 @@ Object waarin dit object ligt.</td>
 <td>
 Een huisnummer is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nummering.</td>
 <td>
-<a class="link" href="#primitief_datatype_integer">Integer</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> Integer</a>
 </td>
 <td>
 1</td>
@@ -39954,7 +40309,7 @@ Een huisnummer is een door of namens het gemeentebestuur ten aanzien van een adr
 <td>
 Een huisletter is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -39966,7 +40321,7 @@ Een huisletter is een door of namens het gemeentebestuur ten aanzien van een adr
 <td>
 Een huisnummertoevoeging is een door of namens het gemeentebestuur ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -39978,7 +40333,7 @@ Een huisnummertoevoeging is een door of namens het gemeentebestuur ten aanzien v
 <td>
 De postcode is een door PostNL vastgestelde code behorende bij een bepaalde combinatie van een straatnaam en een huisnummer.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -39993,8 +40348,8 @@ De postcode is een door PostNL vastgestelde code behorende bij een bepaalde comb
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -40334,6 +40689,7 @@ Object waaraan dit object ligt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_adresseerbaar_object">
 <h4>AdresseerbaarObject</h4>
 
@@ -40405,8 +40761,8 @@ Object waaraan dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -40550,6 +40906,7 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 </section>
 </section>
 
+
 <section id="informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_objecttype_benoemde_plaats">
 <h5>BenoemdePlaats</h5>
 
@@ -40563,6 +40920,10 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <tr>
 <th>Naam</th>
 <td>BenoemdePlaats</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Benoemde plaats</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -40623,8 +40984,8 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -40639,7 +41000,7 @@ Een nevenadres is een aanvullend adres voor een adresseerbaar object. Een nevena
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -40769,6 +41130,7 @@ Type van het object dat op de benoemde plaats is of kan worden geplaatst.</td>
 
 
 
+
 ### Enumeraties
 
 #### TypeTePlaatsenObject {#informatiemodel_imibro_conceptueel_domein_registratieve_ruimten_enumeratie_type_te_plaatsen_object}
@@ -40843,9 +41205,10 @@ Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor
 
 
 ## Domein Geografische ruimten
-![Geografische ruimten](data/model-docs/media/geografische_ruimten.png "Domein Geografische ruimten")
+![Geografische ruimten](data/media/geografische_ruimten.png "Domein Geografische ruimten")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">
 <h4>Bebouwingskern</h4>
@@ -40920,8 +41283,8 @@ Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -40936,7 +41299,7 @@ Geheel van installaties bedoeld voor de verkoop van brandstoffen of energie voor
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -40948,7 +41311,7 @@ Naam van een object.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -40975,8 +41338,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -41205,341 +41568,7 @@ Object waarin dit object ligt.</td>
 </section>
 </section>
 
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_gehucht">
-<h5>Gehucht</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Gehucht</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Gehucht</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gehucht">https://definities.geostandaarden.nl/ibro/id/begrip/gehucht</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_woonkern">
-<h5>Woonkern</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Woonkern</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Woonkern</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/woonkern">https://definities.geostandaarden.nl/ibro/id/begrip/woonkern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_deelkern">
-<h5>Deelkern</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Deelkern</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Deelkern</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/deelkern">https://definities.geostandaarden.nl/ibro/id/begrip/deelkern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_recreatiekern">
-<h5>Recreatiekern</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Recreatiekern</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Recreatiekern</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/recreatiekern">https://definities.geostandaarden.nl/ibro/id/begrip/recreatiekern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_industriekern">
-<h5>Industriekern</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Industriekern</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Industriekern</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/industriekern">https://definities.geostandaarden.nl/ibro/id/begrip/industriekern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_buurtschap">
 <h5>Buurtschap</h5>
 
@@ -41607,6 +41636,279 @@ Object waarin dit object ligt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_deelkern">
+<h5>Deelkern</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Deelkern</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Deelkern</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Ruimtelijk van omliggende bebouwing te onderscheiden historische bebouwingskern, die is gelegen binnen een andere bebouwingskern.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/deelkern">https://definities.geostandaarden.nl/ibro/id/begrip/deelkern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_industriekern">
+<h5>Industriekern</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Industriekern</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Industriekern</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor bedrijfsmatige activiteiten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/industriekern">https://definities.geostandaarden.nl/ibro/id/begrip/industriekern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_recreatiekern">
+<h5>Recreatiekern</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Recreatiekern</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Recreatiekern</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor (verblijfs)recreatie.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/recreatiekern">https://definities.geostandaarden.nl/ibro/id/begrip/recreatiekern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_woonkern">
+<h5>Woonkern</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Woonkern</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Woonkern</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Van openbare wegen voorziene bebouwingskern die voor het grootste gedeelte bestaat uit gebouwen die gebruikt worden voor wonen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/woonkern">https://definities.geostandaarden.nl/ibro/id/begrip/woonkern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_stadsdeel">
 <h5>Stadsdeel</h5>
 
@@ -41674,7 +41976,76 @@ Object waarin dit object ligt.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_gehucht">
+<h5>Gehucht</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Gehucht</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Gehucht</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Kleine bebouwingskern die bestaat uit een concentratie van aaneengesloten bebouwing.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/gehucht">https://definities.geostandaarden.nl/ibro/id/begrip/gehucht</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bebouwingskern">Bebouwingskern</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">
 <h4>LandschappelijkGebied</h4>
 
@@ -41688,6 +42059,10 @@ Object waarin dit object ligt.</td>
 <tr>
 <th>Naam</th>
 <td>LandschappelijkGebied</td>
+</tr>
+<tr>
+<th>Alias</th>
+<td>Landschappelijk gebied</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -41748,8 +42123,8 @@ Object waarin dit object ligt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -41764,7 +42139,7 @@ Object waarin dit object ligt.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -41776,7 +42151,7 @@ Naam van een object.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -41788,7 +42163,7 @@ Alternatieve benaming van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -41952,408 +42327,7 @@ Geometrische representatie van een object.</td>
 </section>
 
 
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_heidegebied">
-<h5>Heidegebied</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Heidegebied</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Heidegebied</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebied dat overwegend met heide begroeid is.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/heidegebied">https://definities.geostandaarden.nl/ibro/id/begrip/heidegebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_strand">
-<h5>Strand</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Strand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Strand</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/strand">https://definities.geostandaarden.nl/ibro/id/begrip/strand</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_eiland">
-<h5>Eiland</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Eiland</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Eiland</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Landoppervlak dat aan alle kanten omringd is door water.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eiland">https://definities.geostandaarden.nl/ibro/id/begrip/eiland</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_cultuurlandschap">
-<h5>Cultuurlandschap</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Cultuurlandschap</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Cultuurlandschap</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebied dat overwegend een agrarisch gebruik kent.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/cultuurlandschap">https://definities.geostandaarden.nl/ibro/id/begrip/cultuurlandschap</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_zandverstuiving">
-<h5>Zandverstuiving</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Zandverstuiving</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Zandverstuiving</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebied met overwegend levend stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zandverstuiving">https://definities.geostandaarden.nl/ibro/id/begrip/zandverstuiving</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_polder">
-<h5>Polder</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Polder</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Polder</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/polder">https://definities.geostandaarden.nl/ibro/id/begrip/polder</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-
-
-
-
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_duingebied">
 <h5>Duingebied</h5>
 
@@ -42421,19 +42395,20 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landgoed">
-<h5>Landgoed</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_strand">
+<h5>Strand</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Landgoed</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Strand</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Landgoed</td>
+<td>Strand</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -42441,7 +42416,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Aaneengesloten en samenhangend gebied met akkerlanden, graslanden, bossen en of tuinen en gebouwen.</td>
+<td>Onbegroeide zandige kustvlakte op de overgang van zee met land en welke onder invloed staat van het zeewater en de wind.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -42450,7 +42425,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/landgoed">https://definities.geostandaarden.nl/ibro/id/begrip/landgoed</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/strand">https://definities.geostandaarden.nl/ibro/id/begrip/strand</a>
 </td>
 </tr>
 <tr>
@@ -42488,19 +42463,20 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bosgebied">
-<h5>Bosgebied</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_heidegebied">
+<h5>Heidegebied</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Bosgebied</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Heidegebied</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Bosgebied</td>
+<td>Heidegebied</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -42508,7 +42484,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Gebied dat overwegend met bos begroeid is.</td>
+<td>Gebied dat overwegend met heide begroeid is.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -42517,7 +42493,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bosgebied">https://definities.geostandaarden.nl/ibro/id/begrip/bosgebied</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/heidegebied">https://definities.geostandaarden.nl/ibro/id/begrip/heidegebied</a>
 </td>
 </tr>
 <tr>
@@ -42555,6 +42531,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_watergebied">
 <h5>Watergebied</h5>
 
@@ -42622,7 +42599,416 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_polder">
+<h5>Polder</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Polder</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Polder</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebied dat door één of meerdere waterkeringen is omgeven en waarvan de waterstand kunstmatig geregeld kan worden.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/polder">https://definities.geostandaarden.nl/ibro/id/begrip/polder</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
 </section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_cultuurlandschap">
+<h5>Cultuurlandschap</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Cultuurlandschap</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Cultuurlandschap</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebied dat overwegend een agrarisch gebruik kent.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/cultuurlandschap">https://definities.geostandaarden.nl/ibro/id/begrip/cultuurlandschap</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_bosgebied">
+<h5>Bosgebied</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Bosgebied</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Bosgebied</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebied dat overwegend met bos begroeid is.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/bosgebied">https://definities.geostandaarden.nl/ibro/id/begrip/bosgebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_zandverstuiving">
+<h5>Zandverstuiving</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Zandverstuiving</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Zandverstuiving</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Gebied met overwegend levend stuifzand, dus met zo weinig begroeiing dat het zand door de wind en het water verstoven wordt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/zandverstuiving">https://definities.geostandaarden.nl/ibro/id/begrip/zandverstuiving</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_eiland">
+<h5>Eiland</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Eiland</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Eiland</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Landoppervlak dat aan alle kanten omringd is door water.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/eiland">https://definities.geostandaarden.nl/ibro/id/begrip/eiland</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landgoed">
+<h5>Landgoed</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Landgoed</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Landgoed</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Aaneengesloten en samenhangend gebied met akkerlanden, graslanden, bossen en of tuinen en gebouwen.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/landgoed">https://definities.geostandaarden.nl/ibro/id/begrip/landgoed</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_landschappelijk_gebied">LandschappelijkGebied</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+
+
+
+
+
+
+</section>
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">
 <h4>Reliefzone</h4>
 
@@ -42696,8 +43082,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -42712,7 +43098,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -42724,7 +43110,7 @@ Naam van een object.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -42843,6 +43229,152 @@ Alternatieve benaming van een object.</td>
 </section>
 
 
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve">
+<h5>Groeve</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Groeve</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Groeve</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Opengegraven gebied waaruit een delfstof gewonnen wordt.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/groeve">https://definities.geostandaarden.nl/ibro/id/begrip/groeve</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_holle_weg">
 <h5>HolleWeg</h5>
 
@@ -42912,8 +43444,8 @@ Alternatieve benaming van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -42928,7 +43460,7 @@ Alternatieve benaming van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -42991,582 +43523,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg">
-<h5>Berg</h5>
 
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Berg</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Berg</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Min of meer op zichzelf staande sterke verheffing van het aardoppervlak.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/berg">https://definities.geostandaarden.nl/ibro/id/begrip/berg</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand">
-<h5>Steilrand</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Steilrand</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Steilrand</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Abrupte scheiding tussen een hooggelegen en laaggelegen gebied in het landschap, al dan niet begroeid, gevormd door diverse geologische en antropogene processen zoals riviererosie, afzettingen, vergraving en bodembewegingen.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/steilrand">https://definities.geostandaarden.nl/ibro/id/begrip/steilrand</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_line_string">GM_LineString</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal">
-<h5>Dal</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Dal</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Dal</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dal">https://definities.geostandaarden.nl/ibro/id/begrip/dal</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel">
-<h5>Grafheuvel</h5>
-
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Grafheuvel</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>Grafheuvel</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Voorhistorische begraafplaats in de vorm van een heuvel.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Begrip</th>
-<td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grafheuvel">https://definities.geostandaarden.nl/ibro/id/begrip/grafheuvel</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-
-<section class="notoc">
-<h5>Overzicht generalisaties</h5>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Supertype</th>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
-</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-
-<section class="notoc">
-<h5>Overzicht attribuutsoorten</h5>
-<table style="width: 100%">
-<colgroup style="width: 25%"></colgroup>
-<colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
-<tbody>
-<tr>
-  <th>Naam</th>
-  <th>Definitie</th>
-  <th>Type</th>
-  <th>Kard</th>
-</tr>
-<tr>
-<td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">geometrie</a>
-</td>
-<td>
-Geometrische representatie van een object.</td>
-<td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
-</td>
-<td>
-1</td>
-</tr>
-</tbody>
-</table>
-</section>
-
-
-
-
-<section class="notoc">
-<h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">
-<h6>geometrie</h6>
-<table style="width: 100%">
-<colgroup style="width: 30%"></colgroup>
-<colgroup style="width: 70%"></colgroup>
-<tr>
-<th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
-</tr>
-<tr>
-<th>Naam</th>
-<td>geometrie</td>
-</tr>
-<tr>
-<th>Herkomst</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Definitie</th>
-<td>Geometrische representatie van een object.</td>
-</tr>
-<tr>
-<th>Herkomst definitie</th>
-<td>EMSO</td>
-</tr>
-<tr>
-<th>Datum opname</th>
-<td>2025-06-30</td>
-</tr>
-<tr>
-<th>Identificerend</th>
-<td>Nee</td>
-</tr>
-<tr>
-<th>Kardinaliteit</th>
-<td>1</td>
-</tr>
-<tr>
-<th>Indicatie classificerend</th>
-<td>Nee</td>
-</tr>
-<tbody>
-</tbody>
-</table>
-</section>
-</section>
-
-
-</section>
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_terp">
 <h5>Terp</h5>
 
@@ -43632,8 +43589,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -43648,7 +43605,7 @@ Geometrische representatie van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -43711,19 +43668,20 @@ Geometrische representatie van een object.</td>
 
 
 </section>
-<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve">
-<h5>Groeve</h5>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand">
+<h5>Steilrand</h5>
 
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>http://modellen.geostandaarden.nl/def/ibro#Groeve</td>
+<td>http://modellen.geostandaarden.nl/def/ibro#Steilrand</td>
 </tr>
 <tr>
 <th>Naam</th>
-<td>Groeve</td>
+<td>Steilrand</td>
 </tr>
 <tr>
 <th>Herkomst</th>
@@ -43731,7 +43689,7 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <th>Definitie</th>
-<td>Opengegraven gebied waaruit een delfstof gewonnen wordt.</td>
+<td>Abrupte scheiding tussen een hooggelegen en laaggelegen gebied in het landschap, al dan niet begroeid, gevormd door diverse geologische en antropogene processen zoals riviererosie, afzettingen, vergraving en bodembewegingen.</td>
 </tr>
 <tr>
 <th>Herkomst definitie</th>
@@ -43740,7 +43698,7 @@ Geometrische representatie van een object.</td>
 <tr>
 <th>Begrip</th>
 <td>
-<a href="https://definities.geostandaarden.nl/ibro/id/begrip/groeve">https://definities.geostandaarden.nl/ibro/id/begrip/groeve</a>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/steilrand">https://definities.geostandaarden.nl/ibro/id/begrip/steilrand</a>
 </td>
 </tr>
 <tr>
@@ -43776,8 +43734,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -43787,12 +43745,12 @@ Geometrische representatie van een object.</td>
 </tr>
 <tr>
 <td>
-<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">geometrie</a>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">geometrie</a>
 </td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_LineString"> GM_LineString</a>
 </td>
 <td>
 1</td>
@@ -43806,7 +43764,442 @@ Geometrische representatie van een object.</td>
 
 <section class="notoc">
 <h5>Details attribuutsoorten</h5>
-<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_groeve_attribuutsoort_geometrie">
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_steilrand_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel">
+<h5>Grafheuvel</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Grafheuvel</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Grafheuvel</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Voorhistorische begraafplaats in de vorm van een heuvel.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/grafheuvel">https://definities.geostandaarden.nl/ibro/id/begrip/grafheuvel</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_grafheuvel_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg">
+<h5>Berg</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Berg</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Berg</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Min of meer op zichzelf staande sterke verheffing van het aardoppervlak.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/berg">https://definities.geostandaarden.nl/ibro/id/begrip/berg</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_berg_attribuutsoort_geometrie">
+<h6>geometrie</h6>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#geometrie</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>geometrie</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Geometrische representatie van een object.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tr>
+<th>Identificerend</th>
+<td>Nee</td>
+</tr>
+<tr>
+<th>Kardinaliteit</th>
+<td>1</td>
+</tr>
+<tr>
+<th>Indicatie classificerend</th>
+<td>Nee</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+</section>
+
+
+</section>
+
+<section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal">
+<h5>Dal</h5>
+
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Identificatie</th>
+<td>http://modellen.geostandaarden.nl/def/ibro#Dal</td>
+</tr>
+<tr>
+<th>Naam</th>
+<td>Dal</td>
+</tr>
+<tr>
+<th>Herkomst</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Definitie</th>
+<td>Langgerekte laagte, inzinking of verdieping in het landschap tussen bergen, heuvels of hoogvlakten.</td>
+</tr>
+<tr>
+<th>Herkomst definitie</th>
+<td>EMSO</td>
+</tr>
+<tr>
+<th>Begrip</th>
+<td>
+<a href="https://definities.geostandaarden.nl/ibro/id/begrip/dal">https://definities.geostandaarden.nl/ibro/id/begrip/dal</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+
+<section class="notoc">
+<h5>Overzicht generalisaties</h5>
+<table style="width: 100%">
+<colgroup style="width: 30%"></colgroup>
+<colgroup style="width: 70%"></colgroup>
+<tr>
+<th>Supertype</th>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_reliefzone">Reliefzone</a>
+</td>
+</tr>
+<tr>
+<th>Datum opname</th>
+<td>2025-06-30</td>
+</tr>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="notoc">
+<h5>Overzicht attribuutsoorten</h5>
+<table style="width: 100%">
+<colgroup style="width: 25%"></colgroup>
+<colgroup style="width: 50%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
+<tbody>
+<tr>
+  <th>Naam</th>
+  <th>Definitie</th>
+  <th>Type</th>
+  <th>Kard</th>
+</tr>
+<tr>
+<td>
+<a class="link" href="#informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">geometrie</a>
+</td>
+<td>
+Geometrische representatie van een object.</td>
+<td>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
+</td>
+<td>
+1</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+
+
+<section class="notoc">
+<h5>Details attribuutsoorten</h5>
+<section class="notoc" id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_dal_attribuutsoort_geometrie">
 <h6>geometrie</h6>
 <table style="width: 100%">
 <colgroup style="width: 30%"></colgroup>
@@ -43856,6 +44249,7 @@ Geometrische representatie van een object.</td>
 
 </section>
 </section>
+
 <section id="informatiemodel_imibro_conceptueel_domein_geografische_ruimten_objecttype_streek">
 <h4>Streek</h4>
 
@@ -43929,8 +44323,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -43945,7 +44339,7 @@ Geometrische representatie van een object.</td>
 <td>
 Naam van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1</td>
@@ -43957,7 +44351,7 @@ Naam van een object.</td>
 <td>
 Alternatieve benaming van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 0..1</td>
@@ -43969,7 +44363,7 @@ Alternatieve benaming van een object.</td>
 <td>
 Geometrische representatie van een object.</td>
 <td>
-<a class="link" href="#primitief_datatype_gm_surface">GM_Surface</a>
+<a class="external-link" href="https://geonovum.github.io/uml-datatypen/#global_class_ISO191072003_GM_Surface"> GM_Surface</a>
 </td>
 <td>
 1</td>
@@ -44141,10 +44535,12 @@ Geometrische representatie van een object.</td>
 
 
 
+
 ## Extern NEN 3610:2022 - Basismodel geo-informatie
-![NEN 3610:2022 - Basismodel geo-informatie](data/model-docs/media/nen_3610_2022_-_basismodel_geo-informatie.png "Extern NEN 3610:2022 - Basismodel geo-informatie")
+![NEN 3610:2022 - Basismodel geo-informatie](data/media/nen_3610_2022_-_basismodel_geo-informatie.png "Extern NEN 3610:2022 - Basismodel geo-informatie")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_reeel_object">
 <h4>ReeelObject</h4>
@@ -44217,6 +44613,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_functionele_ruimte">
 <h4>FunctioneleRuimte</h4>
 
@@ -44288,6 +44685,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_geografische_ruimte">
 <h4>GeografischeRuimte</h4>
 
@@ -44359,6 +44757,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_registratieve_ruimte">
 <h4>RegistratieveRuimte</h4>
 
@@ -44430,6 +44829,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_geo_object">
 <h4>GeoObject</h4>
 
@@ -44476,6 +44876,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_transportruimte">
 <h4>Transportruimte</h4>
 
@@ -44543,6 +44944,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_wegverkeerruimte">
 <h4>Wegverkeerruimte</h4>
 
@@ -44610,6 +45012,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_verkeerruimte">
 <h4>Verkeerruimte</h4>
 
@@ -44677,6 +45080,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_spoorverkeerruimte">
 <h4>Spoorverkeerruimte</h4>
 
@@ -44748,6 +45152,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_virtuele_ruimte">
 <h4>VirtueleRuimte</h4>
 
@@ -44819,6 +45224,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_begroeiing">
 <h4>Begroeiing</h4>
 
@@ -44890,6 +45296,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_kunstwerk">
 <h4>Kunstwerk</h4>
 
@@ -44961,6 +45368,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_verharding">
 <h4>Verharding</h4>
 
@@ -45032,6 +45440,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_gebouw">
 <h4>Gebouw</h4>
 
@@ -45103,6 +45512,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_oppervlaktewater">
 <h4>Oppervlaktewater</h4>
 
@@ -45174,6 +45584,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_constructie">
 <h4>Constructie</h4>
 
@@ -45241,6 +45652,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="informatiemodel_nen3610_domein_semantisch_model_objecttype_bodem">
 <h4>Bodem</h4>
 
@@ -45319,10 +45731,12 @@ Geometrische representatie van een object.</td>
 
 
 
+
 ## Extern INSPIRE - Generic Network Model
-![INSPIRE - Generic Network Model](data/model-docs/media/inspire_-_generic_network_model.png "Extern INSPIRE - Generic Network Model")
+![INSPIRE - Generic Network Model](data/media/inspire_-_generic_network_model.png "Extern INSPIRE - Generic Network Model")
 
 ### Objecttypen
+
 
 <section id="extern_inspire_generic_network_model">
 <h4>Link</h4>
@@ -45366,6 +45780,7 @@ Geometrische representatie van een object.</td>
 
 
 </section>
+
 <section id="extern_inspire_generic_network_model">
 <h4>Node</h4>
 
@@ -45419,10 +45834,12 @@ Geometrische representatie van een object.</td>
 
 
 
+
 ## Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden
-![Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden](data/model-docs/media/informatiemodel_samenhangende_objecten_-_bestuurlijke_gebieden.png "Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden")
+![Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden](data/media/informatiemodel_samenhangende_objecten_-_bestuurlijke_gebieden.png "Extern Informatiemodel Samenhangende Objecten - Bestuurlijke gebieden")
 
 ### Objecttypen
+
 
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_gemeentegebied">
 <h4>Gemeentegebied</h4>
@@ -45497,8 +45914,8 @@ Geometrische representatie van een object.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -45545,7 +45962,7 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Gemeentegebied.ligtInProvinciegebied</td>
+<td>${package}${owner}.ligtInProvinciegebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -45596,7 +46013,7 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Gemeentegebied.ligtInVeiligheidsregiogebied</td>
+<td>${package}${owner}.ligtInVeiligheidsregiogebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -45643,6 +46060,7 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 </section>
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_provinciegebied">
 <h4>Provinciegebied</h4>
 
@@ -45716,8 +46134,8 @@ De geometrische afbakening van het veiligheidsregiogebied waarbinnen de geometri
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -45752,7 +46170,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Provinciegebied.ligtInRijksgebied</td>
+<td>${package}${owner}.ligtInRijksgebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -45799,6 +46217,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 </section>
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_veiligheidsregiogebied">
 <h4>Veiligheidsregiogebied</h4>
 
@@ -45872,6 +46291,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_rijksgebied">
 <h4>Rijksgebied</h4>
 
@@ -45945,6 +46365,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied_op_land">
 <h4>BestuurlijkGebiedOpLand</h4>
 
@@ -46000,6 +46421,7 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_bestuurlijk_gebied">
 <h4>BestuurlijkGebied</h4>
 
@@ -46071,8 +46493,8 @@ De geometrische afbakening van het rijksgebied waarbinnen de geometrie van het p
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46114,8 +46536,8 @@ Categorie waartoe het betreffende bestuurlijke gebied behoort.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46161,7 +46583,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.geometrie</td>
+<td>${package}${owner}.geometrie</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46206,7 +46628,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.type</td>
+<td>${package}${owner}.type</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46255,7 +46677,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.wordtBestuurdDoor</td>
+<td>${package}${owner}.wordtBestuurdDoor</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46294,7 +46716,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:BestuurlijkGebied.ligtInBestuurlijkGebied</td>
+<td>${package}${owner}.ligtInBestuurlijkGebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46341,6 +46763,7 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 </section>
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_registratieve_ruimte">
 <h4>RegistratieveRuimte</h4>
 
@@ -46365,8 +46788,8 @@ De geometrische afbakening van het &lt;i&gt;bevattendGebied, &lt;/i&gt;waarbinne
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46402,7 +46825,7 @@ Fase van de levenscyclus waarin een bestuurlijk gebied zich bevindt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:RegistratieveRuimte.status</td>
+<td>${package}${owner}.status</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46444,6 +46867,7 @@ Fase van de levenscyclus waarin een bestuurlijk gebied zich bevindt.</td>
 
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_openbaar_lichaam">
 <h4>OpenbaarLichaam</h4>
 
@@ -46515,8 +46939,8 @@ Fase van de levenscyclus waarin een bestuurlijk gebied zich bevindt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46546,8 +46970,8 @@ Categorie waartoe het betreffende openbaar lichaam behoort.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46581,7 +47005,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:OpenbaarLichaam.type</td>
+<td>${package}${owner}.type</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46630,7 +47054,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:OpenbaarLichaam.bestuurtGebied</td>
+<td>${package}${owner}.bestuurtGebied</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46665,6 +47089,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 </section>
 
 </section>
+
 <section id="informatiemodel_imsor_cm_domein_bestuurlijk_gebied_objecttype_overheidsorganisatie">
 <h4>Overheidsorganisatie</h4>
 
@@ -46693,8 +47118,8 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <table style="width: 100%">
 <colgroup style="width: 25%"></colgroup>
 <colgroup style="width: 50%"></colgroup>
-<colgroup style="width: 15%"></colgroup>
-<colgroup style="width: 10%"></colgroup>
+<colgroup style="width: 18%"></colgroup>
+<colgroup style="width: 7%"></colgroup>
 <tbody>
 <tr>
   <th>Naam</th>
@@ -46709,7 +47134,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <td>
 </td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1..1</td>
@@ -46721,7 +47146,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <td>
 </td>
 <td>
-<a class="link" href="#primitief_datatype_character_string">CharacterString</a>
+<a class="external-link" href="https://docs.geostandaarden.nl/mim/mim/#primitief-datatype-1"> CharacterString</a>
 </td>
 <td>
 1..1</td>
@@ -46742,7 +47167,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Overheidsorganisatie.officieleNaamInclSoort</td>
+<td>${package}${owner}.officieleNaamInclSoort</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46771,7 +47196,7 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 <colgroup style="width: 70%"></colgroup>
 <tr>
 <th>Identificatie</th>
-<td>urn:modelelement:Informatiemodel%20Samenhangende%20Objecten%20-%20Bestuurlijke%20gebieden:Overheidsorganisatie.organisatiecode</td>
+<td>${package}${owner}.organisatiecode</td>
 </tr>
 <tr>
 <th>Naam</th>
@@ -46797,11 +47222,3 @@ Relatie die aangeeft dat bestuurder het gebied bestuurt bestuurt.</td>
 
 
 </section>
-
-
-
-
-
-
-
-

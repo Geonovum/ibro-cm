@@ -99,8 +99,7 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | Objecttype | Reden |
 | ---------- | ------------- |
 | [Erfconstructie](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_erfconstructie) | Aansluiting op Gemeentelijk Gebouwinformatiemodel. |
-
-## Wijzigingen aan Overige constructies {#wijzigingen-overige-constructies}
+| [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
 
 ### Wijziging aan bestaande objecttypen {#wijzigingen-overige-constructies-objecttypen}
 | Objecttype | Wijziziging | Reden |
@@ -108,12 +107,6 @@ In plaats van de status `Afgevoerd` is in IMIBRO de status `Niet gerealiseerd` o
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Waardetype van relatiesoort `hoortBij` aangepast van `Pand` naar [Constructie](#informatiemodel_imibro_conceptueel_domein_algemeen_objecttype_constructie). | De relatie is gegeneraliseerd omdat een installatie bij verschillende soorten constructie kan horen. |
 | [Installatie](https://docs.geostandaarden.nl/disgeo/emso/#installatie) | Nieuwe domeinwaarde `Transformator`, behorende bij attribuutsoort `Type installatie`. | Ten behoeve van opnemen trafo's in de BGT. |
 | [Straatmeubilair](https://docs.geostandaarden.nl/disgeo/emso/#straatmeubilair) | Domeinwaarde `Bank` vervangend door `Zitelement`. | Sluit aan op IMBOR en verbreedt de mogelijk op te nemen objecten. |
-
-### Nieuwe objecttypen {#wijzigingen-overige-constructies-objecttypen-nieuw}
-
-| Objecttype | Reden |
-| ---------- | ------------- |
-| [Hoogspanningsmast](#informatiemodel_imibro_conceptueel_domein_overige_constructies_objecttype_hoogspanningsmast) | Toegevoegd als subtype van [Mast](https://docs.geostandaarden.nl/disgeo/emso/#mast) voor de aansluiting op de [[BGT12]]. |
 
 ## Wijzigingen aan Transportuimten
 
