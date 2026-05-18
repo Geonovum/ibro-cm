@@ -17,10 +17,10 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Download snapshot artefact
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: snapshot
           path: .
@@ -39,6 +39,28 @@ jobs:
               echo "Directory '$dir' bestaat niet, wordt overgeslagen."
             fi
           done
+
+      - name: Blokkeer raw.githubusercontent.com-links in publicatie
+        shell: bash
+        run: |
+          set -euo pipefail
+          MATCH_FILE="$(mktemp)"
+          trap 'rm -f "$MATCH_FILE"' EXIT
+
+          GREP_STATUS=0
+          grep -nE 'raw\.githubusercontent\.com' content/index.html > "$MATCH_FILE" || GREP_STATUS=$?
+
+          if [[ "$GREP_STATUS" -gt 1 ]]; then
+            echo "Zoeken naar raw.githubusercontent.com-links in content/index.html mislukte."
+            exit "$GREP_STATUS"
+          fi
+
+          if [[ -s "$MATCH_FILE" ]]; then
+            echo "::error title=Publicatie afgebroken::De te publiceren index.html bevat verwijzingen naar raw.githubusercontent.com. Vervang deze links door verwijzingen naar docs.geostandaarden.nl."
+            echo "Gevonden verwijzingen in content/index.html:"
+            cat "$MATCH_FILE"
+            exit 1
+          fi
 
       - name: Extract & validate publishing metadata
         id: metadata
@@ -145,7 +167,7 @@ jobs:
 
       - name: Generate GitHub App token
         id: app-token
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
         with:
           app-id: ${{ secrets.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
@@ -154,7 +176,7 @@ jobs:
             docs.geostandaarden.nl
 
       - name: Checkout private docs
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           repository: Geonovum/docs.geostandaarden.nl
           token: ${{ steps.app-token.outputs.token }}
@@ -217,7 +239,7 @@ jobs:
 
       - name: Create PR naar main bij release
         if: ${{ github.event.release.prerelease != true }}
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ steps.app-token.outputs.token }}
           path: docs.geostandaarden.nl
